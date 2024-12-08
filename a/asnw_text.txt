@@ -1,0 +1,728 @@
+1. : For $N=15$ ， $\frac{3}{4}$ of the possible $x's$ with $\gcd(x,15)=1$ yield an r that is even and with
+$x^{r/2}\neq-1$ .For $N=63$ 3. $\frac{1}{2}$ of the residues yield such an 7 .One way to do this is to use the Chinese remainder theorem.Iwill do $N=15$ in detail so that people can see what is happening,and then give a shorter way of figuring out the answer for $N=63$ For $N=15$ ，we will need to look at the $JL$ s modulo 3 and modulo 5. Consider the
+following table.
+We found 7 by taking theleast commonmultiple of $T3$ and $T5$ .Everything else in the table should be fairly self-evident.Note that $x^{\boldsymbol{r}/2}$ (mod 3）and $x^{r/2}$ mod 5 are either 1 or -1 .This has to be the case, since their squares are 1 and the only square roots of 1 modulo an odd prime $P$ are 士1 [this is a consequence of the muliplicative group modulo the prime being cyclic]. The procedure fails either if both the 7 's are odd, or if both $x^{r/2}$ (mod 3) and $x^{r/2}$
+(mod 5)are -1 Now,let's condider the case of 63.We give the relatively prime residues (mod 9)
+and (mod 7) and their orders $r_{9}$ and $T7$ in the tables below:
+In this case, the algorithm will fail if both $T7$ and $T9$ are odd, or if both $T7$ and $T9$ are even. It is easy to see that the probability that this happens is $\frac{1}{2}$ The algorithm fails when both $r_y$ and $r_{9}$ are odd because then T is odd. Why does
+it fail when they're both even? We have $r/2=\operatorname{lcm}(r_{7},r_{9})/2$ is odd, and $x^{\boldsymbol{r}7/2}\equiv-1$ (mod 7) and $x^{\boldsymbol{r}_9/2}\equiv-1$ (mod 9).Thus, $r/2=(r_{7}/2)t$ for some odd integer $t$ ,and
+$$x^{r/2}\equiv(x^{r_7/2})^t\equiv(-1)^t\equiv-1\:\mathrm{mod}7$$
+and similarly (mod 9)
+Now, suppose $T7$ is even and $T9$ is odd. Then $r/2=(r_{7}/2)t_{7}$ for some odd integer t, and $r/2=r_9t_9$ for some odd integer $t_{9}$ .The argument above can be adapted to show that $x^{\boldsymbol{r}7}\equiv-1$ (mod 7) but $x^{\boldsymbol{r}9}\equiv1$ (mod 9),and the factoring algorithm works.
+One could also use the statement from the proof of Theorem A4.13 in Nielsen and Chuang, which says that the algorithm will fail for a number $N=p_{1}^{\alpha_{1}}p_{2}^{\alpha_{2}}\cdots p_{m}^{\alpha_{m}}$ exactly when the largest powers of two dividing all the $Ti$ are equal.Using the fact that multiplication modulo $p^{\alpha}$ forms a cyclic group for odd primes $P$ and a little group theory, one can show that if $p\equiv3$ (mod 4), for exactly half the residues mod $p^{\alpha}$ ，we have $r_{p^\alpha}$ odd and for the other half, $Tp^\mathrm{\alpha}$ is twice an odd number, so if $N=p_{1}^{\alpha_{1}}p_{2}^{\alpha_{2}}$ with both $p_{1}$ and $P2$ congruent to 3 modulo 4, the factoring algorithm chooses a bad $JL$ with probability $\frac{1}{2}$
+
+2. :In the statement of the problem,I accidentally forgot to say explicitly that $P$ was prime, which is the case I meant you to consider.If $P$ is not prime, the algorithm works fine. If $P$ is prime, then you run into the problem that the only square roots of 1 modulo $p^{\alpha}$ are +1 and -1 .Thus, $x^{r}\equiv1$ (mod $p^{\alpha}$ )forces us to have $x^{r/2}\equiv-1$ (mod $p^{\alpha}$ ).[We can't have $x^{r/2}\equiv1$ (mod $p^{\alpha}$ ）since 7 was the minimum power giving $x^{r}\equiv1$ ].This doesn't give us two numbers $a^{2}\equiv b^{2}$ (mod $p^{\alpha}$ ）with $x\not\equiv\pm y$ ,so we don't get a factorization.
+
+3.:In the algorithm,we need to construct the unitary transformation $U$ acting on $\left|a\right\rangle$ for $0\leq a<N$ as $U\mid a\rangle=\mid ax\bmod N\rangle$ .This transformation is not unitary if $\gcd(x,N)>1$ .To see this, note that there are two unequal residues $a_{1}$ and $a_{2}<N$ such that $u_{1}x$ mod $N=a_2x$ mod $N$ .To see this explicitly, consider a prime $P$ dividing both $JL$ and $N$ . The transformation $U$ has to take both $\left|a_{1}\right\rangle=\left|0\right\rangle$ and $\left|a_{2}\right\rangle=\left|N/p\right\rangle$ to $\left|0\right\rangle$
+
+4.: The period-finding algorithm doesn't work well for the function
+$$\begin{array}{rcll}f(x)&=&1&\quad\text{if}r\text{divides}x\\f(x)&=&0&\quad\text{if}x\text{is not a multiple of}r.\end{array}$$
+Let's analyze it. We have the superposition
+$$\frac{1}{\sqrt{2^t}}\sum_{x=0}^{2^t-1}|\:x\rangle\:|\:f(x)\rangle $$
+and we take the inverse Fourier transform of it.This is
+$$\frac{1}{2^t}\sum_{x=0}^{2^t-1}\sum_{y=0}^{2^t-1}e^{-2\pi ixy/2^t}\mid y\rangle\mid f(x)\rangle $$
+This sum splits into two parts, the case where $f(x)=0$ and the case where $f(x)=1$ Let's do the case where $f(x)=0$ first. We get that the amplitude on the state $\left|y\right\rangle\left|0\right\rangle$ is:
+$$\frac{1}{2^t}\sum\limits_{\begin{array}{ccc}r&\text{does}&\text{not}&\text{divide}&x\\\end{array}}^{2^t-1}e^{-2\pi ixy/2^t}$$
+Suppose $y=0$ . Then, all the terms in this sum are 1, and there are roughly $(r-1)/r$ terms in the sum,since we get one term for all the $JL$ that are not integer multiples of 7 .Thus, the amplitude of the sum is around $(r-1)/r$ ,and the probability of seeing $\left|0\right\rangle\left|0\right\rangle$ is the square of the amplitude, or approximately $(r-1)^{2}/r^{2}\approx1-2/r$ .This outcome doesn’t tell us anything about 7 ,since it says that $0/2^t$ is a fraction close to $0/r$ , which is true for any 7 .Now, suppose $y\neq0$ .We again have the amplitude
+$$\frac{1}{2^t}\sum_{\begin{array}{cc}r&\text{does}&\text{not}&\text{divide}&x\\\end{array}}^{2^t-1}e^{-2\pi ixy/2^t}.$$
+We can analyze this by breaking it into two sums as follows
+$$\frac{1}{2^t}\left(\sum_{x=0}^{2^t-1}e^{-2\pi ixy/2^t}-\sum_{\begin{array}{c}x=0\\r\text{divides}\end{array}z}^{2^t-1}e^{-2\pi ixy/2^t}\right).$$
+If $y\neq0$ , the first sum is 0 ,So we need only to analyze the second sum. Changing the index of summation, this is
+$$-\frac{1}{2^t}\sum_{x'=0}^{(2^t-1)/r}e^{-2\pi irx'y/2^t},$$
+which is the same sum we saw in the phase estimation algorithm.By the same analysis we find that if $y/2^t$ is close to a fraction $d/r$ , the sum has a value close to $2^t/r$ , and if $y/2^t$ is far from a fraction $d/r$ , the sum has a negligible value. Thus, for each of the $r-1$ fractions $d/r$ ， $d\neq0$ ,we obtain a $y$ with $y/2^t\approx d/r$ with probability $1/r^2$ .From most of these fractions we will be able to recover T ,so this case usually succeeds, but this case only occurs with probability around $1/r$ If $f(x)=1$ ，then $JL$ must be a multiple of $T$ ,and the amplitude is
+$$\frac{1}{2^t}\sum\limits_{r\:\text{divides}\:z}^{2^t-1}e^{-2\pi ixy/2^t}.$$
+This sum is the same as for the case where $y\neq0$ and $f(x)=0$ ,so this case again occurs with probability approximately $1/r$ , and if we are in this case we succeed most of thetime. The period-finding algorithm thus succeeds for this $f$ with probability approxi-
+mately $2/r$ .The large failure probability is due to this function essentially having period 1,or more precisely,its being very close to a function with period 1.The Fourier tranform picks out this period with high probability, and the period of 7 with only fairly low probability.
+
+5. :Recall the geometric description of Grover's algorithm,where we have a basis in which $\psi$ rotatesby an angleof $\theta$ with each iteration.We start with an angle of $\theta/2$ ,and we a target setwith probability 1when $\theta=\pi/2$ .Thus,we want $3\theta/2=\pi/2$ ,or $\theta/2=\pi/6$ .But recall
+$$\sin\frac{\theta}{2}=\sqrt{\frac{M}{N}}.$$
+This gives $M/N=1/4$
+
+6. : Let the target set be $^{'}I$ .Define
+$$\begin{aligned}&\mid\beta\rangle&&=\quad\frac{1}{\sqrt{M}}\sum_{x\in T}\mid x\rangle\\&\mid\alpha\rangle&&=\quad\frac{1}{\sqrt{N-M}}\sum_{x\not\in T}\mid x\rangle\\&\mid\psi\rangle&&=\quad\frac{1}{\sqrt{N}}\sum_{x}\mid x\rangle\end{aligned}$$
+Then we have that the starting state
+$$\mid\psi\rangle=\frac{\sqrt{M}}{\sqrt{N}}\mid\beta\rangle+\frac{\sqrt{N-M}}{\sqrt{N}}\mid\alpha\rangle $$
+and after the first step
+$$O\mid\psi\rangle=e^{i\phi}\frac{\sqrt{M}}{\sqrt{N}}\mid\beta\rangle+\frac{\sqrt{N-M}}{\sqrt{N}}\mid\alpha\rangle\:.$$
+Now,note the inner products
+$$\begin{array}{rcl}\langle\beta|\psi\rangle&=&\frac{\sqrt{M}}{\sqrt{N}}\\\\\langle\alpha|\psi\rangle&=&\frac{\sqrt{N-M}}{\sqrt{N}}\end{array}$$
+Also,note that
+$$H^{\otimes n}[(1-e^{i\phi})\mid0\rangle\langle0\mid-I]H^{\otimes n}=(1-e^{i\phi})\mid\psi\rangle\langle\psi\mid-I$$
+Thus, we get that
+$$\begin{array}{rcl}{|\:\psi\rangle}&{=}&{(1-e^{i\phi})(\frac{M}{N}e^{i\phi}+\frac{N-M}{M})(\frac{\sqrt{N-M}}{N}\:|\:\alpha\rangle+\frac{\sqrt{M}}{\sqrt{N}}\:|\:\beta\rangle)-e^{i\phi}\:|\:\beta\rangle-|\:\alpha\rangle}\end{array}$$
+We can now pull off the coefficients on $\left|\alpha\right\rangle$ and $\left|\beta\right\rangle$ .We find that we get
+$$e^{i\phi}(-\frac{M}{N}2\cos\phi-\frac{N-2M}{N})\sqrt{\frac{N-M}{N}}\:|\:\alpha\rangle $$
+which can be made 0 for the appropriate choice of $\phi$ , provided $M$ is between $N/4$ and $N$
+A generalization of this technique shows that if you known $M$ ，and choose the appropriate number of Grover iterations followed by one of these iterations, you can put all the amplitude on the target states.
+
+7. :
+There are many ways of doing this problem. Writing everything out explicitly gives a straightforward, and not too complicated proof. This is done on page 108 of Nielsen and Chuang (something I didn't realize when I assigned the problem).Here's another proof, using properties of Pauli matrices Alice measures $\frac{1}{\sqrt{2}}\left|\psi\right\rangle\otimes\left(\left|01\right\rangle-\left|10\right\rangle\right)$ in the Bell basis. We want to show that the
+probability of obtaining each of the four Bell states is 1/4 .The Bell basis Alice measures in consists of
+$$\mid\psi_{EPR}\rangle=\frac{1}{\sqrt{2}}(\mid01\rangle-\mid10\rangle)$$
+and $\sigma_{b}^{(2)}\mid\psi_{EPR}\rangle$ where $b=x,y,z$ and the superscript 2means that thePauli matrix is applied to the second qubit.So we want to show that the projection
+$$_{12}\left\langle\psi_{EPR}\mid\sigma_{b}^{(2)}\right|^{\dagger}(\left|\psi\right\rangle_{1}\otimes\mid\psi_{EPR}\rangle_{23})$$
+is independent of $b$ . (The subscripts on 《 and $\left|\right\rangle$ indicate which qubits these states describe.）This can be seen by realizing that the above measurement gives the same result as projecting the state $\sigma_{b}^{(2)\dagger}(\mid\psi\rangle_{1}\otimes\mid\psi_{EPR}\rangle_{23})$ onto $12\left\langle\psi_{EPR}\right|.$ But because applying the same change of basis to both qubits in $\psi_{EPR}$ gives $\psi_{EPR}$ back,we have
+$$\sigma_{b}^{(2)}^{\dagger}(\mid\psi\rangle_{1}\otimes\mid\psi_{EPR}\rangle_{23})=\sigma_{b}^{(3)}(\mid\psi\rangle_{1}\otimes\mid\psi_{EPR}\rangle_{23})$$
+and the probability that Alice obtains $12\left\langle\psi_{EPR}\right|$ when she measures this state in the Bell basis cannot be changed if Bob applies $\sigma_b^{(3)}$ to his qubit. Thus, all the probabilities must be equal.
+
+8. :
+Alice and Bob share four qubits in the state
+$$\frac{1}{2}\left(\mid0000\rangle+\mid0101\rangle+\mid1010\rangle-\mid1111\rangle\right)$$
+This state is just $S(\mid\psi_{EPR}\rangle\otimes\mid\psi_{EPR}\rangle)$ ，where $S$ is a controlled $\sigma_{z}$ .If Alice takes a two-qubit state $\left|\phi\right\rangle$ and performs the regular teleportation protocol on her two qubits, Bob ends up with
+$$S(\sigma_b^{(1)}\otimes\sigma_b^{(2)})\mid\phi\rangle\:,$$
+where $\sigma b$ is either the identity or one of the four Pauli matrices.He now needs to convert this to $S\phi$ .It is easy to see that $\sigma_{z}^{(i)}$ commutes with S where $i=1,2$ ,and that
+$$\begin{array}{rcl}S\sigma_x^{(1)}&=&\sigma_z^{(2)}\sigma_x^{(1)}S\\S\sigma_x^{(2)}&=&\sigma_z^{(1)}\sigma_x^{(2)}S\end{array}$$
+From these, and the relation $\sigma_{y}=i\sigma_{x}\sigma_{z}$ , we can (assuming no calculation mistakes on my part)derive the following table
+The mapping between Alice's measurement and Bob's correction is now straightforward to compute, given the map between Alice's mesurement and Bob's correction in regular teleportation,
+
+9. :We need to show that
+$$\langle EPR_3\mid(T^{\dagger^{b^{\prime}}}R^{\dagger^{a^{\prime}}}\otimes I)(R^aT^b\otimes I)\mid EPR_3\rangle=\delta_{a-a^{\prime}}\delta_{b-b^{\prime}}$$
+where $\delta$ is the Kronecker $\delta$ function.This will show that the nine states Alice produces are an orthonormal basis, so when she sends her qutrit to Bob,he can distinguish all nine states using a von Neumann measurement.We can use the fact that $R^{3}=T^{3}=I$ and that $TR=\omega RI$ to simplify
+$$T^{\dagger^{b^{\prime}}}R^{\dagger^{a^{\prime}}}R^{a}T^{b}=\omega^{-b^{\prime}(a-a^{\prime})}R^{a-a^{\prime}}T^{b-b^{\prime}}.$$
+Thismeans we merely need to show that
+$$\langle EPR_3\mid R^aT^b\otimes I\mid EPR_3\rangle=\delta_a\delta_b$$
+for $0\leq a,b\leq2$ .If $b\neq0$ ，then $R^aT^b\otimes I\mid EPR_3\rangle$ is a superposition of basis states of the form $\left|ij\right\rangle$ for $i\neq j$ , and so has inner product 0 with $\left|EPR_{3}\right\rangle$ .If $b=0$ ,then
+$$R^a\mid EPR_3\rangle=\frac{1}{\sqrt{3}}(\mid00\rangle+\omega^a\mid11\rangle+\omega^{2a}\mid22\rangle)$$
+and the inner product of this with $\left|EPR_{3}\right\rangle$ is $(1+\omega^{a}+\omega^{2a})/3$ ,which if we choose $\omega=e^{2\pi i/3}$ is 1 if $a=0$ ,and 0 if $a=1,2$
+
+10. :Alice and Cathy share a Bell state, which can be written as
+$$\sigma_1^{(C)}\mid\psi_{EPR}\rangle_{AC}\:,$$
+where $\sigma_{1}$ is either one of the three Pauli matrices or the identity. The $(C)$ represents that it is applied to Cathy's qubit [note that this really should be written $id^{(B)}\otimes\sigma_{1}^{(C)}$ but we are leaving out implied identity matrices,as this notation gets cumbersome very quickly].Alice and Cathy don't know what $\sigma_{1}$ is,but they know that it is the same as the $\sigma_{1}$ in the stateBob and David share,which is
+$$\sigma_{1}^{(D)}\mid\psi_{EPR}\rangle_{BD}\:.$$
+Now, if Alice uses
+$$\sigma_1^C\mid\psi_{EPR}\rangle_{AC}$$
+to teleport her qubit of $\left|\psi_{EPR}\right\rangle_{AB}$ to Cathy, what happens is that Cathy and Bob now hold $\sigma_{1}^{C}\sigma_{2}^{C}\mid\psi_{EPR}\rangle_{CB}$ ，where Cathy knows what $\sigma_{2}^{C}$ is (because this depends on the results of Alice's measurement) but not $\sigma_{1}$ .Now, Bob uses
+$$\sigma_1^D\mid\psi_{EPR}\rangle_{BD}$$
+to teleport his qubit of $\sigma_{1}^{C}\sigma_{2}^{C}\mid\psi_{EPR}\rangle_{CB}$ to David. Now, Cathy and David share
+$$\sigma_{1}^{C}\sigma_{2}^{C}\otimes\sigma_{1}^{D}\sigma_{3}^{D}\mid\psi_{EPR}\rangle_{CD}=\pm\sigma_{2}^{C}\sigma_{1}^{C}\otimes\sigma_{3}^{D}\sigma_{1}^{D}\mid\psi_{EPR}\rangle_{CD}\:,$$
+where we can interchange the two pairs of Pauli matrices because any twoPauli matrices either commute or anticommute. But since Cathy and David know 02 and 03 they can undo them, leaving
+$$\pm\sigma_1^C\otimes\sigma_1^D\mid\psi_{EPR}\rangle_{CD}\:.$$
+The 士I phase factor does not change the quantum state, and since the state $|\psi_{EPR}\rangle_{CD}$ is invariant when the same basis transformation is applied to both of its qubits, Cathy and David now share
+$$\pm\mid\psi_{EPR}\rangle_{CD}\:,$$
+which is what we wanted.
+
+11. :We want
+$$\frac{1}{3}\left(\mid0\rangle\langle0\mid+\frac{1}{4}(\mid0\rangle+\sqrt{3}\mid1\rangle)(\langle0\mid+\sqrt{3}\:(1\mid)+\frac{1}{4}(\mid0\rangle-\sqrt{3}\mid1\rangle)(\langle0\mid-\sqrt{3}\:\langle1\mid)\right)$$
+which is
+$$\frac{1}{3}\left(\begin{array}{cc}1&0\\0&0\end{array}\right)+\frac{1}{12}\left(\begin{array}{cc}1&\sqrt{3}\\\sqrt{3}&3\end{array}\right)+\frac{1}{12}\left(\begin{array}{cc}1&-\sqrt{3}\\-\sqrt{3}&3\end{array}\right)=\frac{1}{2}\left(\begin{array}{cc}1&0\\0&1\end{array}\right)$$
+
+12. :Whenwe take the partial trace over the secondqubit of the state
+$$\frac{1}{\sqrt{3}}\left(\mid00\rangle+\mid01\rangle+\mid10\rangle\right),$$
+we can compute the density matrix of the above state
+$$\frac{1}{3}\left(\begin{array}{cccc}1&1&1&0\\1&1&1&0\\1&1&1&0\\0&0&0&0\end{array}\right),$$
+and taking the partial trace explicitly,we obtain
+$$\frac{1}{3}\left(\begin{array}{cc}\text{Tr}&\left(\begin{array}{cc}1&1\\1&1\end{array}\right)&\text{Tr}&\left(\begin{array}{cc}1&0\\1&0\end{array}\right)\\\text{Tr}&\left(\begin{array}{cc}1&1\\0&0\end{array}\right)&\text{Tr}&\left(\begin{array}{cc}1&0\\0&0\end{array}\right)\end{array}\right)=\frac{1}{3}\left(\begin{array}{cc}2&1\\1&1\end{array}\right)$$
+
+13. :
+After we apply the controlled $\sigma_{z}$ to
+$$\mid\psi\rangle\otimes\left(\frac{\sqrt{3}}{2}\mid0\rangle+\frac{1}{2}\mid1\rangle\right)$$
+we get the state
+$$\frac{\sqrt{3}}{2}\:|\:\psi\rangle\otimes|\:0\rangle+\frac{1}{2}\sigma_{z}\:|\:\psi\rangle\otimes|\:1\rangle\:.$$
+Now, we can take the partial trace by measuring the second qubit in the $\left|0\right\rangle,\left|1\right\rangle$ basis andusing the resulting statesofthe first qubit andtheir probabilities to compute the density matrix of the secondqubit.If we do this with the above state,we get
+$$\frac{3}{4}\mid\psi\chi\psi\mid+\frac{1}{4}\sigma_z\mid\psi\chi\psi\mid\sigma_z^\dagger $$
+which is easy to see how to write in operator sum notation.We get
+$$A_1=\frac{\sqrt{3}}{2}\left(\begin{array}{cc}1&0\\0&1\end{array}\right)\quad\text{and}\quad A_2=\frac{1}{2}\left(\begin{array}{cc}1&0\\0&-1\end{array}\right).$$
+Using a different measurement on the secondqubitgives alternative operator sum decompositions.
+
+14. :
+We want tocompose two noisy operations.The first one takes
+$$\rho\to\sum_iB_i\rho B_i^\dagger $$
+where
+$$B_1=\sqrt{1-p}\left(\begin{array}{cc}1&0\\0&1\end{array}\right)\quad\text{and}\quad B_2=\sqrt{p}\left(\begin{array}{cc}1&0\\0&-1\end{array}\right).$$
+and the second one takes
+$$\rho\to\sum_{i}A_{i}\rho A_{i}^{\dagger}$$
+$$A_1=\left(\begin{array}{cc}1&0\\0&\sqrt{1-q}\end{array}\right)\quad\text{and}\quad A_2=\left(\begin{array}{cc}0&\sqrt{q}\\0&0\end{array}\right).$$
+Putting them together, one sees the four operations in the operator sum notation are $A_{1}B_{1},A_{1}B_{2},A_{2}B_{1}$ , and $A_{2}B_{2}$ . However,
+$$A_2B_1=\sqrt{1-p}A_2\quad\mathrm{and}\quad A_2B_2=-\sqrt{p}A_2$$
+These can be combined into one operation, since
+$$\begin{array}{rcl}A_2B_1\rho B_1^\dagger A_2^\dagger+A_2B_2\rho B_2^\dagger A_2^\dagger&=&(1-p)A_2\rho A_2^\dagger+pA_2\rho A_2^\dagger\\&=&A_2\rho A_2^\dagger.\end{array}$$
+Thus, we get a noisy quantum operation with an operator-sum expression having just three operators:
+$$\left.=\sqrt{1-p}\left(\begin{array}{cc}{1}&{0}\\{0}&{\sqrt{1-q}}\end{array}\right.\right)\quad A_{1}B_{2}=\sqrt{p}\left(\begin{array}{cc}{1}&{0}\\{0}&{-\sqrt{1-q}}\end{array}\right).\quad A_{2}=\left(\begin{array}{cc}{0}&{\sqrt{q}}\\{0}&{0}\end{array}\right)$$
+
+15. :
+We can rewrite the depolarizing operation $^{\prime}D$ as
+$$\mathcal{D}(\rho)=(1-\frac{4p}3)\rho+\frac{4p}3\frac I2$$
+Using this formulation, it is clear that if the eigenvalues of p are. $u$ and $b$ the eigenvalues of $\mathcal{D}(\rho)$ are $(1-4p/3)a+2p/3$ and $(1-4p/3)b+2p/3$ .(If it's not clear, consider that when you change the basis to diagonalize $\mu$ , the above formulation is unchanged.) Since $a,b\geq0$ ,the eigenvalues of $\mathcal{D}(\rho)$ are larger than $2p/3$
+
+16. :
+\textbf{Объяснение:}
+Оператор Адамара \( \hat{H} \) на кубите действует следующим образом:
+\[
+\hat{H}|0\rangle = \frac{1}{\sqrt{2}}(|0\rangle + |1\rangle), \quad \hat{H}|1\rangle = \frac{1}{\sqrt{2}}(|0\rangle - |1\rangle).
+\]
+Когда применяем \( \hat{H} \) к состоянию \( |q\rangle = \alpha |0\rangle + \beta |1\rangle \), то:
+\[
+\hat{H}|\psi\rangle = \alpha \hat{H}|0\rangle + \beta \hat{H}|1\rangle = \frac{\alpha}{\sqrt{2}}(|0\rangle + |1\rangle) + \frac{\beta}{\sqrt{2}}(|0\rangle - |1\rangle).
+\]
+Приводим это к стандартному виду:
+\[
+= \frac{1}{\sqrt{2}} [(\alpha + \beta)|0\rangle + (\alpha - \beta)|1\rangle].
+\]
+Таким образом, правильный ответ:
+\[
+2) \frac{1}{\sqrt{2}}[(\alpha + \beta)|0\rangle + (\alpha - \beta)|1\rangle].
+\]
+
+17. :
+\textbf{Объяснение:}
+Эрмитовский оператор \( \hat{F} \) должен удовлетворять условию:
+\[
+\int \phi^* \hat{F} \psi \, dv = \int \psi \hat{F}^* \phi \, dv,
+\]
+где \( \hat{F}^* \) — сопряженный оператор. Это определение гарантирует, что \( \hat{F} \) является эрмитовским. Таким образом, правильный ответ:
+\[
+3) \int \phi^* \hat{F} \psi \, dv = \int \psi \hat{F}^* \phi \, dv.
+\]
+
+18. :
+\textbf{Объяснение:}
+Квантовая теория используется, когда действия системы сопоставимы с постоянной Планка \( \hbar \). Если действие системы намного меньше \( \hbar \), то можно использовать классическую теорию. Если действие системы гораздо больше \( \hbar \), то квантовая теория также может быть применена, но с учетом сильных квантовых эффектов. Когда действие системы равно \( \hbar \), это также указывает на важность квантовых эффектов, и квантовая теория обязательно должна быть использована. Правильный ответ:
+\[
+2) действие системы много меньше \hbar.
+\]
+
+19. :
+Размерность волновой функции в общем случае зависит от пространственного масштаба, в котором эта функция существует. Для стационарного состояния двухэлектронного атома волновая функция имеет размерность, не зависящую от длины, поскольку она определяется через вероятностное распределение. В таком случае волновая функция не имеет размерности, и правильный ответ:
+\[
+4) не имеет размерности.
+\]
+
+20. :
+\textbf{Объяснение:}
+- Уравнение \( \hat{F} \phi_f = f \phi_f \) соответствует \textbf{непрерывному спектру}, так как для непрерывных спектров возможны значения \( f \), которые не являются дискретными.
+- Уравнение \( \hat{F} \phi_{n,m} = f_n \phi_{n,m} \) указывает на \textbf{смешанный спектр}, где есть как дискретные, так и непрерывные компоненты.
+- Уравнение \( \hat{F} \phi_n = f_n \phi_n \) соответствует \textbf{дискретному спектру}, так как в этом случае спектр содержит только дискретные значения.
+
+Правильный ответ:
+\[
+1) \hat{F} \phi_f = f \phi_f \text{ непрерывный}}, \quad 2) \hat{F} \phi_{n,m} = f_n \phi_{n,m} \text{ смешанный}}, \quad 3) \hat{F} \phi_n = f_n \phi_n \text{ дискретный}.
+\]
+
+21. :
+\textbf{Объяснение:}
+Линейный оператор \( \hat{F} \) должен удовлетворять свойству линейности:
+\[
+\hat{F}(c_1 \phi_1 + c_2 \phi_2) = c_1 \hat{F} \phi_1 + c_2 \hat{F} \phi_2.
+\]
+Это свойство гарантирует, что \( \hat{F} \) сохраняет линейную структуру векторного пространства. Таким образом, правильный ответ:
+\[
+3) \hat{F}(c_1 \phi_1 + c_2 \phi_2) = c_1 \hat{F} \phi_1 + c_2 \hat{F} \phi_2.
+\]
+
+22. :
+\textbf{Объяснение:}
+Алгоритм Дойча использует только два класса функций — постоянные и периодические. Непостоянные функции не рассматриваются в этом контексте, поэтому утверждение в вопросе неверно. Ответ:
+\[
+2) Неверно.
+\]
+
+23. :
+\textbf{Объяснение:}
+Унитарные операторы сохраняют нормировку квантового состояния. Это свойство является основой для квантовых вычислений, так как унитарные операторы описывают эволюцию квантовых систем без изменения их общей вероятностной амплитуды. Таким образом, правильный ответ — это:
+\[
+2) Неверно.
+\]
+
+24. :
+\textbf{Объяснение:}
+Для частицы в яме с бесконечно высокими стенками волновая функция будет иметь размерность, зависящую от длины ямы, но не будет иметь размерности "обратной длине". Это утверждение неверно, поэтому правильный ответ:
+\[
+2) Неверно.
+\]
+
+25. :
+\textbf{Объяснение:} В модели невзаимодействующих электронов предполагается, что электроны не взаимодействуют друг с другом. В этой модели каждый электрон рассматривается как движущийся в поле ядра, при этом взаимодействие между электронами не учитывается. Правильный ответ:
+\[
+3) \text{электроны не взаимодействуют друг с другом}.
+\]
+
+26. :
+\textbf{Объяснение:} Кубит может быть в суперпозиции двух состояний \( |0\rangle \) и \( |1\rangle \), и его состояние представляется как линейная комбинация этих состояний. Однако в квантовой механике кубит может представлять собой не только два состояния (0 и 1), но и любое квантовое состояние, являющееся суперпозицией этих двух состояний. Таким образом, правильный ответ:
+\[
+2) \text{Неверно}.
+\]
+
+27. :
+\textbf{Объяснение:} Вероятность получения базисного состояния \( |1\rangle \) из состояния \( |q\rangle \) равна квадрату амплитуды \( |1\rangle \). Амплитуда для \( |1\rangle \) в этом случае \( \frac{\sqrt{3}}{2} \). Поэтому вероятность будет:
+\[
+\left(\frac{\sqrt{3}}{2}\right)^2 = \frac{3}{4} = 0.75.
+\]
+Ответ:
+\[
+\text{Ответ: } 0.75.
+\]
+
+28. :
+\textbf{Объяснение:} Когда кубит измеряется в базисе \( |0\rangle, |1\rangle \), его состояние коллапсирует в одно из этих состояний, что приводит к положению на оси \( z \) сферы Блоха. После измерения кубит либо попадет в состояние \( |0\rangle \) (вверх по оси \( z \)), либо в состояние \( |1\rangle \) (вниз по оси \( z \)). Таким образом, правильный ответ:
+\[
+3) \text{или строго по оси z вверх, или строго по оси z вниз}.
+\]
+
+29. :
+\textbf{Объяснение:} Энергия для частицы в яме с бесконечно высокими стенками выражается как:
+\[
+E_n = \frac{n^2 h^2}{8mL^2},
+\]
+где \(n\) — квантовое число, \(L\) — длина ямы, \(m\) — масса частицы. Энергия третьего возбужденного состояния будет в 9 раз больше энергии основного состояния (для \(n=1\) и \(n=3\)):
+\[
+E_3 = 9E_1.
+\]
+Ответ:
+\[
+4) 9.
+\]
+
+30. :
+\textbf{Объяснение:} Запутанные состояния — это такие состояния системы, которые не могут быть разложены на произведение состояний отдельных частиц. Например:
+\[
+\frac{|01\rangle + |10\rangle}{\sqrt{2}}, \quad \frac{|000\rangle + |111\rangle}{\sqrt{2}}, \quad \frac{|00\rangle + |11\rangle}{\sqrt{2}}.
+\]
+Все эти состояния являются запутанными, так как они не могут быть представлены как произведение состояний отдельных частиц. Ответ:
+\[
+1) \frac{|01\rangle + |10\rangle}{\sqrt{2}}, \quad 2) \frac{|000\rangle + |111\rangle}{\sqrt{2}}, \quad 4) \frac{|00\rangle + |11\rangle}{\sqrt{2}}.
+\]
+
+31. :
+\textbf{Объяснение:} Оператор CNOT (контрольное отрицание) изменяет второе состояние только в том случае, если первое состояние равно \( |1\rangle \). Поэтому результат применения CNOT к состоянию \( |x\rangle \otimes \left(\frac{|0\rangle - |1\rangle}{\sqrt{2}}\right) \) будет:
+\[
+(-1)^x |x\rangle \otimes \left(\frac{|0\rangle - |1\rangle}{\sqrt{2}}\right).
+\]
+Правильный ответ:
+\[
+1) (-1)^x |x\rangle \otimes \left(\frac{|0\rangle - |1\rangle}{\sqrt{2}}\right).
+\]
+
+32. :
+\textbf{Объяснение:} Символ \( \langle \mathbf{r} | \mathbf{\Psi} \rangle \) означает функцию состояния \( |\Psi\rangle \) в координатном представлении. Это скалярное произведение между вектором состояния и координатным базисом. Ответ:
+\[
+1) \text{функция состояния } |\Psi\rangle \text{ в координатном представлении}, \quad 2) \text{скалярное произведение векторов}.
+\]
+
+33. :
+\textbf{Объяснение:} Вектор квантового состояния представляет собой описание системы в определенном состоянии. Если это базисное состояние, то его измерение можно интерпретировать как измерение величины, соответствующей этому состоянию. Ответ:
+\[
+4) \text{да, если это базисное состояние}.
+\]
+
+34. :
+\textbf{Объяснение:} Стандартные условия на волновую функцию включают её ограниченность, непрерывность и нормировку. Статистическая интерпретация не является отдельным стандартом, это скорее следствие нормировки волновой функции. Ответ:
+\[
+2) \text{статистическая интерпретация}, \quad 4) \text{нормировка}.
+\]
+
+35. :
+\textbf{Объяснение:} Коммутатор между оператором координаты и оператором производной по координате равен нулю:
+\[
+[x, \frac{d}{dx}] = 0,
+\]
+так как операторы координаты и производной по координате являются взаимно коммутируемыми. Ответ:
+\[
+\text{Ответ: } 0.
+\]
+
+36. :
+\textbf{Объяснение:} В состав ядра атома входят нейтроны и протоны. Позитроны, электроны и мюоны не входят в состав ядра. Ответ:
+\[
+2) \text{Нейтроны}, \quad 4) \text{Электроны}.
+\]
+
+37. :
+\textbf{Объяснение:} Выражение \( |\mathbf{r}\rangle \mathbf{r}' \) — это просто продукт состояний, и оно не является символом Кронекера. Символ Кронекера определяется как:
+\[
+\langle \mathbf{r} | \mathbf{r}' \rangle = \delta(\mathbf{r} - \mathbf{r}').
+\]
+Таким образом, правильный ответ:
+\[
+2) \text{Неверно}.
+\]
+
+38. :
+\textbf{Объяснение:} Произведение трех матриц Паули дает:
+\[
+\sigma_x \sigma_y \sigma_z = i \sigma_x.
+\]
+Таким образом, правильный ответ:
+\[
+4) i.
+\]
+
+39. :
+\textbf{Объяснение:} Интенсивность спектральной линии пропорциональна вероятности перехода между уровнями энергии. Однако эта связь существует только для разрешённых переходов, поскольку запрещённые переходы имеют нулевую или очень малую вероятность. Ответ:
+\[
+4) \text{связаны для линий спектра разрешённых переходов}.
+\]
+
+40. :
+\textbf{Объяснение:} Оператор Уолша-Адамара действует на состояние \( |01\rangle \) следующим образом:
+\[
+\hat{H}_2 |01\rangle = \frac{1}{2}(|00\rangle - |01\rangle + |10\rangle - |11\rangle).
+\]
+Правильный ответ:
+\[
+1) \frac{1}{2}(|00\rangle - |01\rangle + |10\rangle - |11\rangle).
+\]
+
+41. :
+\textbf{Объяснение:} Для полного задания состояния кубита необходимо указать два действительных параметра для амплитуд \( c_0 \) и \( c_1 \), а также фазу состояния. Параметры \( c_0 \) и \( c_1 \) можно выразить через 4 действительных параметра, так как каждый комплексный коэффициент имеет два действительных компонента. Ответ:
+\[
+4) 4.
+\]
+
+42. :
+\textbf{Объяснение:} Оператор комплексного сопряжения — это операция, которая меняет знак мнимой части комплексных чисел. Обратным к этому оператору является сам оператор комплексного сопряжения. Ответ:
+\[
+4) \text{оператор комплексного сопряжения}.
+\]
+
+43. :
+\textbf{Объяснение:} Кубит — это квантовая единица информации, которая может находиться в суперпозиции двух квантовых состояний. Это не просто суперпозиция двух квантовых состояний, так как кубит может быть в суперпозиции двух и более состояний в более сложных системах. Правильный ответ:
+\[
+2) \text{Суперпозиция двух и более квантовых состояний}, \quad 4) \text{Единица квантовой теории информации}.
+\]
+
+44. :
+\textbf{Объяснение:} В одномерном случае дискретный спектр является нес degenerate (невырожденным), что означает, что каждый уровень энергии соответствует только одному состоянию. Ответ:
+\[
+3) 1.
+\]
+
+45. :
+\textbf{Объяснение:} Когда спектр оператора дискретный, его представление в собственном базисе будет диагональной матрицей, где на главной диагонали расположены собственные значения этого оператора. Ответ:
+\[
+4) \text{диагональная матрица на главной диагонали которой расположены собственные числа оператора}.
+\]
+
+46. :
+\textbf{Объяснение:} Постулаты квантовой теории включают принцип неопределённости Гейзенберга, эволюцию состояний и правило измерения, которое связывает результаты измерений с собственными значениями оператора. Описание оператора импульса не является отдельным постулатом квантовой теории. Ответ:
+\[
+1) \text{Принцип неопределённости Гейзенберга}, \quad 2) \text{Эволюция состояний}, \quad 4) \text{вид оператора импульса}.
+\]
+
+47. :
+\textbf{Объяснение:} Для пяти кубитов можно записать сумму всех возможных состояний в виде суперпозиции с коэффициентами \( c_k \), где индексы \( k \) пробегают все возможные значения от 0 до \( 2^5 - 1 \). Ответ:
+\[
+1) |q\rangle_5 = \sum_{k=0}^{31} c_k |q\rangle_5, \quad 3) |q\rangle_5 = \sum_{k=0}^{2^5 - 1} c_k |q\rangle_5.
+\]
+
+48. :
+\textbf{Объяснение:} Квантовое стационарное состояние действительно не зависит от времени, поскольку его волновая функция остается неизменной при отсутствии внешних воздействий. Это связано с тем, что энергия стационарного состояния \(E\) не зависит от времени:
+\[
+|\psi(t)\rangle = e^{-iEt/\hbar} |\psi(0)\rangle.
+\]
+Ответ:
+\[
+1) \text{Верно}.
+\]
+
+49. :
+\textbf{Объяснение:} Волновая функция в квантовой механике должна быть ограниченной, так как её значения не могут стремиться к бесконечности. Также она является амплитудой вероятности нахождения частицы в пространстве. Ответ:
+\[
+3) \text{ограниченная функция}.
+\]
+
+50. :
+\textbf{Объяснение:} Спин — это внутренний механический момент, который ориентируется в пространстве строго определённым образом. Это векторное свойство элементарных частиц, которое может быть ориентировано вдоль оси \(z\) или против неё. Ответ:
+\[
+2) \text{Спин - векторное свойство ряда элементарных частиц}, \quad 4) \text{Спин - внутренний механический момент, который ориентируется в пространстве строго определённым образом}.
+\]
+
+51. :
+\textbf{Объяснение:} Все операторы, описывающие время эволюции квантовой системы, являются унитарными, так как они сохраняют норму состояния. Это также гарантирует сохранение вероятностей измерений. Ответ:
+\[
+1) \text{Верно}.
+\]
+
+52. :
+\textbf{Объяснение:} Состояние частицы в квантовой механике полностью описывается её волновой функцией \( \psi \), которая даёт полную информацию о вероятностях нахождения частицы в различных состояниях. Ответ:
+\[
+5) \text{Волновая функция}.
+\]
+
+53. :
+\textbf{Объяснение:} 
+\[
+1) \langle a| \text{ — бра вектор a}, \quad 2) |a\rangle \text{ — кет вектор a}, \quad 3) \langle a|b\rangle \text{ — функция состояния b в a представлении}, \quad 4) \langle x|b\rangle \text{ — функция состояния b в x представлении}.
+\]
+
+54. :
+\textbf{Объяснение:} Волновая функция для частицы в яме с бесконечно высокими стенками не имеет размерности, зависящей от корня длины. Это утверждение неверно. Ответ:
+\[
+1) \text{Верно}.
+\]
+
+55. :
+\textbf{Объяснение:} Коммутатор между операторами импульса по координатным осям \( x \) и \( y \) равен нулю:
+\[
+[\hat{p}_x, \hat{p}_y] = 0,
+\]
+так как они действуют на разные оси и не зависят друг от друга. Ответ:
+\[
+\text{Ответ: } 0.
+\]
+
+56. :
+\textbf{Объяснение:} Плотность вероятности для первого возбужденного состояния в яме максимальна в середине ямы, то есть на \( 5 \) см. Ответ:
+\[
+6) 5 \, \text{см}.
+\]
+
+57. :
+\textbf{Объяснение:} Амплитуда вероятности для второго возбужденного состояния в точке \( x = d/4 \) равна:
+\[
+\sqrt{\frac{2}{d}} \sin\left(2 \pi \frac{d}{4d}\right) = \sqrt{\frac{2}{9}} = 0.47.
+\]
+Ответ:
+\[
+\text{Ответ: } 0.47.
+\]
+
+58. :
+\textbf{Объяснение:} Оператор проекции импульса на ось \(x\) выражается через производную по координате \(x\) как \( \hat{p}_x = -i \hbar \frac{\partial}{\partial x} \). При возведении в третью степень, мы получаем:
+\[
+\hat{p}_x^3 = -i \hbar^3 \frac{\partial^3}{\partial x^3}.
+\]
+Ответ:
+\[
+4) +i \hbar^3 \frac{\partial^3}{\partial x^3}.
+\]
+
+59. :
+\textbf{Объяснение:} Если абонент A применил к своему кубиту один из операторов, то результат измерения для абонента Б зависит от этого оператора. После применения различных операторов к кубиту абонента A, абонент Б получит соответствующие сообщения:
+- Если A не менял кубит: 00.
+- Если A применил оператор NOT*Z: 11.
+- Если A применил оператор Z: 10.
+- Если A применил оператор NOT: 01.
+Ответ:
+\[
+1) \text{не менял кубит} - 00, \quad 2) \text{подействовал оператором NOT*Z} - 11, \quad 3) \text{подействовал оператором Z} - 10, \quad 4) \text{подействовал оператором NOT} - 01.
+\]
+
+60. :
+\textbf{Объяснение:} Стандартные условия, накладываемые на волновую функцию, включают её непрерывность, ограниченность и нормировку. Статистическая интерпретация и нормировка — это следствия, а не условия для самой функции. Ответ:
+\[
+1) \text{статистическая интерпретация}, \quad 5) \text{нормировка}.
+\]
+
+61. :
+\textbf{Объяснение:} Оператор Гровера для поиска элемента \( |y\rangle_n \) используется следующим образом:
+\[
+(2|\phi\rangle_n \langle \phi|_n - I)(I - 2|y\rangle_n \langle y|_n),
+\]
+где \( |\phi\rangle_n \) — это начальное состояние квантового регистра. Ответ:
+\[
+2) (2|\phi\rangle_n \langle \phi|_n - I)(I - 2|x\rangle_n \langle x|_n).
+\]
+
+62. :
+\textbf{Объяснение:} Символ \( | \langle r | \Psi \rangle |^2 \) представляет собой плотность вероятности нахождения частицы в точке \( r \), поскольку это квадрат амплитуды вероятности. Ответ:
+\[
+3) \text{плотность вероятности}.
+\]
+
+63. :
+\textbf{Объяснение:} В алгоритме Дойча-Джозса для сбалансированной функции, если значение аргумента \( x \) меняет результат функции, то это может быть либо 0, либо 1 в зависимости от конкретной функции. Ответ:
+\[
+3) 0, \quad 4) 1.
+\]
+
+64. :
+\textbf{Объяснение:} Начальный регистр в алгоритме Дойча обычно задается как состояние \( |01\rangle \) или \( |0\rangle \otimes |1\rangle \), где один кубит инициализирован в состоянии \( |0\rangle \), а второй — в состоянии \( |1\rangle \). Ответ:
+\[
+2) |01\rangle, \quad 3) |0\rangle \otimes |1\rangle.
+\]
+
+65. :
+\textbf{Объяснение:} В алгоритме Дойча-Джозса используется бинарная функция, которая принимает два возможных значения: 0 или 1. Ответ:
+\[
+4) \text{бинарная функция от бинарного аргумента}.
+\]
+
+66. :
+\textbf{Объяснение:} Это определение относится к сбалансированной функции, но в контексте алгоритма Дойча-Джозса для такого типа функции значение может быть разным, а не обязательно 1 для первой половины и 0 для второй. Ответ:
+\[
+2) \text{Неверно}.
+\]
+
+67. :
+\textbf{Объяснение:} Квантовое преобразование Фурье (QFT) отличается от классического дискретного преобразования Фурье (DFT) из-за использования квантовых амплитуд и квантовых параллельных вычислений. Ответ:
+\[
+2) \text{Неверно}.
+\]
+
+68. :
+\textbf{Объяснение:} Операторы XOR, AND и OR являются необратимыми, потому что они теряют информацию. Например, оператор AND может быть неоднозначным: если \( 0 \wedge 1 = 0 \), то нельзя однозначно восстановить входные значения. Ответ:
+\[
+3) \text{XOR}, \quad 4) \text{AND}, \quad 5) \text{OR}.
+\]
+
+69. :
+\textbf{Объяснение:} Применение оператора \( \hat{H} \) дважды к оператору \( \hat{Y} \) приводит к изменению знака этого оператора:
+\[
+\hat{H} \hat{Y} \hat{H} = -\hat{Y}.
+\]
+Ответ:
+\[
+6) -\hat{Y}.
+\]
+
+70. :
+\textbf{Объяснение:} Действие операторов на кубит:
+\[
+\hat{Z}|q\rangle = a|0\rangle - b|1\rangle, \quad \hat{X}|q\rangle = a|1\rangle + b|0\rangle, \quad \hat{Y}|q\rangle = ia|1\rangle - ib|0\rangle.
+\]
+Ответ:
+\[
+1) \hat{Z}|q\rangle = a|0\rangle - b|1\rangle, \quad 2) \hat{X}|q\rangle = a|1\rangle + b|0\rangle, \quad 3) \hat{Y}|q\rangle = ia|1\rangle - ib|0\rangle.
+\]
+
+71. :
+\textbf{Объяснение:} В алгоритме Саймона начальный регистр задается как \( |0\rangle \otimes |0\rangle \) или \( |\mathbf{00}\rangle \), чтобы начать вычисления для поиска скрытого ключа. Ответ:
+\[
+2) |0\rangle \otimes |0\rangle, \quad 3) |\mathbf{00}\rangle.
+\]
+
+72. :
+\textbf{Объяснение:} Явление, при котором квантовые состояния двух объектов оказываются взаимозависимыми, называется квантовой запутанностью. Ответ:
+\[
+3) \text{Квантовая запутанность}.
+\]
+
+73. :
+\textbf{Объяснение:} В классическом случае задача Саймона требует выполнения порядка \( 2^n \) вычислений, где \( n \) — количество бит. Ответ:
+\[
+3) \text{порядка } 2^n.
+\]
+
+74. :
+\textbf{Объяснение:} Унитарный оператор \( U \) должен удовлетворять условию \( U^\dagger U = I \), что эквивалентно \( U^\dagger = U^{-1} \). Это гарантирует сохранение нормированности состояния, то есть унитарный оператор является обратимым. Ответ:
+\[
+3) U^\dagger = U^{-1}.
+\]
+
+75. :
+\textbf{Объяснение:} Квантовое преобразование Фурье является операцией, которая действует на состояние кубита, и меняет его фазу. В данном случае правильным выражением является:
+\[
+4) \neg |3\rangle_2 = \frac{1}{2} (|0\rangle_2 - i|1\rangle_2 - |2\rangle_2 + i|3\rangle_2).
+\]
+
+76. :
+\textbf{Объяснение:} В алгоритме Дойча-Джозса для постоянной функции результат измерения не зависит от значения аргумента \(x\), и результат всегда будет 0 или 1. Ответ:
+\[
+3) 1, \quad 5) 0.
+\]
+
+77. :
+\textbf{Объяснение:} Унитарный оператор может иметь собственные значения \( 1 \), \( -1 \), и комплексные числа, имеющие модуль 1, например \( \exp(-i2) \). Ответ:
+\[
+1) 1, \quad 3) -1.
+\]
+
+78. :
+\textbf{Объяснение:} Принцип Паули утверждает, что в квантово-механической системе не может быть двух или более электронов, обладающих одинаковым спином. Это объясняет ограничения на состояние системы с несколькими электронами. Ответ:
+\[
+1) \text{В квантово-механической системе не может быть двух или более электронов, обладающих одинаковым спином}.
+\]
+
+79. :
+\textbf{Объяснение:} Квантовый канал связи должен быть способен передавать квантовую информацию, как, например, телепортация или сверхплотное кодирование. Эффект Джозефосна и проводники не могут служить квантовыми каналами, так как они не обеспечивают квантовую связь. Ответ:
+\[
+2) \text{Эффект Джозефосна}, \quad 5) \text{Проводник}, \quad 6) \text{Протокол bb8484}.
+\]
+
+80. :
+\textbf{Объяснение:} По протоколу B92 абоненты могут извлечь секретный ключ после выполнения серии операций с кубитами. В данном случае секретный ключ сформирован как:
+\[
+\text{Ответ: } 111.
+\]
+
+81. :
+\textbf{Объяснение:} В результате телепортации состояние кубита абонента Б зависит от операций, выполненных абонентом А, и результата измерения. Возможные состояния:
+\[
+1) 11 - a|0\rangle + b|1\rangle, \quad 2) 00 - -a|0\rangle + b|0\rangle, \quad 3) 10 - -a|1\rangle - b|0\rangle, \quad 4) 01 - a|0\rangle - b|1\rangle.
+\]
+
+82. :
+\textbf{Объяснение:} Если результат измерения в процессе телепортации равен \( 11 \) или \( 00 \), то состояние кубита абонента Б будет изменено в зависимости от этого результата:
+\[
+1) 11 - -a|0\rangle + b|1\rangle, \quad 2) 00 - a|1\rangle + b|0\rangle.
+\]
+
+83. :
+\textbf{Answer: Single-Qubit Transformation}
+\textbf{Final State:}
+    \[
+    |\psi\rangle = \frac{1}{\sqrt{2}}(|0\rangle + |1\rangle)
+    \]
+\textbf{Measurement Probabilities:}
+P(|0\rangle) &= \left|\langle 0|\psi\rangle\right|^2 = \frac{1}{2}, \\
+P(|1\rangle) &= \left|\langle 1|\psi\rangle\right|^2 = \frac{1}{2}.
+
+84. :
+\textbf{Answer: Superposition State Transformation}
+\textbf{Final State:}
+    \[
+    |\psi\rangle = \frac{1 + e^{i\pi/4}}{2}|0\rangle + \frac{1 - e^{i\pi/4}}{2}|1\rangle
+    \]
+\textbf{Relative Phase:}
+The relative phase between \( |0\rangle \) and \( |1\rangle \) is determined by the ratio of their coefficients:
+    \[
+    \phi = \arg\left(\frac{1 - e^{i\pi/4}}{1 + e^{i\pi/4}}\right)
+    \]
+
+85. :
+\textbf{Answer: Controlled Gate Application}
+\textbf{Final State:}
+    \[
+    |\psi\rangle = \frac{1}{\sqrt{2}}(|00\rangle + |11\rangle)
+    \]
+\textbf{Measurement Outcomes:}
+Measuring the first qubit in the computational basis:
+\( |0\rangle \): Remaining state of the second qubit is \( |0\rangle \).
+\( |1\rangle \): Remaining state of the second qubit is \( |1\rangle \).
+Both outcomes have probability \( \frac{1}{2} \).
+
+86. :
+\textbf{Answer: Entanglement Creation}
+\textbf{Final State:}
+    \[
+    |\psi\rangle = \frac{1}{\sqrt{2}}(|00\rangle + |11\rangle)
+    \]
+\textbf{Entanglement Verification:}
+The state \( |\psi\rangle \) is entangled because it cannot be written as a tensor product of single-qubit states.
+
+87. :
+\textbf{Answer: Phase Adjustment}
+\textbf{Final State:}
+    \[
+    |\psi\rangle = \frac{1}{\sqrt{2}}(|0\rangle - i|1\rangle)
+    \]
+\textbf{Relative Phase:}
+The relative phase between \( |0\rangle \) and \( |1\rangle \) changes to \( -\frac{\pi}{2} \) (due to the \( S \)-gate).
+
+88. :
+\textbf{Answer: State Inversion}
+The exact final state can be computed using the matrix representation of the gates:
+\( X \), \( H \), and \( R_y(\pi/3) \) are applied sequentially to the initial state \( |\psi\rangle = \frac{1}{\sqrt{3}}|0\rangle + \sqrt{\frac{2}{3}}|1\rangle \).
+The resulting state can be expressed in terms of \( |0\rangle \) and \( |1\rangle \) by performing explicit matrix multiplication.
+
+89. :
+\textbf{Answer: Multi-Qubit Gate Circuit}
+\textbf{Final State:}
+    \[
+    |\psi\rangle = \frac{1}{\sqrt{2}}(|00\rangle + |01\rangle)
+    \]
+The result is written in the standard basis as:
+    \[
+    |\psi\rangle = \frac{1}{\sqrt{2}}(|0\rangle \otimes |0\rangle + |0\rangle \otimes |1\rangle).
+    \]
+
+90. :
+\textbf{Answer: Measurement-Based Post-Gate Analysis}
+\textbf{State After Applying \( H \):}
+    \[
+    |\psi\rangle = \frac{1 + \sqrt{3}}{4}|0\rangle + \frac{1 - \sqrt{3}}{4}|1\rangle
+    \]
+\textbf{Measurement Probabilities:}
+P(|0\rangle) &= \left|\frac{1 + \sqrt{3}}{4}\right|^2, \\
+P(|1\rangle) &= \left|\frac{1 - \sqrt{3}}{4}\right|^2.
+

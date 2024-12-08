@@ -1,0 +1,496 @@
+1. For \(N=15\), what fraction of the residues \(1\leq x<N\) with \(\gcd(x,N)=1\) will result in a factorization? How about for \(N=63\)? (While testing all these residues is one way to solve this problem, there are much more efficient ones.)
+
+2. Suppose we try to apply the factoring algorithm to a number \(N=p^{\alpha}\) which is a power of \(p\). Will it work? If not, what goes wrong?
+
+3. Suppose we try to apply the factoring algorithm, but we forget to check whether \(\gcd(x,N)=1\) and accidentally choose an \(x\) with \(1<x<N\) and \(\gcd(x,N)>1\). Will the algorithm still work? If not, what goes wrong?
+The next two problems deal with the period-finding algorithm on p. 236 of N&C. This was not covered in class, but is quite similar to the order-finding algorithm (p. 232) which was. The difference is that the order-finding algorithm operates on a black box \(U\) which performs \(U\,|\,a\rangle=|\,f(a)\rangle\) where \(f\) is a classical one-to-one function, and finds the minimum value of \(r\) such that \(U^{r}\,|\,b\rangle=|\,b\rangle\), whereas the period-finding algorithm operates on a black box \(U\) such that \(U\,|\,x\rangle\,|\,y\rangle=|\,x\rangle\,|\,y\oplus f(x)\rangle\). Also note that the value of \(t\) is given using big-\(O\) notation, but for the algorithm to work, you actually need \(t\geq 2L\).
+
+4. Suppose we apply this period-finding algorithm to the function
+\[f(x) = 1\qquad\mbox{if $r$ divides $x$}\] \[f(x) = 0\qquad\mbox{if $x$ is not a multiple of $r$.}\]
+Approximately what is the probability that we learn the period \(r\)?
+
+5. For Grover's search algorithm, assume that we have \(M\) target states out of \(N\) total states, so the black box \(O\) takes
+\[O\,|\,x\rangle = -\,|\,x\rangle\qquad\mbox{if $x$ is a target state,}\] \[O\,|\,x\rangle = |\,x\rangle\qquad\mbox{otherwise.}\]
+Suppose we find a target state with probability 1 after one iteration of the algorithm. What can you say about the ratio \(M/N\)?7. Consider the modification to Grover's algorithm so that the oracle now performs
+\[O\,|\,x\rangle = e^{i\phi}\,|\,x\rangle\qquad\mbox{if $x$ is a target state,}\] \[O\,|\,x\rangle = |\,x\rangle\qquad\quad\mbox{otherwise.}\]
+Show that if you use the transformation
+\[\tilde{G}=H^{\otimes n}\left[(1-e^{i\phi})\,|\,0\rangle\,\langle 0\,|-I \right]H^{\otimes n}O\]
+instead of the standard Grover iteration, for any state with \(M/N\) sufficiently large you can choose \(\phi\) so that the algorithm finds a target state with probability 1 after one iteration. For what values of \(M/N\) is there such a \(\phi\)?
+
+6. In the teleportation protocol, show that the probability distribution for the values of the two qubits that Alice sends to Bob is independent of the state \(\left|\,\psi\right\rangle\) of the qubit being transmitted. In other words, an eavesdropper can infer nothing about the value of \(\left|\,\psi\right\rangle\) by knowing the values of the two classical bits transmitted.
+
+7. Show that Alice can teleport two qubits \(\left|\,\phi\right\rangle\left|\,\psi\right\rangle\) "through" the gate
+\[S=\left(\begin{array}{cccc}1&&&\\ &1&&\\ &&1&\\ &&&-1\end{array}\right)\]
+so that Bob obtains two qubits in the state \(S\left|\,\phi\right\rangle\left|\,\psi\right\rangle\).
+More specifically, suppose Alice and Bob share four qubits in the state
+\[\frac{1}{2}\Big{(}\left|\,0000\right\rangle+\left|\,0101\right\rangle+\left| 1010\right\rangle-\left|\,1111\right\rangle\Big{)},\]
+with Alice holding the first pair of qubits and Bob holding the second pair. Alice measures \(\left|\,\phi\right\rangle\) and her first qubit in the Bell basis, and measures \(\left|\,\psi\right\rangle\) and her second qubit in the Bell basis. Alice sends the results of these measurements to Bob over a classical channel, and Bob applies some unitary transformations, which depend on the classical information he receives from Alice, to his two qubits to obtain the state \(S\left|\,\phi\right\rangle\left|\,\psi\right\rangle\). Explain how the transformations Bob applies depend on the results of Alice's measurements.
+
+8. Generalize the superdense coding procedure to three-dimensional quantum states (qutrits). Let \(\left|\,0\right\rangle,\left|\,1\right\rangle,\left|\,2\right\rangle\) be an orthonormal basis for the qutrits. Now, suppose Alice and Bob share a pair of qutrits in the state
+\[\left|\,\mathrm{EPR}_{3}\right\rangle=\frac{1}{\sqrt{3}}\Big{(}\left|\,00 \right\rangle+\left|\,11\right\rangle+\left|\,22\right\rangle\Big{)}\]
+Show that there are 9 unitary operations so that if Alice performs one of these unitary operations on her half of the state \(\left|\,\mathrm{EPR}_{3}\right\rangle\), and sends the resulting qubit to Bob, he can then make a measurement on the two qutrits that he now holds which deterministically tells him which operation Alice performed. This shows that superdense coding can encode \(\log_{2}9\) bits in one qutrit.
+Hint: Define the two matrices
+\[T=\left(\begin{array}{ccc}0&1&0\\ 0&0&1\\ 1&0&0\end{array}\right),\qquad\qquad R=\left(\begin{array}{ccc}1&0&0\\ 0&\omega&0\\ 0&0&\omega^{2}\end{array}\right).\]Powers of these of the form \(R^{a}T^{b}\) with \(0\leq a,b\leq 2\) will play the role of the Pauli matrices in this superdense coding procedure, with the Bell basis replaced by the states \(R^{a}T^{b}\,|\,{\rm EPR}_{3}\rangle\). You will need to show that these states form an orthonormal basis of the space of two qutrits.
+
+9. Suppose that we have four parties, Alice, Bob, Cathy, and David. Alice and Cathy share a pair of qubits which are in one of the four Bell basis states,
+\[\frac{1}{\sqrt{2}}(|\,01\rangle\pm|\,10\rangle),\hskip 56.905512pt\frac{1}{ \sqrt{2}}(|\,00\rangle\pm|\,11\rangle),\]
+but they don't know which state it's in. Bob and David share a pair of qubits in the same Bell state. Suppose further that Alice and Bob share a pair of qubits in the state \(\frac{1}{\sqrt{2}}(|\,01\rangle-|\,10\rangle)\). Show that there is a protocol that lets Cathy and David end up sharing a pair of qubits in the state \(\frac{1}{\sqrt{2}}(|\,01\rangle-|\,10\rangle)\).
+Hint: Let Alice teleport her half of the Alice-Bob pair to Cathy, and Bob teleport his half of this pair to David. Show that even though Cathy and David don't know which Bell state they had, they can still apply Pauli transformations to their teleported qubits to end up with the state \(\frac{1}{\sqrt{2}}(|\,01\rangle-|\,10\rangle)\).
+
+10. (Extra Credit) Show that in the model for quantum computation using measurement on cluster states, a SWAP gate can be implemented by bringing two transmission lines together for three qubits, and measuring every qubit using the observable \(\sigma_{x}\) (i.e., in the basis \(\frac{1}{2}(|\,0\rangle\pm|\,1\rangle)\)). For example, the following cluster
+\[\begin{array}{cccccc}\sigma_{x}&\sigma_{x}&\sigma_{x}&\sigma_{x}&\sigma_{x} &\sigma_{x}\\ &&\sigma_{x}&\sigma_{x}&\sigma_{x}\\ \sigma_{x}&\sigma_{x}&\sigma_{x}&\sigma_{x}&\sigma_{x}&\sigma_{x}\end{array}\]
+would implement a SWAP gate.
+
+11. What is the density matrix obtained if you have a qubit which is in state
+\[\begin{array}{cc}\mid\!0\rangle&\mbox{with probability}&\frac{1}{3},\\ -\frac{1}{2}\,\mid\!0\rangle+\frac{\sqrt{3}}{2}\,\mid\!1\rangle&\mbox{with probability}&\frac{1}{3},\\ -\frac{1}{2}\,\mid\!0\rangle-\frac{\sqrt{3}}{2u}\,\mid\!1\rangle&\mbox{with probability}&\frac{1}{3}.\end{array}\]
+
+12. What is the density matrix obtained if you take the partial trace over the second qubit of the following state; i.e., what is
+\[\mbox{Tr}_{2}\,\frac{1}{\sqrt{3}}(\mid\!00\rangle+\mid\!01\rangle+\mid\!10 \rangle).\]
+
+13. One way to obtain a noisy quantum operation is to have the input quantum state interact with another "environment" quantum system, and then take a partial trace that removes the "environment" system.
+Suppose we start with a qubit in state \(\mid\!\psi\rangle\), and an "environment qubit" \(\mid\!e\rangle\) in state \(\frac{\sqrt{3}}{2}\,\mid\!0\rangle+\frac{1}{2}\,\mid\!1\rangle\). We then apply the quantum gate controlled \(\sigma_{z}\)
+\[\left(\begin{array}{cccc}1&0&0&0\\ 0&1&0&0\\ 0&0&1&0\\ 0&0&0&-1\end{array}\right)\]
+to the state \(\mid\!\psi\rangle\otimes\mid\!e\rangle\), and take the partial trace to remove \(\mid\!e\rangle\). Express the resulting quantum operation in operator sum notation,
+\[\rho\rightarrow\sum_{i}A_{i}\rho A_{i}^{\dagger}.\]
+
+14. Suppose we start with a qubit and first apply the dephasing operation
+\[\rho\rightarrow(1-p)\rho+p\sigma_{z}\rho\sigma_{z}^{\dagger}\]
+and then apply the amplitude damping operation
+\[\rho\rightarrow\sum_{i=1}^{2}A_{i}\rho A_{i}^{\dagger}\]
+where
+\[A_{1}=\left(\begin{array}{cc}1&0\\ 0&\sqrt{1-q}\end{array}\right)\hskip 56.905512ptA_{2}=\left(\begin{array}{ cc}0&\sqrt{q}\\ 0&0\end{array}\right).\]Show the resulting transformation can be expressed in the operator-sum notation with just three matrices \(A_{i}\):
+\[\rho\rightarrow\sum_{i=1}^{3}A_{i}\rho A_{i}^{\dagger}.\]
+
+15. Consider the depolarizing quantum operation \({\cal D}\):
+\[{\cal D}(\rho)=(1-p)\rho+\frac{p}{3}\sum_{a=x,y,z}\sigma_{a}\rho\sigma_{a}^{ \dagger},\]
+with \(p<3/4\). Suppose we apply \({\cal D}\) to a density matrix \(\rho_{\rm in}\) to obtain \(\rho_{\rm out}={\cal D}(\rho_{\rm in})\). Show that the minimum possible eigenvalue of a density matrix output from this operation is \(2p/3\).
+Hint: use the identity
+\[\frac{1}{4}\rho+\frac{1}{4}\sum_{a=x,y,z}\sigma_{a}\rho\sigma_{a}^{\dagger}= \frac{I}{2},\]
+where \(I\) is the identity matrix.
+
+16. Чему равно действие оператора Адамара на кубит $|q> = \alpha|0> + \beta|1>$ \\
+1) $\frac{1}{2}[(\alpha + \beta)|1> + (\alpha - \beta)|0>]$ \\
+2) $\frac{1}{\sqrt{2}}[(\alpha + \beta)|0> + (\alpha - \beta)|1>]$ \\
+3) $\frac{1}{2}[(\alpha + \beta)|0> + (\alpha - \beta)|1>]$ \\
+4) $\frac{1}{\sqrt{2}}[(\alpha - \beta)|0> + (\alpha + \beta)|1>]$ \\
+5) нет правильного ответа \\
+
+17. Какое соотношение соответствует определению эрмитовского оператора? \\
+1) $\int\phi\hat{F}\psi dv = \int\psi\hat{F}^*\phi dv$ \\
+2) $\int\phi^*\hat{F}^*\psi dv = \int\psi\hat{F}^*\phi^* dv$ \\
+3) $\int\phi^*\hat{F}\psi dv = \int\psi\hat{F}^*\phi dv$ \\
+4) $\int\phi^*\hat{F}\psi dv = \int\psi\hat{F}\phi^* dv$ \\
+
+18. При каких условиях должна использоваться квантовая теория ? \\
+1) скорость движения частиц меньше скорости света \\
+2) действие системы много меньше $\hbar$ \\
+3) действие системы равно $\hbar$ \\
+4) действие системы много больше $\hbar$ \\
+5) скорость движения частиц близка к скорости света \\
+
+19. В каких еденицах может быть выражена размерность волновой функции стационарного состояния двухэлектронного атома ? ($a_0$ - Боровский радиус, см - сантиметр, м - метр, км - километр) \\
+1)$\frac{1}{\sqrt{a}}$ \\ 
+2) см$^3$ \\ 
+3) см $^{-3}$ \\
+4) не имеет размерности \\
+5) $\fraq{1}{a_0}$ \\
+6) км $^{-3}$ \\
+7) м $^{-3}$ \\
+
+20. Сопоставьте уравнения с типом спектра оператора \\
+1) $\hat{F}\phi_f = f\phi_f$ \\
+2) $\hat{F}\phi_{n, m} = f_n\phi_{n, m}$ \\
+3) $\hat{F}\phi_n = f_n\phi_n$ \\
+
+21. отметьте равенство, которое соответсвует определению линейного оператора $\hat{F}$ \\
+1) $\hat{F}(c_1\phi_1 + c_2\phi_2) = c_1^*\hat{F}\phi_1^* + c_2^*\hat{F}\phi_2^*$ \\
+2) $\hat{F}(c_1\phi_1 + c_2\phi_2) = c_1^*\hat{F}^*\phi_1^* + c_2^*\hat{F}^*\phi_2^*$ \\
+3) $\hat{F}(c_1\phi_1 + c_2\phi_2) = c_1\hat{F}\phi_1 + c_2\hat{F}\phi_2$ \\
+4) $\hat{F}(c_1\phi_1 + c_2\phi_2) = c_1^*\hat{F}\phi_1 + c_2^*\hat{F}\phi_2$ \\
+
+22. В алгоритме Дойча используется три класса функций: периодические, постоянные и непостоянные \\
+1) Верно \\
+2) Неверно \\
+
+23. Нормировка квантового состояния в результате действия на это состояние унитарного оператора не сохраняется \\
+1) Верно \\
+2) Неверно \\
+
+24. Размерность волновой функции для описания частицы в яме с двумя бесконечно выскоими стенками равна обратной длине \\
+1) Верно \\
+2) Неверно \\
+
+25. Что такое "модель невзаимодействующих" электронов при описании многоэлектронного атома? \\
+1)спины электронов не учитываются при задании гамильтониана \\
+2) атомные термы определяются из решения уравнения Шредингера для атома водорода \\
+3) электроны не взаимодействуют друг с другом \\
+4) электроны не взаимодействуют с ядром атома и друг с другом \\
+
+26. В кубит можно записать только две единицы инфромации \\
+1) Верно \\
+2) Неверно \\
+
+27. Задан кубит $|q> = \frac{1}{2}|0> + \frac{\sqrt{3}}{2}|1>$. Чему равна вероятность получения базисного состояния |1> в результате измерения данного кубита? ответ записать  в виде десятичного числа с двумя десятичными знаками (с учетом округления) \\
+
+28. Какое положение на сфере Блоха будет занимать вектор произвольного сотояния кубита в результате процедуры его измерения? \\
+1) строго вверх \\
+2) с равной вероятностью или вверх или вниз \\
+3) или строго по оси z вверх, или строго по оси z вниз \\
+4)строго вниз \\
+
+29. Во скольок раз энергия основного состояния частицы в яме с двумя бесконеяно высокими стенками меньше энергии третьего возбужденного сотояния? \\
+1) 16\\
+2) 3 \\
+3) 4 \\
+4) 9 \\
+5) 25 \\
+
+30. Отметьте из представленного списа запутанные состояния \\
+1) $(|01> + |10>)/\sqrt{2}$ да\\
+2) $(|000> + |111>)/\sqrt{2}$ да \\
+3) $(|00> + |01> + |10> + |11>)/2$ \\
+4) $(|00> + |11>)/\sqrt{2}$ да \\
+5) $(|00> + |01> - |10> - |11>)/ 2$ \\
+
+31. Укажите чему равно выражение CNOT: $|x> \otimes (\frac{|0> - |1>}{\sqrt{2}})$ \\
+1) $(-1)^x|x> \otimes (\frac{|0> - |1>}{\sqrt{2}})$ \\
+2) $|x> \otimes (-1)^x(\frac{|0> - |1>}{\sqrt{2}})$ \\
+3) $|x> \otimes (\frac{|0> - |1>}{\sqrt{2}})$ \\
+4) $-|x> \otimes (\frac{|0> - |1>}{\sqrt{2}})$ \\
+
+32. Что означает символ $<\mathbf{r}|\mathbf{\Psi}>$ \\
+1) функция состояние $|\Psi>$ в координатном представлении \\
+2) скалярное произведение векторов \\
+3) внешнее произведение векторов \\
+4) Волновая функция \\
+
+33. Вектор квантового состояние измеряемая величина ? \\
+1)нет, если это координата \\
+2)нет \\
+3)да \\
+4)да, если это базисное состояние \\
+
+34. Что не относится к стандартным условиям, накладываемым на волновую функцию? \\
+1)ограниченность \\
+2)статистическая интерпретация \\
+3)непрерывность \\
+4)нормировка \\
+5)однозначиность \\
+
+35. Чему равен коммутатор оператора координаты и оператора первой производной по этой координате $[x, \frac{d}{dx}]$ \\
+
+36. Какие частицы входят в состав ядра атома? \\
+1)Позитрона \\
+2) Нейтроны \\
+3)Протоны \\
+4)Электроны \\
+5)Мьоны \\
+
+37. Выражение $|\mathbf{r}|\mathbf{r}'>$ равно символу Кронекера, если \mathbf{r} - координата \\
+1)Верно \\
+2)Неверно \\
+
+38. Чему равно произведение трех матриц Паули ? \\
+1) $-i$ \\
+2) 1 \\
+3) 3 \\
+4) $i$ \\
+5) -1 \\
+
+39. Интенсивность спектральной линии и вероятность перехода связаны друг с другом ? \\
+1)да \\
+2)нет \\
+3)тема не рассматривалась \\
+4)свзяаны для линий спектра разрешенных переходов \\
+
+40. Чему равно действие оператора Уолша - Адамара на двухкубитовое состояние вида |01> ? \\
+1)$\frac{1}{2}(|00> - |01> + |10> - |11>)$ \\
+2)$\frac{1}{2}(|00> + |01> + |10> + |11>)$ \\
+3)$\frac{1}{2}(|00> + |01> - |10> - |11>)$ \\
+4)$\frac{1}{2}(|00> - |01> - |10> + |11>)$ \\
+5)$\frac{1}{2}(|0>_2 - |1>_2 + |2>_3 - |3>_2)$ \\
+
+41. Кубит - это суперпозиция двух квантовых состояний $c_0|0> + c_1|1>$, где $c_1, c_2$ - комплексные числа. Сколько действительных параметров нужно задать, чтобы определить конкретный кубит. \\
+1) 2 \\
+2) 3 \\
+3) 1 \\
+4) 4 \\
+
+42. Какой оператор является обратным к оператору комплексного сопряжения? \\
+1) извлечение квадратного корня из мнимой единицы \\
+2)умножение на -1 \\
+3)нет такого оператора \\
+4)оператор комплексного сопряжения \\
+5)умножение на мнимую единцу \\
+
+43. Что такое кубит ? \\
+1)Суперпозиция двух квантовых состояний \\
+2)Суперпозиция двух и более квантовых состояний \\
+3)все ответы верны \\
+4)Единица квантовой теории информации \\
+5)физический объект с квантовыми характеристиками \\
+
+44. Какова кратность вырождения дискретного спектра в одномерном случае? \\
+1) $n^2$ \\
+2) 2 \\
+3) 1 \\
+
+45. Как определен оператор в своем собственном представлении для случая, когда спектр оператора дискретный ? \\
+1)бесконечномерная, непрерывная матрица на главной диагонали которой находятся собственные число оператора \\
+2)диагональная матрица размерности 2х2 на главной диагонали которой находятся проекции спина частицы \\
+3)диагональная матрица размерности nxn, где n - главное квантовое число \\
+4)диагональная матрица на главной диагонали которой располложены собственные числа оператора \\
+
+46. Какое утверждение не является полстулатом квантовой теории \\
+1)Принцип неопределённости Гейзенберга \\
+2)Эволюция состояний \\
+3)Результатом измерения является число, принадлежащее спектру оператора \\
+4)вид оператора импульса \\
+
+47. Отметьте правильные выражения для записи 5-ти кубитового регистра \\
+1)$|q>_5 = \sum_{k = 0}^{31}c_k|q>_5$ \\
+2)$|q>_5 = \sum_{k = 0}^{2^5 - 1}c_k|q>_n$\\
+3)$|q>_5 = \sum_{k = 0}^{2^5 - 1}c_k|q>_5$ \\
+4)$|q>_5 = \sum_{k = 0}^{2^5}c_k|q>_5$ \\
+5)$|q>_n = \sum_{k = 0}^{2^n - 1}c_k|q>_n$ \\
+
+48. Верно ли даное утверждение: "квантовое стационарное состояние не зависит от времени" \\
+1)Верно \\
+2)Неверно \\
+
+49. Укажите верные свойства волновой функции \\
+1)не нормирована\\
+2)безразмерна \\
+3)ограниченная функция \\
+4)амплитуда вероятности найти частицы в пространстве \\
+5)вероятность найти частицы в пространстве \\
+6)имеет вид волны \\
+7)размерна \\
+
+50. Что такое спин частиц? \\
+1)Спин - скалярная квантовая характеристика ряда частиц \\
+2)Спин - векторное свойство ряда элементарных частиц да\\
+3)Спин - вращение частиц вокруг своей оси \\
+4)Спин - внутренний механический момент, который ориентируется в пространстве строго определенным образом да \\
+
+51. Преобразование квантовых состояний осуществляется только унитарными операторами \\
+1)Верно \\
+2)Неверно \\
+
+52. Состояние частицы в квантовой механике считается заданным, если заданы \\
+1)Масса, энергия и квадрат модуля волновой функции \\
+2)Координата и импульс частицы \\
+3)Координаты частицы и время \\
+4)Энергия и квадрат модуля волновой функции \\
+5)Волновая функция \\
+
+53. Сопоставьте символы с их названиями \\
+1) $<a|$ \\
+2) $|a>$ \\
+3) $<a|b>$ \\
+4) $<x|b>$ \\
+
+54. Размерность волновой функции для описания частицы с двумя бесконечно высокими стенками не равна корню квадратному от размерности длины \\
+1)Верно \\
+2)Неверно \\
+
+55. Чему равен коммутатор операторов проекция импульсов на координатные оси $[\hat{p}_x, \hat{p}_y]$ \\
+
+56. В какой точке (или точках) плотность вероятность обнаружить частицу в яме с двумя бесконечно высокими стенками (ширина ямы 10 см) максимальна для первого возбужденного состояния? \\
+1)3,5 см \\
+2)2,5 см \\
+3)8,5 см \\
+4) 10 см \\
+5)0 см \\
+6)5 см \\
+7) 7,5 см \\
+
+57. Чему равна амплитуда вероятности найти частицу в яме с двумя бесконечно высокими стенками в точке $x = d/4$ во втором возбужденном состоянии? Ширина ямы $d$ равна 9 см. В ответе указать число и размерность величины (если есть). Число можно ввести в точностью до 0.01 \\
+
+58. Какое выражение соответсвует третьей степени оператора проекции импульса на ось $x$? \\
+1) $+\hbar^3\frac{\partial^3}{\partial x^3}$ \\
+2) $-i\hbar^3\frac{\partial^3}{\partial x^3}$ \\
+3) $-\hbar^3\frac{\partial^3}{\partial x^3}$ \\
+4) $+i\hbar^3\frac{\partial^3}{\partial x^3}$ \\
+
+59. Для реализации процедуры сверхплотного кодирования абоненты A и Б создали запутанное состояние вида $\frac{1}{2}(|01> + |10>)$ какое сообщение получит абонент Б (по протоколу сверхплотного кодирования) в результате измерения, если перед отправкой своего кубита абоненту Б, абонент А применил к своему кубиту приведенные операторы? (кубит абонента А указан слева в кет векторах). Установите соответствие \\
+1)не менял кубит \\
+2)подействовая оператором NOT*Z \\
+3)подействовал оператором Z \\ 
+4)подействовал оператором NOT \\
+
+60. Что не относится к стандартным условиям, накладываемым на волновую функцию? \\
+1)статистическая интерпретация \\
+2)однозначность \\
+3)непрерывность \\
+4)ограниченность \\
+5)нормировка \\
+
+61. Если задан квантовый регистр вида $|\phi>_n = \frac{1}{N}\sum_{x = 0}^{N - 1}|x>_n$ для N элементов базы данных, в которой необходимо найти элемент $|y>_n$, то какое выражение определяет оператор Гровера? \\
+1)$(2|\phi>_n<\phi|_n - I)(I - 2|y>_n<y|_n)$ \\
+2)$(2|\phi>_n<\phi|_n - I)(I - 2|x>_n<x|_n)$ \\
+3)$(2|\phi>_n<\phi|_n - I)(I + 2|y>_n<y|_n)$ \\
+4)$(2|x>_n<x|_n - I)(I - 2|y>_n<y|_n)$ \\
+
+62. Что означает символ $|<r|\Psi>|^2$ \\
+1)квадрат скалярного произведения векторов \\
+2)удвоение внешнее произведение векторов \\
+3)плотность вероятности \\
+4)квадрат функции состояния $|\Psi>$ в координатном представлении \\
+
+63. Чему равно значение сбалансированной функции в алгоритме Дойча-Джозса при значении аргумента равного х \\
+1)x \\
+2) -x \\
+3) 0 \\
+4) 1 \\
+5)not(x) \\
+
+64. Каков начальный регистр в алгоритме Дойча? \\
+1)$|00>$ \\
+2)$|01>$ \\
+3)$|0> \otimes |1>$ \\
+4)$|0> \otimes |0>$ \\
+
+65. В алгоритме Дойча-Джозса используется \\
+1)бинарная функция от произвольного аргумента \\
+2)произвольная функция от произвольного аргумента \\
+3)произвольная функция от произвольного аргумента \\
+4)бинарная функция от бинарного аргумента \\
+
+66. В алгоритме Дойча-Джозса используется определение сбалансированной функции что означает, что первая половина значений функции равна 1, а вторая половина значений равна 0 \\
+1)Верно \\
+2)Неверно \\
+
+67. Формула квантового преобразования Фурье не отличается от формулы классического дискретного преобразования Фурье \\
+1)Верно \\
+2)Неверно \\
+
+68. Какие логические оператора являются необратимыми и данного перечня \\
+1)CNOT \\
+2)NOT \\
+3)XOR \\
+4)AND \\
+5)OR \\
+6)гейт Тоффоли \\
+
+69. Чему равно произведение однокубитовых операторов $\hat{H}\hat{Y}\hat{H}$ \\
+1)$\hat{Y}$ \\
+2)$\hat{H}$ \\
+3)$-\hat{H}$ \\
+4)$-\hat{X}$ \\
+5)$\hat{X}$ \\
+6)$-\hat{Y}$ \\
+
+70. Каким выражением определяется действие однокубитовых операторов $\hat{X}, \hat{Y}, \hat{Z}$ на кубит $|a>=a|0> + b|1>$? \\
+1)$\hat{Z}|q>$ \\
+2)$\hat{X}|q>$ \\
+3)$\hat{Y}|q>$ \\
+
+71. Каков начальный регистр в алгоритме Саймона \\
+1)$|\mathbf{0} \otimes \mathbf{0}>$ \\
+2)$|0> \otimes |0>$ \\
+3)$|\mathbf{00}>$ \\
+4)$|0> \otimes |1>$ \\
+
+72. Как называется явление, при котором квантовые состояния двух объектов оказываеются взаимозависымим? \\
+1)Квантовая зависимость \\
+2)Квантовый парадокс \\
+3)Квантовая запутанность \\
+4)Телепортация \\
+
+73. В рамках классических вычислений для решения задачи Саймона потребуется выполнить число вычислений \\
+1)порядка $n^2$ \\
+2)порядка $n$ \\
+3)порядка $2^n$ \\
+4)нет правильного ответа \\
+
+74. Каким условиям удовлетворяет унитарный оператор\\
+1)$U^\dagger U = 0$ \\
+2)$U^\dagger U = 1$ \\
+3)$U^\dagger = U^{-1}$ \\
+4)$U^\dagger = U^1$ \\
+
+75. Какое выражение верно для квантового преобразования Фурье? \\
+1)нет правильного ответа \\
+2)$\neg{|3>_2} = \frac{1}{2}(|0>_2 + i|1>_2 - |2>_2 - i|3>_2)$ \\
+3)$\neg{|3>_2} = \frac{1}{2}(|0>_2 - i|1>_2 + |2>_2 + i|3>_2)$ \\
+4)$\neg{|3>_2} = \frac{1}{2}(|0>_2 - i|1>_2 - |2>_2 + i|3>_2)$ \\
+5)$\neg{|3>_2} = \frac{1}{2}(|0>_2 - i|1>_2 - |2>_2 - i|3>_2)$ \\
+
+76. Чему равно значение постоянной функции в алгоритме Дойча-Джозса при значении аргумента равного х \\
+1) -x \\
+2) not(x) \\
+3) 1 \\
+4) х \\
+5) 0 \\
+
+77. Собственное значение унитарного оператора может быть равно (отметьте) \\
+1)1 \\
+2)все ответы правильные \\
+3)-1 \\
+4)$\exp(-i2)$ \\
+
+78. Какая из формулировок соответствует принципу Паули \\
+1)В квантово-механической системе не может быть двух или более электронов, обладающих одинаковым спином \\
+2)Состояние микрочастицы в квантовой механике задается задается волновой функцией \\
+3)Энергетический спектр электронов в кванотово-механической системе дискретен \\
+4)Состояние микрочастицы в квантовой механике не может одновременно характеризоваться точными значениями координаты и импульса \\
+5)В квантово-механической системе не может быть двух или более электронов, находящихся в состоянии с одинаковым набором квантовых чисел \\
+
+79. Что не может служить квантовым каналом связи \\
+1)Телепортация \\
+2)Эффект Джозефосна \\
+3)сверхплотное кодирование \\
+4)Оптоволоконная линия \\
+5)Проводник \\
+6)протокол bb8484 \\
+
+80. По протоколу b92 абонент А записал случайную бинарную последовательность вида 1101 0010 0111 0010 и на ее основе создал регистр в соответствии с требованием простока b92. Отослал кубиты регистра абонента Б. Абонент Б составил бинарную последовательность 0110 1010 1010 0101 и действовал на основании этой последовательности на поступающие кубиты операторами, которые определены в протоколе b92 и далее проводил их измерение. Далее Б сообщил абоненту А по открытому каналу свзяи те номера кубит, которые он должен сообщить А по условию протокола b92. ВОПРОС: Какой секретный ключ сформировали абоненты? \\
+
+81. Абоненты А и Б создали EPR пару вида $\frac{1}{\sqrt{2}}(|1, 0> - |0, 1>)$ (в кет векторе первый кубит принадлежит А). Абоненты со своими кубитами разделены в пространстве. Далее абоненту А передан дополнительный кубит $|q> = a|0> + b|1>$. Абонент А должен передать необходимую информацию абоненту Б, чтобы тот смог сформировать кубит $|q>$ из своего кубита. Для этого абонент А выполняет операции, предусмотренные протоколом телепортации с кубитом $|q>$ и своим кубитом, и производит измерение этой пары кубит. В каком состоянии находится кубит абонента Б после измерения, выполненного абонентом А? \\
+1) 11 \\
+2) 00 \\
+3) 10 \\
+4) 01 \\
+
+82. Абоненты А и Б создали EPR пару вида $\frac{1}{\sqrt{2}}(|1, 0> - |0, 1>)$ (в кет векторе первый кубит принадлежит А). Абоненты со своими кубитавми разведены в пространстве. Далее абоненету А передан дополнительный кубит $|q> = a|0> + b|1>$. Абонент А должен передать необходимую информацию абоненту Б, чтобы тот смог сформировать кубит $|q>$ из своего кубита. Для этого абонент А выполняет операции, предусмотренные протоколом телепортации с кубитом $|q>$ и своим кубитом, и производит измерение этой пары кубит. В каком состоянии находится кубит абонента Б после измеренияЮ выполненного абонентом А, если результат измерения оказался или 11 или 00? \\
+1) 11 - \\
+2) 00 - \\
+
+83. \textbf{Single-Qubit Transformation:}
+Given the initial state of a qubit \( |\psi\rangle = |0\rangle \), apply the sequence of gates \( H \) (Hadamard gate) followed by \( X \) (Pauli-X gate). What is the final state of the qubit?
+If a measurement is performed on the qubit in the computational basis after applying these gates, what is the probability of measuring \( |0\rangle \) or \( |1\rangle \)?
+
+84. \textbf{Superposition State Transformation:}
+A qubit is initialized in the state \( |\psi\rangle = \frac{1}{\sqrt{2}}(|0\rangle + |1\rangle) \). Apply a \( R_z(\pi/4) \) rotation gate followed by a \( H \) gate. What is the final state of the qubit in terms of \( |0\rangle \) and \( |1\rangle \)?
+What is the relative phase between \( |0\rangle \) and \( |1\rangle \) in the final state?
+
+85. \textbf{Controlled Gate Application:}
+Consider a two-qubit system with the initial state \( |\psi\rangle = |0\rangle \otimes |+\rangle \), where \( |+\rangle = \frac{1}{\sqrt{2}}(|0\rangle + |1\rangle) \). Apply a CNOT gate with the first qubit as the control and the second as the target. What is the resulting state of the system?
+If the first qubit is measured in the computational basis, what are the possible outcomes and corresponding states of the second qubit?
+
+86. \textbf{Entanglement Creation:}
+Starting with the state \( |00\rangle \), apply the following gates:
+A \( H \) gate on the first qubit.
+A CNOT gate with the first qubit as control and the second qubit as target.
+What is the final state of the system? Verify if it is entangled.
+
+87. \textbf{Phase Adjustment:}
+A qubit starts in the state \( |\psi\rangle = \frac{1}{\sqrt{2}}(|0\rangle + |1\rangle) \). Apply a \( Z \) gate followed by a \( S \) (phase) gate. What is the final state?
+How does the relative phase between \( |0\rangle \) and \( |1\rangle \) change after the operations?
+
+88. \textbf{State Inversion:}
+For a qubit initialized in \( |\psi\rangle = \frac{1}{\sqrt{3}}|0\rangle + \sqrt{\frac{2}{3}}|1\rangle \), apply the following circuit:
+\( X \) gate.
+\( H \) gate.
+\( R_y(\pi/3) \) gate.
+What is the final state in terms of \( |0\rangle \) and \( |1\rangle \)?
+
+89. \textbf{Multi-Qubit Gate Circuit:}
+Start with the two-qubit state \( |\psi\rangle = |+\rangle \otimes |0\rangle \). Apply the following gates:
+A \( Z \) gate on the second qubit.
+A SWAP gate between the first and second qubits.
+What is the resulting state of the system? Write the result in the standard basis.
+
+90. \textbf{Measurement-Based Post-Gate Analysis:}
+A qubit is prepared in the state \( |\psi\rangle = \frac{1}{2}|0\rangle + \frac{\sqrt{3}}{2}|1\rangle \). Apply a \( H \) gate followed by a measurement in the computational basis. What are the possible measurement outcomes and their probabilities?
