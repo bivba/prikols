@@ -1,0 +1,1100 @@
+16.### Answer:
+
+[MISSING_PAGE_FAIL:118]
+
+
+17.### Answer:
+
+* 3) \(\int\phi^{*}\hat{F}\psi dv = \int\psi\hat{F}^{*}\phi^{*} dv\) * 4) \(\int\phi^{*}\hat{F}\psi dv = \int\psi\hat{F}\phi^{*} dv\) * 5) \(\int\phi^{*}\hat{F}\psi dv = \int\psi\hat{F}^{*}\phi dv\) * 6) \(\int\phi^{*}\hat{F}\psi dv = \int\psi\hat{F}\phi dv\) * 7) \(\int\phi^{*}\hat{F}\psi dv = \int\psi\hat{F}\phi dv\) * 8) \(\int\phi^{*}\hat{F}\psi dv = \int\psi\hat{F}\phi dv\) * 9) \(\int\phi^{*}\hat{F}\psi dv = \int\psi\hat{F}\phi dv\) * 10) \(\int\phi^{*}\hat{F}\psi dv = \int\psi\hat{F}\phi dv\) * 11) \(\int\phi^{*}\hat{F}\psi dv = \int\psi\hat{F}\phi dv\) * 12) \(\int\phi^{*}\hat{F}\psi dv = \int\psi\hat{F}\phi dv\) * 13) \(\int\phi^{*}\hat{F}\psi dv = \int\psi\hat{F}\phi dv\) * 14) \(\int\phi^{*}\hat{F}\psi dv = \int\psi\hat{F}\phi dv\) * 15) \(\int\phi^{*}\hat{F}\psi dv = \int\psi\hat{F}\phi dv\) * 16) \(\int\phi^{*}\hat{F}\psi dv = \int\psi\hat{F}\phi dv\) * 17) \(\int\phi^{*}\hat{F}\psi dv = \int\psi\hat{F}\phi dv\) * 18) \(\int\phi^{*}\hat{F}\psi dv = \int\psi\hat{
+18.### Answer:
+
+Quantum theory should be used when the action of the system is much smaller than \(\hbar\). This corresponds to condition 4. The other options are incorrect because:
+
+1. The speed of the particles being less than the speed of light is not a direct indicator of when to apply quantum theory. While special relativity becomes important at high energies or speeds close to the speed of light, the transition to quantum mechanics is generally guided by the system's action relative to \(\hbar\). 2. An action much less than \(\hbar\) (option 2) is not the correct criterion. Quantum effects typically become significant when the action is comparable to or greater than \(\hbar\). 3. An action equal to \(\hbar\) (option 3) is not universally applicable. While it might be a rough estimate in some cases, the threshold for quantum behavior can vary depending on the system and the specific quantum effects of interest. 5. The speed of particles being close to the speed of light (option 5) is not a direct indicator of when to apply quantum theory. While special relativity becomes important at high energies or speeds close to the speed of light, the transition to quantum mechanics is generally guided by the system's action relative to \(\hbar\). In summary, the primary criterion for applying quantum theory is that the action of the system is much greater than \(\hbar\), as indicated by option 4. This criterion is a cornerstone in delineating the domain of quantum mechanics, setting it apart from the principles governing classical physics. It is used routinely to describe most phenomena that occur at short distances. Quantum physics is the result of applying the framework of quantum mechanics to different physical phenomena. We thus have Quantum Electrodynamics, when quantum mechanics is applied to electromagnetism, Quantum Optics, when it is applied to light and optical devices, or Quantum Gravity, when it is applied to gravitation. Quantum mechanics indeed provides a remarkably coherent and elegant framework. The era of quantum physics begins in 1925, with the discoveries of Schrodinger and Heisenberg. The seeds for these discoveries were planted by Planck, Einstein, Bohr, de Broglie, and others. It is a tribute to human imagination that we have been able to discover the counterintuitive and abstract set of rules that define quantum mechanics. Here we aim to explain and provide some perspective on the main features of this framework. We will begin by discussing the property
+19.### Answer:
+
+\[\begin{array}{rcl}\frac{d}{dt}({\bf p}\times{\bf L})&=&-\,\frac{ mV^{\prime}(r)}{r}\left[{\bf r}\,r\dot{r}-\dot{\bf r}\,r^{2}\right]\ =\ mV^{\prime}(r)r^{2}\left[\frac{\dot{\bf r}}{r}-\frac{{\bf r}\,\dot{r}}{r^{2}}\right] \\ &=& mV^{\prime}(r)r^{2}\ \frac{d}{dt}\Big{(}\frac{{\bf r}}{r}\Big{)}\end{array} \tag{7.89}\]
+
+Because of the factor \(V^{\prime}(r)r^{2}\), the right-hand side fails to be a total time derivative. But if we focus on potentials for which this factor is a constant we will get a conservation law. In this case, the right-hand side vanishes and \({\bf p}\times{\bf L}\) is conserved. Let us focus on the case where the potential is of the form
+
+\[V(r)\ =\ -\frac{a}{r}+b\,, \tag{7.90}\]
+
+where \(a\) and \(b\) are constants. For such potentials, the right-hand side of (7.89) is a constant times \({\bf r}/r\), and therefore
+
+\[\frac{d}{dt}\Big{(}{\bf p}\times{\bf L}-\frac{a}{m}\,\frac{{\bf r}}{r}\Big{)}\ =\ 0\,. \tag{7.91}\]
+
+We thus have a conserved vector \({\bf A}\) that is given by
+
+\[{\bf A}\ =\ {\bf p}\times{\bf L}-\frac{a}{m}\,\frac{{\bf r}}{r}\,. \tag{7.92}\]
+
+For the potential \(V(r)=-a/r\) we have \(b=0\) and the conserved vector is simply
+
+\[{\bf A}\ =\ {\bf p}\times{\bf L}-\frac{a}{m}\,\frac{{\bf r}}{r}\,. \tag{7.93}\]
+
+This vector is called
+20.### Answer:
+
+Assistant: 1) \(\hat{F}\phi_f = f\phi_f\) : Continuous spectrum \\
+2) \(\hat{F}\phi_{n, m} = f_n\phi_{n, m}\) : Mixed spectrum \\
+3) \(\hat{F}\phi_n = f_n\phi_n\) : Discrete spectrum \\
+
+
+
+
+**Solution 2:**
+
+1) \(\hat{F}\phi_f = f\phi_f\) : Continuous spectrum \\
+2) \(\hat{F}\phi_{n, m} = f_n\phi_{n, m}\) : Mixed spectrum \\
+3) \(\hat{F}\phi_n = f_n\phi_n\) : Discrete spectrum \\
+
+
+
+
+**Solution 3:**
+
+1) \(\hat{F}\phi_f = f\phi_f\) : Continuous spectrum \\
+2) \(\hat{F}\phi_{n, m} = f_n\phi_{n, m}\) : Mixed spectrum \\
+3) \(\hat{F}\phi_n = f_n\phi_n\) : Discrete spectrum \\
+
+
+
+
+**Solution 4:**
+
+1) \(\hat{F}\phi_f = f\phi_f\) : Continuous spectrum \\
+2) \(\hat{F}\phi_{n, m} = f_n\phi_{n, m}\) : Mixed spectrum \\
+3) \(\hat{F}\phi_n = f_n\phi_n\) : Discrete spectrum \\
+
+
+
+
+**Solution 5:**
+
+1) \(\hat{F}\phi_f = f\phi_f\) : Continuous spectrum \\
+2) \(\hat{F}\phi_{n, m} = f_n\phi_{n, m}\) : Mixed spectrum \\
+3) \(\hat{F}\phi_n = f_n\phi_n\) : Discrete spectrum \\
+
+
+
+
+**Solution 6:**
+
+1) \(\hat{F}\phi_f = f\phi_f\) : Continuous spectrum \\
+2) \(\hat{F}\phi_{n, m} = f_n\phi_{n, m}\) : Mixed spectrum \\
+3) \(\hat{F}\phi_n = f_n\phi_n\) : Discrete spectrum \\
+
+
+
+
+**Solution 7:**
+
+1) \(\hat{F}\phi_f = f\phi_f\) : Continuous spectrum \\
+2) \(\hat{F}\phi_{n, m} = f_n\phi_{n
+21.### Answer:
+
+3) \(\hat{F}(c_1\phi_1 + c_2\phi_2) = c_1\hat{F}\phi_1 + c_2\hat{F}\phi_2\) \\
+
+[MISSING_PAGE_FAIL:788]
+
+**Unitary operators. ** A linear operator \(U\) is said to be unitary if it preserves the inner product. This condition is
+
+\[\langle U\phi,U\psi\rangle\ =\ \langle\phi,\psi\rangle\,,\ \forall\phi,\psi\in V\,. \tag{6.28}\]
+
+Let us show that this is equivalent to the condition that
+
+\[\langle U\phi,\psi\rangle\ =\ \langle\phi,U^{\dagger}\psi\rangle\,,\ \forall \phi,\psi\in V\,. \tag{6.29}\]
+
+To see this we first note that (6.28) is equivalent to
+
+\[\langle\,U\phi\,,U\psi\rangle\ =\ \langle U^{\dagger}U\phi\,,\psi\rangle\,, \tag{6.30}\]
+
+because of the basic property of adjoint operators. Since this must hold for all \(\phi,\psi\in V\) we have that \(U\) is unitary if and only if \(U^{\dagger}U=I\). We also have the result that if \(U\) is unitary, then it is invertible and its inverse is \(U^{\dagger}\). To show that (6.29) is equivalent to (6.28) we use it to get
+
+\[\langle U\phi,U\psi\rangle\ =\ \langle\phi,U^{\dagger}U\psi\rangle\ =\ \langle\phi,\psi\rangle\,, \tag{6.31}\]
+
+using \(U^{\dagger}U=I\) in the last step. **Hermitian operators. ** An operator \(H\) is Hermitian if it is adjoint invariant, namely, if \(H=H^{\dagger}\). **Anti-Hermitian operators. ** An operator \(H\) is anti-Hermitian if it satisfies \(H=-H^{\dagger}\). **Normal operators. ** An operator \(H\) is
+22.### Answer:
+
+\[\ket{\Psi_{u}}=\frac{1}{\sqrt{2^{n}}}\sum_{x\in\{0,1\}^{n}}\ket{x}. \tag{11.2}\]
+
+2. Query the phase oracle, introducing a phase \((-1)^{f(x)}\) to each state in the superposition. The phase oracle is defined as:
+
+\[U_{f}:\ket{x}\ket{y}\mapsto\ket{x}\ket{y\oplus f(x)}. \tag{11.3}\]
+
+When the second qubit is initially in state \(\ket{0}\), the oracle performs:
+
+\[U_{f}:\ket{x}\ket{0}\mapsto\ket{x}\ket{f(x)}. \tag{11.4}\]
+
+This transformation can be expressed as:
+
+\[U_{f}:\ket{x}\ket{0}\mapsto(-1)^{f(x)}\ket{x}. \tag{11.5}\]
+
+3. Apply a second Hadamard transform to the first \(n\) qubits. 4. Measure the first \(n\) qubits. If they are all in state \(\ket{0}\), the function is constant; otherwise, it is balanced. The Deutsch-Jozsa algorithm exploits the interference of amplitudes in quantum superposition to distinguish between constant and balanced functions efficiently. 
+23.### Answer:
+
+2) False \\
+
+As the quantum state naturally evolves over time, this normalization must be preserved. Unitary transformations fulfill this requirement by maintaining the inner product, thus ensuring the coherence and consistency of the behavior of the system. 
+24.### Answer:
+
+The wavefunction \(\Psi(x,t)\) is a complex number that depends on position and time. The probability density \(P(x,t)\) is the norm-squared of the wavefunction: \(P(x,t)=\Psi^{*}\Psi\). The probability density is positive. The probability \(dP\) to find the particle in the interval \([x,x+dx]\) is given by
+
+\[dP\ =\ P(x,t)dx\ =\ \Psi^{*}(x,t)\Psi(x,t)dx\,. \tag{2.1}\]
+
+The wavefunction is normalized at all times so that the probability to find the particle in all of \(\mathbb{R}\) is one. This condition reads
+
+\[\int_{-\infty}^{\infty}dx\,|\Psi(x,t)|^{2}\ =\ 1\,,\ \ \forall\,t\,. \tag{2.2}\]
+
+The wavefunction satisfies the Schrodinger equation. For one-dimensional space we write
+
+\[\boxed{\begin{array}{c}i\hbar\frac{\partial\Psi}{\partial t}(x,t)\ =\ \left(-\frac{\hbar^{2}}{2m}\frac{\partial^{2}}{\partial x^{2}}+V(x,t)\right) \Psi(x,t)\,.\end{array}} \tag{2.3}\]
+
+This is the equation for a (non-relativistic) particle of mass \(m\) moving along the \(x\) axis while acted by the potential \(V(x,t)\in\mathbb{R}\). It is clear from this equation that the wavefunction must be complex: if it were real, the right-hand side of (2.3) would be real while the left-hand side would be imaginary, due to the explicit factor of \(i\). Let us make two important remarks:1. The Schrodinger equation is a _first order_ differential equation in time. This means that if we prescribe the wavefunction \(\Psi(x,t_{0})\) for all of space at an arbitrary initial time \(t_{0}\), the wavefunction is determined for all times. 2. The Schrodinger equation is a _linear_ equation for \(\Psi\): if \(\Psi_{1}\) and \(\Psi_{2}\) are solutions so is \(a_{1}\Psi_{1}
+25.### Answer:
+
+The model of non-interacting electrons assumes that the electrons in an atom do not interact with each other. In this approximation, the Hamiltonian of the atom is given by the sum of the Hamiltonians of independent electrons moving in the average potential of the other electrons and the nucleus. This model is useful for understanding the general features of atomic systems but does not account for electron correlation effects. The model of non-interacting electrons assumes that the electrons in an atom do not interact with each other. In this approximation, the Hamiltonian of the atom is given by the sum of the Hamiltonians of independent electrons moving in the average potential of the other electrons and the nucleus. This model is useful for understanding the general features of atomic systems but does not account for electron correlation effects. Terms with multiplet = 1 are called singlet \\\\. So, returning to the helium atom, we can say that its ground state corresponds to the term $^1S_0$
+\\
+
+Next to the helium atom in terms of the number of electrons is the lithium atom. The ground state configuration is $1s^22s$ and the term $^2S_{1/2}$. The excitation configuration $1s^2nl$ is defined by a set of doublet terms $n ^2S_{1/2}, n ^2P_{1/2}, n ^2P_{3/2}$, etc. A similar set of atomic terms occurs in all alkaline atoms (Li, Na, K, Rb, Cs, FR) with one electron outside the closed shell. Closed shells have a value of total\\\\\. A group of atoms with two outer electrons Be, Mg, Ca, Sr, Ba, Ra forms a group of alkaline earth metals, the system of atomic terms of which is similar to the sets of terms of the He atom \\\. “Cooling of atoms \\\\\\
+Multi-sided cooling lasers to hold the atoms in place. The challenge of holding atoms in a specific position. Molecule. Energy -> electron - own nucleus + electron alien nucleus + electron - electron own alien electron\\. Quantum theory represents a molecule as a system consisting of several atoms. thus, a molecule consists of atomic nuclei and electrons localized in the region near the nuclei. Molecules do not have an object like the hydrogen atom, knowledge of which allows a reasonable model to be built on a simple basis. The Hamilton operator is too complex to find an analytic solution to the Schrödinger equation. Quantum theory assumes that
+26.### Answer:
+
+Only two units of information can be written into a qubit. Choose the correct answer \\
+1) True \\
+2) False \\
+
+
+
+
+27.### Answer:
+
+\[\ket{\Psi_{0}}=\frac{1}{2}(\alpha\ket{0}+\beta\ket{1})\otimes(\ket{00}+\ket{1 1}).\] (9.1)
+
+The first two qubits are measured in the Bell basis \(\{\ket{\beta_{ij}}\}\), where \(i,j\in\{0,1\}\). The Bell basis states are defined as:
+
+\[\ket{\beta_{00}}=\ket{\Phi^{+}}=\frac{1}{\sqrt{2}}(\ket{00}+\ket{11}),\] \[\ket{\beta_{01}}=\ket{\Psi^{+}}=\frac{1}{\sqrt{2}}(\ket{01}+\ket{10}),\] \[\ket{\beta_{10}}=\ket{\Phi^{-}}=\frac{1}{\sqrt{2}}(\ket{00}-\ket{11}),\] \[\ket{\beta_{11}}=\ket{\Psi^{-}}=\frac{1}{\sqrt{2}}(\ket{01}-\ket{10}).\]
+
+**Step 1: Express the State in Terms of the Bell Basis**
+
+We can rewrite the state \(\ket{\Psi_{0}}\) in terms of the Bell basis:
+
+\[\ket{\Psi_{0}}=\frac{1}{2}(\alpha\ket{0}+\beta\ket{1})\otimes\frac{1}{\sqrt{2 }}(\ket{00}+\ket{11})\] \[=\frac{1}{2\sqrt{2}}(\alpha\ket{0}+\beta\ket{1})\otimes(\ket{00}+\ket{11 })\] \[=\frac{1}{2\sqrt{2}}(\alpha\ket{0}+\beta\ket{1})\otimes\ket{\beta_{00}}\] \[=\frac{1}{2\sqrt{2}}(\alpha\ket{0}+\beta\ket{1})\otimes\ket{\beta_{00}}\] \[=\frac{1}{2\sqrt{2}}(\alpha\ket{0}+\beta\ket{1})\otimes\ket{\beta_{00}}\] \
+28.### Answer:
+
+3) either strictly up along the z axis, or strictly down along the z axis \\
+
+
+29.### Answer:
+
+The variational principle states that the ground state energy \(E_{gs}\) of a quantum system is less than or equal to the expectation value of the Hamiltonian for any trial wavefunction \(\psi\), denoted as \(\langle H\rangle_{\psi}\). Mathematically, this is expressed as:
+
+\[E_{gs}\leq\langle H\rangle_{\psi}. \tag{5.21}\]
+
+In the context of quantum computing, this principle is used in algorithms like Variational Quantum Algorithms (VQAs). These algorithms aim to find the minimum value of a quantum objective function, often the ground state energy of a Hamiltonian. By iteratively optimizing the parameters of a trial quantum state, VQAs seek to approximate the ground state with increasing accuracy. The variational principle provides a theoretical foundation for these algorithms, assuring that the approximated ground state energy will be less than or equal to the true ground state energy. This principle is fundamental to the operation and analysis of VQAs in quantum computing. 
+30.### Answer:
+
+1) yes \\
+2) yes \\
+4) yes \\
+
+
+
+
+
+31.### Answer:
+
+The CNOT expression is equal to: $|x> \otimes (\frac{|0> - |1>}{\sqrt{2}})$ \\
+2) $|x> \otimes (-1)^x(\frac{|0> - |1>}{\sqrt{2}})$ \\
+3) $|x> \otimes (\frac{|0> - |1>}{\sqrt{2}})$ \\
+4) $-|x> \otimes (\frac{|0> - |1>}{\sqrt{2}})$ \\
+
+
+
+
+
+32.### Answer:
+
+The vector representing a quantum state is often referred to as the _state vector_, or simply, the _state_. In some contexts, especially in infinite-dimensional space, it is also called the _wavefunction_. Throughout this text, we use the _Dirac notation_ for vectors and operators, offering a concise and powerful way to represent quantum states and operations. In this notation, \(|\psi\rangle\) represents a column vector (where \(\psi\) is a label), while \(\langle\psi|\) is its adjoint (the complex conjugate transpose, \(\langle\psi|\equiv|\psi\rangle^{\dagger}\)). The inner product between \(|\phi\rangle\) and \(|\psi\rangle\) is expressed as \(\langle\phi|\psi\rangle\). For further resources on Dirac notation and linear algebra, please refer to Appendix C.
+
+**Exercise 1.1**: Warm-up exercise on state vectors using Dirac notation. Given \(|a\rangle=\begin{bmatrix}\sqrt{2}+i\sqrt{3}\\ \sqrt{2}-i\sqrt{3}\end{bmatrix}\),
+
+* find \(\langle a|\),
+* normalize \(|a\rangle\), and
+* find a normalized vector \(|b\rangle\) such that \(\langle a|b\rangle=0\). 
+33.### Answer:
+
+The quantum state vector is not a measurable quantity. It is a mathematical construct that represents the state of a quantum system. The measurement of a quantum system yields a probability distribution for the possible outcomes, but the state vector itself is not directly measurable. The expected value of an observable can be calculated from the state vector, but the state vector itself is not a measurable quantity. The quantum state vector is a complex vector that contains all the information about the state of a quantum system. It is a mathematical object that is used to predict the probabilities of different measurement outcomes, but it is not directly measurable. The expected value of an observable can be calculated from the state vector, but the state vector itself is not a measurable quantity. The expected value of an observable can be calculated from the state vector, but the state vector itself is not a measurable quantity. The expected value of an observable can be calculated from the state vector, but the state vector itself is not a measurable quantity. The expected value of an observable can be calculated from the state vector, but the state vector itself is not a measurable quantity. The expected value of an observable can be calculated from the state vector, but the state vector itself is not a measurable quantity. The expected value of an observable can be calculated from the state vector, but the state vector itself is not a measurable quantity. The expected value of an observable can be calculated from the state vector, but the state vector itself is not a measurable quantity. The expected value of an observable can be calculated from the state vector, but the state vector itself is not a measurable quantity. The expected value of an observable can be calculated from the state vector, but the state vector itself is not a measurable quantity. The expected value of an observable can be calculated from the state vector, but the state vector itself is not a measurable quantity. The expected value of an observable can be calculated from the state vector, but the state vector itself is not a measurable quantity. The expected value of an observable can be calculated from the state vector, but the state vector itself is not a measurable quantity. The expected value of an observable can be calculated from the state vector, but the state vector itself is not a measurable quantity. The expected value of an observable can be calculated from the state vector, but the state vector itself is not a measurable quantity. The expected value of an observable can be calculated from the state vector, but the state vector itself is not a measurable quantity. The expected value of an observable can be calculated from the state vector, but the state vector
+34.### Answer:
+
+1 is not a standard condition imposed on a wave function in quantum mechanics. While it is generally assumed that the wavefunction is square-integrable and well-behaved, it is not an essential requirement for the formulation of the theory. In some advanced topics and mathematical models, wavefunctions that are not normalizable are used for convenience, even though they do not correspond to physically realizable states. \\
+2 Statistical interpretation: This is a fundamental postulate in quantum mechanics. It states that the square of the magnitude of the wavefunction, \(|\Psi(x,t)|^{2}\), represents the probability density that a particle will be found in a small interval around position \(x\) at time \(t\). This interpretation connects the abstract mathematical framework of quantum mechanics to experimental observations. \\
+3 Continuity: While not all wavefunctions are continuous (they can be delta function-like in position space, for example), the condition of continuity is not universally imposed on wavefunctions in quantum mechanics. The requirement is generally that the wavefunction be square-integrable, which allows for discontinuities. \\
+4 Normalization: This is a standard condition imposed on the wavefunction. The wavefunction must be normalized so that the total probability of finding the particle in all of space is 1. This is expressed as \(\int_{-\infty}^{\infty}dx|\Psi(x,t)|^{2}=1\). \\
+5 Uniqueness: In the context of quantum mechanics, the wavefunction is generally taken to be unique for a given set of physical conditions. If two wavefunctions are different, they represent different quantum states. This principle helps ensure that the mathematical formulation of quantum mechanics is well-defined and consistent. \\
+
+The answer is 1. \\
+\tag{2.2}\]
+
+Define the **probability density**\(\rho(x,t)\)
+
+\[\rho(x,t)\ \equiv\ \Psi^{*}(x,t)\Psi(x,t)\ =\ |\Psi(x,t)|^{2}\,. \tag{2.3}\]
+
+Define also \({\cal N}(t)\) as the integral of the probability density throughout space:
+
+\[{\cal N}(t)\ \equiv\ \int\rho(x,t)dx\,. \tag{2.4}\]
+
+The statement in (2.1) that the wavefunction begins well normalized is
+
+\[{\cal N}(t_{0})=1\,, \tag{2.5}\]
+
+and the condition that it remain normalized for
+35.### Answer:
+
+\[\boxed{\Psi_{E\ell m}({\bf x})\ =\ \frac{u_{E\ell}(r)}{r}\,Y_{\ell m}(\theta,\phi)\,,} \tag{4.8}\]
+
+with radial equation
+
+\[-\frac{\hbar^{2}}{2m}\,\frac{d^{2}u_{E\ell}}{dr^{2}}\ +\ V_{\mbox{eff}}(r)u_{E \ell}\ =\ E\,u_{E\ell}\,, \tag{4.9}\]
+
+where the effective potential \(V_{\mbox{eff}}\) constructed by adding to the potential \(V(r)\) the centrifugal barrier term proportional to \({\bf L}^{2}\):
+
+\[V_{\mbox{eff}}(r)\ \equiv\ V(r)+\frac{\hbar^{2}\ell(\ell+1)}{2mr^{2}} \tag{4.10}\]
+
+This is like a one-dimensional Schrodinger equation in the variable \(r\), but as opposed to our usual problems with \(x\in(-\infty,\infty)\), the radius \(r\in[0,\infty]\) and we will need some special care for \(r=0\). The normalization of our wavefunctions proceeds as follows
+
+\[\int\,d^{3}{\bf x}\,|\Psi_{E\ell m}({\bf x})|^{2}\ =\ 1 \tag{4.11}\]
+
+This gives
+
+\[\int\,r^{2}dr\,d\Omega\ \frac{|u_{E\ell}(r)|^{2}}{r^{2}}\ Y_{\ell m}^{*}( \Omega)Y_{\ell m}(\Omega)\ =\ 1 \tag{4.12}\]
+
+the angular integral gives one and we get
+
+\[\int_{0}^{\infty}dr\,|u_{E\ell}(r)|^{2}\ \ =\ 1 \tag{4.13}\]
+
+a rather natural result for the function \(u_{E\ell}\) that plays the role of radial wavefunction. Behavior of solutions as \(r\to 0\). We claim that
+
+\[\lim_{r\to 0}u
+36.### Answer:
+
+The particles in the nucleus of an atom are protons and neutrons. These are often collectively referred to as nucleons. ## Chapter 3 Spin 1/2 particles and magnetic moments
+
+In this chapter we will study the properties of particles that have spin. We will begin with the most familiar spin system, that of the electron. In addition to having charge, the electron has a magnetic moment. This magnetic moment is responsible for a number of phenomena that are familiar to most of us. One such phenomenon is the magnetism of a current carrying wire. The magnetic field around the wire is perpendicular to the direction of the current. A current that points in a given direction has two possible magnetic fields. The two possible magnetic fields are said to be the two possible magnetic states of the wire. The property that allows the wire to have two possible magnetic states is its spin. All particles have spin, a fact that is a consequence of quantum mechanics. Some particles have integer spin, while others have half-integer spin. The electron has a spin of 1/2. The two possible magnetic states of the wire correspond to the two possible states of a spin 1/2 particle. The magnetic moment of the electron is a vector that points in a direction that is correlated with the direction of its angular momentum. The magnetic moment is given by
+
+\[{\bf \mu}_{e}\ =\ -\frac{e}{2m_{e}}\,{\bf J}\,, \tag{3.1}\]
+
+where \(e\) and \(m_{e}\) are the charge and mass of the electron, respectively. The minus sign is a convention. The magnetic moment of the electron is correlated with its angular momentum. The magnetic moment of a proton is given by
+
+\[{\bf \mu}_{p}\ =\ \mu_{N}(1+2s)\,{\bf J}\,, \tag{3.2}\]
+
+where \(\mu_{N}\) is the nuclear magneton, and \(s\) is the spin of the proton. The magnetic moment of the proton is correlated with its angular momentum. The magnetic moment of the proton is larger than expected given its charge. This unexpected result is due to the fact that the proton is not a point particle. The proton is a bound state of three quarks. Two of the quarks are down quarks with charge -1/3 in units of the electron charge. The third quark is an up quark with charge 2/3 in units of
+37.### Answer:
+
+\[\begin{array}{rcl}{\bf X}\cdot{\bf Y}&\equiv&\hat{X}_{i}\,\hat{Y}_{i}\,,\\ ({\bf X}\times{\bf Y})_{i}&\equiv&\epsilon_{ijk}\,\hat{X}_{j}\,\hat{Y}_{k}\,. \end{array} \tag{3.66}\]
+
+In these definitions the order of the operators on the right hand side is as in the left-hand side. This is important to keep track of, since the \(\hat{X}_{i}\) and \(\hat{Y}_{j}\) operators may not commute. The dot product of two operator triplets is not necessarily commutative, nor is the cross product necessarily antisymmetric. Spin states in arbitrary direction
+
+We consider here the description and analysis of spin states that point in arbitrary directions, as specified by a unit vector \({\bf n}\):
+
+\[{\bf n}\ =\ (n_{x},n_{y},n_{z})\ =\ (\sin\theta\cos\phi,\,\sin\theta\sin\phi,\, \cos\theta). \tag{4.67}\]
+
+Here \(\theta\) and \(\phi\) are the familiar polar and azimuthal angles. We view the spatial vector \({\bf n}\) as a triplet of numbers. Just like we did for \(\sigma\), we can define \({\bf S}\) as the triplet of operators
+
+\[{\bf S}\ =\ (\hat{S}_{x}\,,\hat{S}_{y}\,,\hat{S}_{z})\,. \tag{4.68}\]
+
+Note that, in fact,
+
+\[{\bf S}\ =\ \frac{\hbar}{2}\,\mathbf{\sigma}\,. \tag{4.69}\]
+
+We can use \({\bf S}\) to obtain, by a _dot_ product with \({\bf n}\) a spin operator \(\hat{S}_{\bf n}\) that has a simple interpretation:
+
+\[\hat{S}_{\bf n}\ \equiv\ {\bf n}\cdot{\bf S}\ \equiv\ n_{x}\hat{S}_{x}+n_{y} \hat{S}_{y}+n_{z}\hat{S}_{z}\ =\ \frac{\hbar}{2
+38.### Answer:
+
+\[\boxed{({\bf a}\cdot{\mathbf{\sigma}})({\bf b}\cdot{\mathbf{ \sigma}})=({\bf a}\cdot{\bf b})\,{\bf 1}+i\,({\bf a}\times{\bf b})\cdot{\mathbf{\sigma}}\,.} \tag{3.60}\]
+
+Note that the right-hand side has two terms. The first is a number (the dot product of \({\bf a}\) and \({\bf b}\)) times the identity matrix \({\bf 1}\). The second is also a number (this time, the dot product of \({\bf a}\times{\bf b}\) with \({\bf \sigma}\)) times the matrix \({\bf \sigma}\). The equation is valid for arbitrary vectors \({\bf a}\) and \({\bf b}\), with no constraints whatsoever. It is a very compact way to express the multiplication rule for Pauli matrices. Spin States and Pauli Matrices
+
+We have seen that the Pauli matrices \(\sigma_{1}=\sigma_{x}\), \(\sigma_{2}=\sigma_{y}\), and \(\sigma_{3}=\sigma_{z}\) have the two eigenstates
+
+\[\ket{+}=\begin{pmatrix}1\\ 0\end{pmatrix}\,,\quad\ket{-}=\begin{pmatrix}0\\ 1\end{pmatrix}\,, \tag{4.61}\]
+
+with eigenvalue \(+1\) for \(\ket{+}\) and eigenvalue \(-1\) for \(\ket{-}\). The eigenstates are orthogonal since \(\langle+|-=\langle-|+=0\). The four states \(\ket{0}\), \(\ket{1}\), \(\ket{+}\), and \(\ket{-}\) form an orthonormal basis for the space of two complex dimensions. When we consider spins, we will declare that
+
+\[\mbox{spin up along the \(z\)-axis}\ \longleftrightarrow\ \ket{\uparrow} \equiv\ket{+}\,, \tag{4.62}\]
+
+\[\mbox{spin down along the \(z\)-axis}\ \longleftrightarrow\ \ket{\downarrow}\equiv \ket{-}\,. \tag{4.6
+39.### Answer:
+
+The spectral line intensity and transition probability are related to each other. The intensity of a spectral line is proportional to the transition probability between the states involved in the transition that gives rise to that line. In other words, the probability of a transition between two energy states of an atom or molecule is directly related to the intensity of the spectral line associated with that transition. This relationship is a consequence of the quantum mechanical description of atomic and molecular systems, where the probability of a transition is given by the square of the transition dipole moment, or electric dipole operator, between the initial and final states. The transition dipole moment is proportional to the amplitude of the transition, and the intensity of the spectral line is proportional to the square of this amplitude. Thus, the intensity of a spectral line provides information about the transition probability for the states that give rise to that line. In addition to their use in quantum computing, these inequalities are also applied in other fields such as quantum thermodynamics, quantum information theory, and quantum cryptography. 
+40.### Answer:
+
+The correct answer is 4)$\frac{1}{2}(|00> - |01> - |10> + |11>)$ \\
+
+
+41.### Answer:
+
+1. **General Two-Qubit States** In our system of two qubits, the state space is four-dimensional with basis states \(\ket{00}\), \(\ket{01}\), \(\ket{10}\), and \(\ket{11}\). This allows us to construct a general two-qubit state as a linear combination of these basis states: \[\ket{\psi}=\sum_{i,j\in\{0,1\}}c_{ij}\ket{ij}=c_{00}\ket{00}+c_{01}\ket{01}+c_ {10}\ket{10}+c_{11}\ket{11}.\] (6.14)
+
+Here, \(c_{ij}\) are complex coefficients such that \(\sum|c_{ij}|^{2}=1\). Therefore, a general state for a two-qubit system is a vector in the four-dimensional complex Hilbert space \(\mathbb{C}^{4}\). 3. **Product States** The state \(\ket{\psi_{AB}}\equiv\ket{\psi_{A}}\otimes\ket{\psi_{B}}\) referred to in Eq. 6.12 is a specific instance known as a product state. A product state is defined as one where the state vector can be expressed as the tensor product of the state vectors of the individual qubits. It represents a system of independent qubits. 4. **Non-Product States** Apart from product states, there exist states that cannot be expressed as a tensor product of individual qubit states. An example of such a state is the Bell state, also known as an EPR pair: \[\ket{\Phi^{+}}=\frac{1}{\sqrt{2}}(\ket{00}+\ket{11}).\] (6.15) This state cannot be written as a tensor product of individual qubit states. Proof. : If we assume that \(\frac{1}{\sqrt{2}}(|00\rangle+|11\rangle)\) could be expressed by Eq. 6.12, we find that \(\alpha\gamma=\beta\delta=\frac{1}{\sqrt{2}}\) and \(\alpha\delta=\beta\gamma=0\). However, these two conditions are impossible to satisfy simultaneously. Non-product states like these
+42.### Answer:
+
+The inverse operator of the complex conjugate operator is the complex conjugate operator itself. The correct answer is 4) complex conjugate operator. \\
+Explanation: Applying the complex conjugate operator twice returns the original value, as \(\langle x|U^{\dagger}|y\rangle^{*}=\langle x|U|y\rangle\). Therefore, \(U^{\dagger}\) is the inverse of \(U\). ## 3 Inverse Transformation
+
+Applying \(U^{-1}\) to \(|+\rangle\,,|-\rangle\) brings them back to \(|0\rangle\,,|1\rangle\). Given that \(U\) is unitary (meaning \(U^{-1}=U^{\dagger}\)):
+
+\[|0\rangle=U^{\dagger}\,|+\rangle\,,\quad|1\rangle=U^{\dagger}\,|-\rangle\,. \tag{3.19}\]
+
+Exercise 3.8Verify that \(U\) in Eq. 3.15 is unitary using the bra-ket notation. Hint: \(U^{\dagger}=|0\rangle\langle+|+|1\rangle\langle-|\). ## 4 Basis Rotation
+
+As depicted in Fig. 3.2, a basis change can be visualized as a rotation within the Hilbert space's coordinate system. While the vector \(|\psi\rangle\) stays physically unchanged, its components with respect to the new basis vary. This variation effectively presents the same quantum state but in a different mathematical form. Similar to how a geometric rotation preserves vector length and relative angles in the coordinate system, a basis change via a unitary transformation keeps the inner product intact. This preservation is the reason a change of basis is often conceptual 
+
+[MISSING_PAGE_EMPTY:616]
+
+Given two complete and orthonormal bases \(\{\left|b_{i}\right\rangle\}\) and \(\{\left|b_{i}^{\prime}\right\rangle\}\), their orthogonality and completeness relations are:
+
+\[\langle b_{i}|b_{j}\rangle=\langle b_{i}^{\prime}|b_{j}^{\prime}\rangle=\delta_{ ij},\quad\sum_{i}|b_{i}\rangle\langle b_{i}|=\sum_{i}|b_{i}^{\prime}\rangle \langle b_{i}
+43.### Answer:
+
+1 and 2 are correct. \\
+A qubit is a two-level quantum system, which can exist simultaneously in the 0 and 1 states due to the superposition principle. A qubit is a unit of quantum information, analogous to a bit in classical computing. \\
+A qubit can be represented as a vector of two complex numbers, and the state of a qubit evolves according to the Schrodinger equation as a two-dimensional complex vector. \\
+A qubit can exist in a variety of physical systems, such as electrons, ions, photons, and superconducting circuits, depending on the specific quantum computing architecture. \\
+A qubit is a physical system that can be prepared, manipulated, measured, and controlled for quantum information processing. \\
+A qubit can exist in a variety of physical systems, such as electrons, ions, photons, and superconducting circuits, depending on the specific quantum computing architecture. \\
+A qubit is a physical system that can be prepared, manipulated, measured, and controlled for quantum information processing. \\
+A qubit can exist in a variety of physical systems, such as electrons, ions, photons, and superconducting circuits, depending on the specific quantum computing architecture. \\
+A qubit is a physical system that can be prepared, manipulated, measured, and controlled for quantum information processing. \\
+A qubit can exist in a variety of physical systems, such as electrons, ions, photons, and superconducting circuits, depending on the specific quantum computing architecture. \\
+A qubit is a physical system that can be prepared, manipulated, measured, and controlled for quantum information processing. \\
+A qubit can exist in a variety of physical systems, such as electrons, ions, photons, and superconducting circuits, depending on the specific quantum computing architecture. \\
+A qubit is a physical system that can be prepared, manipulated, measured, and controlled for quantum information processing. \\
+A qubit can exist in a variety of physical systems, such as electrons, ions, photons, and superconducting circuits, depending on the specific quantum computing architecture. \\
+A qubit is a physical system that can be prepared, manipulated, measured, and controlled for quantum information processing. \\
+A qubit can exist in a variety of physical systems, such as electrons, ions, photons, and superconducting circuits, depending on the specific quantum computing architecture. \\
+A qubit is a physical system that can be prepared, manipulated, measured, and controlled for quantum information processing. \\
+A qubit can exist in
+44.### Answer:
+
+The degeneracy factor of the discrete spectrum in the one-dimensional case is \(\boxed{1}\). ## 2 Algebraic theory of angular momentum
+
+In classical mechanics the angular momentum vector \(\vec{L}\) is defined as the cross-product of the position vector \(\vec{r}\) and the momentum vector \(\vec{p}\):
+
+\[\vec{L}\ =\ \vec{r}\times\vec{p}\,. \tag{2.37}\]
+
+In cartesian coordinates, using \(\vec{r}=x\,\vec{e}_{x}+y\,\vec{e}_{y}+z\,\vec{e}_{z}\) and \(\vec{p}=p_{x}\,\vec{e}_{x}+p_{y}\,\vec{e}_{y}+p_{z}\,\vec{e}_{z}\), and taking the cross-product, we get
+
+\[\vec{L}\ =\ (yp_{z}-zp_{y})\,\vec{e}_{x}+(zp_{x}-xp_{z})\,\vec{e}_{y}+(xp_{y}-yp _{x})\,\vec{e}_{z}\,. \tag{2.38}\]
+
+Identifying the components of \(\vec{L}\) we see that
+
+\[L_{x}=yp_{z}-zp_{y}\,,\quad L_{y}=zp_{x}-xp_{z}\,,\quad L_{z}=xp_{y}-yp_{x}\,. \tag{2.39}\]
+
+In the quantum world, \(\hat{x},\hat{y},\hat{z}\) and \(\hat{p}_{x},\hat{p}_{y},\hat{p}_{z}\) must be replaced by the operators \(\hat{x},\hat{y},\hat{z}\) and \(\hat{p}_{x},\hat{p}_{y},\hat{p}_{z}\) and we still have the definition
+
+\[\boxed{\hat{\mathbf{L}}\ =\ \hat{\mathbf{r}}\times\hat{\mathbf{p}}\,.} \tag{2.40}\]
+
+This gives us, by expansion,
+
+\[\hat{L}_{x}=\hat{y}\hat{p}_{z}-\hat{z}\hat{p}_{
+45.### Answer:
+
+The operator \(S\) is defined as:
+
+\[S=\begin{bmatrix}\cos\theta&e^{-i\phi}\sin\theta\\ e^{i\phi}\sin\theta&-\cos\theta\end{bmatrix}. \tag{2.15}\]
+
+The matrix \(S\) is unitary, as demonstrated by the following calculation:
+
+\[SS^{\dagger} =\begin{bmatrix}\cos\theta&e^{-i\phi}\sin\theta\\ e^{i\phi}\sin\theta&-\cos\theta\end{bmatrix}\begin{bmatrix}\cos \theta&e^{i\phi}\sin\theta\\ -e^{-i\phi}\sin\theta&-\cos\theta\end{bmatrix} \tag{2.16a}\] \[=\begin{bmatrix}\cos^{2}\theta+\sin^{2}\theta&e^{-i \phi}\sin\theta\cos\theta-e^{i\phi}\sin\theta\cos\theta\\ e^{i\phi}\sin\theta\cos\theta-e^{-i\phi}\sin\theta\cos\theta&\sin^{2}\theta+\cos ^{2}\theta\end{bmatrix}\] (2.16b) \[=\begin{bmatrix}1&0\\ 0&1\end{bmatrix}=I. \tag{2.16c}\]
+
+The matrix \(S\) is also involutory, meaning that \(S^{2}=I\), as shown below:
+
+\[S^{2} =\begin{bmatrix}\cos\theta&e^{-i\phi}\sin\theta\\ e^{i\phi}\sin\theta&-\cos\theta\end{bmatrix}\begin{bmatrix}\cos \theta&e^{-i\phi}\sin\theta\\ -e^{-i\phi}\sin\theta&-\cos\theta\end{bmatrix} \tag{2.17a}\] \[=\begin{bmatrix}\cos^{2}\theta-\sin^{2}\theta&e^{-i \phi}\sin\theta\cos\theta+e^{i\phi}\sin\theta\cos\theta\\ e^{i\phi}\sin\theta\cos\theta+e^{-i\phi}\sin\theta\cos\theta&\sin^{2}\theta+\cos ^{2}\theta\
+46.### Answer:
+
+1 is not a postulate of quantum theory. \\
+2 is a postulate of quantum theory. \\
+3 is not a postulate of quantum theory. \\
+4 is a postulate of quantum theory. \\
+
+
+
+
+
+47.### Answer:
+
+The correct expressions for writing a 5-qubit register are options 3 and 5. \\
+Option 1 is wrong because the index in the sum should be $2^5 - 1$, not 31. \\
+Option 2 is wrong because it has a misprint: instead of $|q>_5$ there should be $|q>_n$. \\
+Option 4 is wrong because the upper limit in the sum should be $2^5 - 1$, not $2^5$. \\
+
+
+
+
+
+48.### Answer:
+
+2) False \\
+
+A quantum stationary state does depend on time, as it includes the time-dependent phase factor \(e^{-iEt}/\hbar\) in its expression. Only the energy eigenvalue \(E\) is time-independent in the context of a time-independent Hamiltonian. ## 2 Solving for Energy Eigenstates
+
+We will now study solutions to the time-independent Schrodinger equation
+
+\[\hat{H}\psi(x)=E\,\psi(x). \tag{2.19}\]
+
+For a given Hamiltonian \(\hat{H}\) we are interested in finding the eigenstates \(\psi\) and the eigenvalues \(E\), which happen to be the corresponding energies. Perhaps the most interesting feature of the above equation is that generally the value of \(E\) cannot be arbitrary. Just like finite size matrices have a set of eigenvalues, the above, time-independent Schrodinger equation may have a discrete set of possible energies. A continuous set of possible energies is also allowed and sometimes important. There are indeed many solutions for any given potential. ## 1 Stationary States
+
+Consider the Schrodinger equation for the wavefunction \(\Psi(x,t)\) with the assumption that the potential energy \(V\) is time independent:
+
+\[i\hbar\frac{\partial\Psi}{\partial t}\,=\,\hat{H}\Psi(x,t)\ =\ \left(-\frac{ \hbar^{2}}{2m}\frac{\partial^{2}}{\partial x^{2}}+V(x)\right)\Psi(x,t)\,, \tag{1.1}\]
+
+where we displayed the form of the Hamiltonian operator \(\hat{H}\) with the time independent potential \(V(x)\). Stationary states are a very useful class of solutions of this differential equation. The signature property of a stationary state is that the position and the time dependence of the wavefunction factorize. Namely,
+
+\[\Psi(x\,,t)\ =\ g(t)\,\psi(x)\,, \tag{1.2}\]
+
+for some functions \(g\) and \(\psi\). For such a _separable_ solution to exist we need the potential to be time independent, as we will see below. The solution \(\Psi(x,t)\) is time-dependent but it is called stationary because of a property of observables. The expectation value of observables with no explicit time dependence in arbitrary states has time dependence. On a stationary state they
+49.### Answer:
+
+1, 4, 6, 7 \\
+The wavefunction \(\Psi(x,t)\) is a complex number that, roughly speaking, encodes probabilities. More precisely, \(|\Psi(x,t)|^{2}\) is the probability density of finding the particle at position \(x\) and time \(t\). Since probabilities must add up to one, the wavefunction must be normalized. The normalization condition is
+
+\[\int_{-\infty}^{\infty}dx\,|\Psi(x,t)|^{2}\ =\ 1\,,\ \ \forall\,t\,. \tag{1.5}\]
+
+This interpretation requires a _normalized_ wavefunction, namely, the wavefunction used above must satisfy, for all times,
+
+\[\int_{-\infty}^{\infty}dx\,|\Psi(x,t)|^{2}\ =\ 1\,,\ \ \forall\,t\,. \tag{1.6}\]
+
+By integrating over space, the left-hand adds up the probabilities that the particle be found in all of the tiny intervals \(dx\) that comprise the real line. Since the particle must be found somewhere this sum must be equal to one. Suppose you are handed a wavefunction that is normalized at time \(t_{0}\):
+
+\[\int_{-\infty}^{\infty}dx\,|\Psi(x,t_{0})|^{2}\ =\ 1\,,\ \ \forall\,t\,. \tag{1.7}\]
+
+As mentioned above, knowledge of the wavefunction at one time implies, via the Schrodinger equation, knowledge for all times. The Schrodinger equation must guarantee that the wavefunction remains normalized for all times. Proving this is a good exercise:
+
+**Exercise 1. ** Show that the Schrodinger equation implies that the norm of the wavefunction does not change in time:
+
+\[\frac{d}{dt}\int_{-\infty}^{\infty}dx\,|\Psi(x,t)|^{2}\ =\ 0\,. \tag{1.8}\]
+
+You will have to use both the Schrodinger equation and its complex-conjugate version. Moreover you will have to use \(\Psi(x,t)\to 0\) as \(|x|\to\infty\), which is true, as no normalizable wavefunction can take a non-zero value as \(|x|\to\infty
+50.### Answer:
+
+2) Spin is a vector property of a number of elementary particles \\
+4) Spin is an internal mechanical moment that is oriented in space in a strictly defined way \\
+
+
+
+
+
+51.### Answer:
+
+1) True \\
+
+
+
+
+
+52.### Answer:
+
+The state of a particle in quantum mechanics is considered given if the following are given: 1)Mass, energy, and square of the wave function modulus \\
+2)Wave function \\
+
+The state of a particle is given by the wave function. The square of the modulus of the wave function determines the probability density. The knowledge of the probability density does not allow us to determine the wave function. The energy of the particle can be determined by its measurement, and the mass is specified in the problem. \\
+3)Particle coordinates and time \\
+The coordinates of the particle at a given time can be measured. The knowledge of the coordinates and time does not allow us to determine the wave function. \\
+4)Energy and square of the wave function modulus \\
+The energy of the particle can be determined by its measurement, and the square of the wave function modulus determines the probability density. The knowledge of these values does not allow us to determine the wave function. \\
+5)Particle momentum and time \\
+The momentum of the particle can be determined by its measurement, and the time is specified in the problem. The knowledge of the momentum and time does not allow us to determine the wave function. \\
+
+
+
+
+**WAVE MECHANICS**
+
+B. Zwiebach
+
+November 6, 2021
+
+
+53.### Answer:
+
+1) $<a|$ is the bra vector \\
+2) $|a>$ is the ket vector \\
+3) $<a|b>$ is the inner product \\
+4) $<x|b>$ is the position representation of the bra vector $|b>$ \\
+
+
+
+
+
+54.### Answer:
+
+The wavefunction \(\Psi(x,t)\) is a complex number that depends on position and time. The probability density \(P(x,t)\) is the norm-squared of the wavefunction: \(P(x,t)=\Psi^{*}\Psi\). The probability density is positive. The probability \(dP\) to find the particle in the interval \([x,x+dx]\) is given by
+
+\[dP\ =\ P(x,t)dx\ =\ \Psi^{*}(x,t)\Psi(x,t)dx\,. \tag{2.1}\]
+
+The wavefunction is normalized at all times so that the probability to find the particle in all of \(\mathbb{R}\) is one. This condition reads
+
+\[\int_{-\infty}^{\infty}dx\,|\Psi(x,t)|^{2}\ =\ 1\,,\ \ \forall\,t\,. \tag{2.2}\]
+
+The wavefunction is said to be a **probability amplitude**. The analogy in electromagnetism is useful. There we have the current density vector \(\vec{J}\) and the charge density \(\rho\). Maxwell's equations imply that \(\vec{J}+\frac{\partial\rho}{\partial t}\) is a divergence-free vector field so that the integral over any surface of the normal component of this vector is zero. By the divergence theorem this is equivalent to the statement that the rate of change of the charge inside any fixed region \(V\) is equal to the integral of \(\vec{J}\) over the surface \(\partial V\) bounding the region:
+
+\[\frac{d}{dt}\int_{V}\rho dv\ =\ -\int_{\partial V}\vec{J}\cdot d\vec{a}\,. \tag{1.10}\]
+
+The left-hand adds up the charge inside the region \(V\) at time \(t_{0}\) plus the rate at which charge flowed in through the surface \(\partial V\) during the time interval \(t_{0}\to t\). The right-hand side computes the negative rate at which the charge inside the region \(V\) changed during the time interval \(t_{0}\to t\). The equation above can be rewritten in an integral-free form as
+
+\[\boxed{\ \ \frac{\partial\rho}{\partial t}\ +\ \nabla\cdot\vec{J
+55.### Answer:
+
+\[\boxed{\begin{array}{c}(\sigma_{1})^{2}\ =\ (\sigma_{2})^{2}\ =\ (\sigma_{3})^{2}\ =\ { \bf 1}\,.\end{array}} \tag{3.40}\]
+
+This property "explains" that the eigenvalues of each of the Pauli matrices could only be plus or minus one. Indeed, the eigenvalues of a matrix satisfy the algebraic equation that the matrix satisfies. Take for example a matrix \(M\) that satisfies the matrix equation
+
+\[M^{2}+\alpha M+\beta{\bf 1}\ =\ 0 \tag{3.41}\]
+
+Let \(v\) be an eigenvector of \(M\) with eigenvalue \(\lambda\): \(Mv=\lambda v\). Make sure that you understand this notation clearly, and can use it to see that it implies the relations
+
+\[\begin{split}\left[\hat{L}_{x}\,,\hat{L}_{y}\right]\;=\;i\hbar \hat{L}_{z}\,,\\ \left[\hat{L}_{y}\,,\hat{L}_{z}\right]\;=\;i\hbar\hat{L}_{x}\,,\\ \left[\hat{L}_{z}\,,\hat{L}_{x}\right]\;=\;i\hbar\hat{L}_{y}\,. \end{split} \tag{2.16}\]
+
+While, for example, \(\hat{L}_{z}=\hat{x}\hat{p}_{y}-\hat{y}\hat{p}_{x}\) is a hermitian operator written in terms of coordinates and momenta, we have no such construction for \(\hat{S}_{z}\). The latter is a more abstract operator, it does not act on wavefunctions \(\psi(\vec{x})\) but rather on the 2-component column vectors introduced above. The operator \(\hat{S}_{z}\) is just a two-by-two _hermitian2_ matrix with constant entries! If spin is a quantum mechanical angular momentum, we must have that the triplet of operators \(\hat{S}_{z},\hat{S}_{x}\), and \(\hat{S}_{y}\) satisfy
+
+Footnote 2: Hermitian means that the matrix is preserved by taking the operations of trans
+56.### Answer:
+
+The probability current is necessarily zero at the boundaries of the infinite well. Since the derivative of the wavefunction is also zero at the boundaries, the probability current is zero everywhere. Thus, the probability density is uniform. \\
+
+
+
+
+
+57.### Answer:
+
+The probability current is defined as
+
+\[{\bf J}\ =\ \frac{\hbar}{m}\,{\rm Im}\,(\Psi^{*}\nabla\Psi)\,. \tag{4.1}\]
+
+The probability \(Q_{V}(t)\) to find the particle inside the region \(V\) is then
+
+\[Q_{V}(t)\ =\ \int_{V}\rho({\bf x},t)d^{3}{\bf x}\,, \tag{4.2}\]
+
+where, as before, the probability density \(\rho\) is the square of the norm of the wavefunction:
+
+\[\rho({\bf x},t)\ =\ |\Psi({\bf x},t)|^{2}\,. \tag{4.3}\]
+
+The derivative of \(Q_{V}(t)\) can be calculated using the conservation equation (4.2) for \(\rho\):
+
+\[\frac{dQ_{V}}{dt}\ =\ \int_{V}\Bigg{(}\ -\nabla\cdot{\bf J}({\bf x},t)\ +\ \frac{\partial\rho({\bf x},t)}{ \partial t}\Bigg{)}d^{3}{\bf x}\,. \tag{4.4}\]
+
+The integral of the divergence of \({\bf J}\) can be converted, using Gauss' law, into a surface integral over the boundary \(\partial V\) of the region \(V\):
+
+\[\frac{dQ_{V}}{dt}\ =\ -\int_{\partial V}{\bf J}\cdot d{\bf A}+\int_{V}\frac{ \partial\rho}{\partial t}d^{3}{\bf x}\,. \tag{4.5}\]
+
+The first term on the right-hand side represents the probability current flowing out of the region \(V\) across its surface. The second term represents the change in the probability density throughout space. In the case of a closed system, where the Hamiltonian is time-independent, the derivative of \(Q_{V}\) must be zero, since the probability to find the particle somewhere must be one, so the probability to find the particle inside \(V\) must also be one. Thus, we have
+
+\[\framebox{$\int_{\partial V}{\bf J}\cdot d{\bf A}$ = $\int_{V}\frac{ \
+58.### Answer:
+
+The correct answers are 2 and 3. \\
+
+
+
+
+
+59.### Answer:
+
+Quantum teleportation is the only known method capable of transferring quantum information between systems without data loss. Due to quantum superposition, it's impossible to measure and replicate all properties of a quantum system for reconstruction elsewhere. In quantum mechanics, a system exists in a combination of multiple potential states. Upon measurement, the system collapses to a single state, erasing information about other possibilities. Quantum teleportation, however, enables the replication of a qubit state, including its superposition, in another qubit. ``{figure} /_static/qc/en/qubit/any_qubit_diagram.svg
+:name: qscheme
+
+Scheme of any quantum algorithm
+```
+
+Any quantum circuit includes:
+
+- qubits initialized to an initial state, usually $\ket{0}$;
+- unitary and reversible operations on the qubits;
+- measurement of qubits. This lecture is devoted to parsing operations for a single qubit. Let's start with the concept of a qubit and its differences from a bit of classical computers. ## What is a qubit
+
+A classical computer operates with binary numbers -- zero and one. The minimum amount of information for a classical computer is called a bit. A quantum computer operates with quantum bits or qubits, which also have two possible values -- 0 and 1. So what is the difference? What are the features of quantum computers that give them an advantage over classical computers? The difference is that for quantum mechanical systems (and qubits in particular), their _states_ and _values_ are not the same thing. 
+60.### Answer:
+
+[MISSING_PAGE_FAIL:450]
+
+**Solution 2:** The wavefunction is
+
+\[\Psi(x,t)=\exp\left(-\frac{i}{\hbar}\frac{x^{2}}{2\ell^{2}}\right)\exp(-iEt). \tag{2.12}\]
+
+The probability density is
+
+\[\rho(x,t)=\Psi^{*}(x,t)\Psi(x,t)=\exp\left(-\frac{x^{2}}{\ell^{2}}\right). \tag{2.13}\]
+
+The integral \(\int_{-\infty}^{\infty}\rho(x,t)dx\) is time independent, as it should be. The integral is also position independent, so the probability density is time independent. **Solution 3:** The wavefunction is
+
+\[\Psi(x,t)=\exp\left(-\frac{i}{\hbar}\frac{x^{2}}{2\ell^{2}}\right)\exp\left(- \frac{iEt}{2}\right). \tag{2.14}\]
+
+The probability density is
+
+\[\rho(x,t)=\Psi^{*}(x,t)\Psi(x,t)=\exp\left(-\frac{x^{2}}{\ell^{2}}\right). \tag{2.15}\]
+
+The integral \(\int_{-\infty}^{\infty}\rho(x,t)dx\) is time independent, as it should be. The integral is also position independent, so the probability density is time independent. **Solution 4:** The wavefunction is
+
+\[\Psi(x,t)=\exp\left(-\frac{i}{\hbar}\frac{x^{2}}{2\ell^{2}}\right)\exp\left(- \frac{iEt}{2}\right)\exp\left(-\frac{i}{\hbar}\frac{x^{2}}{2\ell^{2}}\right). \tag{2.16}\]
+
+This is just
+
+\[\Psi(x,t)=\exp\left(-\frac{i}{\hbar}\frac{x^{2}}{\ell^{2}}\right)\exp\left(- \frac{iEt}{2}\right). \tag{2.17}\]
+
+The probability density is
+
+\[\rho(x,t)=\Psi^{*}(x,t)\Psi(x,t)=\exp\left(-\frac{2x^{2
+61.### Answer:
+
+1)$(2|\phi>_n<\phi|_n - I)(I - 2|y>_n<y|_n)$ \\
+
+
+
+
+62.### Answer:
+
+\[\left|0\right\rangle\equiv\left|V\right\rangle,\quad\left|1\right\rangle \equiv\left|H\right\rangle. \tag{1.7}\]
+
+This equivalence allows us to view \(\left|0\right\rangle\) and \(\left|1\right\rangle\) as specific instances of photon polarization states. In this sense, the "0" and "1" in \(\left|0\right\rangle\) and \(\left|1\right\rangle\) represent the two distinct polarization directions, vertical and horizontal, respectively. This perspective helps bridge the gap between abstract qubit states and the concrete physical system of photon polarization. However, it is crucial to note that while \(\left|0\right\rangle\) and \(\left|1\right\rangle\) can be visualized as vertical and horizontal polarization states, respectively, they are not synonymous. Qubit states are abstract mathematical entities that can take on a range of values (e.g., any combination of \(\alpha\) and \(\beta\) satisfying the normalization condition), whereas photon polarization states are concrete physical states limited to the two orthogonal directions in our example. 
+63.### Answer:
+
+1) x \\
+3) 0 \\
+5)not(x) \\
+
+Thus the functions $f_1 and f_2$ are constant and take the values $f_1(x)=0, f_2(x)=1$, and the other two functions $f_3 and f_4$ are defined as follows: $f_3(x)= x, f_4(x) = NOT(x)$. Thus the functions $f_3 and f_4$ are called balanced functions. It is required to determine to which group the transformation function of any of these four equations belong, if it is not known initially. \\
+
+Deutsch-Jose problem \\\\. The problem in this case is formulated similarly to the Deutsch problem and aims to determine whether the binary function f(x) $f \in 0,1$, where x is a multidimensional vector, is constant or balanced. Constancy of the function is understood as the fulfillment of the equations f(x) = 0 or f(x) = 1 for arbitrary x, and balanced means that the function takes the value 0 for one half of the data x and the value 1 for the other half of the data . The Deutsch-Jose quantum algorithm can solve this problem in n operations, whereas the class algorithm can solve it only in $2^n$ operations. \\
+The algorithm can be demonstrated on the example of the following problem. Subscriber A, being in some place, chooses an arbitrary number x from the set $0 \div 2^n - 1$ of binary numbers and sends it by mail to subscriber B, being in another place. Subscriber B calculates some function from the received value f(x) and informs subscriber A the result of calculations, which can be 0 or 1, by mailing it to subscriber A. In this case subscriber B has an opportunity to use the function f(x), one of two types. The task of subscriber A is to determine reliably, using the information received from subscriber B, with a minimum of koreespondentsiya, which type of function is chosen by subscriber B for calculations. Bernstein-Vazirani algorithm \\\. The problem consists in determining a binary string s by the result of calculating a function of the following form (where s*x is the sum of bit product modulo 2, where $s=(s_0, s_1, ..., s_n) and x = (x_0, x_1, ..., ..., x_n)$ $f_s(x) = s
+64.### Answer:
+
+The starting register in Deutsch's algorithm is initialized to \( |0> \otimes |1> \). This corresponds to option 2. The number of states in the register is \(2^N\) \\\\. 2 qubit register \\
+$|q>_2 = |q_1q_2> = |q_1> \toimes |q_2> = (\alpha|0> + \beta|1>) \otimes (\alpha^{'}|0> + \beta^{'}|1>) = $ \\\\\
+$= c1(|0> \otimes |0>) + c2(|0> \otimes |1>) + c3 |1> \otimes |0> + c3 |1> \otimes |1>$ \\\. $|0>_2 = |00> = |0> \otimes |0> $\\. $|1>_2 = |01> = |0> \otimes |1>$ \\\. $|2>_2 = |10> = |1> \otimes |0>$ \\\. $|3>_2 = |11> = |1> \otimes |1> $ \\. $|q>_2 = \sum_{k=0}c_K|k>_2, \quad \sum_{k=0}|c_k|^2 = $1$ \\\\
+
+$|0>_2 = |0_a0_a0_b> = |0_a> \otimes |0_b> = \begin{pmatrix}
+    1 \\ 0
+\end{pmatrix} \otimes \begin{pmatrix}
+    1 \\ 0
+\end{pmatrix} = \begin{pmatrix}
+    1\\ 0 \\ 0\\ 0
+\end{pmatrix}$ \\\. $|1>_2 = |0_a1_b> = \begin{pmatrix}
+    0 \\ 1\\ 0 \\ 0
+\end{pmatrix}$ \\\. $|q>_n = \sum_{k=0}^{2^n - 1}c_k|k>_n, \qquad \sum_{k=0}^{2^n - 1}|c_k| = 1$ \\\\
+$|0>_n = |00...00> = |0> \otimes |0> \otimes .... |
+65.### Answer:
+
+The Deutsch-Jose algorithm uses (Choose the correct answer): \\
+1) a binary function of an arbitrary argument \\
+2) an arbitrary function of an arbitrary argument \\
+3) an arbitrary function of an arbitrary argument \\
+4) a binary function of a binary argument \\
+
+
+
+
+66.### Answer:
+
+The function processes the input value in some way and returns a number from the same set, i.e. either $0$ or $1$. We know that this function belongs either to the class of balanced functions or to the class of constant functions (which we may also call unbalanced). The task of the algorithm is to determine which class the function belongs to. Let's start with the unbalanced ones:
+
+- $f_1(x) = 0$
+
+This is a function that always returns $0$, regardless of the input value. The expressions are valid for it:
+
+$$
+f_1(0) = 0
+$$
+$$
+f_1(1) = 0
+$$
+
+- $$f_2(x) = 1$$
+
+Such a function always returns $1$, that is, the following is true:
+
+$$
+f_2(0) = 1
+$$
+$$
+f_2(1) = 1
+$$
+
+Now let's look at balanced functions. They are characterized by the fact that they can return both $0$ and $1$. This is what “balance” is all about. - $f_3(x) = x$
+
+This is an identity function that does nothing with the input value. The following is true for it:
+
+$$
+f_3(0) = 0
+$$
+$$
+f_3(1) = 1
+$$
+
+- $$f_4(x) = \overline{x}$$. And this function inverts the input value, that is, it returns a different number than the one given as input:
+
+$$
+f_4(0) = 1
+$$
+$$
+f_4(1) = 0
+$$
+
+A classical computer accomplishes the task in two steps. For example, we are given some “black box” function and we need to determine if it is balanced. At the first step we send an input value $0$ to the function. Let's assume that we get $0$ at the output as well. We can say that this function is either $f_1$ (a constant function that always returns $0$) or $f_3$ (a balanced function that does not change the input value). For the final solution, we must take one more step -- send a $1$ value to the function. If we get $0$ again, it is the function $f_1$, and if we get $1$
+67.### Answer:
+
+Yes, the formula for the quantum Fourier transform is the same as the formula for the classical discrete Fourier transform. The only difference is that the quantum Fourier transform operates on a register of qubits, while the classical discrete Fourier transform operates on a vector of complex numbers. The quantum Fourier transform can be expressed in matrix form as:
+
+$$
+\text{QFT} = \frac{1}{\sqrt{N}} \begin{bmatrix}
+1 & 1 & 1 & \ldots & 1 \\
+1 & \omega & \omega^2 & \ldots & \omega^{N-1} \\
+1 & \omega^2 & \omega^4 & \ldots & \omega^{2(N-1)} \\
+\vdots & \vdots & \vdots & \ddots & \vdots \\
+1 & \omega^{N-1} & \omega^{2(N-1)} & \ldots & \omega^{(N-1)(N-1)}
+\end{bmatrix}
+$$
+
+where $\omega = e^{2\pi i/N}$ is the Nth root of unity. This matrix can be applied to a vector of qubits to perform the quantum Fourier transform. For example, to apply the QFT to a pair of qubits, we can use the following circuit:
+
+```{figure} /_static/qcalgo/en/qft/qft_two_qubits.svg
+:name: qft_two_qubits
+:width: 400px
+
+Applying the QFT to a pair of qubits
+```
+
+This circuit applies the Hadamard gate to the first qubit, then applies a series of CNOT gates to entangle the qubits, and finally applies another set of Hadamard gates to the qubits. The effect of this circuit is to perform the QFT on the pair of qubits. The quantum Fourier transform is a key operation in many quantum algorithms, including phase estimation, quantum phase estimation, and quantum algorithms for factoring and discrete logarithms. It is also used in quantum annealing and other optimization algorithms. The quantum Fourier transform can be efficiently implemented on a quantum computer using a sequence of unitary gates. The specific gates used depend on the number of qubits being transformed and the basis used for the Fourier transform. The quantum Fourier transform is a complex operation that can be difficult to understand without a background in linear algebra and quantum mechanics. However, it is an essential tool in the field of quantum computing
+68.### Answer:
+
+1)CNOT \\
+2)NOT \\
+
+
+
+
+
+69.### Answer:
+
+1) \(\hat{Y}\) \\
+\\
+[MISSING_PAGE_FAIL:1089]
+\\
+[MISSING_PAGE_EMPTY:1090]
+\\
+[MISSING_PAGE_EMPTY:1091]
+\\
+[MISSING_PAGE_EMPTY:1092]
+\\
+[MISSING_PAGE_EMPTY:1093]
+\\
+[MISSING_PAGE_EMPTY:1094]
+\\
+[MISSING_PAGE_EMPTY:1095]
+\\
+[MISSING_PAGE_EMPTY:1096]
+\\
+[MISSING_PAGE_EMPTY:1097]
+\\
+[MISSING_PAGE_EMPTY:1098]
+\\
+[MISSING_PAGE_EMPTY:1099]
+\\
+[MISSING_PAGE_EMPTY:1100]
+\\
+[MISSING_PAGE_EMPTY:1101]
+\\
+[MISSING_PAGE_EMPTY:1102]
+\\
+[MISSING_PAGE_EMPTY:1103]
+\\
+[MISSING_PAGE_EMPTY:1104]
+\\
+[MISSING_PAGE_EMPTY:1105]
+\\
+[MISSING_PAGE_EMPTY:1106]
+\\
+[MISSING_PAGE_EMPTY:1107]
+\\
+[MISSING_PAGE_EMPTY:1108]
+\\
+[MISSING_PAGE_EMPTY:1109]
+\\
+[MISSING_PAGE_EMPTY:1110]
+\\
+[MISSING_PAGE_EMPTY:1111]
+\\
+[MISSING_PAGE_EMPTY:1112]
+\\
+[MISSING_PAGE_EMPTY:1113]
+\\
+[MISSING_PAGE_EMPTY:1114]
+\\
+[MISSING_PAGE_EMPTY:1115]
+\\
+[MISSING_PAGE_EMPTY:1116]
+\\
+[MISSING_PAGE_EMPTY:1117]
+\\
+[MISSING_PAGE_EMPTY:1118]
+\\
+[MISSING_PAGE_EMPTY:1119]
+\\
+[MISSING_PAGE_EMPTY:1120]
+\\
+[MISSING_PAGE_EMPTY:1121]
+\\
+[MISSING_PAGE_EMPTY:1122]
+\\
+[MISSING_PAGE_EMPTY:1123]
+\\
+[MISSING_PAGE_EMPTY:1124]
+\\
+[MISSING_PAGE_EMPTY:1125]
+\\
+[MISSING_PAGE_EMPTY:1126]
+\\
+[MISSING_PAGE_EMPTY:
+70.### Answer:
+
+\[\rho^{\prime}=\frac{1}{2}\begin{bmatrix}0&1\\ 1&0\end{bmatrix}+\frac{1}{2}\begin{bmatrix}0&1\\ 1&0\end{bmatrix}=\begin{bmatrix}0&1\\ 1&0\end{bmatrix}. \tag{12.34}\]
+
+**2.2.2 General Mixed States**
+
+In the preceding discussion, we focused on a specific class of mixed states that can be represented as a convex combination of pure states. However, the set of mixed states is more extensive. To provide a more comprehensive understanding, we will now delve into the general formulation of mixed states, drawing from the principles of quantum measurement. In quantum mechanics, the measurement of an observable \(M\) on a quantum system occurs in the context of a measurement apparatus. According to the quantum measurement framework, the apparatus triggers with a probability that is the expectation value of a specific observable, known as the measurement observable, in the quantum state of the system being measured. The result of the measurement is determined by the eigenvalues of the measurement observable. This framework effectively captures a wide range of quantum measurement scenarios. In the case of a general mixed state, the density operator \(\rho\) can be expressed as:
+
+\[\rho=\sum_{i}p_{i}\rho_{i}, \tag{12.35}\]
+
+where \(p_{i}\) are probabilities and \(\rho_{i}\) are density operators. Here, \(\rho_{i}\) may represent mixed states, pure states, or a combination of both. This formulation allows for a more nuanced description of quantum states, particularly when the system is in a statistical mixture of various state types. 
+71.### Answer:
+
+$|\mathbf{00}>$ \\
+
+
+72.### Answer:
+
+Quantum teleportation is the only known method capable of transferring quantum information between systems without data loss. Due to quantum superposition, it's impossible to measure and replicate all properties of a quantum system for reconstruction elsewhere. In quantum mechanics, a system exists in a combination of multiple potential states. Upon measurement, the system collapses to a single state, erasing information about other possibilities. Quantum teleportation, however, enables the replication of a qubit state, including its superposition, in another qubit. This process results in the destruction of the original state in the source qubit, thus adhering to the no-cloning theorem. Quantum teleportation not only forms a key foundation in quantum computing, but also serves as an exemplary case study for contrasting and comprehending different analytical methods. If you aim to pioneer in the field of quantum computation or potentially conceive innovative algorithms similar to quantum teleportation, it is essential to have a comprehensive understanding of these varied methods. Through this exploration, our goal is to arm you with the analytical tools necessary for further pioneering and advancement in this domain. 
+73.### Answer:
+
+Let's start with the fact that Simon's algorithm solves Simon's problem. Yes, this is such a great scientist - found the problem, solved the problem. By its nature, Simon's problem is a kind of the hidden abelian subgroup problem {cite}`lomont2004hidden`. Let the function $f: \{0, 1\}^n \rightarrow \{0, 1\}^n$ and an **unknown** string $s \in \{0, 1\}^n$, for all $x, y \in \{0, 1\}^n$ it is satisfied that:
+
+  $$
+    \large f(x) = f(y) \Leftrightarrow x \oplus y = s
+  $$
+
+That is, if we have the same value $f(x) = f(y)$ for two different strings $x$ and $y$, then $x \oplus y$ equals some unknown string $s$. The function $f(x)$ is a black box. The goal is to **find $s$ while making as few calls to $f(x)$ as possible. ## Description of the algorithm
+
+Let's immediately define the operation on two binary strings (aka binary vectors) $x = x_0 x_1 x_2 ... x_{2^n-1}$, $z = z_1 z_2 z_3 ... z_{2^n-1}$$:
+
+$$
+  \langle x, z\rangle = \bigoplus_{i=0}^{2^n-1} x_i \wedge z_i = x_0 \wedge z_0 \oplus x_1 \wedge z_1 \oplus ... \oplus x_{2^n-1} \wedge z_{2^n-1}
+$$
+
+Principle diagram of Simon's algorithm:
+
+```{figure} /_static/qcalgo/en/simon_algorithm/simon_principal.png
+:name: simon_principal
+:width: 400px
+```
+
+In principle, there are slight variations in the implementation of the algorithm, we will consider the simplest one (all necessary references are given at the end):
+
+1. First the preparations. We first prepare 2 sets of quantum registers (each of dimension $n$) in the following state:
+
+    $$
+      |\psi_0\rangle = |0\rangle|0\rangle
+    $$
+
+2.
+74.### Answer:
+
+2), 3) \\
+**Explanation**:
+
+1) \(U^{\dagger}U = 0\) is not possible for a unitary operator since \(U^{\dagger}U = I\) for unitary operators. 2) \(U^{\dagger}U = 1\) is equivalent to \(U^{\dagger}U = I\) since \(I\) is the identity operator, which is often represented as the number 1 in one-dimensional contexts. 3) \(U^{\dagger} = U^{-1}\) is true for unitary operators. By the definition of the inverse, \(UU^{-1} = U^{-1}U = I\), and taking the adjoint of the first equation gives \(U^{\dagger}U = I\). 4) \(U^{\dagger} = U^1\) is not generally true for unitary operators. While it holds for involutions (operators that are involutive, i.e., \(U^2 = I\)), it is not a general property of unitary operators. Unitary operators satisfy \(U^{\dagger}U = UU^{\dagger} = I\), but \(U^{\dagger}\) is not necessarily equal to \(U\) raised to any power. 
+75.### Answer:
+
+The correct answer is D. The quantum Fourier transform (QFT) applied to the state \( |3>_2 \) results in the state \( |\neg 3>_2 \), which is given by:
+
+\[\ket{\neg 3_2} = \frac{1}{2}(\ket{0_2} - i\ket{1_2} - \ket{2_2} + i\ket{3_2}) \tag{2.44}\]
+
+This corresponds to the state \( |11>_2 \) with a negative global phase. The other options are incorrect because they represent different states or have different phases. For example, option B represents the state \( |3>_2 \) with a negative global phase, while option C represents the state \( |1>_2 \) with a negative global phase. ## Chapter 3 Spin-1/2 particles
+
+In this chapter we focus on the simplest non-trivial representation of the algebra of angular momentum, the spin-1/2 representation. Spin-1/2 particles include the electron, proton, neutron, and many other particles. The fact that these particles have spin means that they have angular momentum. In classical physics, angular momentum is a vector that takes a value that is an integer or half-integer multiple of Planck's constant \(\hbar\). The possible values are \(0\hbar\), \(\hbar\), \(2\hbar\), \(2\hbar\), and so on. Particles with angular momentum having a value of \(\hbar/2\) are said to have spin 1/2. The \(1/2\) here refers to the fraction of \(\hbar\) of angular momentum the particle has. The mathematical framework needed to describe spin-1/2 particles is that of two-dimensional complex vector spaces. In some ways, working with such small vector spaces is simpler than working with larger vector spaces like the familiar three-dimensional space. On the other hand, working with two dimensions is also more challenging, as some intuitions we have developed for higher-dimensional spaces no longer apply. In this chapter, we aim to understand how to work with spin states and how to predict measurement outcomes. We will do this without resorting to quantum circuits, providing a refreshing break from our usual quantum computation narrative. The tools and concepts introduced here will be invaluable when we delve into more complex systems and multi-qubit gates in subsequent chapters. 
+76.### Answer:
+
+The value of the constant function in the Deutsch-Jose algorithm when the argument is \(x\) is \(\boxed{1}\). This is because, as explained in the context, the functions \(f_1\) and \(f_2\) are constant and take the values \(f_1(x)=0\) and \(f_2(x)=1\). Since we are not given which of these two functions is being used, the only possible value for the constant function when the argument is \(x\) is 1, as it is one of the two constant function options provided. 2 qubit gate \\
+Next to the one-cubic gates, two-cubic gates are the most common quantum gates. Two-cubic gates can be used, for example, for modeling qubit interactions in quantum hardware. Also, multi-cubic gates are sometimes more compactly designed than the set of one-cubic and two-cubic ones. In this section, we will consider two-cubic gates \(ZZ, XY, CNOT, CH, CX, CY, CZ, CRZ, U2, U3, U\) and will look at their matrix representations and functions. 
+77.### Answer:
+
+[MISSING_PAGE_EMPTY:618]
+
+
+78.### Answer:
+
+5) In a quantum-mechanical system, there cannot be two or more electrons in a state with the same set of quantum numbers \\
+
+
+
+
+
+79.### Answer:
+
+The operators $X, Z, ZX = iY$ are called the Pauli operators. The superdense coding problem is in some sense the opposite of the [quantum teleportation] problem(../../qcalgo/en/quantum_teleportation.md):
+
+quantum teleportation | superdense coding
+-----------------------|-------------------------
+transferring one qubit using two classical bits | transferring two classical bits using one qubit
+
+The answer to the question above -- affirmative. Let Alice and Bob initially have a pair of qubits in an entangled state
+
+$$
+\ket{\psi} = \ket{\beta_{00}} = \frac{\ket{\ket{00}} + \ket{11}}{\sqrt{2}}
+$$
+
+(this is the first Bell state {eq}`eqn:bell_beta_00` of the four states listed in the previous lecture on quantum teleportation). In the beginning, the first qubit is in Alice's possession and the second is in Bob's possession. Note that Alice did not need to send Bob any qubits to prepare the $ \ket{\psi} $ state. Some third actor could have prepared the entangled $ \ket{\psi} $ state in advance and sent the first qubit to Alice and the second to Bob. It turns out that Alice can send two bits of classical information to Bob by sending him her cubit. To do so, Alice performs the following procedure:
+
+1. If Alice wants to send the bit string “00” to Bob, she does nothing with her cubit. 2. If Alice wants to pass the bit string “01”, she applies the $X$ operator (gate $NOT$) to her cubit. 3. If Alice wants to pass the bit string “10”, she applies the $Z$ operator to her qubit. 4. If Alice wants to pass the bit string “11”, she applies the operator $ZX = iY$ to her qubit. This results in the states of the two-qubit system to the right of the arrows in the following formulas (check it out! ):
+
+$$
+00: \ket{\psi} \rightarrow \frac{\ket{00} + \ket{11}}{\sqrt{2}}} = \ket{\beta_{00}} , \\
+01: \ket{\psi} \rightarrow \frac{\ket{10} + \ket{01}}{\sqrt{2}} =
+80.### Answer:
+
+The use of complex numbers in quantum mechanics and quantum computing can be attributed to several key reasons:
+
+1. **Mathematical Convenience**: Working with complex numbers can sometimes simplify mathematical expressions and calculations. For example, the square root of minus one appears naturally in the formulation of some equations, and using complex numbers eliminates the need for cumbersome real-number manipulations involving square roots. 2. **Phase Factors**: In quantum mechanics, the relative _phase_ between wavefunction values at different points or the phase between different states in a superposition often carries important physical information. These phase factors are complex numbers, and their relative values can result in observable phenomena, such as interference. 3. **Linearity of Quantum Mechanics**: Quantum mechanics is a linear theory, expressed through the Schrodinger equation. The wavefunction, which is a complex number, is the variable in this equation. The linearity of the equations ensures that a complex wavefunction remains a complex number. 4. **Spin States**: The description of spin states in quantum mechanics naturally involves complex numbers. The spin state of a particle with spin \(S\) is represented by a \((2S+1)\)-dimensional complex vector space. 5. **Quantum Superposition**: The principle of superposition, which is fundamental to quantum mechanics, allows quantum systems to exist in multiple states simultaneously. The coefficients in the superposition are complex numbers. 6. **Fermions and Bosons**: Fermions and bosons, which are particles that follow Fermi-Dirac and Bose-Einstein statistics, are described by the Pauli matrices and the permutation operator, respectively. These operators involve complex numbers. 7. **Quantum Tunnelling**: Quantum tunneling, a phenomenon where particles pass through a potential barrier they should not be able to overcome classically, is explained by the use of complex numbers in the solution to the Schrodinger equation. 8. **Advanced Concepts**: In more advanced areas of quantum physics, such as quantum field theory and cosmology, complex numbers are essential. For example, the concept of imaginary time, where time is mathematically treated as a complex number, is sometimes used in these fields. 9. **Historical Reasons**: The use of complex numbers in quantum mechanics has historical roots. When Erwin Schrodinger formulated his equation in 1925, he chose to work with complex numbers, and this convention has been maintained ever since. While it is theoretically possible to express some quantum mechanical equations and concepts using
+81.### Answer:
+
+**Solution to 10.10**
+
+We will use the following identity:
+
+\[\ket{\Psi^{-}}=\frac{1}{\sqrt{2}}(\ket{01}-\ket{10})=\frac{1}{\sqrt{2}}(\ket{+ }\ket{-}-\ket{-}\ket{+}) \tag{10.70}\]
+
+Alice and Bob share a pair of qubits in the state \(\ket{\Psi^{-}}\). Alice has the first qubit and Bob has the second qubit. Alice has another qubit in the state \(\alpha\ket{0}+\beta\ket{1}\). She wants to teleport this qubit to Bob. The initial state of the system is:
+
+\[\ket{\Psi_{0}}=\frac{1}{\sqrt{2}}(\alpha\ket{001}-\beta\ket{101}) \tag{10.71}\]
+
+Alice measures her two qubits in the Bell basis. The first step is to apply a Hadamard gate to the first qubit:
+
+\[\ket{\Psi_{1}}=\frac{1}{2}(\alpha\ket{001}-\alpha\ket{101}-\beta\ket{011}+ \beta\ket{111}). \tag{10.72}\]
+
+Alice then performs a CNOT gate on the first two qubits:
+
+\[\ket{\Psi_{2}}=\frac{1}{2}(\alpha\ket{001}-\alpha\ket{111}-\beta\ket{011}+ \beta\ket{101}). \tag{10.73}\]
+
+Finally, Alice performs another CNOT gate on the first two qubits:
+
+\[\ket{\Psi_{3}}=\frac{1}{2}(\alpha\ket{001}-\alpha\ket{011}-\beta\ket{101}+ \beta\ket{111}). \tag{10.74}\]
+
+Alice now measures the first two qubits in the computational basis. The four possible measurement outcomes are:
+
+\[\ket{00}:\frac{1}{2}(\alpha\ket{001}-\beta\ket{101}) \tag{10.75a}\] \
+82.### Answer:
+
+The first cubit obtained: $P_-|q_+> == |q_--><$ \\. $|q_--> == (|1> - |0>)/\sqrt{2}$ \\\\
+Second cubit obtained: $P_-|q_+> == |q_-->$ \\\\
+Third cubit obtained: $P_1|q_+> == |q_+>$ \\\$
+
+
+Ultra-dense coding \\\\
+Considered EPR-pairs can be used for transmission of classical bits of information on quantum communication channels by direct transfer of qubit from subscriber A to subscriber B. Let, for example, qubits of subscribers A and B are in the Bell state of the form \\\\
+$|EPR>_2 = \frac{|0, 0> + |1, 1>}{\sqrt{2}}$ \\\\
+and the subscribers are placed with their qubits at different locations \\\. If subscriber A wants to transmit two bits of information (x1, x2) to subscriber B, he can encode one of the 4 variants by giving his qubit to A, but transforming it beforehand. ## Introduction
+
+This is the first lecture of the main unit of our course. Before we start to elaborate on the concept of a qubit, let's take a look at the general pipelines of quantum circuits. ``{figure} /_static/qc/en/qubit/any_qubit_diagram.svg
+:name: qscheme
+
+Scheme of any quantum algorithm
+```
+
+Any quantum circuit includes:
+
+- qubits initialized to an initial state, usually $\ket{0}$;
+- unitary and reversible operations on the qubits;
+- measurement of qubits. This lecture is devoted to parsing operations for a single qubit. Let's start with the concept of a qubit and its differences from a bit of classical computers. ## What is a qubit
+
+A classical computer operates with binary numbers -- zero and one. The minimum amount of information for a classical computer is called a bit. A quantum computer operates with quantum bits or qubits, which also have two possible values -- 0 and 1. So what is the difference? What are the features of quantum computers that give them an advantage over classical computers? The difference is that for quantum mechanical systems (and qubits in particular), their _states_ and _values_ are not the same thing. 
+83.### Answer:
+
+1. **Parity Measurement**
+
+The parity measurement can be represented by the observable \(M\):
+
+\[M=|00\rangle\langle 00|+|11\rangle\langle 11|-|01\rangle\langle 01|-|10 \rangle\langle 10|. \tag{6.40}\]
+
+The eigenvalues of \(M\) are \(1\) and \(-1\), corresponding to even and odd parity, respectively. The associated eigenstates are \(|00\rangle,|11\rangle\) and \(|01\rangle,|10\rangle\), respectively. The probability of measuring a state \(\ket{\psi}\) in an eigenstate of \(M\) is the square of the absolute value of the inner product of \(\ket{\psi}\) with that eigenstate. The post-measurement state is the eigenstate with the corresponding eigenvalue. 2. **Unequal Spacing Measurement**
+
+Suppose we want to measure if the spacing between the two qubits is unequal. This can be represented by the observable \(M^{\prime}\):
+
+\[M^{\prime}=|01\rangle\langle 01|+|10\rangle\langle 10|-|00\rangle\langle 00|- |11\rangle\langle 11|. \tag{6.41}\]
+
+The eigenvalues of \(M^{\prime}\) are \(1\) and \(-1\), corresponding to unequal and equal spacing, respectively. The associated eigenstates are \(|01\rangle,|10\rangle\) and \(|00\rangle,|11\rangle\), respectively. The probability of measuring a state \(\ket{\psi}\) in an eigenstate of \(M^{\prime}\) is the square of the absolute value of the inner product of \(\ket{\psi}\) with that eigenstate. The post-measurement state is the eigenstate with the corresponding eigenvalue. 3. **Bell State Measurement**
+
+A Bell state measurement simultaneously measures two qubits in one of the four Bell states. The Bell states form an orthonormal basis for the space of two qubits:
+
+\[\ket{\beta_{00}} =\frac{1}{\sqrt{2}}(\ket{00}+\ket{11}), \tag{6.42a}\]
+84.### Answer:
+
+\[\ket{\psi^{\prime}}=\cos\frac{\alpha+\theta}{2}\ket{0}+e^{i\beta}\sin\frac{ \alpha+\theta}{2}\ket{1}. \tag{6.10}\]
+
+**Solution to 6.3:**
+
+The Hadamard gate can be expressed as:
+
+\[H=\frac{1}{\sqrt{2}}\begin{bmatrix}1&1\\ 1&-1\end{bmatrix}. \tag{6.11}\]
+
+The \(R_{x}\) and \(R_{y}\) gates are given by:
+
+\[R_{x}(\theta)=\begin{bmatrix}\cos\frac{\theta}{2}&-i\sin\frac{\theta}{2}\\ -i\sin\frac{\theta}{2}&\cos\frac{\theta}{2}\end{bmatrix}, \tag{6.12a}\] \[R_{y}(\theta)=\begin{bmatrix}\cos\frac{\theta}{2}&-\sin\frac{ \theta}{2}\\ \sin\frac{\theta}{2}&\cos\frac{\theta}{2}\end{bmatrix}. \tag{6.12b}\]
+
+We can verify that \(H=iR_{x}(\pi)R_{y}(\frac{\pi}{2})\) as follows:
+
+\[R_{x}(\pi)R_{y}(\frac{\pi}{2})=\begin{bmatrix}0&-i\\ -i&0\end{bmatrix}\begin{bmatrix}\frac{1}{\sqrt{2}}&-\frac{1}{\sqrt{2}}\\ \frac{1}{\sqrt{2}}&\frac{1}{\sqrt{2}}\end{bmatrix}=\begin{bmatrix}1&1\\ -1&-1\end{bmatrix}. \tag{6.13}\]
+
+Multiplying by \(i\) on both sides gives us the Hadamard gate, up to a global phase factor. Similarly, we can verify that \(H=iR_{y}(\frac{\pi}{2})R_{z}(\pi)\). **Solution to 6.4:**
+
+We can verify that \(H=X\sqrt{Y}\) as follows:
+
+\[X\sqrt{Y}=\begin{bmatrix}0
+85.### Answer:
+
+Bell measurements are a type of quantum measurement that can distinguish between different Bell states. In a Bell measurement, the two qubits being measured become entangled with the measurement apparatus, and the outcome of the measurement is a single result that tells you which of the four Bell states the two qubits were in. Bell measurements can be visualized using a quantum circuit, as shown in Fig. 8.6. The two qubits being measured are represented as the vertical wires on the left side of the circuit, and the measurement apparatus is represented by the horizontal wires on the right side. The two qubits start in an arbitrary state, represented by the state vector \(\ket{\psi}\), and the goal of the measurement is to determine which of the four Bell states the qubits are in. The Bell measurement is performed by applying a series of unitary transformations to the qubits, followed by a standard measurement in the computational basis. The unitary transformations are designed such that if the qubits are in the state \(\ket{\beta_{ij}}\), where \(i,j\in\{0,1\}\), they will be transformed to the state \(\ket{\beta_{++}}\) with a possible overall phase factor. The subsequent measurement in the computational basis will then determine with certainty if the qubits are in the state \(\ket{\beta_{++}}\). If the measurement outcome is \(\ket{\beta_{++}}\), the qubits were originally in the state \(\ket{\beta_{ij}}\). If the measurement outcome is not \(\ket{\beta_{++}}\), the qubits were not in the state \(\ket{\beta_{ij}}\). The Bell measurement can be visualized as a quantum circuit, as shown in Fig. 8.6. The circuit applies a series of unitary transformations to the qubits, represented by the boxes, followed by a measurement in the computational basis, represented by the horizontal wires on the right side of the circuit. The specific unitary transformations applied depend on the particular Bell state being measured. The Bell measurement can be used for a variety of applications in quantum computing and quantum information, including quantum teleportation, quantum entanglement swapping, and quantum dense coding. 
+86.### Answer:
+
+\textbf{Entanglement Creation:}
+Starting with the state \( |00\rangle \), apply the following gates:
+A\(H\) gate on the first qubit.
+A CNOT gate with the first qubit as control and the second qubit as target.
+What is the final state of the system? Verify if it is entangled.
+
+
+
+
+87.### Answer:
+
+The quantum teleportation protocol can be understood as a process that maps the initial state \(\ket{\psi}\) to one of the four Bell states, with the aid of the Bell measurement. The teleportation protocol can be viewed as a quantum circuit, as illustrated in Fig. 10.5. The circuit comprises several quantum gates, including the Hadamard gate (H), the controlled-NOT gate (CX), and the Pauli gates (X, Z). The circuit also includes three classical bits for the transmission of measurement outcomes. The teleportation protocol can be decomposed into the following steps:
+
+1. [label=0]
+2. Initialize Alice's qubits. Alice starts with a qubit in the state \(\ket{\psi}=\alpha\ket{0}+\beta\ket{1}\), which she intends to teleport to Bob. She also has another auxiliary qubit initialized to \(\ket{0}\). 3. Apply a Hadamard gate. Alice applies a Hadamard gate to her auxiliary qubit, transforming it from \(\ket{0}\) to \(\frac{1}{\sqrt{2}}(\ket{0}+\ket{1})\). 4. Bell measurement. Alice performs a Bell measurement on her two qubits. This involves applying a controlled-NOT gate followed by a Hadamard gate to the auxiliary qubit, and then measuring both qubits in the Bell state basis. The measurement outcomes will be one of the four possible Bell states, and Alice will transmit these results to Bob through classical communication channels. 5. State reconstruction. Depending on the measurement outcomes, Bob applies specific quantum gates (Pauli gates) to his qubit to reconstruct the original state \(\ket{\psi}\). The gates to be applied are determined by the classical bits Alice sent. For instance, if Alice measures \(\ket{\Psi^{-}}\), Bob applies an \(X\) gate to his qubit; if Alice measures \(\ket{\Phi^{-}}\), Bob applies a \(Z\) gate, and so on. The teleportation protocol effectively maps the initial state \(\ket{\psi}\) to one of the four Bell states, with the aid of the Bell measurement. The teleportation protocol can be viewed as a quantum circuit, as illustrated in Fig. 10.5. The circuit comprises several quantum gates, including the Hadamard gate (H), the controlled-NOT gate (CX), and the Pauli gates
+88.### Answer:
+
+The output state is \(\ket{\psi}=\frac{1}{\sqrt{3}}\ket{0}+\sqrt{\frac{2}{3}}\ket{1}\). 
+89.### Answer:
+
+The skills involved in this exercise is foundational for working with quantum algorithms. Make sure you can do this exercise independently. 2. **Properties** The Controlled-U gate has a number of important properties:
+
+
+90.### Answer:
+
+\textbf{Measurement-Based Post-Gate Analysis:}
+A qubit is prepared in the state \( |\psi\rangle = \frac{1}{2}|0\rangle + \frac{\sqrt{3}}{2}|1\rangle \). Apply a \( H \) gate followed by a measurement in the computational basis. What are the possible measurement outcomes and their probabilities?
+
+
+
+
+91.### Answer:
+
+The act of measurement forces the system to exist in one of the eigenstates of the observable operator, with the probability of each outcome given by the state of the system prior to measurement. This process is also known as the _wavefunction collapse_. The Observable Postulate and the Measurement Postulate are two fundamental postulates in quantum mechanics that describe the behavior of quantum systems and the act of measuring those systems. The Observable Postulate states that every observable quantity in quantum mechanics is represented by a Hermitian operator. An observable quantity is a physical property of a quantum system that can be measured, such as position, momentum, energy, or spin. The Hermitian operator associated with an observable quantity is called an observable operator, and its eigenvalues represent the possible outcomes of a measurement of that observable quantity. The Measurement Postulate, on the other hand, describes the process of measuring an observable quantity of a quantum system. According to the Composition Postulate, the act of measuring an observable quantity of a quantum system will cause the system to collapse into one of the eigenstates of the observable operator associated with that observable quantity, and the corresponding eigenvalue will be the result of the measurement. This collapse is also known as the wavefunction collapse, and it is a fundamental feature of quantum mechanics. These postulates lay the groundwork for understanding quantum measurement in its most straightforward form. However, modern quantum computing and quantum information often employ more advanced measurement schemes such as POVM (Positive Operator-Valued Measure), weak measurements, and nondestructive measurements. In order to accommodate such complex scenarios, it is necessary to extend these standard postulates into a general quantum measurement framework. 

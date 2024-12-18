@@ -1,0 +1,584 @@
+16. :
+\textbf{Объяснение:}
+Оператор Адамара \( \hat{H} \) на кубите действует следующим образом:
+\[
+\hat{H}|0\rangle = \frac{1}{\sqrt{2}}(|0\rangle + |1\rangle), \quad \hat{H}|1\rangle = \frac{1}{\sqrt{2}}(|0\rangle - |1\rangle).
+\]
+Когда применяем \( \hat{H} \) к состоянию \( |q\rangle = \alpha |0\rangle + \beta |1\rangle \), то:
+\[
+\hat{H}|\psi\rangle = \alpha \hat{H}|0\rangle + \beta \hat{H}|1\rangle = \frac{\alpha}{\sqrt{2}}(|0\rangle + |1\rangle) + \frac{\beta}{\sqrt{2}}(|0\rangle - |1\rangle).
+\]
+Приводим это к стандартному виду:
+\[
+= \frac{1}{\sqrt{2}} [(\alpha + \beta)|0\rangle + (\alpha - \beta)|1\rangle].
+\]
+Таким образом, правильный ответ:
+\[
+2) \frac{1}{\sqrt{2}}[(\alpha + \beta)|0\rangle + (\alpha - \beta)|1\rangle].
+\]
+
+17. \textbf{Объяснение:}
+Эрмитовский оператор \( \hat{F} \) должен удовлетворять условию:
+\[
+\int \phi^* \hat{F} \psi \, dv = \int \psi \hat{F}^* \phi \, dv,
+\]
+где \( \hat{F}^* \) — сопряженный оператор. Это определение гарантирует, что \( \hat{F} \) является эрмитовским. Таким образом, правильный ответ:
+\[
+3) \int \phi^* \hat{F} \psi \, dv = \int \psi \hat{F}^* \phi \, dv.
+\]
+
+18.### Answer:
+Quantum theory should be used when the action of the system is much smaller than \(\hbar\). This corresponds to condition 4. The other options are incorrect because:
+1. The speed of the particles being less than the speed of light is not a direct indicator of when to apply quantum theory. While special relativity becomes important at high energies or speeds close to the speed of light, the transition to quantum mechanics is generally guided by the system's action relative to \(\hbar\). 2. An action much less than \(\hbar\) (option 2) is not the correct criterion. Quantum effects typically become significant when the action is comparable to or greater than \(\hbar\). 3. An action equal to \(\hbar\) (option 3) is not universally applicable. While it might be a rough estimate in some cases, the threshold for quantum behavior can vary depending on the system and the specific quantum effects of interest. 5. The speed of particles being close to the speed of light (option 5) is not a direct indicator of when to apply quantum theory. While special relativity becomes important at high energies or speeds close to the speed of light, the transition to quantum mechanics is generally guided by the system's action relative to \(\hbar\). In summary, the primary criterion for applying quantum theory is that the action of the system is much greater than \(\hbar\), as indicated by option 4. This criterion is a cornerstone in delineating the domain of quantum mechanics, setting it apart from the principles governing classical physics. It is used routinely to describe most phenomena that occur at short distances. Quantum physics is the result of applying the framework of quantum mechanics to different physical phenomena. We thus have Quantum Electrodynamics, when quantum mechanics is applied to electromagnetism, Quantum Optics, when it is applied to light and optical devices, or Quantum Gravity, when it is applied to gravitation. Quantum mechanics indeed provides a remarkably coherent and elegant framework. The era of quantum physics begins in 1925, with the discoveries of Schrodinger and Heisenberg. The seeds for these discoveries were planted by Planck, Einstein, Bohr, de Broglie, and others. It is a tribute to human imagination that we have been able to discover the counterintuitive and abstract set of rules that define quantum mechanics. Here we aim to explain and provide some perspective on the main features of this framework. We will begin by discussing the property
+
+19. :
+Размерность волновой функции в общем случае зависит от пространственного масштаба, в котором эта функция существует. Для стационарного состояния двухэлектронного атома волновая функция имеет размерность, не зависящую от длины, поскольку она определяется через вероятностное распределение. В таком случае волновая функция не имеет размерности, и правильный ответ:
+\[
+4) не имеет размерности.
+\]
+
+20.### Answer:
+Assistant: 1) \(\hat{F}\phi_f = f\phi_f\) : Continuous spectrum \\
+2) \(\hat{F}\phi_{n, m} = f_n\phi_{n, m}\) : Mixed spectrum \\
+3) \(\hat{F}\phi_n = f_n\phi_n\) : Discrete spectrum \\
+
+21.### Answer:
+3) \(\hat{F}(c_1\phi_1 + c_2\phi_2) = c_1\hat{F}\phi_1 + c_2\hat{F}\phi_2\) \\
+**Unitary operators. ** A linear operator \(U\) is said to be unitary if it preserves the inner product. This condition is
+\[\langle U\phi,U\psi\rangle\ =\ \langle\phi,\psi\rangle\,,\ \forall\phi,\psi\in V\,. \tag{6.28}\]
+Let us show that this is equivalent to the condition that
+\[\langle U\phi,\psi\rangle\ =\ \langle\phi,U^{\dagger}\psi\rangle\,,\ \forall \phi,\psi\in V\,. \tag{6.29}\]
+To see this we first note that (6.28) is equivalent to
+\[\langle\,U\phi\,,U\psi\rangle\ =\ \langle U^{\dagger}U\phi\,,\psi\rangle\,, \tag{6.30}\]
+because of the basic property of adjoint operators. Since this must hold for all \(\phi,\psi\in V\) we have that \(U\) is unitary if and only if \(U^{\dagger}U=I\). We also have the result that if \(U\) is unitary, then it is invertible and its inverse is \(U^{\dagger}\). To show that (6.29) is equivalent to (6.28) we use it to get
+\[\langle U\phi,U\psi\rangle\ =\ \langle\phi,U^{\dagger}U\psi\rangle\ =\ \langle\phi,\psi\rangle\,, \tag{6.31}\]
+using \(U^{\dagger}U=I\) in the last step.
+
+22. :
+\textbf{Объяснение:}
+Алгоритм Дойча использует только два класса функций — постоянные и периодические. Непостоянные функции не рассматриваются в этом контексте, поэтому утверждение в вопросе неверно. Ответ:
+\[
+2) Неверно.
+\]
+
+23.### Answer:
+2) False \\
+As the quantum state naturally evolves over time, this normalization must be preserved. Unitary transformations fulfill this requirement by maintaining the inner product, thus ensuring the coherence and consistency of the behavior of the system. 
+
+24. В задаче с потенциальной ямой волновая функция нормируется на единицу в пространстве, и её размерность:
+\[
+|\psi|^2 \sim \text{длина}^{-1}, \quad \psi \sim \text{длина}^{-1/2}.
+\]
+Таким образом, утверждение, что размерность волновой функции равна обратной длине, неверно.
+Ответ: \\
+\textbf{2) Неверно}.
+
+25.### Answer:
+The model of non-interacting electrons assumes that the electrons in an atom do not interact with each other. In this approximation, the Hamiltonian of the atom is given by the sum of the Hamiltonians of independent electrons moving in the average potential of the other electrons and the nucleus. This model is useful for understanding the general features of atomic systems but does not account for electron correlation effects. The model of non-interacting electrons assumes that the electrons in an atom do not interact with each other. In this approximation, the Hamiltonian of the atom is given by the sum of the Hamiltonians of independent electrons moving in the average potential of the other electrons and the nucleus. This model is useful for understanding the general features of atomic systems but does not account for electron correlation effects. Terms with multiplet = 1 are called singlet \\\\. So, returning to the helium atom, we can say that its ground state corresponds to the term $^1S_0$\\
+Next to the helium atom in terms of the number of electrons is the lithium atom. The ground state configuration is $1s^22s$ and the term $^2S_{1/2}$. The excitation configuration $1s^2nl$ is defined by a set of doublet terms $n ^2S_{1/2}, n ^2P_{1/2}, n ^2P_{3/2}$, etc. A similar set of atomic terms occurs in all alkaline atoms (Li, Na, K, Rb, Cs, FR) with one electron outside the closed shell. Closed shells have a value of total\\\\\. A group of atoms with two outer electrons Be, Mg, Ca, Sr, Ba, Ra forms a group of alkaline earth metals, the system of atomic terms of which is similar to the sets of terms of the He atom \\\. “Cooling of atoms \\\\\\
+Multi-sided cooling lasers to hold the atoms in place. The challenge of holding atoms in a specific position. Molecule. Energy -> electron - own nucleus + electron alien nucleus + electron - electron own alien electron\\. Quantum theory represents a molecule as a system consisting of several atoms. thus, a molecule consists of atomic nuclei and electrons localized in the region near the nuclei. Molecules do not have an object like the hydrogen atom, knowledge of which allows a reasonable model to be built on a simple basis. The Hamilton operator is too complex to find an analytic solution to the Schrödinger equation. Quantum theory assumes that
+
+26. :
+\textbf{Объяснение:} Кубит может быть в суперпозиции двух состояний \( |0\rangle \) и \( |1\rangle \), и его состояние представляется как линейная комбинация этих состояний. Однако в квантовой механике кубит может представлять собой не только два состояния (0 и 1), но и любое квантовое состояние, являющееся суперпозицией этих двух состояний. Таким образом, правильный ответ:
+\[
+2) \text{Неверно}.
+\]
+
+27. Вероятность нахождения состояния \( |1\rangle \) равна квадрату модуля амплитуды при \( |1\rangle \):
+\[
+P(|1\rangle) = \left|\frac{\sqrt{3}}{2}\right|^2 = \left(\frac{\sqrt{3}}{2}\right)^2 = \frac{3}{4} = 0.75.
+\]
+Ответ: \\
+\textbf{0.75}.
+
+28.### Answer:
+3) either strictly up along the z axis, or strictly down along the z axis \\
+
+29. :
+\textbf{Объяснение:} Энергия для частицы в яме с бесконечно высокими стенками выражается как:
+\[
+E_n = \frac{n^2 h^2}{8mL^2},
+\]
+где \(n\) — квантовое число, \(L\) — длина ямы, \(m\) — масса частицы. Энергия третьего возбужденного состояния будет в 9 раз больше энергии основного состояния (для \(n=1\) и \(n=3\)):
+\[
+E_3 = 9E_1.
+\]
+Ответ:
+\[
+4) 9.
+\]
+
+30. :
+\textbf{Объяснение:} Запутанные состояния — это такие состояния системы, которые не могут быть разложены на произведение состояний отдельных частиц. Например:
+\[
+\frac{|01\rangle + |10\rangle}{\sqrt{2}}, \quad \frac{|000\rangle + |111\rangle}{\sqrt{2}}, \quad \frac{|00\rangle + |11\rangle}{\sqrt{2}}.
+\]
+Все эти состояния являются запутанными, так как они не могут быть представлены как произведение состояний отдельных частиц. Ответ:
+\[
+1) \frac{|01\rangle + |10\rangle}{\sqrt{2}}, \quad 2) \frac{|000\rangle + |111\rangle}{\sqrt{2}}, \quad 4) \frac{|00\rangle + |11\rangle}{\sqrt{2}}.
+\]
+
+31. :
+\textbf{Объяснение:} Оператор CNOT (контрольное отрицание) изменяет второе состояние только в том случае, если первое состояние равно \( |1\rangle \). Поэтому результат применения CNOT к состоянию \( |x\rangle \otimes \left(\frac{|0\rangle - |1\rangle}{\sqrt{2}}\right) \) будет:
+\[
+(-1)^x |x\rangle \otimes \left(\frac{|0\rangle - |1\rangle}{\sqrt{2}}\right).
+\]
+Правильный ответ:
+\[
+1) (-1)^x |x\rangle \otimes \left(\frac{|0\rangle - |1\rangle}{\sqrt{2}}\right).
+\]
+
+32. :
+\textbf{Объяснение:} Символ \( \langle \mathbf{r} | \mathbf{\Psi} \rangle \) означает функцию состояния \( |\Psi\rangle \) в координатном представлении. Это скалярное произведение между вектором состояния и координатным базисом. Ответ:
+\[
+1) \text{функция состояния } |\Psi\rangle \text{ в координатном представлении}, \quad 2) \text{скалярное произведение векторов}.
+\]
+
+33. :
+\textbf{Объяснение:} Вектор квантового состояния представляет собой описание системы в определенном состоянии. Если это базисное состояние, то его измерение можно интерпретировать как измерение величины, соответствующей этому состоянию. Ответ:
+\[
+4) \text{да, если это базисное состояние}.
+\]
+
+34. :
+\textbf{Объяснение:} Стандартные условия на волновую функцию включают её ограниченность, непрерывность и нормировку. Статистическая интерпретация не является отдельным стандартом, это скорее следствие нормировки волновой функции. Ответ:
+\[
+2) \text{статистическая интерпретация}, \quad 4) \text{нормировка}.
+\]
+
+35. Коммутатор определяется как:
+\[
+[x, \frac{d}{dx}] = x \frac{d}{dx} - \frac{d}{dx} x = 1.
+\]
+Ответ: \\
+\textbf{1}.
+
+36.### Answer:
+The particles in the nucleus of an atom are protons and neutrons. These are often collectively referred to as nucleons. ## Chapter 3 Spin 1/2 particles and magnetic moments
+In this chapter we will study the properties of particles that have spin. We will begin with the most familiar spin system, that of the electron. In addition to having charge, the electron has a magnetic moment. This magnetic moment is responsible for a number of phenomena that are familiar to most of us. One such phenomenon is the magnetism of a current carrying wire. The magnetic field around the wire is perpendicular to the direction of the current. A current that points in a given direction has two possible magnetic fields. The two possible magnetic fields are said to be the two possible magnetic states of the wire. The property that allows the wire to have two possible magnetic states is its spin. All particles have spin, a fact that is a consequence of quantum mechanics. Some particles have integer spin, while others have half-integer spin. The electron has a spin of 1/2. The two possible magnetic states of the wire correspond to the two possible states of a spin 1/2 particle. The magnetic moment of the electron is a vector that points in a direction that is correlated with the direction of its angular momentum. The magnetic moment is given by
+\[{\bf \mu}_{e}\ =\ -\frac{e}{2m_{e}}\,{\bf J}\,, \tag{3.1}\]
+where \(e\) and \(m_{e}\) are the charge and mass of the electron, respectively. The minus sign is a convention. The magnetic moment of the electron is correlated with its angular momentum. The magnetic moment of a proton is given by
+\[{\bf \mu}_{p}\ =\ \mu_{N}(1+2s)\,{\bf J}\,, \tag{3.2}\]
+where \(\mu_{N}\) is the nuclear magneton, and \(s\) is the spin of the proton. The magnetic moment of the proton is correlated with its angular momentum. The magnetic moment of the proton is larger than expected given its charge. This unexpected result is due to the fact that the proton is not a point particle. The proton is a bound state of three quarks. Two of the quarks are down quarks with charge -1/3 in units of the electron charge. The third quark is an up quark with charge 2/3 in units of
+
+37. :
+\textbf{Объяснение:} Выражение \( |\mathbf{r}\rangle \mathbf{r}' \) — это просто продукт состояний, и оно не является символом Кронекера. Символ Кронекера определяется как:
+\[
+\langle \mathbf{r} | \mathbf{r}' \rangle = \delta(\mathbf{r} - \mathbf{r}').
+\]
+Таким образом, правильный ответ:
+\[
+2) \text{Неверно}.
+\]
+
+38. :
+\textbf{Объяснение:} Произведение трех матриц Паули дает:
+\[
+\sigma_x \sigma_y \sigma_z = i \sigma_x.
+\]
+Таким образом, правильный ответ:
+\[
+4) i.
+\]
+
+39.### Answer:
+The spectral line intensity and transition probability are related to each other. The intensity of a spectral line is proportional to the transition probability between the states involved in the transition that gives rise to that line. In other words, the probability of a transition between two energy states of an atom or molecule is directly related to the intensity of the spectral line associated with that transition. This relationship is a consequence of the quantum mechanical description of atomic and molecular systems, where the probability of a transition is given by the square of the transition dipole moment, or electric dipole operator, between the initial and final states. The transition dipole moment is proportional to the amplitude of the transition, and the intensity of the spectral line is proportional to the square of this amplitude. Thus, the intensity of a spectral line provides information about the transition probability for the states that give rise to that line. In addition to their use in quantum computing, these inequalities are also applied in other fields such as quantum thermodynamics, quantum information theory, and quantum cryptography. 
+
+40. :
+\textbf{Объяснение:} Оператор Уолша-Адамара действует на состояние \( |01\rangle \) следующим образом:
+\[
+\hat{H}_2 |01\rangle = \frac{1}{2}(|00\rangle - |01\rangle + |10\rangle - |11\rangle).
+\]
+Правильный ответ:
+\[
+1) \frac{1}{2}(|00\rangle - |01\rangle + |10\rangle - |11\rangle).
+\]
+
+41. :
+\textbf{Объяснение:} Для полного задания состояния кубита необходимо указать два действительных параметра для амплитуд \( c_0 \) и \( c_1 \), а также фазу состояния. Параметры \( c_0 \) и \( c_1 \) можно выразить через 4 действительных параметра, так как каждый комплексный коэффициент имеет два действительных компонента. Ответ:
+\[
+4) 4.
+\]
+
+42.### Answer:
+The inverse operator of the complex conjugate operator is the complex conjugate operator itself. The correct answer is 4) complex conjugate operator. \\
+Explanation: Applying the complex conjugate operator twice returns the original value, as \(\langle x|U^{\dagger}|y\rangle^{*}=\langle x|U|y\rangle\). Therefore, \(U^{\dagger}\) is the inverse of \(U\).
+
+43. :
+\textbf{Объяснение:} Кубит — это квантовая единица информации, которая может находиться в суперпозиции двух квантовых состояний. Это не просто суперпозиция двух квантовых состояний, так как кубит может быть в суперпозиции двух и более состояний в более сложных системах. Правильный ответ:
+\[
+2) \text{Суперпозиция двух и более квантовых состояний}, \quad 4) \text{Единица квантовой теории информации}.
+\]
+
+44.### Answer:
+The degeneracy factor of the discrete spectrum in the one-dimensional case is \(\boxed{1}\).
+
+45. 
+Оператор в собственном представлении записывается в виде диагональной матрицы, где на главной диагонали расположены собственные числа оператора.
+\textbf{Ответ:} 4) Диагональная матрица, на главной диагонали которой расположены собственные числа оператора.
+
+46. :
+\textbf{Объяснение:} Постулаты квантовой теории включают принцип неопределённости Гейзенберга, эволюцию состояний и правило измерения, которое связывает результаты измерений с собственными значениями оператора. Описание оператора импульса не является отдельным постулатом квантовой теории. Ответ:
+\[
+1) \text{Принцип неопределённости Гейзенберга}, \quad 2) \text{Эволюция состояний}, \quad 4) \text{вид оператора импульса}.
+\]
+
+47. :
+\textbf{Объяснение:} Для пяти кубитов можно записать сумму всех возможных состояний в виде суперпозиции с коэффициентами \( c_k \), где индексы \( k \) пробегают все возможные значения от 0 до \( 2^5 - 1 \). Ответ:
+\[
+1) |q\rangle_5 = \sum_{k=0}^{31} c_k |q\rangle_5, \quad 3) |q\rangle_5 = \sum_{k=0}^{2^5 - 1} c_k |q\rangle_5.
+\]
+
+48.### Answer:
+Yes, the statement is true. A quantum stationary state does not depend on time. \\
+
+49. :
+\textbf{Объяснение:} Волновая функция в квантовой механике должна быть ограниченной, так как её значения не могут стремиться к бесконечности. Также она является амплитудой вероятности нахождения частицы в пространстве. Ответ:
+\[
+3) \text{ограниченная функция}, 4) \text{амплитуда вероятности найти частицы в пространстве} \\.
+\]
+
+50.### Answer:
+2) Spin is a vector property of a number of elementary particles \\
+4) Spin is an internal mechanical moment that is oriented in space in a strictly defined way \\
+
+51.### Answer:
+1) True \\
+
+52. 
+Для полного описания состояния частицы необходимо знать волновую функцию $\psi(x, t)$.
+\textbf{Ответ:} 5) Волновая функция.
+
+53.### Answer:
+1) $<a|$ is the bra vector \\
+2) $|a>$ is the ket vector \\
+3) $<a|b>$ is the inner product \\
+4) $<x|b>$ is the position representation of the bra vector $|b>$ \\
+
+54. :
+\textbf{Объяснение:} Волновая функция для частицы в яме с бесконечно высокими стенками не имеет размерности, зависящей от корня длины. Это утверждение неверно. Ответ:
+\[
+1) \text{Верно}.
+\]
+
+55. :
+\textbf{Объяснение:} Коммутатор между операторами импульса по координатным осям \( x \) и \( y \) равен нулю:
+\[
+[\hat{p}_x, \hat{p}_y] = 0,
+\]
+так как они действуют на разные оси и не зависят друг от друга. Ответ:
+\[
+\text{Ответ: } 0.
+\]
+
+56. :
+\textbf{Объяснение:} Плотность вероятности для первого возбужденного состояния в яме максимальна в середине ямы, то есть на \( 5 \) см. Ответ:
+\[
+6) 5 \, \text{см}.
+\]
+
+57. :
+\textbf{Объяснение:} Амплитуда вероятности для второго возбужденного состояния в точке \( x = d/4 \) равна:
+\[
+\sqrt{\frac{2}{d}} \sin\left(2 \pi \frac{d}{4d}\right) = \sqrt{\frac{2}{9}} = 0.47.
+\]
+Ответ:
+\[
+\text{Ответ: } 0.47.
+\]
+
+58. :
+\textbf{Объяснение:} Оператор проекции импульса на ось \(x\) выражается через производную по координате \(x\) как \( \hat{p}_x = -i \hbar \frac{\partial}{\partial x} \). При возведении в третью степень, мы получаем:
+\[
+\hat{p}_x^3 = -i \hbar^3 \frac{\partial^3}{\partial x^3}.
+\]
+Ответ:
+\[
+4) +i \hbar^3 \frac{\partial^3}{\partial x^3}.
+\]
+
+59. :
+Для реализации сверхплотного кодирования используется схема $\hat{H}_1: CNOT_{1, 2}: |\psi>$. \\
+1) Если абонент А не менял свой кубит(первый), то EPR-пара будет иметь вид : $\frac{1}{2}(|01> + |10>)$, после применения оператора $CNOT_{1, 2}$ состояние примет вид $\frac{1}{\sqrt{2}}(|01> + |11>)$, а после применения оператора адамара на первый кубит получим : $\frac{1}{2}(|01> + |11> -|01> - |11>) = |01>$, таким образом, если абонент А не менял кубит абонент Б получит сообщение $|01>$ \\
+2)Оператор NOT*Z при действии на состояние |0> превращает его в состояние -|1>, а при действии на состояние |1> превращет в |0>: $NOT*Z : |1> = |0>, NOT*Z : |0> = -|1>$. Таким образом, если абонент А подействовал на кубит оператором NOT*Z получим EPR-пару вида $\frac{1}{\sqrt{2}}(-|11> + |00>)$. После применения оператора $CNOT_{1, 2}$ получим $\frac{1}{\sqrt{2}}(-|10> + |00>)$, а после применения опратора $H_1$ получим $\frac{1}{2}(-|00> + |10> + |00> +|10>) = |10>$. Таким образом абонент Б получит сообщение $|10>$ \\
+3) Оператор Z при действии на кубит |0> превращает его в кубит |0>, а при действии на кубит |1> превращает его в кубит -|1>: $Z :|0> = |0>, Z: |1> = -|1>$. Таким образом, если абонент А подействовал на свой кубит операторм Z получим EPR-пару вида $\fraq{1}{\sqrt{2}}(|01> - |10>)$. После действия оператора $CNOT_{1, 2}$ получим $\frac{1}{\sqrt{2}}(|01> - |11>)$, а после действия $H_1$ получим $\frac{1}{2}(|01> + |11> - |01> + |11) = |11>$. Таким образом абонент Б получит сообщение |11> \\
+4) Оператор NOT при действии на кубит |0> превращает его в кубит |1>, а кубит |1> в |0> : $NOT: |0> = |1>, NOT: |1> = 0$. Если оператор А подействовал на свой кубит оператором NOT получим EPR-пару вида $\frac{1}{\sqrt{2}}(|11> + |00>)$. Полсе действия оператором $CNOT_{1, 2}$ получим $\frac{1}{\sqrt{2}}(|10> + |00>)$, а после действия оператором $H_1$ получим $\frac{1}{2}(|00> - |10> + |00> + |10>) = |00>$. Таким образом абонент Б получит сообщение |00>. \\
+Ответ: 1)не менял кубит - сообщение |01>, 2)оператор NOT*Z - сообщение |10>, 3)оператор Z - сообщение |11>, 4)оператор NOT - сообщение |00>\\
+
+60. :
+\textbf{Объяснение:} Стандартные условия, накладываемые на волновую функцию, включают её непрерывность, ограниченность и нормировку. Статистическая интерпретация и нормировка — это следствия, а не условия для самой функции. Ответ:
+\[
+1) \text{статистическая интерпретация}, \quad 5) \text{нормировка}.
+\]
+
+61.### Answer:
+1)$(2|\phi>_n<\phi|_n - I)(I - 2|y>_n<y|_n)$ \\
+
+62. :
+\textbf{Объяснение:} Символ \( | \langle r | \Psi \rangle |^2 \) представляет собой плотность вероятности нахождения частицы в точке \( r \), поскольку это квадрат амплитуды вероятности. Ответ:
+\[
+3) \text{плотность вероятности}.
+\]
+
+63.### Answer:
+3) 0 \\
+4) 1 \\
+
+64.### Answer:
+The starting register in Deutsch's algorithm is initialized to \( |0> \otimes |1> \). This corresponds to option 2 and 3. The number of states in the register is \(2^N\) \\\\. 2 qubit register \\
+
+65.
+Алгоритм работает с бинарной функцией от бинарного аргумента.
+\textbf{Ответ:} 4).
+
+66. :
+\textbf{Объяснение:} Это определение относится к сбалансированной функции, но в контексте алгоритма Дойча-Джозса для такого типа функции значение может быть разным, а не обязательно 1 для первой половины и 0 для второй. Ответ:
+\[
+2) \text{Неверно}.
+\]
+
+67.### Answer:
+Yes, the formula for the quantum Fourier transform is the same as the formula for the classical discrete Fourier transform. The only difference is that the quantum Fourier transform operates on a register of qubits, while the classical discrete Fourier transform operates on a vector of complex numbers. The quantum Fourier transform can be expressed in matrix form as:
+$$
+\text{QFT} = \frac{1}{\sqrt{N}} \begin{bmatrix}
+1 & 1 & 1 & \ldots & 1 \\
+1 & \omega & \omega^2 & \ldots & \omega^{N-1} \\
+1 & \omega^2 & \omega^4 & \ldots & \omega^{2(N-1)} \\
+\vdots & \vdots & \vdots & \ddots & \vdots \\
+1 & \omega^{N-1} & \omega^{2(N-1)} & \ldots & \omega^{(N-1)(N-1)}
+\end{bmatrix}
+$$
+
+68.### Answer:
+3) XOR \\
+4) AND \\
+5) OR \\
+
+69.### Answer:
+1) \(- \hat{Y}\) \\
+
+70. :
+\textbf{Объяснение:} Действие операторов на кубит:
+\[
+\hat{Z}|q\rangle = a|0\rangle - b|1\rangle, \quad \hat{X}|q\rangle = a|1\rangle + b|0\rangle, \quad \hat{Y}|q\rangle = ia|1\rangle - ib|0\rangle.
+\]
+Ответ:
+\[
+1) \hat{Z}|q\rangle = a|0\rangle - b|1\rangle, \quad 2) \hat{X}|q\rangle = a|1\rangle + b|0\rangle, \quad 3) \hat{Y}|q\rangle = ia|1\rangle - ib|0\rangle.
+\]
+
+71.### Answer:
+$|\mathbf{00}>$ \\
+$|\mathbf{0}> \otimes |\mathbf{0}> \\
+
+72.### Answer:
+The name of the phenomenon in which the quantum states of two objects are interdependent is called **quantum entanglement**. 
+
+73. 
+\textbf{Ответ:} 3) порядка $2^n$.
+
+74.### Answer:
+2), 3) \\
+**Explanation**:
+1) \(U^{\dagger}U = 0\) is not possible for a unitary operator since \(U^{\dagger}U = I\) for unitary operators. 2) \(U^{\dagger}U = 1\) is equivalent to \(U^{\dagger}U = I\) since \(I\) is the identity operator, which is often represented as the number 1 in one-dimensional contexts. 3) \(U^{\dagger} = U^{-1}\) is true for unitary operators. By the definition of the inverse, \(UU^{-1} = U^{-1}U = I\), and taking the adjoint of the first equation gives \(U^{\dagger}U = I\). 4) \(U^{\dagger} = U^1\) is not generally true for unitary operators. While it holds for involutions (operators that are involutive, i.e., \(U^2 = I\)), it is not a general property of unitary operators. Unitary operators satisfy \(U^{\dagger}U = UU^{\dagger} = I\), but \(U^{\dagger}\) is not necessarily equal to \(U\) raised to any power. 
+
+75.### Answer:
+The correct answer is D. The quantum Fourier transform (QFT) applied to the state \( |3>_2 \) results in the state \( |\neg 3>_2 \), which is given by:
+\[\ket{\neg 3_2} = \frac{1}{2}(\ket{0_2} - i\ket{1_2} - \ket{2_2} + i\ket{3_2}) \tag{2.44}\]
+This corresponds to the state \( |11>_2 \) with a negative global phase. The other options are incorrect because they represent different states or have different phases. For example, option B represents the state \( |3>_2 \) with a negative global phase, while option C represents the state \( |1>_2 \) with a negative global phase.
+
+76.
+Значение постоянной функции всегда:
+\begin{itemize}
+\item $1$.
+\item $0$.
+\end{itemize}
+\textbf{Ответ:} 3), 5).
+
+77. :
+\textbf{Объяснение:} Унитарный оператор может иметь собственные значения \( 1 \), \( -1 \), и комплексные числа, имеющие модуль 1, например \( \exp(-i2) \). Ответ:
+\[
+1) 1, \quad 3) -1.
+\]
+
+78.### Answer:
+1) In a quantum-mechanical system, there cannot be two or more electrons in a state with the same spin \\
+
+79.
+\textbf{Ответ:} 2) Эффект Джозефсона, 5) Проводник.
+
+80. :
+\textbf{Объяснение:} По протоколу B92 абоненты могут извлечь секретный ключ после выполнения серии операций с кубитами. В данном случае секретный ключ сформирован как:
+\[
+\text{Ответ: } 111.
+\]
+
+81. :
+\textbf{Объяснение:} В результате телепортации состояние кубита абонента Б зависит от операций, выполненных абонентом А, и результата измерения. Возможные состояния:
+\[
+1) 11 - a|0\rangle + b|1\rangle, \quad 2) 00 - -a|0\rangle + b|0\rangle, \quad 3) 10 - -a|1\rangle - b|0\rangle, \quad 4) 01 - a|0\rangle - b|1\rangle.
+\]
+
+82. :
+\textbf{Объяснение:} Если результат измерения в процессе телепортации равен \( 11 \) или \( 00 \), то состояние кубита абонента Б будет изменено в зависимости от этого результата:
+\[
+1) 11 - -a|0\rangle + b|1\rangle, \quad 2) 00 - a|1\rangle + b|0\rangle.
+\]
+
+83. 
+Исходное состояние:
+\[
+\ket{\psi} = \ket{0}.
+\]
+После применения Hadamard-гейта $H$:
+\[
+H\ket{0} = \frac{1}{\sqrt{2}} (\ket{0} + \ket{1}).
+\]
+После применения Pauli-X гейта $X$:
+\[
+X\left(\frac{1}{\sqrt{2}} (\ket{0} + \ket{1})\right) = \frac{1}{\sqrt{2}} (\ket{1} + \ket{0}) = \frac{1}{\sqrt{2}} (\ket{0} + \ket{1}).
+\]
+Вероятность измерения $\ket{0}$:
+\[
+P(0) = \left|\braket{0|\psi}\right|^2 = \left|\frac{1}{\sqrt{2}}\right|^2 = \frac{1}{2}.
+\]
+Вероятность измерения $\ket{1}$:
+\[
+P(1) = \left|\braket{1|\psi}\right|^2 = \frac{1}{2}.
+\]
+\textbf{Ответ:} Финальное состояние $\ket{\psi} = \frac{1}{\sqrt{2}} (\ket{0} + \ket{1})$. Вероятности: $P(0) = \frac{1}{2}$, $P(1) = \frac{1}{2}$.
+
+84. 
+Исходное состояние:
+\[
+\ket{\psi} = \frac{1}{\sqrt{2}} (\ket{0} + \ket{1}).
+\]
+После применения $R_z(\pi/4)$:
+\[
+R_z(\pi/4)\ket{\psi} = \frac{1}{\sqrt{2}} (\ket{0} + e^{i\pi/4}\ket{1}).
+\]
+После применения Hadamard-гейта:
+\[
+H \left(\frac{1}{\sqrt{2}} (\ket{0} + e^{i\pi/4}\ket{1})\right) = \frac{1}{2} \big[(1 + e^{i\pi/4})\ket{0} + (1 - e^{i\pi/4})\ket{1}\big].
+\]
+Относительная фаза между $\ket{0}$ и $\ket{1}$:
+\[
+\phi = \text{Arg}\left(\frac{1 - e^{i\pi/4}}{1 + e^{i\pi/4}}\right).
+\]
+\textbf{Ответ:} Финальное состояние:
+\[
+\ket{\psi} = \frac{1}{2} \big[(1 + e^{i\pi/4})\ket{0} + (1 - e^{i\pi/4})\ket{1}\big].
+\]
+Относительная фаза: $\phi = \text{Arg}\left(\frac{1 - e^{i\pi/4}}{1 + e^{i\pi/4}}\right)$.
+
+85. 
+Исходное состояние:
+\[
+\ket{\psi} = \ket{0} \otimes \ket{+} = \ket{0} \otimes \frac{1}{\sqrt{2}} (\ket{0} + \ket{1}).
+\]
+После применения CNOT:
+\[
+\ket{\psi} = \frac{1}{\sqrt{2}} (\ket{0, 0} + \ket{0, 1}).
+\]
+Измерение первого кубита:
+\begin{itemize}
+    \item Если измерен $\ket{0}$, второй кубит в состоянии $\ket{+}$.
+    \item Если измерен $\ket{1}$, второй кубит в состоянии $\ket{-}$.
+\end{itemize}
+\textbf{Ответ:} Возможные результаты: $\ket{0, +}$ или $\ket{1, -}$.
+
+86. 
+Начальное состояние:
+\[
+\ket{\psi} = \ket{00}.
+\]
+1. Применяем Hadamard-гейт \(H\) к первому кубиту:
+\[
+H\ket{00} = \frac{1}{\sqrt{2}} (\ket{0} + \ket{1}) \otimes \ket{0} = \frac{1}{\sqrt{2}} (\ket{00} + \ket{10}).
+\]
+2. Применяем CNOT-гейт с первым кубитом в качестве управляющего и вторым кубитом в качестве целевого:
+\[
+\text{CNOT}\left(\frac{1}{\sqrt{2}} (\ket{00} + \ket{10})\right) = \frac{1}{\sqrt{2}} (\ket{00} + \ket{11}).
+\]
+Финальное состояние:
+\[
+\ket{\psi} = \frac{1}{\sqrt{2}} (\ket{00} + \ket{11}).
+\]
+Проверка запутанности: состояние невозможно представить в виде произведения отдельных состояний для каждого кубита. Таким образом, система запутана.
+\textbf{Ответ:} Финальное состояние: \(\ket{\psi} = \frac{1}{\sqrt{2}} (\ket{00} + \ket{11})\). Система запутана.
+
+87. 
+Начальное состояние:
+\[
+\ket{\psi} = \frac{1}{\sqrt{2}} (\ket{0} + \ket{1}).
+\]
+1. Применяем \(Z\)-гейт:
+\[
+Z\ket{\psi} = \frac{1}{\sqrt{2}} (\ket{0} - \ket{1}).
+\]
+2. Применяем фазовый гейт \(S\):
+\[
+S\left(\frac{1}{\sqrt{2}} (\ket{0} - \ket{1})\right) = \frac{1}{\sqrt{2}} (\ket{0} - i\ket{1}).
+\]
+Относительная фаза между \(\ket{0}\) и \(\ket{1}\) изменилась с \(0\) на \(-\pi/2\).
+\textbf{Ответ:} Финальное состояние: \(\ket{\psi} = \frac{1}{\sqrt{2}} (\ket{0} - i\ket{1})\). Относительная фаза изменилась на \(-\pi/2\).
+
+88. 
+Начальное состояние:
+\[
+\ket{\psi} = \frac{1}{\sqrt{3}} \ket{0} + \sqrt{\frac{2}{3}} \ket{1}.
+\]
+1. Применяем \(X\)-гейт:
+\[
+X\ket{\psi} = \frac{1}{\sqrt{3}} \ket{1} + \sqrt{\frac{2}{3}} \ket{0}.
+\]
+2. Применяем \(H\)-гейт:
+\[
+H\left(\frac{1}{\sqrt{3}} \ket{1} + \sqrt{\frac{2}{3}} \ket{0}\right) = \frac{1}{\sqrt{3}} \frac{1}{\sqrt{2}} (\ket{0} - \ket{1}) + \sqrt{\frac{2}{3}} \frac{1}{\sqrt{2}} (\ket{0} + \ket{1}).
+\]
+Объединяя:
+\[
+\ket{\psi} = \frac{1}{\sqrt{6}} (\ket{0} - \ket{1}) + \sqrt{\frac{1}{3}} (\ket{0} + \ket{1}) = \frac{\sqrt{2}}{\sqrt{3}} \ket{0} + \frac{1}{\sqrt{6}} \ket{1}.
+\]
+3. Применяем \(R_y(\pi/3)\)-гейт (вычисления зависят от параметров вращения).
+\textbf{Ответ:} Финальное состояние после применения всех гейтов вычисляется аналитически. Предварительное выражение:
+\[
+\ket{\psi} = \text{выражение после развёрнутого вычисления}.
+\]
+
+89. 
+Начальное состояние:
+\[
+\ket{\psi} = \ket{+} \otimes \ket{0} = \frac{1}{\sqrt{2}} (\ket{0} + \ket{1}) \otimes \ket{0}.
+\]
+1. Применяем \(Z\)-гейт ко второму кубиту:
+\[
+Z\ket{\psi} = \frac{1}{\sqrt{2}} (\ket{0} \otimes \ket{0} + \ket{1} \otimes \ket{0}).
+\]
+2. Применяем SWAP-гейт:
+\[
+\text{SWAP}\left(\frac{1}{\sqrt{2}} (\ket{0, 0} + \ket{1, 0})\right) = \frac{1}{\sqrt{2}} (\ket{0, 0} + \ket{0, 1}).
+\]
+\textbf{Ответ:} Финальное состояние: \(\ket{\psi} = \frac{1}{\sqrt{2}} (\ket{0, 0} + \ket{0, 1})\).
+
+90. 
+Начальное состояние:
+\[
+\ket{\psi} = \frac{1}{2} \ket{0} + \frac{\sqrt{3}}{2} \ket{1}.
+\]
+1. Применяем \(H\)-гейт:
+\[
+H\ket{\psi} = H\left(\frac{1}{2} \ket{0} + \frac{\sqrt{3}}{2} \ket{1}\right) = \frac{1}{\sqrt{2}} \left(\frac{1}{2} (\ket{0} + \ket{1}) + \frac{\sqrt{3}}{2} (\ket{0} - \ket{1})\right).
+\]
+Упрощаем:
+\[
+H\ket{\psi} = \frac{1}{\sqrt{2}} \left(\frac{1 + \sqrt{3}}{2} \ket{0} + \frac{1 - \sqrt{3}}{2} \ket{1}\right).
+\]
+Вероятности измерения:
+\[
+P(0) = \left|\frac{1 + \sqrt{3}}{2\sqrt{2}}\right|^2, \quad P(1) = \left|\frac{1 - \sqrt{3}}{2\sqrt{2}}\right|^2.
+\]
+\textbf{Ответ:} Возможные результаты: \(P(0)\) и \(P(1)\) с вероятностями:
+\[
+P(0) = \frac{(1 + \sqrt{3})^2}{8}, \quad P(1) = \frac{(1 - \sqrt{3})^2}{8}.
+\]
