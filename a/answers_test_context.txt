@@ -1,0 +1,311 @@
+1.### Answer:
+
+Terms with multiplet = 1 are called singlet \\\\. So, returning to the helium atom, we can say that its ground state corresponds to the term $^1S_0$
+\\
+
+Next to the helium atom in terms of the number of electrons is the lithium atom. The ground state configuration is $1s^22s$ and the term $^2S_{1/2}$. The excitation configuration $1s^2nl$ is defined by a set of doublet terms $n ^2S_{1/2}, n ^2P_{1/2}, n ^2P_{3/2}$, etc. A similar set of atomic terms occurs in all alkaline atoms (Li, Na, K, Rb, Cs, FR) with one electron outside the closed shell. Closed shells have a value of total\\\\\. A group of atoms with two outer electrons Be, Mg, Ca, Sr, Ba, Ra forms a group of alkaline earth metals, the system of atomic terms of which is similar to the sets of terms of the He atom \\\. “Cooling of atoms \\\\\\
+Multi-sided cooling lasers to hold the atoms in place. The challenge of holding atoms in a specific position. Molecule. Energy -> electron - own nucleus + electron alien nucleus + electron - electron own alien electron\\. Quantum theory represents a molecule as a system consisting of several atoms. thus, a molecule consists of atomic nuclei and electrons localized in the region near the nuclei. Molecules do not have an object like the hydrogen atom, knowledge of which allows a reasonable model to be built on a simple basis. The Hamilton operator is too complex to find an analytic solution to the Schrödinger equation. Quantum theory assumes that these systems have discrete quantum states and that there is a probability of transition between these states. \\
+
+The set of electronic states of a molecule is determined by the properties of the electron shell and the symmetry of the molecule. NMR (nuclear magnetic resonance) - a phenomenon of resonant absorption of radio-frequency electromagnetic energy by a substance with non-zero values of magnetic moments of nuclei, which is in an external permanent magnetic field \\\
+
+\newpage
+
+For example, the nuclei $^1H, ^13C, ^19F, ^31P$ possess non-zero nuclear magnetic moments. NMR is observed in a homogeneous constant magnetic field superimposed by a weak alternating radio frequency field perpendicular to the constant field. For substances whose spin
+2.### Answer:
+
+The operator \(U3(\theta, -\frac{\pi}{2}, \frac{\pi}{2})\) is the same as \(R_x(\theta)\). The correct answer is 2). Below is how it's defined (refer to Fig. 5.4). Given any real unit vector in three-dimensional space represented by \(\hat{u}=(u_{x},u_{y},u_{z})\), where the condition \(u_{x}^{2}+u_{y}^{2}+u_{z}^{2}=1\) holds, we can define the unitary operator
+
+\[\sigma_{u}=u_{x}X+u_{y}Y+u_{z}Z. \tag{5.22}\]
+
+In the context of spherical coordinates with polar angle \(\theta\) and azimuthal angle \(\phi\), the components are given by
+
+\[u_{x}=\sin\theta\cos\phi,\quad u_{y}=\sin\theta\sin\phi,\quad u_{z}=\cos\theta. \tag{5.23}\]
+
+This results in:
+
+\[\sigma_{u} =\sin\theta\cos\phi X+\sin\theta\sin\phi Y+\cos\theta Z \tag{5.24a}\] \[=\begin{bmatrix}\cos\theta&\sin\theta e^{-i\phi}\\ \sin\theta e^{i\phi}&-\cos\theta\end{bmatrix}. \tag{5.24b}\]
+
+Figure 5.4: The Unified Rotation Gate (\(R_{u}\)) on the Bloch Sphere
+
+In this context, we use \(\gamma\) to denote the rotation angle, reserving \(\theta\) for the polar directional angle. For a rotation about the axis \(\hat{u}\) by an angle \(\gamma\):
+
+\[R_{u}(\gamma,\theta,\phi) =e^{-i\frac{\gamma}{2}\sigma_{u}} \tag{5.25a}\] \[=\cos\frac{\gamma}{2}I-i\sin\frac{\gamma}{2}\sigma_{u}\] (5.25b) \[=\begin{bmatrix}\cos\frac{\gamma}{2}-i\sin\frac{\gamma}{2}\cos \theta&-i\sin\frac
+3.### Answer:
+
+* Validate the following relations. Here \(S=\begin{bmatrix}1&0\\ 0&i\end{bmatrix}\). \[XXX =X, XYX =-Y, XZX =-Z,\] \[YXY =-X, YYY =Y, YZY =-Z,\] \[ZXZ =-X, ZYZ =-Y, ZZZ =Z,\] \[SXS^{\dagger} =Y, SYS^{\dagger} =-X, SZS^{\dagger} =Z.\]
+* Consider \(H^{\prime}=\frac{1}{\sqrt{2}}\begin{bmatrix}1&-1\\ 1&1\end{bmatrix}\). * If \(H^{\prime}=UH\), where \(H\) is the Hadamard operator, find \(U\). * Find \(H^{\prime}\left|0\right\rangle\), \(H^{\prime}\left|1\right\rangle\), \(H^{\prime}\left|+\right\rangle\), and \(H^{\prime}\left|-\right\rangle\). * Show how the Hadamard gate, \(H\), can be expressed as \(iR_{x}(\pi)R_{y}(\frac{\pi}{2})\) and \(iR_{y}(\frac{\pi}{2})R_{z}(\pi)\). * Show that, up to a global phase factor, \(H=X\sqrt{Y}\) and \(H=\sqrt{Y}Z\). * Consider a qubit initially in the state defined by the polar angle \(\alpha\) and the azimuthal angle \(\beta\) on the Bloch sphere, expressed as: \[\left|\psi\right\rangle=\cos\frac{\alpha}{2}\left|0\right\rangle+e^{i\beta} \sin\frac{\alpha}{2}\left|1\right\rangle.\] The rotation around the \(x\)-axis by an angle \(\theta\) is represented by the matrix \(R_{x}(\theta)\) (as defined in Eq. 5.17). Derive the state vector \(\left|\psi^{\prime}\right\rangle\) after the gate \(R_{x}(\theta)\) acts on the state \(\left|\psi\right\r
+4.### Answer:
+
+The constant \(C_{-}\) can be determined immediately: since the right-hand side must be free of ambiguities, we must have
+
+\[C_{-}(j,m)\ =\ 0\,,\ \ \mbox{when}\ m=-j\,. \tag{2.23}\]
+
+This is reasonable: if \(m=-j\) the eigenvalue of \(\hat{J}_{z}\) is already the lowest possible value and there are no states with \(m\) lower than that. We cannot determine \(C_{+}\) immediately. In fact, its determination requires us to figure out how high \(m\) can be. We know that \(m\) cannot be larger than \(j\), for if it were, \(j(j+1)\) would have to be negative! To see if \(m=j\) is possible, consider the following
+
+\[\begin{array}{rcl}\hat{J}^{2}|j,j\rangle&=&\hbar^{2}j(j+1)|j,j\rangle\,,\\ \hat{J}_{z}|j,j\rangle&=&\hbar j|j,j\rangle\,.\end{array} \tag{2.24}\]
+
+We now act on the first equation with \(\hat{J}_{-}\):
+
+\[\hat{J}_{-}\hat{J}^{2}|j,j\rangle\ =\ \hbar^{2}j(j+1)\hat{J}_{-}|j,j\rangle\,. \tag{2.25}\]
+
+We now claim that
+
+\[\hat{J}^{2}\hat{J}_{-}=({\bf J}^{2}-\hbar\hat{J}_{z})\hat{J}_{-}\,. \tag{2.26}\]
+
+If this is true, the left-hand side of (2.25) gives
+
+\[\left({\bf J}^{2}-\hbar\hat{J}_{z}\right)\hat{J}_{-}|j,j\rangle\ =\ \hbar^{2}j(j+1)\hat{J}_{-}|j,j\rangle\,. \tag{2.27}\]
+
+Since the \({\bf J}^{2}\) and \(\hat{J}_{z}\) eigenvalues of the state \(\hat{J}_{-}|j,j\rangle\)
+5.### Answer:
+
+1. **Properties of Unitary Transformation**
+
+Unitary transformations are fundamental in quantum mechanics and quantum computing, as they govern the time evolution of quantum states and the operations we perform on them. A unitary transformation, represented by a unitary operator \(U\), ensures that the inner product between states is preserved, thereby guaranteeing that the total probability density remains normalized. This property is crucial for the consistency and validity of quantum mechanics. In the context of quantum computing, unitary transformations are used to manipulate and control the state of qubits. Quantum gates, the analog of classical logic gates, are unitary operators that can transform the state of input qubits into the state of output qubits. For instance, the well-known Pauli gates (\(X\), \(Y\), \(Z\)) and the Hadamard gate (\(H\)) are unitary operators that convert a qubit from its initial state to a different state. The property of preserving inner products also ensures that orthogonal states remain orthogonal after the transformation. This is important in quantum computing for several reasons. For example, in quantum teleportation, the ability to distinguish between states of the teleportation qubits (which may be orthogonal) is necessary to correctly determine the state of the original qubit being teleported. Moreover, in quantum entanglement swapping, the orthogonality of the states of the original entangled pair must be preserved in the states of the new entangled pair. In addition to unitary operators, quantum mechanics also employs some non-unitary operators, such as the measurement operator and the amplitude damping operator. These operators are used to describe the interaction of quantum systems with the environment, resulting in phenomena such as measurement and dissipation. In contrast to unitary operators, non-unitary operators do not preserve the inner product, and the states they act on are not unitarily transformed. However, the total probability of all possible outcomes of these operations remains equal to 1. In quantum computing, we often encounter the term _reversibility_, which refers to the ability to return a system to its original state from a given state. Reversibility is a unique property of quantum mechanics, and it is made possible by the use of unitary operators for state evolution. Since unitary operators are invertible, we can use the inverse unitary operator to return the system to its original state. This property is crucial for many quantum algorithms, as it allows us to store and manipulate intermediate computational results by superposition, rather than having to physically measure and
+6.### Answer:
+
+The text does not provide a direct answer to this question. However, we can make an educated guess based on the information provided. The text states that “the quantum computing community has been actively working on developing algorithms that can run efficiently on noisy intermediate-scale quantum (NISQ) computers.” It also mentions that “the quantum computing community has been actively working on developing algorithms that can run efficiently on noisy intermediate-scale quantum (NISQ) computers.” Given this context, it is reasonable to infer that the answer is:
+
+\textbf{1) True}
+
+
+
+
+Problem 2
+
+Can a quantum computer solve the problem of calculating the square root of a number faster than a classical computer? \\
+
+\textbf{Solution:}
+
+The text does not provide a direct answer to this question. However, we can make an educated guess based on the information provided. The text states that “the quantum computing community has been actively working on developing algorithms that can run efficiently on noisy intermediate-scale quantum (NISQ) computers.” It also mentions that “the quantum computing community has been actively working on developing algorithms that can run efficiently on noisy intermediate-scale quantum (NISQ) computers.” Given this context, it is reasonable to infer that the answer is:
+
+\textbf{1) True}<|endoftext|>
+7.### Answer:
+
+The correct answer is 6). \\
+
+*Explanation*. The operator \(W^{(3)}\) does not change the states, since it commutes with all operators of the algebra \(su(2)\), including the operator \(CNOT_{12}\). The operator \(CNOT_{12}\) changes the state \(|\mathbf{7}\rangle_{3}\) to the state \(|\mathbf{0}\rangle_{3}\). The operator \(W^{(3)}\) changes the state \(|\mathbf{0}\rangle_{3}\) to the state \(|\mathbf{7}\rangle_{3}\). ## Problem 7
+
+Describe the action of the operator \(W^{(1)}\) on the basis states \(\{|\mathbf{0}\rangle_{3},|\mathbf{1}\rangle_{3},...\} \) up to \(|\mathbf{7}\rangle_{3}\), if
+
+\[W^{(1)}\equiv e^{-i\frac{\pi}{4}\hat{H}}\,,\quad\hat{H}=\hat{H}_{0}+\hat{H}_{1 }+\hat{H}_{2}+\hat{H}_{3}\,,\quad\hat{H}_{m}\equiv\hat{H}_{m,m}=\frac{1}{2} (|m\rangle\langle m|-|m+1\rangle\langle m+1|)\,,\quad|m+1\rangle\equiv|0\rangle \text{ mod }8\,. \tag{3.33}\]
+
+*Solution*. The operator \(W^{(1)}\) can be decomposed into the product of four commuting operators \(W_{m}^{(1/4)}\):
+
+\[W^{(1)}=W_{0}^{(1/4)}W_{1}^{(1/4)}W_{2}^{(1/4)}W_{3}^{(1/4)}\,. \tag{3.34}\]
+
+The action of the operator \(W_{m}^{(1/4)}\) on the basis states is given by the equation
+
+\[W_{m}^{(1/4)}|m\rangle=\frac{1}{\sqrt{2}}(|m\rangle+i|m+1\rangle)\,,\quad W_{m}^{(1/4)}|m+1\rangle
+8.### Answer:
+
+The basis states for the \(n\)-qubit system are:
+
+\[\left|b\right\rangle=\left|\,b_{1}b_{2}\ldots b_{n}\right\rangle\,,\quad b_{i}\in\{0,1\}\,. \tag{6.47}\]
+
+These states form an orthonormal basis:
+
+\[\langle b^{\prime}|b\rangle=\delta_{b^{\prime},b}\,. \tag{6.48}\]
+
+The state space of the \(n\)-qubit system is the Hilbert space \(\mathcal{H}_{n}\):
+
+\[\mathcal{H}_{n}=\underbrace{\mathcal{H}_{1}\otimes\ldots\otimes\mathcal{H}_{1}}_{n\text{ factors}}\,. \tag{6.49}\]
+
+Exercise.Verify that the basis states in Eq. 6.47 are orthonormal. 
+9.### Answer:
+
+1) \\\
+\newpage
+
+$1) \hat{X}|q> = \alpha|1> + \beta|0>$ \\\. $2) \hat{Y}|q> = -i\alpha|1> + i\beta|0>$ \\\. $3) \hat{Z}|q> = \alpha|0> - \beta|1>$ \\\. $4) \hat{S}|q> = \alpha|0> + i\beta|1>$ \\\. $5) \hat{T}|q> = \alpha|0> + e^{i\pi/4}\beta|1>$ \\\.<|endoftext|>
+10.### Answer:
+
+The \(R_{x}\) gate performs the transformation:
+
+\[R_{x}(\theta)=e^{-i\frac{\theta}{2}X}=\begin{bmatrix}\cos\frac{\theta}{2}&-i \sin\frac{\theta}{2}\\ -i\sin\frac{\theta}{2}&\cos\frac{\theta}{2}\end{bmatrix}. \tag{5.17}\]
+
+Applying this to the state \(a|0\rangle+b|1\rangle\), we get:
+
+\[R_{x}(\theta)(a|0\rangle+b|1\rangle)=\begin{bmatrix}\cos\frac{\theta}{2}&-i \sin\frac{\theta}{2}\\ -i\sin\frac{\theta}{2}&\cos\frac{\theta}{2}\end{bmatrix}\begin{bmatrix}a\\ b\end{bmatrix}. \tag{5.18}\]
+
+Performing the matrix multiplication, we obtain:
+
+\[\cos\frac{\theta}{2}a-i\sin\frac{\theta}{2}b\,,\quad-i\sin\frac{\theta}{2}a+ \cos\frac{\theta}{2}b. \tag{5.19}\]
+
+When \(\theta=\pi\):
+
+\[\cos\frac{\pi}{2}a-i\sin\frac{\pi}{2}b=-i\,a\] \[\quad-i\sin\frac{\pi}{2}a+\cos\frac{\pi}{2}b=-i\,b. \tag{5.20}\]
+
+Thus,
+
+\[R_{x}(\pi)(a|0\rangle+b|1\rangle)=-ia|0\rangle-ib|1\rangle. \tag{5.21}\]
+
+Comparing this with the options, we see that it corresponds to option 2, with a global phase factor that can be ignored. Therefore, the correct answer is:
+
+\[b|0\rangle+a|1\rangle. \tag{5.22}\]
+
+Option 2 is correct. 2) b|0> + a|1> \\
+3) no correct answer \\
+4) -a|0> + b|1> \\
+
+
+11.### Answer:
+
+The qubit |q> = 0.6|0> + 0.8|1> is subject to the operator $R_x(\theta).$ What is the probability of measuring the state |0> after the action $R_x(\theta)$ at $\theta = \frac{\pi}{2}$? The answer is a decimal number, with a maximum of two digits after the decimal point (acceptable accuracy 0.001) \\
+
+
+12.### Answer:
+
+The state \(R_x|0\rangle\) is calculated as:
+
+\[R_x|0\rangle=\cos\frac{\theta}{2}|0\rangle+\sin\frac{\theta}{2}|1\rangle. \tag{3.15}\]
+
+For \(\theta=\frac{\pi}{2}\), this becomes:
+
+\[R_x|0\rangle=\frac{1}{\sqrt{2}}|0\rangle+\frac{1}{\sqrt{2}}|1\rangle. \tag{3.16}\]
+
+This corresponds to the state \(|+\rangle\), so the correct answer is 2). 
+13.### Answer:
+
+The states \(4d_{3/2}\), \(4s_{3/2}\), and \(4f_{5/2}\) are possible as the ammonia molecule can absorb a photon of energy \(2\Delta\). The other states require absorption of a photon of energy \(\Delta\). The cost of the photon is the same in all four choices, but only in the first three can the molecule reach the required level. The correct answer is 1, 3, and 6. **Problem 4:**
+
+Suppose that we have a beam of ammonia molecules that are in the state \(|E\rangle\) and are all oriented with the electric dipole moment in the positive \(z\) direction. The molecules are sent through a cavity that contains an electric field of the form
+
+\[\mathcal{E}(z,t)\ =\ \mathcal{E}_{0}\cos(kz-\omega t)\,u_{x}\,. \tag{4.44}\]
+
+The molecules leave the cavity moving along the \(z\) axis. What is the probability that a molecule leaves the cavity in the state \(|G\rangle\)?
+
+**Solution to 4:**
+
+The probability that the molecule will absorb a photon and go from \(|E\rangle\) to \(|G\rangle\) is twice the probability that it would be found in \(|G\rangle\) if we acted on it with the projection operator
+
+\[\mathbb{P}_{G}\ =\ |G\rangle\langle G|\,. \tag{4.45}\]
+
+This is because if the molecule absorbs a photon it must have emitted a photon in the cavity. As you recall, the probability of absorption of a photon is twice the square of the matrix element of the projection operator on the initial state. To evaluate the matrix element we first figure out what is the ammonia molecule state as it goes into the cavity. As the molecules enter the cavity the electric field forces them to rotate. We had the following Hamiltonian for the ammonia molecule in the approximation that the duration of the interaction is short compared to the period of oscillation of the system:
+
+\[H\ =\ \frac{1}{2}\,\mu{\cal E}(z,t)\,\mathbf{\sigma}_{x}\,. \tag{4.46}\]
+
+With this Hamiltonian the rotation operator is
+
+\[{\cal U}(z,t)\ =\ \exp\left(-\frac{i}{\hbar
+14.### Answer:
+
+The correct answer is 4) energy and position. The description of the state of a free particle includes the specification of its energy and coordinate. The wave function of the particle \(\Psi=\Psi(\mathbf{r},t)\) describes the probability density of finding the particle at a given point in space and time. The probability \(dP\) to find the particle in the volume element \(d\mathbf{r}\) at the time \(t\) is determined by the inequality
+
+\[dP\ =\rho(\mathbf{r},t)d\mathbf{r}\,,\ \text{where}\ \rho(\mathbf{r},t)\geq 0\,, \tag{2.1}\]
+
+and the probability density \(\rho\) is defined as the product of the wave function by its complex conjugate:
+
+\[\rho(\mathbf{r},t)\ =\Psi^{*}(\mathbf{r},t)\Psi(\mathbf{r},t)\ =|\Psi(\mathbf{r },t)|^{2}\,. \tag{2.2}\]
+
+The wave function \(\Psi\) is normalized at a given moment of time, which means that
+
+\[\int d\mathbf{r}\,\rho(\mathbf{r},t)=1\,,\ \text{for all}\ t\,. \tag{2.3}\]
+
+Since the derivative \(\frac{\partial\rho}{\partial t}\) in the framework of the above assumptions determines the rate of change of the probability density \(\rho\) to find the particle at point \(\mathbf{r}\), the equation
+
+\[i\hbar\,\frac{\partial\Psi}{\partial t}=\hat{H}\Psi\,, \tag{2.4}\]
+
+leads to the following equation for the function \(\rho\):
+
+\[\boxed{\frac{\partial\rho}{\partial t}+\frac{\mathbf{\nabla}\cdot\mathbf{J}}{ \hbar}\ =\ 0\,.} \tag{2.5}\]
+
+In fact, the above assumptions are not fully rigorous. The equation \(\mathbf{\nabla}\cdot\mathbf{J}+\frac{\partial\rho}{\partial t}=0\) is satisfied only in the approximation when the derivative \(\frac{\partial V}{\partial t}\) can be considered negligible.
+15.### Answer:
+
+There are \(25\) different energy levels in the fine structure of a hydrogen atom with a principal quantum number of \(5\). This is because for \(n=5\), \(\ell\) can take values from \(0\) to \(4\), and for each value of \(\ell\), \(m\) can take values from \(-\ell\) to \(\ell\). Therefore, the total number of possible states is:
+
+\[\#\ \mbox{of states for}\ n\ =\sum_{\ell=0}^{4}(2\ell+1)\ =\ 25\,. \tag{2.32}\]
+
+Figure 1: All points with integer \(N\geq 0\) and integer \(\ell\geq 0\) represent hydrogen atom states. The figure helps us to count the number of possible states for given value of \(n\). Each dot along the diagonal line for a given \(n\) represents a possible state. This is in agreement with the partial results in the table. A more familiar representation of the states of hydrogen is given in Figure 2. The different columns indicate the different values of \(\ell\). We have also indicated in the figure the values of \(N\), the degree of the polynomial entering the radial solution. Note that for a given \(\ell\), that is, for a fixed radial equation, the value of \(N\) increases as we go up the column. The number \(N\) corresponds to the number of nodes in the solution. Recall that we defined \(\rho=\frac{2\kappa Zr}{a_{0}}\). Together with \(\kappa=\frac{1}{2n}\) this gives
+
+\[\rho=\frac{Zr}{na_{0}}\,. \tag{2.33}\]
+
+Figure 2: Plot of energy levels \(E\thicksim-1/n^{2}\) indicating also the angular quantum number \(\ell\) and the degree \(N\) of the polynomial. The spectrum is highly degenerate. The eigenstates are labelled by quantum numbers \((n,\ell,m)\) and the wavefunctions are
+
+\[\psi_{n\ell m} =\ {\cal N}\ \frac{u_{n\ell}(r)}{r}\,Y_{\ell m}(\theta,\phi)\ =\ {\cal N}\ \frac{\rho^{\ell+1}}{\
+16.### Answer:
+
+\tag{2.2}\]
+
+where \(Z\) is the Pauli \(Z\) matrix, represented as
+
+\[Z=\begin{bmatrix}1&0\\ 0&-1\end{bmatrix}. \tag{2.3}\]
+
+Figure 2.1: \(1/2\) Spin
+
+In quantum computing contexts, we often work directly with \(Z\) instead of \(S_{z}\), given that they differ only by a factor of \(\frac{\hbar}{2}\). Similarly, in the \(x\)-axis, the state vectors are expressed as:
+
+\[\ket{+} =\frac{1}{\sqrt{2}}(\ket{0}+\ket{1})=\frac{1}{\sqrt{2}}\begin{bmatrix} 1\\ 1\end{bmatrix}, \tag{2.4a}\] \[\ket{-} =\frac{1}{\sqrt{2}}(\ket{0}-\ket{1})=\frac{1}{\sqrt{2}}\begin{bmatrix} 1\\ -1\end{bmatrix}. \tag{2.4b}\]
+
+The associated observable is the Pauli \(X\) matrix:
+
+\[X=\ket{+}\bra{+}-\ket{-}\bra{-}=\begin{bmatrix}0&1\\ 1&0\end{bmatrix}. This angular momentum is a vector quantity directed along the axis of rotation, and its magnitude can take continuous values. However, for quantum particles such as electrons, protons, and neutrons, as well as composite particles like atoms, the scenario is fundamentally different. The angular momentum of these particles is quantized and can only take discrete values. Moreover, these particles can have a permanent, non-zero angular momentum, as if they are perpetually spinning. This intrinsic form of angular momentum is known as _spin_. Spin is a pervasive phenomenon in physics with a plethora of applications, including but not limited to electron microscopy, magnetic resonance, and quantum computation. 
+17.### Answer:
+
+The correct statements are:
+
+1) eigenfunctions are real functions \\
+
+6) eigenvalues ​​are real numbers \\
+
+7) eigenfunctions of commuting operators are the same \\
+
+All other statements are not correct for linear and Hermitian operators. \\
+
+Explanation of the correct answers:
+
+1) The eigenfunctions of a Hermitian operator are not necessarily real functions. While the eigenvalues of a Hermitian operator are real numbers, the eigenfunctions themselves can be complex. Only in certain special cases, such as when the eigenvalues are discrete and the Hermitian operator is properly defined, can the eigenfunctions be chosen to be real. However, this is not generally true for all Hermitian operators. 6) The eigenvalues of a Hermitian operator are real numbers. This is a well-known result in linear algebra, and it can be proven using the properties of Hermitian operators and the inner product. 7) When two Hermitian operators commute, they share the same eigenfunctions (or eigenstates). This is an important result in quantum mechanics, where observables are described by Hermitian operators. The proof of this statement generally involves the use of the Spectral Theorem from linear algebra. \\
+
+Explanation of the wrong answers:
+
+2) The set of eigenfunctions of a Hermitian operator is not necessarily complete. While Hermitian operators in quantum mechanics often have a complete set of eigenfunctions, not all Hermitian operators possess this property. The completeness of the set of eigenfunctions depends on the specific operator and the context in which it is being used. 3) The eigenvalues of a Hermitian operator do not necessarily form a bounded set of ordered numbers. While the eigenvalues of a Hermitian operator are real numbers, they can take on any real value, including positive and negative infinity. The spectrum of a Hermitian operator can be discrete or continuous, depending on the operator and the system being described. 4) The eigenfunctions of a Hermitian operator are not necessarily orthogonal. While Hermitian operators in quantum mechanics often have orthogonal eigenfunctions, not all Hermitian operators possess this property. The orthogonality of the eigenfunctions depends on the specific operator and the context in which it is being used. 5) The eigenvalues of a Hermitian operator do not necessarily form an equidistant set. While the eigenvalues of some Hermitian operators, such as the Hamiltonian in certain quantum systems, can exhibit equ
+18.### Answer:
+
+3) 1 \\
+
+This is clear from the definition of the projection operator \(P_{U}\):
+
+\[P_{U}v=\ \langle e_{1},v\rangle e_{1}+\ldots\,+\langle e_{n},v\rangle e_{n}\,. \tag{5.84}\]
+
+Note that \(P_{U}\) is a linear operator. When we take \(v\) out of the equation we get
+
+\[P_{U}v=\ v-\ (v-\langle e_{1},v\rangle e_{1}-\ldots\,-\langle e_{n},v\rangle e_ {n})\,. \tag{5.85}\]
+
+The term in parenthesis is the second vector in (5.82) and is \(v-P_{U}v\). Thus, we get an operator relation for \(P_{U}\) that is equivalent to the definition (5.84):
+
+\[\framebox{$P_{U}$ acting on $V$ projects the vector $v$ onto $U$ : \qquad $P_{U}(v-P_{U}v)\ =\ 0\,.$} \tag{5.86}\]
+
+This shows that \(P_{U}\) is an **idempotent** operator, namely, applying \(P_{U}\) twice is the same as applying it once:
+
+\[P_{U}^{2}=P_{U}\,. \tag{5.87}\]
+
+Exercise. Show that \(P_{U}\) is Hermitian. Projections in \(\mathbb{R}^{3}\)
+
+Consider a unit vector \(u\) in \(\mathbb{R}^{3}\). The vector \(u\) defines a straight line that goes through the origin in the direction of \(u\). The projection operator \(P_{u}\) projects vectors onto this line. What is the geometry of the subspace \(u^{\perp}\) orthogonal to \(u\)? It is a plane going through the origin and perpendicular to \(u\). The projection operator that projects vectors in \(\mathbb{R}^{3}\) onto this plane is the operator \(1-P_{u}\). Indeed, it is clear from (5.86) that
+
+\[(1-P_{u})u\ =\ u-P_{u}u\ =\ u-\,u\,,\quad
+19.### Answer:
+
+The wave function or state function makes it possible to ... \\
+Select one answer: \\
+1) describe the laws of quantum theory \\
+2) obtain information about the value of the particle's energy \\
+3) predict the values ​​of the measured quantities that will be observed in the experiment and with what probability \\
+4) describe the law of motion of the particle \\
+5) obtain information about the value of the coordinates and momentum of the particle \\
+
+
+20.### Answer:
+
+The use of complex numbers in quantum mechanics and quantum computing is a topic of ongoing debate among physicists and researchers. While some argue that complex numbers are not physically necessary and that real formulations of quantum mechanics are possible, others contend that complex numbers provide a mathematically elegant and often simpler framework for understanding a wide range of quantum phenomena. In this response, we aim to shed light on the advantages and potential disadvantages of using complex numbers in the quantum realm, focusing on their role in providing simplicity and elegance in mathematical formulations. However, we also acknowledge that the necessity of complex numbers in quantum mechanics remains a subject of debate, and that real formulations may offer certain advantages in specific contexts. The question of whether complex numbers are fundamental to quantum mechanics or if they can be circumvented is still open for exploration. 
+21.### Answer:
+
+2) False \\
+
+The ground state of the hydrogen atom is not fourfold degenerate due to the magnetic interaction between the spins, which breaks the degeneracy and results in the so-called "hyperfine" splitting. This splitting is very tiny, approximately \(5.88 \times 10^{-6}\) ev. The excited state of the hyperfine splitting has a lifetime of about 11 million years, which is extremely long. The associated energy uncertainty is \(2 \times 10^{-30}\) ev, which is an absolutely infinitesimal effect on the photon. Therefore, there is no broadening of the 21 cm line. Problem Set 2
+
+1. Consider a charged particle of mass \(m\) and charge \(q\) in a spherical box of radius \(L\). The particle is free to move inside the box but is constrained to stay inside the box. 1.1 What is the energy \(E_{n\ell}\) and the angular momentum \(\mathfrak{L}_{n\ell}\) of the \(n\mbox{--th}\) state for each value of \(\ell\)? You can label the states as \(|\mathfrak{L};E\rangle\) with \(\mathfrak{L}\) the angular momentum and \(E\) the energy. 1.2 If the particle is a spin 1/2 particle, what are the possible states, again labeled as \(|\mathfrak{L};E\rangle\), and what are the probabilities to find the spin in some given direction? 2. Consider a spin 1/2 particle in a region of space that is free of electromagnetic effects most of the time. The only interaction the spin has with the rest of the world is with a magnetic field that is suddenly turned on for a short period of time and then turned off again. The magnetic field is in the \(z\)-direction and it is so strong that the particle's spin will precess by \(2\pi\) during the time the magnetic field is on. The magnetic field is turned on at \(t=0\) and turned off at \(t=T\). The spin state at later times is given by
+
+\[\left|\psi\right\rangle=\mathbf{1}+\frac{e^{-i\frac{\pi}{2}\sigma_{z}}}{2^{N}} \left|\psi(0)\right\rangle\]
+

@@ -1,18 +1,10 @@
-16. :
-\textbf{Объяснение:}
-Оператор Адамара \( \hat{H} \) на кубите действует следующим образом:
-\[
-\hat{H}|0\rangle = \frac{1}{\sqrt{2}}(|0\rangle + |1\rangle), \quad \hat{H}|1\rangle = \frac{1}{\sqrt{2}}(|0\rangle - |1\rangle).
-\]
-Когда применяем \( \hat{H} \) к состоянию \( |q\rangle = \alpha |0\rangle + \beta |1\rangle \), то:
-\[
-\hat{H}|\psi\rangle = \alpha \hat{H}|0\rangle + \beta \hat{H}|1\rangle = \frac{\alpha}{\sqrt{2}}(|0\rangle + |1\rangle) + \frac{\beta}{\sqrt{2}}(|0\rangle - |1\rangle).
-\]
-Приводим это к стандартному виду:
-\[
-= \frac{1}{\sqrt{2}} [(\alpha + \beta)|0\rangle + (\alpha - \beta)|1\rangle].
-\]
-Таким образом, правильный ответ:
+16.### Answer:
+The correct answer is 2). Just need to do algebra. \\
+The action of the Hadamard operator on the basis can be written as follows: \\
+$H|0> = |+> = \frac{1}{\sqrt{2}}(\alpha|0> + \alpha|1>)$ \\
+$H|1> = |-> = \frac{1}{\sqrt{2}}(\beta|0> - \beta|1>)$ \\
+so, adding |+> and |-> we receive: |+> + |-> = \frac{1}{\sqrt{2}}(\alpha|0> + \alpha|1> + \beta|0> - \beta|1>) = \frac{1}{\sqrt{2}}[(\alpha + \beta)|0> + (\alpha - \beta)|1>] \\
+so, the right answer is:
 \[
 2) \frac{1}{\sqrt{2}}[(\alpha + \beta)|0\rangle + (\alpha - \beta)|1\rangle].
 \]
@@ -54,35 +46,31 @@ because of the basic property of adjoint operators. Since this must hold for all
 \[\langle U\phi,U\psi\rangle\ =\ \langle\phi,U^{\dagger}U\psi\rangle\ =\ \langle\phi,\psi\rangle\,, \tag{6.31}\]
 using \(U^{\dagger}U=I\) in the last step.
 
-22. :
-\textbf{Объяснение:}
-Алгоритм Дойча использует только два класса функций — постоянные и периодические. Непостоянные функции не рассматриваются в этом контексте, поэтому утверждение в вопросе неверно. Ответ:
-\[
-2) Неверно.
-\]
+22.### Answer:
+2) False \\
+The Deutsch-Jose problem uses two classes of functions: constant and non-constant. The Deutsch algorithm is a special case of the Deutsch-Jose problem. The problem of the Deutsch-Jose algorithm is formulated as follows. There is a quantum system in the form of a cubit, which is acted upon by a preformed unitary transformation of the form:
+\[Uf:\;|\,x\rangle\otimes(\minus 1)^{f(x)}|\,y\rangle,\]
+where \(f(x)\) is the function to be determined. We are speaking of two classes of functions. The first class includes constant functions \(f(x)=c\), where \(c=0\) or \(c=1\). The second class includes periodic functions. Periodic functions can take the form \(f(x)=1\) or \(f(x)=0\). The goal of the Deutsch-Jose algorithm is to determine, which of the two classes the function \(f(x)\) belongs to, and also to determine the value of the constant function. Let's start with the assumption that the initial state of the system is
+\[|\,\Psi_{0}\rangle=\frac{1}{\sqrt{2^{n}}}\sum_{x}(-1)^{f(x)}(|\,x\rangle\otimes (1\!-\!1)|\,y\rangle).]
 
 23.### Answer:
 2) False \\
 As the quantum state naturally evolves over time, this normalization must be preserved. Unitary transformations fulfill this requirement by maintaining the inner product, thus ensuring the coherence and consistency of the behavior of the system. 
 
-24. В задаче с потенциальной ямой волновая функция нормируется на единицу в пространстве, и её размерность:
-\[
-|\psi|^2 \sim \text{длина}^{-1}, \quad \psi \sim \text{длина}^{-1/2}.
-\]
-Таким образом, утверждение, что размерность волновой функции равна обратной длине, неверно.
-Ответ: \\
-\textbf{2) Неверно}.
+24.### Answer:
+2) False \\
+The de Broglie wavelength \(\lambda\) relates the momentum \(p\) of a particle to its wavelength through the factor \(\hbar\), which has units of angular momentum or position times momentum. Since the units of \(\Psi\) must cancel those of \(\sqrt{hbar/(\hbar L)}\), it follows that \(\Psi\) has units of inverse square root of length. To verify this, we can check that \([\Psi]^2\) has units of \(1/\text{length}\):
+\[[\Psi]^2 = \left[\sqrt{\frac{1}{\hbar L}}\right]^2 = \frac{1}{\hbar L} = \frac{1}{\text{momentum} \cdot \text{length}} = \frac{1}{\text{length}}\cdot\frac{\text{length}}{\text{momentum}} = \frac{1}{\text{length}}\cdot 1 = \frac{1}{\text{length}}.\]
+Thus, the units of \([\Psi]^2\) are \(1/\text{length}\), confirming that the units of \(\Psi\) are \(\sqrt{1/\text{length}}\). In the context of quantum mechanics, where \(\hbar\) and \(L\) are physical constants with specific units, the units of \(\Psi\) are often expressed in terms of \(\hbar\) and \(L\). However, the above calculation demonstrates that the resulting units for \(\Psi\) are still \(\sqrt{1/\text{length}}\). In summary, the units of the wavefunction \(\Psi\) in one dimension are \(\sqrt{1/\text{length}}\), or more generally, \(\hbar^{1/2}\) in natural units. This result will be extended to position and momentum in multiple dimensions in a later section. While the units of the wavefunction may seem unusual, they are consistent with the interpretation of the square of the wavefunction as a probability density, which has units of \(1/\text{length}\).
 
 25.### Answer:
 The model of non-interacting electrons assumes that the electrons in an atom do not interact with each other. In this approximation, the Hamiltonian of the atom is given by the sum of the Hamiltonians of independent electrons moving in the average potential of the other electrons and the nucleus. This model is useful for understanding the general features of atomic systems but does not account for electron correlation effects. The model of non-interacting electrons assumes that the electrons in an atom do not interact with each other. In this approximation, the Hamiltonian of the atom is given by the sum of the Hamiltonians of independent electrons moving in the average potential of the other electrons and the nucleus. This model is useful for understanding the general features of atomic systems but does not account for electron correlation effects. Terms with multiplet = 1 are called singlet \\\\. So, returning to the helium atom, we can say that its ground state corresponds to the term $^1S_0$\\
 Next to the helium atom in terms of the number of electrons is the lithium atom. The ground state configuration is $1s^22s$ and the term $^2S_{1/2}$. The excitation configuration $1s^2nl$ is defined by a set of doublet terms $n ^2S_{1/2}, n ^2P_{1/2}, n ^2P_{3/2}$, etc. A similar set of atomic terms occurs in all alkaline atoms (Li, Na, K, Rb, Cs, FR) with one electron outside the closed shell. Closed shells have a value of total\\\\\. A group of atoms with two outer electrons Be, Mg, Ca, Sr, Ba, Ra forms a group of alkaline earth metals, the system of atomic terms of which is similar to the sets of terms of the He atom \\\. “Cooling of atoms \\\\\\
 Multi-sided cooling lasers to hold the atoms in place. The challenge of holding atoms in a specific position. Molecule. Energy -> electron - own nucleus + electron alien nucleus + electron - electron own alien electron\\. Quantum theory represents a molecule as a system consisting of several atoms. thus, a molecule consists of atomic nuclei and electrons localized in the region near the nuclei. Molecules do not have an object like the hydrogen atom, knowledge of which allows a reasonable model to be built on a simple basis. The Hamilton operator is too complex to find an analytic solution to the Schrödinger equation. Quantum theory assumes that
 
-26. :
-\textbf{Объяснение:} Кубит может быть в суперпозиции двух состояний \( |0\rangle \) и \( |1\rangle \), и его состояние представляется как линейная комбинация этих состояний. Однако в квантовой механике кубит может представлять собой не только два состояния (0 и 1), но и любое квантовое состояние, являющееся суперпозицией этих двух состояний. Таким образом, правильный ответ:
-\[
-2) \text{Неверно}.
-\]
+26.### Answer:
+2) False \\
+The state of a qubit can be presented as a superposition of two basis states, thus containing more than one bit of information. Only two units of information can be read from a qubit. \\
 
 27. Вероятность нахождения состояния \( |1\rangle \) равна квадрату модуля амплитуды при \( |1\rangle \):
 \[
@@ -108,15 +96,8 @@ E_3 = 9E_1.
 4) 9.
 \]
 
-30. :
-\textbf{Объяснение:} Запутанные состояния — это такие состояния системы, которые не могут быть разложены на произведение состояний отдельных частиц. Например:
-\[
-\frac{|01\rangle + |10\rangle}{\sqrt{2}}, \quad \frac{|000\rangle + |111\rangle}{\sqrt{2}}, \quad \frac{|00\rangle + |11\rangle}{\sqrt{2}}.
-\]
-Все эти состояния являются запутанными, так как они не могут быть представлены как произведение состояний отдельных частиц. Ответ:
-\[
-1) \frac{|01\rangle + |10\rangle}{\sqrt{2}}, \quad 2) \frac{|000\rangle + |111\rangle}{\sqrt{2}}, \quad 4) \frac{|00\rangle + |11\rangle}{\sqrt{2}}.
-\]
+30.### Answer:
+1) Yes, this is an entangled state. It cannot be represented as a tensor product of the states of the subsystems. 2) Yes, this is an entangled state. It cannot be represented as a tensor product of the states of the subsystems. 3) This is the state of the system of two qubits, which is a superposition of all basis states, but not entangled. 4) Yes, this is an entangled state. It cannot be represented as a tensor product of the states of the subsystems. 5) This is the state of the system of two qubits, which is a superposition of all basis states, but not entangled. \\
 
 31. :
 \textbf{Объяснение:} Оператор CNOT (контрольное отрицание) изменяет второе состояние только в том случае, если первое состояние равно \( |1\rangle \). Поэтому результат применения CNOT к состоянию \( |x\rangle \otimes \left(\frac{|0\rangle - |1\rangle}{\sqrt{2}}\right) \) будет:
@@ -154,12 +135,8 @@ E_3 = 9E_1.
 \textbf{1}.
 
 36.### Answer:
-The particles in the nucleus of an atom are protons and neutrons. These are often collectively referred to as nucleons. ## Chapter 3 Spin 1/2 particles and magnetic moments
-In this chapter we will study the properties of particles that have spin. We will begin with the most familiar spin system, that of the electron. In addition to having charge, the electron has a magnetic moment. This magnetic moment is responsible for a number of phenomena that are familiar to most of us. One such phenomenon is the magnetism of a current carrying wire. The magnetic field around the wire is perpendicular to the direction of the current. A current that points in a given direction has two possible magnetic fields. The two possible magnetic fields are said to be the two possible magnetic states of the wire. The property that allows the wire to have two possible magnetic states is its spin. All particles have spin, a fact that is a consequence of quantum mechanics. Some particles have integer spin, while others have half-integer spin. The electron has a spin of 1/2. The two possible magnetic states of the wire correspond to the two possible states of a spin 1/2 particle. The magnetic moment of the electron is a vector that points in a direction that is correlated with the direction of its angular momentum. The magnetic moment is given by
-\[{\bf \mu}_{e}\ =\ -\frac{e}{2m_{e}}\,{\bf J}\,, \tag{3.1}\]
-where \(e\) and \(m_{e}\) are the charge and mass of the electron, respectively. The minus sign is a convention. The magnetic moment of the electron is correlated with its angular momentum. The magnetic moment of a proton is given by
-\[{\bf \mu}_{p}\ =\ \mu_{N}(1+2s)\,{\bf J}\,, \tag{3.2}\]
-where \(\mu_{N}\) is the nuclear magneton, and \(s\) is the spin of the proton. The magnetic moment of the proton is correlated with its angular momentum. The magnetic moment of the proton is larger than expected given its charge. This unexpected result is due to the fact that the proton is not a point particle. The proton is a bound state of three quarks. Two of the quarks are down quarks with charge -1/3 in units of the electron charge. The third quark is an up quark with charge 2/3 in units of
+2, 3 \\
+Explanation: The nucleus of an atom consists primarily of protons and neutrons. These particles are often collectively referred to as nucleons. While electrons orbit the nucleus, they are not considered part of the nucleus itself. Positrons, being the antimatter counterparts of electrons, are not typically found in the nucleus of a neutral atom. Muons, being heavier versions of electrons, also do not naturally occur in the nucleus of a regular atom. \\
 
 37. :
 \textbf{Объяснение:} Выражение \( |\mathbf{r}\rangle \mathbf{r}' \) — это просто продукт состояний, и оно не является символом Кронекера. Символ Кронекера определяется как:
@@ -184,21 +161,15 @@ where \(\mu_{N}\) is the nuclear magneton, and \(s\) is the spin of the proton. 
 39.### Answer:
 The spectral line intensity and transition probability are related to each other. The intensity of a spectral line is proportional to the transition probability between the states involved in the transition that gives rise to that line. In other words, the probability of a transition between two energy states of an atom or molecule is directly related to the intensity of the spectral line associated with that transition. This relationship is a consequence of the quantum mechanical description of atomic and molecular systems, where the probability of a transition is given by the square of the transition dipole moment, or electric dipole operator, between the initial and final states. The transition dipole moment is proportional to the amplitude of the transition, and the intensity of the spectral line is proportional to the square of this amplitude. Thus, the intensity of a spectral line provides information about the transition probability for the states that give rise to that line. In addition to their use in quantum computing, these inequalities are also applied in other fields such as quantum thermodynamics, quantum information theory, and quantum cryptography. 
 
-40. :
-\textbf{Объяснение:} Оператор Уолша-Адамара действует на состояние \( |01\rangle \) следующим образом:
-\[
-\hat{H}_2 |01\rangle = \frac{1}{2}(|00\rangle - |01\rangle + |10\rangle - |11\rangle).
-\]
-Правильный ответ:
-\[
-1) \frac{1}{2}(|00\rangle - |01\rangle + |10\rangle - |11\rangle).
-\]
+40.### Answer:
+The correct answer is 1) \\\\. The action of the Walsh-Hadamard operator on the basis states of two qubits is defined as \\\
+$H \otimes H: |00> = |0>_2 \to \frac{1}{2}(|00> + |01> + |10> + |11>)$ \\\\
+$H \otimes H: |01> = |1>_2 \to \frac{1}{2}(|00> - |01> + |10> - |11>)$ \\\\
+$H \otimes H: |10> = |2>_2 \to \frac{1}{2}(|00> + |01> - |10> - |11>)$ \\\\
+$H \otimes H: |11> = |3>_2 \to \frac{1}{2}(|00> - |01> - |10> + |11>)$ \\\\
 
-41. :
-\textbf{Объяснение:} Для полного задания состояния кубита необходимо указать два действительных параметра для амплитуд \( c_0 \) и \( c_1 \), а также фазу состояния. Параметры \( c_0 \) и \( c_1 \) можно выразить через 4 действительных параметра, так как каждый комплексный коэффициент имеет два действительных компонента. Ответ:
-\[
-4) 4.
-\]
+41.### Answer:
+The coefficients $c_0, c_1$ can be defined by two numbers each, since the overall phase of the state vector can be taken out of brackets and set to 1. Thus, four real parameters are needed in total. Answer: 4). \\
 
 42.### Answer:
 The inverse operator of the complex conjugate operator is the complex conjugate operator itself. The correct answer is 4) complex conjugate operator. \\
@@ -223,11 +194,9 @@ The degeneracy factor of the discrete spectrum in the one-dimensional case is \(
 1) \text{Принцип неопределённости Гейзенберга}, \quad 2) \text{Эволюция состояний}, \quad 4) \text{вид оператора импульса}.
 \]
 
-47. :
-\textbf{Объяснение:} Для пяти кубитов можно записать сумму всех возможных состояний в виде суперпозиции с коэффициентами \( c_k \), где индексы \( k \) пробегают все возможные значения от 0 до \( 2^5 - 1 \). Ответ:
-\[
-1) |q\rangle_5 = \sum_{k=0}^{31} c_k |q\rangle_5, \quad 3) |q\rangle_5 = \sum_{k=0}^{2^5 - 1} c_k |q\rangle_5.
-\]
+47.### Answer:
+1)$|q>_5 = \sum_{k = 0}^{31}c_k|q>_5$ \\
+3)$|q>_5 = \sum_{k = 0}^{2^5 - 1}c_k|q>_5$ \\
 
 48.### Answer:
 Yes, the statement is true. A quantum stationary state does not depend on time. \\
@@ -312,24 +281,21 @@ Yes, the statement is true. A quantum stationary state does not depend on time. 
 \]
 
 61.### Answer:
-1)$(2|\phi>_n<\phi|_n - I)(I - 2|y>_n<y|_n)$ \\
+The correct answer is 1)$(2|\phi>_n<\phi|_n - I)(I - 2|y>_n<y|_n)$ \\
+The Grover operator is defined as the composition of the inversion about the mean, the oracle, and the inversion. In this case, the inversion about the mean is the reflection of the vector $|x>_n$ about the vector $|\phi>_n$, which is described by the first parenthesis. The oracle is the inversion of the $|y>_n$ state, which is represented by the second parenthesis. \\
 
-62. :
-\textbf{Объяснение:} Символ \( | \langle r | \Psi \rangle |^2 \) представляет собой плотность вероятности нахождения частицы в точке \( r \), поскольку это квадрат амплитуды вероятности. Ответ:
-\[
-3) \text{плотность вероятности}.
-\]
+62.### Answer:
+3) probability density \\
 
 63.### Answer:
-3) 0 \\
-4) 1 \\
+The value of the balanced function in the Deutsch-Jose algorithm when the argument is \(x\) can be either 1 or 0. The function can take on values 1 or 0, but the preface to the problem says that we are talking about the “balanced” function. And by definition, it takes the value \(f(x)=1\) for one half of the data and \(f(x)=0\) for the other half of the data. So the correct answers are 4 and 3. \\
 
 64.### Answer:
 The starting register in Deutsch's algorithm is initialized to \( |0> \otimes |1> \). This corresponds to option 2 and 3. The number of states in the register is \(2^N\) \\\\. 2 qubit register \\
 
-65.
-Алгоритм работает с бинарной функцией от бинарного аргумента.
-\textbf{Ответ:} 4).
+65.### Answer:
+4) a binary function of a binary argument \\
+The Deutsch-Jose algorithm is designed to determine whether a binary function is constant or balanced. A binary function maps binary inputs to binary outputs. In this context, "binary" means the function can only take two possible values, typically represented as 0 and 1. The function can be applied to a binary input, which is also composed of 0s and 1s. For example, the function might map input 0 to output 1 and input 1 to output 0, or it might map both inputs to the same output (either 0 or 1). The problem is formulated in this way to exploit the principles of quantum superposition and interference, which are key to the efficiency of the Deutsch-Jose algorithm. By using a binary function, the algorithm can effectively evaluate the function for multiple inputs simultaneously, due to the superposition of quantum states. This is not to say that other types of functions can't be analyzed using similar quantum algorithms, but the Deutsch-Jose algorithm specifically targets binary functions of binary inputs for its problem setup.
 
 66. :
 \textbf{Объяснение:} Это определение относится к сбалансированной функции, но в контексте алгоритма Дойча-Джозса для такого типа функции значение может быть разным, а не обязательно 1 для первой половины и 0 для второй. Ответ:
@@ -338,16 +304,12 @@ The starting register in Deutsch's algorithm is initialized to \( |0> \otimes |1
 \]
 
 67.### Answer:
-Yes, the formula for the quantum Fourier transform is the same as the formula for the classical discrete Fourier transform. The only difference is that the quantum Fourier transform operates on a register of qubits, while the classical discrete Fourier transform operates on a vector of complex numbers. The quantum Fourier transform can be expressed in matrix form as:
-$$
-\text{QFT} = \frac{1}{\sqrt{N}} \begin{bmatrix}
-1 & 1 & 1 & \ldots & 1 \\
-1 & \omega & \omega^2 & \ldots & \omega^{N-1} \\
-1 & \omega^2 & \omega^4 & \ldots & \omega^{2(N-1)} \\
-\vdots & \vdots & \vdots & \ddots & \vdots \\
-1 & \omega^{N-1} & \omega^{2(N-1)} & \ldots & \omega^{(N-1)(N-1)}
-\end{bmatrix}
-$$
+The formulas for the quantum Fourier transform and the classical discrete Fourier transform are similar in form, but they differ in several key aspects due to the quantum nature of the variables and the properties of complex numbers. Here is a step-by-step comparison of the two formulas:
+1. **Classical Discrete Fourier Transform:**
+   \[X_k=\frac{1}{\sqrt{N}}\sum_{j=0}^{N-1}e^{-2\pi i\frac{jk}{N}}x_j\]
+2. **Quantum Fourier Transform:**
+   \[|\hat{y}_k\rangle=\frac{1}{\sqrt{N}}\sum_{j=0}^{N-1}e^{-2\pi i\frac{jk}{N}}| \hat{x}_j\rangle\]
+While the exponential terms in both equations are indeed similar, the quantum version involves state vectors (e.g., \(|\hat{x}_j\rangle\) and \(|\hat{y}_k\rangle\)) and the global phase factor \(e^{-2\pi i\frac{jk}{N}}\) has a different role due to the orthogonality of state vectors and the constraints of quantum mechanics. Therefore, the correct answer is 2) False.
 
 68.### Answer:
 3) XOR \\
@@ -357,25 +319,24 @@ $$
 69.### Answer:
 1) \(- \hat{Y}\) \\
 
-70. :
-\textbf{Объяснение:} Действие операторов на кубит:
-\[
-\hat{Z}|q\rangle = a|0\rangle - b|1\rangle, \quad \hat{X}|q\rangle = a|1\rangle + b|0\rangle, \quad \hat{Y}|q\rangle = ia|1\rangle - ib|0\rangle.
-\]
-Ответ:
-\[
-1) \hat{Z}|q\rangle = a|0\rangle - b|1\rangle, \quad 2) \hat{X}|q\rangle = a|1\rangle + b|0\rangle, \quad 3) \hat{Y}|q\rangle = ia|1\rangle - ib|0\rangle.
-\]
+70.### Answer:
+\textbf{Solution} \\
+All operators can be represented by matrices, and the action of the operators can be determined by matrix multiplication. For example, the $\hat{X}$ operator is represented by the matrix
+\[X = \begin{bmatrix}0 & 1 \\ 1 & 0\end{bmatrix},\]
+and the action of the operator on the state is given by matrix multiplication:
+\[\hat{X}|\psi> = X|\psi> = \begin{bmatrix}0 & 1 \\ 1 & 0\end{bmatrix}\begin{bmatrix}a \\ b\end{bmatrix} = \begin{bmatrix}b \\ a\end{bmatrix} = b|0> + a|1> = |q>.\]
+In this way, we find that the operators \(\hat{X}, \hat{Y}, \hat{Z}\) change the state \(|q> = a|0> + b|1>\) to:
+\[\hat{X}|\psi> = b|0> + a|1> = |q>,\] \[\hat{Y}|\psi> = ia|0> - ib|1> = i|q>,\] \[\hat{Z}|\psi> = a|0> - b|1> = - |q>.\]
 
 71.### Answer:
-$|\mathbf{00}>$ \\
-$|\mathbf{0}> \otimes |\mathbf{0}> \\
+1), 3) \\
+Explanation: The initial state of the system can be represented in various ways due to the commutativity of states in the tensor product. \\
 
 72.### Answer:
 The name of the phenomenon in which the quantum states of two objects are interdependent is called **quantum entanglement**. 
 
-73. 
-\textbf{Ответ:} 3) порядка $2^n$.
+73.### Answer:
+3)of the order of $2^n$ \\
 
 74.### Answer:
 2), 3) \\
@@ -383,9 +344,8 @@ The name of the phenomenon in which the quantum states of two objects are interd
 1) \(U^{\dagger}U = 0\) is not possible for a unitary operator since \(U^{\dagger}U = I\) for unitary operators. 2) \(U^{\dagger}U = 1\) is equivalent to \(U^{\dagger}U = I\) since \(I\) is the identity operator, which is often represented as the number 1 in one-dimensional contexts. 3) \(U^{\dagger} = U^{-1}\) is true for unitary operators. By the definition of the inverse, \(UU^{-1} = U^{-1}U = I\), and taking the adjoint of the first equation gives \(U^{\dagger}U = I\). 4) \(U^{\dagger} = U^1\) is not generally true for unitary operators. While it holds for involutions (operators that are involutive, i.e., \(U^2 = I\)), it is not a general property of unitary operators. Unitary operators satisfy \(U^{\dagger}U = UU^{\dagger} = I\), but \(U^{\dagger}\) is not necessarily equal to \(U\) raised to any power. 
 
 75.### Answer:
-The correct answer is D. The quantum Fourier transform (QFT) applied to the state \( |3>_2 \) results in the state \( |\neg 3>_2 \), which is given by:
-\[\ket{\neg 3_2} = \frac{1}{2}(\ket{0_2} - i\ket{1_2} - \ket{2_2} + i\ket{3_2}) \tag{2.44}\]
-This corresponds to the state \( |11>_2 \) with a negative global phase. The other options are incorrect because they represent different states or have different phases. For example, option B represents the state \( |3>_2 \) with a negative global phase, while option C represents the state \( |1>_2 \) with a negative global phase.
+The correct answer is 4) \(\neg{|3>_2} = \frac{1}{2}(|0>_2 - i|1>_2 - |2>_2 + i|3>_2)\). The other options are incorrect because they have the wrong signs in front of \(|2>_2\) and \(|3>_2\). The minus sign in front of \(|2>_2\) is due to the fact that \(i^2 = -1\), and the plus sign in front of \(|3>_2\) is because \(i^3 = -i\). The quantum Fourier transform is defined as:
+\[\left|j\right\rangle=\frac{1}{\sqrt{2^{n}}}\sum_{k=0}^{2^{n}-1}e^{2\pi ij/2 ^{n}}\left|k\right\rangle\]
 
 76.
 Значение постоянной функции всегда:
@@ -402,10 +362,17 @@ This corresponds to the state \( |11>_2 \) with a negative global phase. The oth
 \]
 
 78.### Answer:
-1) In a quantum-mechanical system, there cannot be two or more electrons in a state with the same spin \\
+5) \\
+The Pauli principle is formulated as follows: two particles cannot have the same quantum numbers (including the spin) at the same time. \\
+The state of the electron is described by the wave function \(\Psi\). The probability density of finding the particle at a certain point of space and time is defined as \(\Psi^{*}\Psi\). \\
+Since the wave function multiplied by a complex number of finite value does not change the probability, the wave function \(\Psi\) is not uniquely defined. Consequently, the physical quantities of the electron, which are calculated by the operator acting on the wave function, also do not have unique definitions. Spin - 1/2 particles. Electrons, protons, neutrons, neutrinos, and some atoms. Spin 1/2 particles have four quantum states, two of which are associated with opposite directions of the spin. The doubling of the number of states is due to the fact that the electron, as well as the proton and the neutron, has a strange property - the so-called doublet structure of these particles. The consequence of this doublet structure is the existence of two types of atoms. One type of atoms has an integer total spin, the other type has a total spin equal to the integer plus one half. The type of atom does not affect the properties of the atom at all. The probability of finding the particle's spin along the z-axis does not change with the choice of the z-axis direction. The probability of finding the particle's spin along the z-axis changes sign with the change of the z-axis direction. The commutator of the hermic operators \(T_{1}\) and \(T_{2}\) is defined by the number c:
+\[c[T_{1},T_{2}]\ =\ T_{1}\,T_{2}-T_{2}\,T_{1}\,. \tag{3.45}\]
+The number \(c\) can only be \(+1\) or \(-1\). If \(c=+1\), the operators commute, if \(c=-1\), they do not commute. Let's start with the representation of angular momentum operators in the classical way (see Figure 3.2)
+\[\mathbf{J}\ =\ \mathbf{r}\times\mathbf{p}\,. \tag{3.46}\]
 
-79.
-\textbf{Ответ:} 2) Эффект Джозефсона, 5) Проводник.
+79.### Answer:
+2, 5 \\
+Explanation: The Josephson effect is an example of quantum tunneling, which cannot serve as a communication channel. Conductors do not have the properties required for transmitting quantum information. \\
 
 80. :
 \textbf{Объяснение:} По протоколу B92 абоненты могут извлечь секретный ключ после выполнения серии операций с кубитами. В данном случае секретный ключ сформирован как:

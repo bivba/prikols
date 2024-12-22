@@ -1,0 +1,681 @@
+1.### Answer:
+
+1, 2, 3, 4, 6, 7 -- the terms are allowed \\
+5 - not allowed term - there is no $^1D_{3/2}$ term \\
+In the term there is an atom with spin 0, with zero spin there can be no doublets. \\
+All other terms are allowed. \\
+
+
+
+
+Problem 2 \\
+Using the example of the lithium atom, plot the term that follows immediately after the $n=2$ term $^2S_{1/2}$. Do not solve the equation for the operator $\hat{F}^2$, but use the results presented in the table on page 118 of the textbook. \\
+
+$2p - 2p$ multiplet \\
+$F = 1, 2, 3$ \\
+$F = 0, 1, 2, 3, 4$ \\
+
+$F = 1, 2, 3, 4$ \\
+$N = 2F$ \\
+$2P_{1/2} -> 4D_{3/2}$ \\\
+The term $^4D_{3/2}$ \\\
+
+
+
+
+Problem 3 \\
+Using the example of the carbon atom, plot the term that follows immediately after the $n = 2$$^1S_0$ term. Do not solve the equation for the operator $\hat{F}^2$, but use the results presented in the table on page 118 of the textbook. \\
+
+$2p - 2p$ multiplet \\
+$F = 0, 1, 2, 3, 4, 5$ \\
+$N = 2F + 1$ \\
+$^1S_0 -> ^5D_0$ \\\
+
+The term $^5D_0$ is forbidden by the spin - 0 orbital approximation. The true term is $^3P_0$. \\
+
+
+
+
+Problem 4 \\
+Using the example of the carbon atom, plot the term that follows immediately after the $n = 3$$^1S_0$ term. Do not solve the equation for the operator $\hat{F}^2$, but use the results presented in the table on page 118 of the textbook. \\
+
+$3p - 3p$ multiplet \\
+$F = 0, 1, 2, 3, 4, 5,
+2.### Answer:
+
+$U3(\theta, -\frac{\pi}{2}, \frac{\pi}{2}) = R_x(\theta)$
+
+
+
+
+Problem 2
+
+Solve the following problems:
+
+1. Find the eigenvalues and eigenstates of the operator $\hat{S}_{z}$ for the state $\mid\psi\rangle=\frac{1}{\sqrt{2}}(\alpha+\beta)\mid 0\rangle+\frac{1}{\sqrt{2}}(\alpha-\beta)\mid 1\rangle$ of the system qubit. 2. What is the magnetic moment of the electron in the state $\mid\psi\rangle$? 3. What is the probability of finding the electron in the state $\mid\psi\rangle$ with a spin directed along the x-axis? 4. What is the probability of finding the electron in the state $\mid\psi\rangle$ with a spin directed along the z-axis? 5. What is the expectation value of the operator $\hat{S}_{x}$ in the state $\mid\psi\rangle$? 6. What is the expectation value of the operator $\hat{S}_{y}$ in the state $\mid\psi\rangle$? 7. What is the expectation value of the operator $\hat{S}_{z}$ in the state $\mid\psi\rangle$? 8. What is the expectation value of the operator $\hat{S}_{+}$ in the state $\mid\psi\rangle$? 9. What is the expectation value of the operator $\hat{S}_{-}$ in the state $\mid\psi\rangle$? 10. What is the expectation value of the operator $\hat{S}^{2}$ in the state $\mid\psi\rangle$? 11. What is the expectation value of the operator $\hat{T}^{2}$ in the state $\mid\psi\rangle$, if $\hat{T}=\exp\left(\frac{\pi}{4}\hat{S}_{x}\right)$? 12. What is the commutator of the operators $\hat{S}_{x}$ and $\hat{S}_{y}$? 13. What is the commutator of the operators $\hat{S}_{x}$ and $\hat{S}_{z}$? 14. What is the commutator of the operators $\hat{S}_{y}$ and $\hat{S}_{z}$?
+3.### Answer:
+
+Let's analyze the options one by one:
+
+1) Y operator: $U1(\frac{\pi}{4}) = \begin{bmatrix} 1 & 0 \\ 0 & e^{i\frac{\pi}{4}} \end{bmatrix}$, $Y = \begin{bmatrix} 0 & -i \\ i & 0 \end{bmatrix}$. These operators are not the same. \\
+
+2) X operator: $U1(\frac{\pi}{4}) = \begin{bmatrix} 1 & 0 \\ 0 & e^{i\frac{\pi}{4}} \end{bmatrix}$, $X = \begin{bmatrix} 0 & 1 \\ 1 & 0 \end{bmatrix}$. These operators are not the same. \\
+
+3) no correct answer \\
+
+4) Z operator: $U1(\frac{\pi}{4}) = \begin{bmatrix} 1 & 0 \\ 0 & e^{i\frac{\pi}{4}} \end{bmatrix}$, $Z = \begin{bmatrix} 1 & 0 \\ 0 & -1 \end{bmatrix}$. These operators are not the same. \\
+
+5) S operator: $S = \begin{bmatrix} 1 & 0 \\ 0 & e^{i\frac{\pi}{2}} \end{bmatrix} = \begin{bmatrix} 1 & 0 \\ 0 & i \end{bmatrix}$. This operator is the same as $U1(\frac{\pi}{2})$, so the answer is 5).$\\$
+
+$\\$
+
+**Problem 2.**
+
+What is the matrix of the $Rz(\frac{\pi}{2})$ operator? \\
+
+1) $\begin{bmatrix} 0 & -i \\ i & 0 \end{bmatrix}$ \\\
+2) $\begin{bmatrix} e^{-i\frac{\pi}{4}} & 0 \\ 0 & e^{i\frac{\pi}{4}} \end{bmatrix}$ \\\
+3) $\begin{bmatrix} 1 & 0 \\ 0 & e^{i\frac{\pi}{2}} \end{bmatrix}$ \\\
+4) $\begin{bmatrix} e^{i\frac{\pi}{2}}
+4.### Answer:
+
+The product of single-qubit operators \(\hat{H}\hat{Z}\hat{H}\) can be evaluated by considering the action of these operators on a basis state. Let's start with \(\left|0\right\rangle\):
+
+\[\hat{H}\hat{Z}\hat{H}\left|0\right\rangle =\hat{H}\hat{Z}\frac{1}{\sqrt{2}}\left|0\right\rangle+\hat{H} \hat{Z}\frac{1}{\sqrt{2}}i\left|1\right\rangle \tag{6.47a}\] \[=\hat{H}\frac{1}{\sqrt{2}}\left|0\right\rangle-\hat{H}\frac{1}{\sqrt{2}} \left|1\right\rangle\] (6.47b) \[=\frac{1}{\sqrt{2}}\frac{1}{\sqrt{2}}\left|1\right\rangle-\left(-\frac{1}{ \sqrt{2}}\frac{1}{\sqrt{2}}\left|0\right\rangle\right)\] (6.47c) \[=\frac{1}{2}\left|1\right\rangle+\frac{1}{2}\left|0\right\rangle\] (6.47d) \[\equiv\left|\beta_{+}\right\rangle\] (6.47e)
+
+We see that \(\hat{H}\hat{Z}\hat{H}\left|0\right\rangle=\left|\beta_{+}\right\rangle\). Since \(\left|\beta_{+}\right\rangle=\hat{X}\left|0\right\rangle\), we have
+
+\[\hat{H}\hat{Z}\hat{H}\left|0\right\rangle=\hat{X}\hat{H}\hat{Z}\hat{H}\left|0\right\rangle. \tag{6.48}\]
+
+Since the operator \(\hat{X}\) applied to \(\left|0\right\rangle\) gives a phase that is not changed by \(\hat{H}\hat{Z}\hat{H}\), we have that \(\hat{H}\hat{Z}\hat{H}=\hat{X
+5.### Answer:
+
+Let's analyze the action of the operators step by step:
+
+1. **Action of \(W^{(3)}\):**
+   \[W^{(3)}|\mathbf{0}\rangle_3 = |\mathbf{4}\rangle_3.\]
+
+2. **Action of \(CCNOT_{1,2,3}\):**
+   The \(CCNOT\) gate applies a NOT gate to the first qubit if the second and third qubits are in state \(|1\rangle\). Thus,
+   \[CCNOT_{1,2,3}|\mathbf{4}\rangle_3 = |\mathbf{4}\rangle_3.\]
+
+3. **Second application of \(W^{(3)}\):**
+   \[W^{(3)}|\mathbf{4}\rangle_3 = |\mathbf{0}\rangle_3.\]
+
+Therefore, the overall effect is:
+\[W^{(3)}CCNOT_{1,2,3}W^{(3)}|\mathbf{0}\rangle_3 = |\mathbf{0}\rangle_3.\]
+
+This corresponds to option 1. 
+6.### Answer:
+
+2) False \\
+\\
+The lifetime of the metastable state can be used to create a quantum generator. \\
+Problem 3. \\
+The lifetime of the metastable state of a calcium atom is estimated to be \( 10^{-5} \) seconds. What current can be produced by a quantum generator based on such a metastable state? \\
+Answer: \( 1.6 \) pA. \\
+
+
+
+
+Problem 4. \\
+The polarizer in the run-amok experiment can be placed in two positions, denoted by \(\#1\) and \(\#2\). The following data was obtained:
+
+- When the polarizer is in position \(\#1\), 100 photons passed through it. 75 of these photons had vertical polarization, and 25 had horizontal polarization. - When the polarizer is in position \(\#2\), 100 photons passed through it. 85 of these photons had right-handed circular polarization, and 15 had left-handed circular polarization. - When the photons had vertical or right-handed polarization, they passed through the analyzer, which was placed to the right of the polarizer. There were no photons with horizontal or left-handed polarization. - The photons that passed through the analyzer went through the second polarizer, placed to the right of the analyzer. This polarizer also had two positions, denoted by \(\#3\) and \(\#4\). When the polarizer was in position \(\#3\), all the photons that had passed through the analyzer also passed through the second polarizer. But when the polarizer was in position \(\#4\), only 50% of the photons that had passed through the analyzer also passed through the second polarizer. - The second polarizer did not change the polarization of the photons. - The experiment was conducted with a thermal source of calcium atoms. The polarizers and analyzers in the experiment can take four positions, denoted by numbers from 1 to 4. The following data was obtained:
+
+- When the polarizer is in position \(\#1\), 100 photons passed through it. 75 of these photons had vertical polarization, and 25 had horizontal polarization. - When the polarizer is in position \(\#2\), 100 photons passed through it. 85 of these photons had right-handed circular polarization, and 15 had left-handed circular polarization. - When the
+7.### Answer:
+
+\textbf{Problem 2:} What is the result of applying the following quantum circuit to the initial state $\frac{1}{\sqrt{2}}(|00\rangle + |11\rangle)$? \\
+
+1) $\frac{1}{2}(|00\rangle + |01\rangle + |10\rangle + |11\rangle)$ \\
+2) $\frac{1}{2}(|00\rangle - |01\rangle - |10\rangle + |11\rangle)$ \\
+3) $\frac{1}{2}(|00\rangle + |01\rangle - |10\rangle - |11\rangle)$ \\
+4) $\frac{1}{2}(|00\rangle + |01\rangle - i|10\rangle + i|11\rangle)$ \\
+5) $\frac{1}{2}(|00\rangle - |01\rangle + i|10\rangle - i|11\rangle)$ \\
+
+
+
+
+\textbf{Problem 3:} What is the result of applying the following quantum circuit to the initial state $\frac{1}{\sqrt{2}}(|00\rangle + |11\rangle)$? \\
+
+1) $\frac{1}{2}(|00\rangle + |01\rangle + |10\rangle + |11\rangle)$ \\
+2) $\frac{1}{2}(|00\rangle - |01\rangle - |10\rangle + |11\rangle)$ \\
+3) $\frac{1}{2}(|00\rangle + |01\rangle - |10\rangle - |11\rangle)$ \\
+4) $\frac{1}{2}(|00\rangle + |01\rangle - i|10\rangle + i|11\rangle)$ \\
+5) $\frac{1}{2}(|00\rangle - |01\rangle + i|10\rangle - i|11\rangle)$ \\
+
+
+
+
+\textbf{Problem 4:} What is the result of applying the following quantum circuit to the initial state $\frac{1}{\sqrt{2}}(|00\rangle + |11\rangle)$? \\
+
+1) $\frac{1}{2}(|00\rangle + |01
+8.### Answer:
+
+\textbf{Solution}
+
+The probability of obtaining the state \( |0> \) is determined by the coefficient of the \( |000> \) state in the measurement state. As we can see, this coefficient is \(-\frac{1}{2}\). Thus, the probability is
+
+\[P = \left(-\frac{1}{2}\right)^2 = \frac{1}{4} = 0.25.\]
+
+Answer: \(0.25\).<|endoftext|>
+9.### Answer:
+
+Let's start with the Pauli matrices \(\hat{X}, \hat{Y}, \hat{Z}\):
+
+1. \(\hat{X}|q> = \hat{X}(\alpha|0> + \beta|1>) = \alpha\hat{X}|0> + \beta\hat{X}|1> = \alpha|1> + \beta|0> = \alpha|0> + \beta|1> = |q> \). 2. \(\hat{Y}|q> = \hat{Y}(\alpha|0> + \beta|1>) = \alpha\hat{Y}|0> + \beta\hat{Y}|1> = \alpha(i|1>) + \beta(-i|0>) = i(\alpha|1> - \beta|0>) \). 3. \(\hat{Z}|q> = \hat{Z}(\alpha|0> + \beta|1>) = \alpha\hat{Z}|0> + \beta\hat{Z}|1> = \alpha|0> - \beta|1> = |q> \). Now, let's move on to the \(\hat{S}\) and \(\hat{T}\) gates:
+
+4. \(\hat{S}|q> = \hat{S}(\alpha|0> + \beta|1>) = \alpha\hat{S}|0> + \beta\hat{S}|1> = \alpha e^{i\pi/2}|0> + \beta|1> = \alpha(i|0>) + \beta|1> = i\alpha|0> + \beta|1> \). 5. \(\hat{T}|q> = \hat{T}(\alpha|0> + \beta|1>) = \alpha\hat{T}|0> + \beta\hat{T}|1> = \alpha e^{i\pi/4}|0> + \beta|1> = \alpha(\frac{1}{2} + i\frac{\sqrt{3}}{2})|0> + \beta|1> = \frac{\alpha}{2} + i\frac{\sqrt{3}\alpha}{2}|0> + \beta|1> \). \\
+
+In this problem, we are working with the \(\hat{H}\) (Hadamard)
+10.### Answer:
+
+The operator $R_y$ is defined as:
+$$R_y(\theta) = e^{-i\frac{\theta}{\hbar}Y} = \cos\frac{\theta}{2}I - i\sin\frac{\theta}{2}Y$$
+where \(Y\) is the Pauli \(Y\) matrix. When \(\theta = \pi\), we have:
+$$R_y(\pi) = \cos\frac{\pi}{2}I - i\sin\frac{\pi}{2}Y = -iY$$
+Since \(Y = iX\) up to a global phase, we get:
+$$R_y(\pi) = -i(iX) = X$$
+Therefore, \(R_y(\pi)\) is the same as the \(X\) gate, which transforms \(a|0> + b|1>\) into \(a|1> + b|0>\). The correct answer is 4). [MISSING_PAGE_EMPTY:689]
+
+3) \(a|0> - ib|1>\). 4) \(a|0> + ib|1>\). 5) \(ib|0> + a|1>\). 6) \(-ib|0> + a|1>\). 7) \(ib|0> - a|1>\). 8) \(-ib|0> - a|1>\). Answer: 4). Problem 5.3
+
+What is the action of the operator \(R_z(\pi/2)\) on the state \(a|0> + b|1>\)? 1)\(a|0> + \frac{1}{2}b|1>\). 2)\(a|0> + \frac{1}{2}ib|1>\). 3)\(\frac{1}{2}a|0> + ib|1>\). 4)\(\frac{1}{2}a|0> + b|1>\). 5)\(\frac{1}{2}a|0> - ib|1>\). 6)\(a|0> + \frac{1}{2}b|1>\). 7)\(\frac{1}{2}a|0> - b|1>\). 8)\(\frac{1}{2}ib|0> + a|1>\). Answer: 8). Problem 5.4
+
+What is the
+11.### Answer:
+
+Let's start with the definition of the state of the qubit:
+
+\[|\psi\rangle=\alpha|\,0\rangle+\beta|\,1\rangle.\]
+
+The operators \(R_{u}(\theta)\) and \(R_{d}(\theta)\) can be constructed in two ways. The first way is to directly calculate them by substituting \(\mathbf{u}\) or \(\mathbf{d}\) into the definition (SS 1.16):
+
+\[R_{u}(\theta)=R_{\mathbf{u}}(\theta)\,,\qquad R_{d}(\theta)=R_{\mathbf{d}}(\theta)\,. \tag{1.20}\]
+
+The second way is to express the vector \(\mathbf{u}\) or \(\mathbf{d}\) through the Pauli matrix \(\mathbf{\sigma}\):
+
+\[\mathbf{u}=\begin{bmatrix}a\\ b\\ c\end{bmatrix}\,,\qquad\mathbf{d}=\begin{bmatrix}a\\ -b\\ -c\end{bmatrix}\,, \tag{1.21}\]
+
+and then using the identity
+
+\[a\mathbf{\sigma}+b\mathbf{\sigma}\mathbf{u}+c\mathbf{\sigma}\mathbf{v\,}=\, \sqrt{a^{2}+b^{2}+c^{2}}\,\sigma_{\mathbf{u}}\,,\]
+
+where \(\mathbf{v}\) is the unit vector along \(\mathbf{u}\times\mathbf{d}\), find that
+
+\[R_{u}(\theta)\ =\ e^{-i\theta\frac{a\mathbf{\sigma}+b\mathbf{\sigma}\mathbf{u}+ c\mathbf{\sigma}\mathbf{v}}{\sqrt{a^{2}+b^{2}+c^{2}}}}\ =\ \exp\left(-i\theta\,\sigma_{\mathbf{u}}\right)\,. \tag{1.22}\]
+
+\[R_{d}(\theta)\ =\ e^{-i\theta\frac{a\mathbf{\sigma}-b\mathbf{\sigma}\mathbf{u}- c\mathbf{\sigma}\mathbf{v
+12.### Answer:
+
+The operator \(R_x\) is defined as:
+
+\[R_x(\theta) = e^{-i\frac{\theta}{2}X} = \cos\left(\frac{\theta}{2}\right)I - i\sin\left(\frac{\theta}{2}\right)X\]
+
+where \(X\) is the Pauli-\(X\) (or \(\sigma_x\)) matrix:
+
+\[X = \begin{bmatrix}0 & 1 \\ 1 & 0\end{bmatrix}\]
+
+For \(\theta = \frac{\pi}{2}\), we have:
+
+\[\cos\left(\frac{\theta}{2}\right) = \cos\left(\frac{\pi}{4}\right) = \frac{1}{\sqrt{2}}\]
+
+\[\sin\left(\frac{\theta}{2}\right) = \sin\left(\frac{\pi}{4}\right) = \frac{1}{\sqrt{2}}\]
+
+Substituting these values into the expression for \(R_x\), we get:
+
+\[R_x\left(\frac{\pi}{2}\right) = \frac{1}{\sqrt{2}}I - \frac{i}{\sqrt{2}}X = \frac{1}{\sqrt{2}}\begin{bmatrix}1 & 0 \\ 0 & 1\end{bmatrix} - \frac{i}{\sqrt{2}}\begin{bmatrix}0 & 1 \\ 1 & 0\end{bmatrix} = \frac{1}{\sqrt{2}}\begin{bmatrix}1 - i & -i \\ -i & 1 - i\end{bmatrix}\]
+
+Now, applying this to the state \(|0\rangle\):
+
+\[R_x\left(\frac{\pi}{2}\right)|0\rangle = \frac{1}{\sqrt{2}}\begin{bmatrix}1 - i & -i \\ -i & 1 - i\end{bmatrix}\begin{bmatrix}1 \\ 0\end{bmatrix} = \frac{1}{\sqrt{2}}\begin{bmatrix}1 - i \\ -i\end{bmatrix} = (1 - i)|0\rangle - i|1\rangle\]
+
+Therefore, the correct answer is:
+
+\[\boxed{(1 - i)|0\rangle
+13.### Answer:
+
+\textbf{Problem 10.} The electron in the atom is in the state with the quantum numbers \(n=3\), \(\ell=1\), \(m=0\). What are the possible values of the total momentum of the electron? Given the total momentum \(J\), what are the possible values of the atomic energy, how much more is the absorption energy of the atom's bound electron in the rest frame of the atoms included in the satellite of the Sun equal to its energy in the rest frame of the Earth? The Sun's orbital velocity is about 250 km / s, the fine structure constant \(\alpha=1/137\). \textbf{Solution}. The possible values of the total momentum are \(J=0, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2,
+14.### Answer:
+
+1) momentum and coordinate \\
+2) energy and time \\
+
+
+
+
+Problem 2. What is the physical interpretation of the time-dependent operator \\\
+1) Hermitian operator \\
+2) unitary operator \\
+3) idempotent operator \\
+4) anti-Hermitian operator \\
+
+
+
+
+Problem 3. What can be said about the system's state in a degenerate spectrum of the Hamilton operator? \\\
+1) it is impossible to find a description using the energy variable \\
+2) it is impossible to find a description using the coordinates of the particles \\
+3) it is impossible to find a description using the momenta of the particles \\
+4) there are states with the same energy, additional variables are needed for their description \\
+
+
+
+
+Problem 4. What variables are included in the complete set (to determine the state) of a free particle? \\
+1) momentum and coordinate \\
+2) energy and time \\
+3) coordinate \\
+4) energy and coordinate \\
+5) momentum, coordinate, energy and time yes \\
+6) momentum \\
+7) momentum and time \\
+8) coordinate and time \\
+
+
+
+
+Problem 5. What is the physical interpretation of the time-dependent operator \\\
+1) Hermitian operator \\
+2) unitary operator \\
+3) idempotent operator \\
+4) anti-Hermitian operator \\
+
+
+
+
+Problem 6. What can be said about the system's state in a degenerate spectrum of the Hamilton operator? \\\
+1) it is impossible to find a description using the energy variable \\
+2) it is impossible to find a description using the coordinates of the particles \\
+3) it is impossible to find a description using the momenta of the particles \\
+4) there are states with the same energy, additional variables are needed for their description \\
+
+
+
+
+Problem 7. What kind of spectrum does the operator \(H^{2}\) have in three-dimensional space? \\
+1) continuous \\\
+2) discrete \\
+3) the spectrum can be both discrete and continuous \\
+
+
+
+
+Problem 8. What is the physical significance of the operator \(H^{2}\)? \\
+1) it determines the energy of the system \\
+2) the inverse of the system energy \\
+3) the square of the system energy \\
+4) the system's Hamilton operator squared \\
+5) the system's angular momentum squared \\
+
+
+
+
+Problem 9. What is the unitary operator in coordinate representation given by? \\
+1) \(e^{-iHt/\hbar}\) \\
+2) \(e
+15.### Answer:
+
+The fine structure of a hydrogen atom involves the splitting of spectral lines due to several factors, including the spin-orbit interaction, the Darwin term, and the spin-magnetism interaction. These effects cause the energy levels to split into multiple closely spaced levels. In the given principal quantum number \(n=5\), the number of fine structure levels is \(2n-1=9\). However, due to the spin-orbit interaction, each of these nine levels will split into two or more levels. Therefore, there are more than nine levels in the fine structure of the hydrogen atom with a principal quantum number of 5. The exact number of levels depends on the specific terms and the extent of the splitting. In summary, the number of fine structure levels for \(n=5\) is greater than 9, and the precise number depends on the system being studied. Problem 6.6
+
+Show that the eigenstates of the operator \({\bf S}^{2}\) are the same as the eigenstates of the operator \({\bf J}^{2}\), where \({\bf J}\) is the total momentum operator defined as \({\bf J}={\bf L}+{\bf S}\). **Solution to Problem 6.6:** We start with the definition of \({\bf J}^{2}\):
+
+\[\framebox{{\bf J}^{2}\ =\ {{\bf L}^{2}+{\bf S}^{2}+2{\bf L}\cdot{\bf S}}}\]
+
+Next, we use the definition \({\bf S\,=\,{\bf L}+{\bf J}}\) to find
+
+\[{\bf S}^{2}\ =\ ({\bf L}+{\bf J})^{2}\ =\ {\bf L}^{2}+2{\bf L}\cdot{\bf J}+{\bf J}^{2}\]
+
+which gives us
+
+\[\framebox{2{\bf L}\cdot{\bf J}\ =\ {\bf S}^{2}-{1\over 2}({\bf J}^{2}+{\bf L}^{2})}\]
+
+Back to the expression for \({\bf J}^{2}\) we then get
+
+\[\framebox{${\bf J}^{2}$ = ${\bf L}^{2}+{\bf S}^{2}$ + ${1\over 2}$(${\bf
+16.### Answer:
+
+3) Spin \\
+Explanation: The proper angular momentum of elementary particles is called spin. Spin can take half-integer values in units of Planck's constant. \\
+The charge of elementary particles can also take half-integer values. This is due to the peculiarities of quantum mechanics, which does not allow to obtain the value of the charge smaller than the value of the proton charge. The small value of the electron charge is compensated by the half-integral spin. Thus, the following particles have a half-integral spin (the so-called fermions): electrons, protons, neutrons, and many others. The following particles have an integral spin (bosons): photons, alpha-particles, some atoms. The property of particles with half-integral spin is that they are described by the equation formulated by Erwin Schrödiger. The property of particles with integral spin is that they are described by the equation formulated by Pauli and Sommerfeld. \\
+\textbf{Problem 4.} What can be said about the spin of a particle if its momentum is zero? Can such a particle have a definite spin direction? \\
+Solution. If the momentum of the particle is zero, then the total angular momentum of the particle is also zero. This means that the spin of the particle is also zero. Therefore, such a particle has no spin direction defined by the magnetic field. \\
+\textbf{Problem 5.} What can be said about the spin of a particle if its momentum and energy are zero? \\
+Solution. The condition that the energy of the particle is zero means that it is not localized and extends throughout space. Such a object does not have a spin. Spin is a consequence of the localization of the object in space. \\
+\\
+\textbf{Problem 6.} What can be said about the spin of a particle if its energy and momentum are zero? \\
+Solution. The condition that the energy of the particle is zero means that it is not localized and extends throughout space. Such a object does not have a spin. Spin is a consequence of the localization of the object in space. \\
+\\
+\textbf{Problem 7.} What can be said about the spin of a particle if its energy, momentum, and velocity are zero? \\
+Solution. The rest frame of the particle is given. The condition that the energy of the particle is zero means that it is not localized and extends throughout space. Such a object does not have a spin. Spin is a consequence of the localization of
+17.### Answer:
+
+1) False. The eigenvalues of a Hermitian operator are real numbers, but the eigenfunctions can be complex. 2) True. The set of eigenfunctions of a Hermitian operator is complete, i.e., any function can be expanded in terms of these eigenfunctions. 3) False. There is no limitation on the values of the eigenvalues of a Hermitian operator. 4) True. The eigenfunctions of a Hermitian operator with different eigenvalues are orthogonal. 5) False. There is no requirement for the eigenvalues of a Hermitian operator to form an arithmetic progression. 6) True. The eigenvalues of a Hermitian operator are real numbers. 7) True. The eigenfunctions of commuting Hermitian operators are the same. ```{admonition} Solution
+The correct answers are 2, 4, 6, 7. \\
+
+
+$	$Basis representation of operators. Let the operators \(T\) and \(T^{\prime}\) correspond to the same physical quantity in different representations. What is the connection between these operators? We will consider the Galileo and special relativity frameworks. In the Galileo case, we have two different inertial frames of reference. The operators \(T\) and \(T^{\prime}\) must be related by the same rule as the relation between the operators \(\hat{H}\) and \(\hat{H}^{\prime}\) for the energy operator in different frames of reference:
+
+\[\framebox{Galileo frame:}\quad T^{\prime}=\Lambda T\Lambda^{-1}\,, \tag{3.46}\]
+
+where \(\Lambda\) is the operator of the change of variables that corresponds to the transition from one frame to another. In the framework of special relativity, the operators \(T\) and \(T^{\prime}\) must be related by the rule for the change of the Hamiltonian operator by the passage to the frame of reference of the particle:
+
+\[\framebox{Special relativity:}\quad T^{\prime}=\Lambda T\Lambda^{-1}\,, \tag{3.47}\]
+
+where \(\Lambda\) is the operator of the Lorentz transformation, which corresponds to the transition to the frame of reference of the particle. The same interactive operator \(V\) in different representations takes the form \(V^{\prime}=\Lambda V\Lambda^{-1}\). Indeed,
+18.### Answer:
+
+Option 3) is correct. The sum $\sum_n|n><n|$ gives the identity operator. This can be checked by multiplying it on the basis vector $|m>$:
+
+$$\sum_n|n><n|\ m> = \sum_n |n> \langle n | m> = \sum_n |n> \delta_{n,m} = |m>$$
+
+Since the identity operator multiplied by a vector does not change it, we see that the result is indeed correct. \\
+Pauli operators can be used to obtain other complete sets of operators. To do this, we act on the operators of the set (5.36) with the help of the Pauli operators. Spin operators can also be used for this purpose. Spin operators in this sense can be understood both as angular momentum operators and as operators of other physical variables the presence of which leads to the atom's magnetic moment. In this sense, for example, the operator of the magnetic field flux through the loop of a current wire placed around the atom can be considered as a spin operator. Spin - it is just a quantity that takes two values. The use of Pauli operators or operators of other physical variables leads to a new complete set of operators:
+
+$$\mathbf{S}^2,\ S_z,\ S_x,\ S_y,\ S_z^2,\ S_x^2,\ S_y^2,\ S_x S_y - S_y S_x,\ ...$$
+
+The question of finding a complete set of commuting operators can be formulated as follows. What operators can be measured simultaneously with the operator \(T\)? The answer to this question is a complete set of operators commuting with the operator \(T\). Let the spin momentum square operator \(\mathbf{S}^2\) has three different eigenvalues \(s^2\). Then, since the spin momentum operator \(S_z\) commutes with the operator \(\mathbf{S}^2\), it will also have three different eigenvalues, and these eigenvalues will be specified by the values of the spin \(s\) :
+
+\[s^2_{1,2,3}\,,\quad s_z\quad\rightarrow\quad s_1,s_2,s_3\]
+
+Next, we can act with the \(S_x\) operator on the obtained eigen vectors and again three eigenvalues will appear, different from the previous ones, the \(S_x\) operator commutes both with \(\mathbf{S}^2
+19.### Answer:
+
+3) predict the values ​​of the measured quantities that will be observed in the experiment and with what probability \\
+
+
+
+
+
+20.### Answer:
+
+The magnetic moment of a particle is a property of the particle determined by its charge and spin. In suitable physical conditions, the magnetic moment creates a magnetic field around the particle. The value of the magnetic moment of a particle with charge \( q \) and spin \( S \) is defined by the operator
+
+\[ \mu = \frac{q}{2m}S, \]
+
+where \( m \) is the mass of the particle and the constant \( q/(2m) \) depends on the type of particle. For example, the constant for the electron is called the Bohr magnetic constant and is equal to
+
+\[ \frac{e}{2m_{e}} = 5.7833 \times 10^{-11} \, \frac{\text{MeV}}{\text{T}} \, \text{,} \]
+
+where \( m_{e} \) is the electron mass and T is the unit of magnetic field strength in CGS units called Tesla. Since the magnetic moment is a vector quantity that points in the direction of the spin, we have
+
+\[ \mu = \frac{e}{2m_{p}}S \quad \text{nucleon} \] \[ \mu = - \frac{e}{2m_{e}}S \quad \text{electron} \]
+
+Note that the electron magnetic moment is negative, that is, it is directed opposite to the spin. This minus sign is due to the negative charge of the electron. If we take the relation between the angular momentum and the spin of the electron
+
+\[ J = \frac{2}{2m_{e}}S \]
+
+and substitute it into the expression for the magnetic moment, we get the well-known relation between the quantities \( \mu \) and \( J \)
+
+\[ \boxed{\mu = - \gamma J \qquad \text{for the electron}} \]
+
+where \( \gamma = 1.8557 \times 10^{11} \, \text{MeV/T} \) is the gyromagnetic constant. The constant \( \gamma \) here is called the Sommerfeld constant. The constant \( \alpha \) from the old quantum theory is called the fine structure constant and is equal to \( \alpha = 1/137 \). The constant \( \hbar c \) is called the Compton constant. The units are chosen in such a way that the Sommerfeld constant
+21.### Answer:
+
+2) False \\
+
+Hyperfine splitting in the ground state of the hydrogen atom is about 20 NeV. This splitting is the result of the interaction of the spin of the electron with the spin of the proton. At the same time, the fine structure of the spectrum, which is due to the relativistic correction (the correction to the Hamiltonian by the term \(\frac{{\mathbf{S}}{\mathbf{V}}}{c}\)), is about 1000 cm \(-1\) and is due to the presence of non-zero momentum of the electron. \\
+
+
+
+
+1) True \\
+2) False \\
+
+
+
+
+1) True \\
+2) False \\
+
+
+
+
+1) True \\
+2) False \\
+
+
+
+
+1) True \\
+2) False \\
+
+
+
+
+1) True \\
+2) False \\
+
+
+
+
+1) True \\
+2) False \\
+
+
+
+
+1) True \\
+2) False \\
+
+
+
+
+1) True \\
+2) False \\
+
+
+
+
+1) True \\
+2) False \\
+
+
+
+
+1) True \\
+2) False \\
+
+
+
+
+1) True \\
+2) False \\
+
+
+
+
+1) True \\
+2) False \\
+
+
+
+
+1) True \\
+2) False \\
+
+
+
+
+1) True \\
+2) False \\
+
+
+
+
+1) True \\
+2) False \\
+
+
+
+
+1) True \\
+2) False \\
+
+
+
+
+1) True \\
+2) False \\
+
+
+
+
+1) True \\
+2) False \\
+
+
+
+
+1) True \\
+2) False \\
+
+
+
+
+1) True \\
+2) False \\
+
+
+
+
+1) True \\
+2) False \\
+
+
+
+
+1) True \\
+2) False \\
+
+
+
+
+1) True \\
+2) False \\
+
+
+
+
+1) True \\
+2) False \\
+
+
+
+
+1) True \\
+2) False \\
+
+
+
+
+1) True \\
+2) False \\
+
+
+
+
+1) True \\
+2) False \\
+
+
+
+
+1) True \\
+2) False \\
+
+
+
+
+1) True \\
+2) False \\
+
+
+
+
+1) True \\
+2) False \\
+
+
+
+
+1) True \\
+2) False \\
+
+
+
+
+1) True \\
+2) False \\
+
+
+
+
+1) True \\
+2) False \\
+
+
+
+
+1) True \\
+2) False \\
+
+
+
+
+1) True \\
+2) False \\
+
+
+
+
+1) True \\
+2) False \\
+
+
+
+
+1) True \\
+2) False \\
+
+
+
+
+1) True \\
+2) False \\
+
+
+
+
+1) True \\
+2) False \\
+
+
+
+
+1) True \\
+2) False \\
+
+
+
+
+1) True \\
+2) False \\
+
+
+
+
+1) True \\
+2) False \\
+
+
+
+
+1) True \\
+2) False \\
+
+
+
+
+1
