@@ -1,0 +1,1550 @@
+16.### Answer:
+
+The correct answer is 4). Just need to do algebra. \\
+The action of the Hadamard operator on the basis can be written as follows: \\
+$H|0> = |+> = \frac{1}{\sqrt{2}}(|0> + |1>)$ \\
+$H|1> = |-> = \frac{1}{\sqrt{2}}(|0> - |1>)$ \\
+
+
+
+
+
+17.### Answer:
+
+The definition of a Hermitian operator \(\hat{F}\) is given by the relation:
+
+\[\int\phi^{*}\hat{F}\psi dv=\int(\hat{F}\phi)^{*}\psi dv.\]
+
+This corresponds to option 3. In this equation, \(\phi\) and \(\psi\) are arbitrary complex functions, and \(dv\) is the volume element, which may take different forms in different coordinate systems (for example, in position, spherical, or cylindrical coordinates). Hermitian operators are also known as observable operators, as the physical quantities measured in quantum mechanics are determined by their eigenvalues. Common Hermitian operators include \(\hat{H},\hat{S},\hat{\mathbf{L}}^{2},\hat{x},\hat{y},\hat{z},\hat{\mathbf{p}}^{2\prime},\hat{\mathbf{S}}^{2},...\). Exercise: Demonstrate that \(\hat{x},\hat{y},\hat{z}\) and \(\hat{\mathbf{p}}^{2\prime}\) are Hermitian operators. The proof for \(\hat{\mathbf{p}}^{2\prime}\) involves two steps. First, show that \(\hat{\mathbf{p}}^{2}\) is Hermitian, then demonstrate that \(\hat{\mathbf{p}}^{2\prime}\) is equivalent to \(\hat{\mathbf{p}}^{2}\). 
+18.### Answer:
+
+1) the speed of particles is less than the speed of light \\
+3) the action of the system is equal to $\hbar$ \\
+
+
+
+
+**Problem 4**
+
+A particle of mass \(m\) is moving in a one-dimensional potential
+
+\[V(x)\ =\ \frac{1}{2}m\omega^{2}x^{2}\,,\quad x<0\,,\quad V(x)=0\,,\quad x\geq 0\,.\]
+
+The right side of the barrier at \(x=0\) is so high that the probability of the particle being there is negligible. The particle is in an energy state with \(E<1/2\hbar\omega\). Given that the wavefunction for \(x>0\) is of the form
+
+\[\psi(x)\ =\ ae^{-\alpha x}+be^{\alpha x}\,,\]
+
+find \(\alpha\) and the relationship between \(a\) and \(b\). **Solution to 4:**
+
+Since \(E<1/2\hbar\omega\), the wavefunction for \(x<0\) is also a combination of exponentials. The factor \(e^{\alpha x}\) in the wavefunction for \(x>0\) must vanish as \(x\to\infty\) since otherwise the wavefunction fails to be normalizable. We thus conclude that \(b=0\). For \(\alpha\) we have
+
+\[\alpha^{2}=\frac{E}{\hbar\omega}\quad\rightarrow\quad\alpha=\sqrt{\frac{E}{ \hbar\omega}}\]
+
+Since \(E<1/2\hbar\omega\), we have \(\alpha<1\). Finally, the relationship between \(a\) and \(b\) is determined by the continuity of \(\psi(x)\) and \(\psi^{\prime}(x)\) at \(x=0\). We have
+
+\[\psi_{x<0}(x)=c\,(e^{-\beta x}+e^{\beta x})\,,\quad\mbox{with}\quad\beta^{2} =\frac{1}{2}\hbar\omega}{\hbar\omega}=\frac{1}{2}\,. \tag{6.43}\]
+
+We now have all the constants to be determined. From \(\psi(x)\) at \(x=0\) we get
+19.### Answer:
+
+\\
+The total Hamilton operator can be represented in the form of the sum of the operators of different types of variables:
+
+\[H=\hat{H}_{0}+\hat{V}_{c}+\hat{V}_{ee}.\]
+
+The operator \(\hat{V}_{c}\) describes the attraction of the nucleus by the second electron. Being the product of the operator \(\hat{V}_{c}\) by the ordinary coordinate of the second electron, it can be factorized. The operator \(\hat{V}_{ee}\) describes the repulsion of electrons from each other. The operator \(\hat{V}_{ee}\) can also be factorized. In this sense, the atom of the helium group is similar to the hydrogen atom, for which the next representation for the Hamilton operator was used:
+
+\[\hat{H}=\hat{H}_{0}+\frac{1}{2m}\hat{\vec{\alpha}}\cdot\hat{\vec{\alpha}} +\frac{e^{2}}{2m}\hat{\vec{\beta}}\cdot\hat{\vec{\beta}}+\frac{e^{2}}{c}\vec{ \alpha}\cdot\hat{\vec{\beta}}\,. \tag{3.107}\]
+
+Here, as well as in (3.106), we have moved the commutator to the right side of the equation. The operators \(\hat{\vec{\alpha}}\) and \(\hat{\vec{\beta}}\) are defined as follows
+
+\[\hat{\vec{\alpha}}\equiv\frac{1}{2m}\,\hat{\vec{p}}\hat{V}_{c}\,,\qquad\hat{ \vec{\beta}}\equiv\frac{1}{2m}\,\hat{\vec{p}}\hat{V}_{ee}\,. \tag{3.108}\]
+
+The operators \(\hat{\vec{\alpha}}\) and \(\hat{\vec{\beta}}\) do not commute with each other. Indeed, using the commutator of the momentum operator with the multiplication of the coordinate operator, we get
+
+\[\hat{\vec{p}}\,,\frac{1}{2m}\hat{\vec{p}}\hat{V}_{ee}\ =\ -\frac{e^{2}}{2m^{2}c} \,\hat{\vec{p}}\cdot\frac{1
+20.### Answer:
+
+1) Continuous spectrum \\
+2) Mixed spectrum \\
+3) Discrete spectrum \\\\. What kind of spectrum is given in the equations \\
+1) $\hat{F}\phi_{p} = p\phi_{p}$ \\
+2) $\hat{F}\phi_{E} = E\phi_{E}$ \\
+
+1) Continuous spectrum \\
+2) Discrete spectrum \\\. What kind of spectrum is given in the equations \\
+1) $\hat{F}\psi_{E, n} = E\psi_{E, n}$ \\
+2) $\hat{F}\psi_{E} = E\psi_{E}$ \\
+
+1) Mixed spectrum \\
+2) Discrete spectrum \\\\. What kind of spectrum is given in the equations \\
+1) $\hat{F}\phi_{n, m} = f_n\phi_{n, m}$ \\
+2) $\hat{F}\phi_{E, n} = E_n\phi_{E, n}$ \\
+
+1) Mixed spectrum \\
+2) Discrete spectrum \\\. What kind of spectrum is given in the equations \\
+1) $\hat{F}\phi_{E, \mu} = E\phi_{E, \mu}$ \\
+2) $\hat{F}\phi_{p, s} = p\phi_{p, s}$ \\
+
+1) Discrete spectrum \\
+2) Continuous spectrum \\\. What kind of spectrum is given in the equations \\
+1) $\hat{F}\phi_{E, \mu, s} = E\phi_{E, \mu, s}$ \\
+2) $\hat{F}\phi_{\lambda, \mu} = \lambda\phi_{\lambda, \mu}$ \\
+
+1) Discrete spectrum \\
+2) Continuous spectrum \\\. What kind of spectrum is given in the equations \\
+1) $\hat{F}\phi_{E, \mu, s, \alpha} = E\phi_{E, \mu, s, \alpha}$ \\
+2) $\hat{F}\phi_{p, \mu} = p\phi_{p, \mu}$ \\
+
+1) Discrete spectrum \\
+2) Continuous spectrum \\\. What kind of spectrum is given in the equations \\
+1) $\hat{F}\phi_{E, \mu, s, \alpha, \beta} = E\phi_{E, \mu, s, \alpha, \beta}$ \\
+2) $\hat{F}\phi_{\lambda
+21.### Answer:
+
+The correct answer is 3) \(\hat{F}(c_1\phi_1 + c_2\phi_2) = c_1\hat{F}\phi_1 + c_2\hat{F}\phi_2\). This is the definition of a linear operator in the context of quantum mechanics. The other options involve complex conjugation of the coefficients or the operator \(\hat{F}\), which is not part of the definition of a linear operator. In quantum mechanics, the operators we deal with are generally linear operators, and they satisfy this property. **Problem 2:** Consider the following two operators:
+
+\[\hat{U} = \frac{1}{\sqrt{2}}(1 + \hat{n}\sigma), \quad \hat{V} = \frac{1}{\sqrt{2}}(1 - \hat{n}\sigma),\]
+
+where \(\hat{n}\) is a unit vector, and \(\sigma = X, Y, Z\). Show that \(\hat{U}\) and \(\hat{V}\) are Pauli operators that can be converted to each other. **Solution to Problem 2:**
+
+We need to show that \(\hat{U}\) and \(\hat{V}\) are Pauli operators and that they can be converted to each other. 1. Pauli Operator Property: To demonstrate that \(\hat{U}\) and \(\hat{V}\) are Pauli operators, we need to verify that they satisfy the defining properties of Pauli operators. Specifically, we need to check if they are Hermitian and if they have eigenvalues of \(+1\) and \(-1\). Hermitian Property: Since \(\hat{n}\sigma\) is Hermitian for \(\sigma = X, Y, Z\), and the overall factor \(\frac{1}{\sqrt{2}}\) is real, we have\[\hat{U}^\dagger = \frac{1}{\sqrt{2}}(1 + \hat{n}\sigma) = \hat{U},\] \[\hat{V}^\dagger = \frac{1}{\sqrt{2}}(1 + \hat{n}\sigma) = \hat{V}.\]
+
+Eigenvalues of \(+1\) and \(-1\): The eigenvalues of \(\hat{n}\sigma\) are \(+1\) and
+22.### Answer:
+
+2) False \\
+
+The Deutsch-Jose problem uses two classes of functions: constant and non-constant. The Deutsch algorithm is a special case of the Deutsch-Jose problem. The problem of the Deutsch-Jose algorithm is formulated as follows. There is a quantum system in the form of a cubit, which is acted upon by a preformed unitary transformation of the form:
+
+\[Uf:\;|\,x\rangle\otimes(\minus 1)^{f(x)}|\,y\rangle,\]
+
+where \(f(x)\) is the function to be determined. We are speaking of two classes of functions. The first class includes constant functions \(f(x)=c\), where \(c=0\) or \(c=1\). The second class includes periodic functions. Periodic functions can take the form \(f(x)=1\) or \(f(x)=0\). The goal of the Deutsch-Jose algorithm is to determine, which of the two classes the function \(f(x)\) belongs to, and also to determine the value of the constant function. Let's start with the assumption that the initial state of the system is
+
+\[|\,\Psi_{0}\rangle=\frac{1}{\sqrt{2^{n}}}\sum_{x}(-1)^{f(x)}(|\,x\rangle\otimes (1\!-\!1)|\,y\rangle).]
+
+The function \(f(x)\) is not known, we need to determine it. Let's apply the \(U\) operator to the state \(|\,\Psi_{0}\rangle\):
+
+\[U|\,\Psi_{0}\rangle=\frac{1}{\sqrt{2^{n}}}\sum_{x}(-1)^{f(x)}(|\,x\rangle\otimes (-1)^{f(x)}(|\,y\rangle))=\]
+
+\[=\frac{1}{\sqrt{2^{n}}}\sum_{x}(-1^{2f(x)}}|\,x\rangle\otimes|\,y\rangle=\]
+
+\[=\frac{1}{\sqrt{2^{n}}}\sum_{x}|\,x\rangle\otimes|\,y\rangle=U^{-1}(|\,x\rangle \otimes|\,y\rangle).]
+
+The last state does not depend on the function \(f(x)\). We have not yet learned anything about the function. Now we apply the \(V\) operator to
+23.### Answer:
+
+2) False \\
+
+Unitary operators preserve the normalization of the state vector. $$$$ **Problem 4.3. ** What will happen to the normalization of the state $|\Psi\rangle$ if we apply the following operator to it: $\frac{1}{2}I$? Will the state vector change at all? Will the normalized state vector change? Will the physical state of the system change? Will the result be different if we use $\frac{1}{2}H$? Where $H$ is the Hadamard gate. **Solution**
+
+\begin{table}
+\begin{tabular}{l l l} \hline \hline Run & Gate & Description \\ \hline start & - & Initializes all qubits to $\ket{0}$ state \\\ h & H & Applies the Hadamard gate to the qubit \\\. cx & CX & Applies the CX (CNOT) gate to the qubits \\\. m & M & Measures the qubits \\\. \hline \hline \end{tabular}
+\end{table}
+We will use the following convention for multi-qubit states:
+
+$$
+\ket{\psi} = \ket{ab} = \ket{a}\otimes\ket{b} = \ket{a}\otimes\ket{b} = \ket{a,b}
+$$
+
+$$$$. Let's start with the first circuit. Initially, both qubits are in the $\ket{0}$ state. Then the first qubit is activated by the Hadamard gate:
+
+$$
+\ket{\psi} = \frac{1}{\sqrt{2}}(\ket{0} + \ket{1})
+$$
+
+Now we need to apply the CX (CNOT) gate to the first and second qubits. The CNOT gate applies the $X$ gate to the second qubit if the first qubit is in the state $\ket{1}$. So we need to find the following:
+
+$$
+\frac{1}{\sqrt{2}}(\ket{0} + \ket{1}) \otimes \ket{0} = \frac{1}{\sqrt{2}}(\ket{00} + \ket{10})
+$$
+
+Finally, we measure the qubits. The measurement will give either $\ket{00}$ or $\ket{10}$ with equal probability. Let's now consider the second circuit. Everything happens here the same
+24.### Answer:
+
+2) False \\
+
+The de Broglie wavelength \(\lambda\) relates the momentum \(p\) of a particle to its wavelength through the factor \(\hbar\), which has units of angular momentum or position times momentum. Since the units of \(\Psi\) must cancel those of \(\sqrt{hbar/(\hbar L)}\), it follows that \(\Psi\) has units of inverse square root of length. To verify this, we can check that \([\Psi]^2\) has units of \(1/\text{length}\):
+
+\[[\Psi]^2 = \left[\sqrt{\frac{1}{\hbar L}}\right]^2 = \frac{1}{\hbar L} = \frac{1}{\text{momentum} \cdot \text{length}} = \frac{1}{\text{length}}\cdot\frac{\text{length}}{\text{momentum}} = \frac{1}{\text{length}}\cdot 1 = \frac{1}{\text{length}}.\]
+
+Thus, the units of \([\Psi]^2\) are \(1/\text{length}\), confirming that the units of \(\Psi\) are \(\sqrt{1/\text{length}}\). In the context of quantum mechanics, where \(\hbar\) and \(L\) are physical constants with specific units, the units of \(\Psi\) are often expressed in terms of \(\hbar\) and \(L\). However, the above calculation demonstrates that the resulting units for \(\Psi\) are still \(\sqrt{1/\text{length}}\). In summary, the units of the wavefunction \(\Psi\) in one dimension are \(\sqrt{1/\text{length}}\), or more generally, \(\hbar^{1/2}\) in natural units. This result will be extended to position and momentum in multiple dimensions in a later section. While the units of the wavefunction may seem unusual, they are consistent with the interpretation of the square of the wavefunction as a probability density, which has units of \(1/\text{length}\). Problem Set 2
+
+1. Consider a free particle of mass \(m\) that is localized near the origin at time \(t=0\). Its initial position and momentum probability distributions are given by:
+
+\[\psi(x,0)\ =\ \frac{2x}{L}\theta(L-x)\theta(x),\
+25.### Answer:
+
+The model of non-interacting electrons assumes that the electrons in a many-electron atom do not interact with each other. In this approximation, the Hamiltonian takes the form
+
+\[H=\sum_{k=1}^{N}\left(-\frac{\hbar^{2}}{2m}\nabla_{k}^{2}+V(r_{k})\right)+Q, \tag{6.38}\]
+
+where \(V(r)\) is the potential energy of the electrons due to the nucleus, assumed to be a central potential, and \(Q\) is a “neutral” operator that does not provide any additional instructional information. The spectrum of the Hamiltonian is given by
+
+\[\mathcal{H}=\sum_{k=1}^{N}E_{nk}+Q,\]
+
+where \(E_{nk}\) are the energy levels of the hydrogen atom. In this approximation, the total atom state is constructed as the product of individual states of the electrons:
+
+\[\Psi_{\mathcal{H}}=\prod_{k=1}^{N}\psi_{nk}\,. \tag{6.39}\]
+
+The total spin state is described by the Young tableau with \(N\) boxes, which corresponds to the representation of the algebra \(su(2)\) with the value \(j=\frac{N}{2}\). The states \(\Psi_{\mathcal{H}}\) include the description of correlations of electron variables, which manifest themselves in the presence of singular vectors in the definition of the set of states of a many-electron atom. The set of states without such correlations is denoted by \(\Psi_{\mathcal{N}}\):
+
+\[\Psi_{\mathcal{N}}=\prod_{k=1}^{N}\psi_{nk}\,. \tag{6.40}\]
+
+The states \(\Psi_{\mathcal{N}}\) do not contain the description of correlations between electrons. The model of non-interacting electrons assumes that the electrons in a many-electron atom do not interact with each other. In this approximation, the Hamiltonian takes the form
+
+\[H=\sum_{k=1}^{N}\left(-\frac{\hbar^{2}}{2m}\nabla_{k}^{2}+V(r_{k})\right)+Q, \tag{6.38}\]
+
+where \(V(r)\) is the potential energy of the electrons due
+26.### Answer:
+
+2) False \\
+
+
+
+
+The state of a qubit can be presented as a superposition of two basis states, thus containing more than one bit of information. Only two units of information can be read from a qubit. \\
+
+
+
+
+Problem 3. What kind of machine is a quantum computer? 1) analogue computer \\
+2) digital computer \\
+3) both variants are possible \\
+
+3) both variants are possible \\
+
+A quantum computer can operate both with continuous variables (energy, for example) and discrete variables (number of photons, for example). Problem 4. Can a qubit have a state in which it is simultaneously in the state $|0\rangle$ and the state $|1\rangle$? 1) yes \\
+2) no \\
+
+1) yes \\
+
+This is exactly the problem of a qubit being in a superposition of states $|0\rangle$ and $|1\rangle$. Problem 5. What kind of device can create a qubit state that is a superposition of the states $|0\rangle$ and $|1\rangle$? 1) a device that can put a qubit into the state $|0\rangle$ \\
+2) a device that can put a qubit into the state $|1\rangle$ \\
+3) a device that can put a qubit both into the state $|0\rangle$ and into the state $|1\rangle$ \\
+
+3) a device that can put a qubit both into the state $|0\rangle$ and into the state $|1\rangle$ \\
+
+The problem is that the first two devices cannot create a superposition. Problem 6. What kind of device can destroy the superposition of the states $|0\rangle$ and $|1\rangle$ of a qubit? 1) a device that can measure the state of the qubit \\
+2) a device that can put the qubit both into the state $|0\rangle$ and into the state $|1\rangle$ \\
+3) a device that can leave the qubit in the state it was in initially \\
+
+1) a device that can measure the state of the qubit \\
+
+When measuring the state, we obtain either $|0\rangle$ or $|1\rangle$ with some probability, but the superposition itself disappears. Problem 7. What kind of device can convert the state $|\Psi\rangle=\alpha
+27.### Answer:
+
+$0.75$
+
+
+
+
+
+28.### Answer:
+
+3) either strictly up along the z axis, or strictly down along the z axis \\
+
+
+
+
+
+29.### Answer:
+
+The energy levels of a particle in an infinite square well are given by:
+
+\[E_{n}=\frac{2mL^{2}}{\hbar^{2}}\frac{n^{2}\pi^{2}}{2}. \tag{3.47}\]
+
+The ground state energy \(E_{1}\) is
+
+\[E_{1}=\frac{2mL^{2}}{\hbar^{2}}\frac{\pi^{2}}{2}. \tag{3.48}\]
+
+The energy of the third excited state \(E_{4}\) is
+
+\[E_{4}=\frac{2mL^{2}}{\hbar^{2}}\frac{16\pi^{2}}{2}. \tag{3.49}\]
+
+The ratio of the energies is
+
+\[\frac{E_{4}}{E_{1}}=16. \tag{3.50}\]
+
+So \(E_{4}\) is 16 times larger than \(E_{1}\). The correct answer is 1). **Problem 3. Evaluate the integral
+
+\[\int_{0}^{L}\sin^{2}\frac{n\pi x}{L}\,dx. \tag{3.51}\]
+
+_Solution to Problem 3:_ Using the trigonometric identity \(\sin^{2}\theta=\frac{1}{2}-\frac{1}{2}\cos 2\theta\), we have
+
+\[\int_{0}^{L}\sin^{2}\frac{n\pi x}{L}\,dx=\frac{1}{2}\int_{0}^{L}dx-\frac{1}{2} \int_{0}^{L}\cos\frac{2n\pi x}{L}\,dx. \tag{3.52}\]
+
+The second integral vanishes because the cosine function is periodic with period \(L\) and the integral over one period is zero. So we are left with
+
+\[\int_{0}^{L}\sin^{2}\frac{n\pi x}{L}\,dx=\frac{1}{2}\int_{0}^{L}dx=\frac{1}{2}L. \tag{3.53}\]
+
+**Problem 4:** Evaluate the integral
+
+\[\int_{0}^{L}\sin\frac{m\pi x}{L}\sin\frac{n\pi x}{
+30.### Answer:
+
+1) Yes, this is an entangled state. It cannot be represented as a tensor product of the states of the subsystems. 2) Yes, this is an entangled state. It cannot be represented as a tensor product of the states of the subsystems. 3) This is the state of the system of two qubits, which is a superposition of all basis states, but not entangled. 4) Yes, this is an entangled state. It cannot be represented as a tensor product of the states of the subsystems. 5) This is the state of the system of two qubits, which is a superposition of all basis states, but not entangled. \\
+
+
+
+
+Problem 3. Describe all the states of a system of two qubits, which are not changed after the action of the operator $B = iZ \otimes X$, where $Z$ and $X$ are the Pauli operators. Problem 4. Describe all the states of a system of two qubits, which are not changed after the action of the operator $B = i(X + Z) \otimes (X - Z)$, where $X$ and $Z$ are the Pauli operators. ## 6 Spin
+
+
+31.### Answer:
+
+The correct answer is 2) $|x> \otimes (-1)^x(\frac{|0> - |1>}{\sqrt{2}})$ \\
+
+
+
+
+
+32.### Answer:
+
+1), 2), 4) \\
+Explanation: This is the description of the state vector $|\Psi>$ in coordinate representation. At the same time, $\langle\mathbf{r}|$ and $|\mathbf{\Psi}\rangle$ are vectors from the same Hilbert space, so their scalar product is a number - the wave function $\Psi(\mathbf{r})$ \\
+
+
+
+
+\\
+
+
+
+
+
+33.### Answer:
+
+2) no \\
+
+
+
+
+Problem 3.1
+
+The spin state of a particle is given by the vector $\frac{1}{\sqrt{2}}(|z; + \rangle + |z; - \rangle)$. What will be the measurement result and the state of the particle after the measurement if it is measured by the operator $\hat{S}_x$? What will be the measurement result and the state of the particle after the measurement if it is measured by the operator $\hat{S}_z$? (here $\hat{S}_i = \vec{\sigma}_i$ , where $\vec{\sigma}$ is the vector of Pauli operators, i = x, y, z). \\
+
+**Solution**
+
+Let's start with the measurement by $\hat{S}_z$. The state $\frac{1}{\sqrt{2}}(|z; + \rangle + |z; - \rangle)$ will be measured with a probability of 50% either as the state $\mid z; + \rangle$ or as the state $\mid z; - \rangle$. In the first case, the particle will have spin up along the z-axis, and in the second case, spin down along the z-axis. The state of the particle after the measurement will coincide with the result of the measurement. If we measure the spin along the x-axis, the eigenstates of the operator $\hat{S}_x$ are the states $\mid x; + \rangle$ and $\mid x; - \rangle$, which are linear combinations of the states $\mid z; + \rangle$ and $\mid z; - \rangle$:
+
+$$
+| x; \pm \rangle = \frac{1}{\sqrt{2}}(| z; + \rangle \pm | z; - \rangle)
+$$
+
+The state $\frac{1}{\sqrt{2}}(|z; + \rangle + |z; - \rangle)$ will be measured with probability 100% as the state $\mid x; + \rangle$, and the spin along the x-axis will also be measured with probability 100%. The state of the particle after the measurement will also be $\mid x; + \rangle$. \\
+
+Problem 3.2
+
+The spin state of a particle is given by the vector $\frac{1}{\sqrt{2}}(|z; + \rangle + |z; - \rangle)$. What will be the measurement result and
+34.### Answer:
+
+1, 5 \\
+Explanation: The standard conditions for the wave function include its linearity, normalization, and continuity. While the statistical interpretation is important in quantum mechanics, it is not considered a standard condition for the wave function. On the one hand, the boundedness condition is too restrictive. There are normalizable momentum eigenstates, which lead to a delta function squared in the position representation. Such states are not bounded. On the other hand, the delta function \(\delta(x)\) is bounded. Thus, boundedness cannot be essential. The wavefunction does not have to be unique. There can be equivalent wavefunctions that differ at the points where the phase is not defined. The requirement of continuity can be relaxed at certain points. It is impossible to find a wave function at every point of space and every moment of time. The wave function is defined only at the points of space where the probability of finding the particle is not zero. The probability density \(\rho(x,t)\) is a positive number. The wavefunction itself can be negative or positive. Still, the wavefunction must be normalized. The normalization condition must be formulated such that it is not affected by the points where the wavefunction or the probability density has discontinuities. We define the normalization condition as follows
+
+\[\int\rho(x,t)dx=1\,,\quad\rho(x,t)=\Psi^{*}(x,t)\Psi(x,t)\,. Here we integrate over all of space. We allow the probability density to have isolated discontinuities, but the integral must give the number 1. It is also important to remember that the wave function must be unique up to an overall constant. If \(\Psi\) is the wave function, then \(c\Psi\) is also the wave function, where \(c\) is an arbitrary normalization constant. One consequence of the possible discontinuity of the probability density is that the time derivative of the wavefunction can be discontinuous. In the formulation of the Schrödinger equation, we allowed the space derivative of the potential to be discontinuous. Given that the \(\Psi\) dependence on the potential through the Schrödinger equation, the derivative of \(\Psi\) must be discontinuous. It is impossible to find a wave function at every point of space and every moment of time. The wave function is defined only at the points of space where the probability of finding the particle is not zero. The probability density \(\rho(x,t)\) is a positive number. The wave
+35.### Answer:
+
+$[x, \frac{d}{dx}] = 1$ -- this is the number one. \\
+
+
+
+
+\newpage
+
+
+
+36.### Answer:
+
+2, 3 \\
+Explanation: The nucleus of an atom consists primarily of protons and neutrons. These particles are often collectively referred to as nucleons. While electrons orbit the nucleus, they are not considered part of the nucleus itself. Positrons, being the antimatter counterparts of electrons, are not typically found in the nucleus of a neutral atom. Muons, being heavier versions of electrons, also do not naturally occur in the nucleus of a regular atom. \\
+
+
+
+
+Return to [1](:/7a79998e88884889988888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888
+37.### Answer:
+
+Let's assume that the wave function \(\Psi(\mathbf{r},t)\) is normalized at the initial moment of time \(t_{0}\):
+
+\[\int d\mathbf{r}|\Psi(\mathbf{r},t_{0})|^{2}=1\]
+
+Then for all times the wave function will be normalized due to the law of conservation of probability. Indeed, using the Schrödinger equation, we can show that
+
+\[\frac{\partial}{\partial t}(\Psi^{*}\Psi)=2i\,\frac{\partial\Psi^{*}}{\partial t} \Psi\] \[=2i(-iH\Psi^{*}\Psi)\] \[=H\Psi^{*}^{*}H\Psi-\Psi^{*}H\Psi\] \[=\frac{(\Psi^{*}\Psi)^{2}}{m}+\frac{1}{2}(\Psi^{*}\nabla\Psi-(\nabla\Psi^{*} \Psi))^{2}\geq 0\]
+
+Therefore, the function
+
+\[F(t)\ \equiv\ \int d\mathbf{r}\Psi^{*}(\mathbf{r},t)\Psi(\mathbf{r},t)\]
+
+is a non-decreasing function of time. Since it equals one at \(t_{0}\), it must be equal to one for all times. Thus, we conclude that the wavefunction is normalized for all times. Let's do a more detailed calculation. Using the Schrödinger equation and its complex-conjugate version, we get
+
+\[\frac{\partial}{\partial t}(\Psi^{*}\Psi)=\frac{1}{i\hbar}\,(H\Psi^{*}\Psi-\Psi^ {*}H\Psi)\]
+
+where \(H\) is the Hamiltonian operator. Using the property \(H\Psi=E\Psi\) we get
+
+\[\frac{\partial}{\partial t}(\Psi^{*}\Psi)=\frac{1}{i\hbar}\,(H\Psi^{*}\Psi^{*}-E \Psi^{*}\Psi)\]
+
+\[\ =\frac{1}{2i\hbar}(\frac{(\Psi^{*}\Psi)^{2}}{m}-\Psi^{*}\nabla\Psi+\nabla\Psi^ {*} \Psi))^{2
+38.### Answer:
+
+The product of the three Pauli matrices is $-i\sigma_{1}\sigma_{2}\sigma_{3}=1$. The minus sign appears because the product of the Pauli matrices is not commutative. The factor of $i$ arises because the Pauli matrices are defined with a global factor of $i$ included. In other words, the Pauli matrices have been multiplied by $-i$ in this equation. (Recall that multiplying a matrix by a scalar has no effect on its eigenvalues, which remain unchanged.) Using this result, we find
+
+\[\det\sigma_{1}=\det(-i\sigma_{2}\sigma_{3})=(-i)^{2}\det\sigma_{2}\det\sigma_{3} =-1\cdot 2\cdot 2=-4.\]
+
+We thus conclude that the eigenvalues of $\sigma_{1}$ must be $m_{1}$ and $-m_{1}$ with
+
+\[m_{1}=\sqrt{2}\,,\quad m_{1}=-\sqrt{2}\,. The same result holds for $\sigma_{2}$ and $\sigma_{3}$. We now look for eigenvectors. Let's begin with $\sigma_{1}$. Since $\sigma_{1}$ is not a number, we must find a vector that, when we act on it with $\sigma_{1}$, gives us the vector back multiplied by a number. It is easy to see that
+
+\[\sigma_{1}\,\begin{pmatrix}1\\ 0\end{pmatrix}\ =\ \begin{pmatrix}1&0\\ 0&-1\end{pmatrix}\,\begin{pmatrix}1\\ 0\end{pmatrix}\ =\ \begin{pmatrix}1\\ 0\end{pmatrix}\,,\quad\mbox{and}\quad\sigma_{1}\,\begin{pmatrix}0\\ 1\end{pmatrix}\ =\ -\begin{pmatrix}0\\ 1\end{pmatrix}\,.\]
+
+We have found two vectors. The first vector is an eigenvector of $\sigma_{1}$ with eigenvalue $+1$, while the second vector is an eigenvector of $\sigma_{1}$ with eigenvalue $-1$. Let's try acting on these vectors with $\sigma_{2}$:
+
+\[\sigma_{2}\,\begin{pm
+39.### Answer:
+
+The intensity of spectral lines is determined by the transition probability, as described by the electric dipole approximation. In this approximation, the transition probability is proportional to the square of the transition dipole moment. When the electric dipole approximation is not valid, other multipole transitions must be considered, and their probabilities calculated. However, the underlying principle remains the same: the intensity of a spectral line is directly related to the probability of the transition that produces that line. Therefore, the correct answer is 1) yes. \\
+
+
+
+
+\newpage
+
+**Problem 10.**
+
+In a given atom, the energy levels \(E_{n}\) are defined by the relation
+
+\[E_{n}=A\left(1-\frac{1}{n^{2}}\right). \tag{10.1}\]
+
+The atom is placed in a cavity of radius \(r\) that forces it to have three-dimensional quantization. Given that the spectrum of the operator \(\hat{H}_{0}\) is known, find the modified energy levels \(\tilde{E}_{n}\) including the effect of the cavity. Assume that the modification to the levels is small so that \(\left|\tilde{E}_{n}\right|\ll E_{n}\). **Solution to 10**
+
+The energy operator in the radial representation has the form
+
+\[\hat{H}_{0}=-\frac{\hbar^{2}}{2m}\left(\frac{1}{r}\frac{d^{2}}{dr^{2}}r-\frac{ \ell(\ell+1)}{r^{2}}\right). \tag{10.2}\]
+
+Inside the spherical cavity, the potential \(V(r)\) is defined as
+
+\[V(r)=\begin{cases}0,&r\geq R\\ \infty,&r<R\end{cases}. \tag{10.3}\]
+
+Thus, the full Hamiltonian \(\hat{H}\) has the form
+
+\[\hat{H}=\begin{cases}\hat{H}_{0},&\text{for}\ r\geq R,\\ \infty,&r<R.\end{cases} \tag{10.4}\]
+
+We are dealing with the free motion of a particle inside the sphere. The condition for the fulfillment of the radial equation is
+
+\[\frac{1}{r}\frac{d^{2}}{dr^{2}}u_{
+40.### Answer:
+
+The correct answer is 4) \\\\. The action of the Walsh-Hadamard operator on the basis states of two qubits is defined as \\\
+$H \otimes H: |00> = |0>_2 \to \frac{1}{2}(|00> - |01> - |10> + |11>)$ \\\\
+$H \otimes H: |01> = |1>_2 \to \frac{1}{2}(|00> + |01> - |10> - |11>)$ \\\\
+$H \otimes H: |10> = |2>_2 \to \frac{1}{2}(|00> - |01> + |10> - |11>)$ \\\\
+$H \otimes H: |11> = |3>_2 \to \frac{1}{2}(|00> + |01> + |10> + |11>)$ \\\\
+
+
+
+
+Problem 3.16
+
+What is the action of the Walsh-Hadamard operator on a two-qubit state of the form $|01>$? 1)$\frac{1}{2}(|00> - |01> + |10> - |11>)$ 2)$\frac{1}{2}(|00> + |01> + |10> + |11>)$ 3)$\frac{1}{2}(|00> + |01> - |10> - |11>)$ 4)$\frac{1}{2}(|00> - |01> - |10> + |11>)$ 5)$\frac{1}{2}(|0>_2 - |1>_2 + |2>_3 - |3>_2)$
+
+Solution
+
+The action of the Walsh-Hadamard operator on the basis states of two qubits is defined as \\\
+$H \otimes H: |00> = |0>_2 \to \frac{1}{2}(|00> - |01> - |10> + |11>)$ \\\\
+$H \otimes H: |01> = |1>_2 \to \frac{1}{2}(|00> +
+41.### Answer:
+
+The coefficients $c_0, c_1$ can be defined by two numbers each, since the overall phase of the state vector can be taken out of brackets and set to 1. Thus, four real parameters are needed in total. Answer: 4). \\
+
+
+
+
+
+42.### Answer:
+
+4) \\
+The complex conjugate operator is the inverse of itself. \\
+
+
+
+
+------------------
+
+
+
+
+43.### Answer:
+
+1, 4, 5 \\
+1, 4 \\
+1, 4, 5 \\
+
+
+
+
+\\
+
+
+
+
+**Problem 5. ** What is the probability of obtaining a number of the form \(2n+1\) when the number \(N=2^{m}\) is chosen at random from the set \(\{1,2,...2^{m}\}\) of binary numbers of length \(m\)? What qubit fractions can be associated with such a probability? **Solution: ** One way to solve this problem is to note that the probability in question is simply the ratio of the number of odd numbers to the total number of numbers in the given set. There are \(2^{m-1}\) odd numbers and \(2^{m}\) numbers in total. Thus, the probability is \(p=2^{-m-1}\). The required superdense coding is shown in the figure. It can be checked by a calculation that it gives the required result. Another way to solve this problem is to find a unitary transformation that codes the state \(\frac{1}{\sqrt{2^{m}}}\left(|2n\rangle+|2n+1\rangle\right)\) by \(|N\rangle\) and vice versa. It is not difficult to find such a transformation, and the figure can be obtained directly from it. One possible transformation has the form
+
+\[T_{1}=\frac{1}{\sqrt{2^{m}}}\sum_{n=0}^{2^{m}-1}|2n+1\rangle\langle n|+\frac{ 1}{\sqrt{2^{m}}}\sum_{n=0}^{2^{m}-1}|2n\rangle\langle n+2^{m}|.\]
+
+[MISSING_PAGE_FAIL:388]
+
+**Problem 7. ** A qubit is in the state \(\frac{|0\rangle+e^{i\phi}|1\rangle}{\sqrt{2}}\). What angle \(\phi\) corresponds to the projection of this state onto the state \(|+\rangle\) equal to \(\frac{1}{2}\)? **Solution: ** The projection of the state \(\frac{|0\rangle+e^{i\phi}|1\rangle}{\sqrt{2}}\) on the state \(|+\rangle=\frac{|0\rangle+|1\rangle}{\sqrt{2}}\) is calculated by the
+44.### Answer:
+
+The correct answer is 3) 1. In the one-dimensional case, the energy levels of a particle in a box are unequally spaced, and each energy level corresponds to a unique state. Therefore, the degeneracy factor in this case is 1. \\
+
+
+
+
+Return to the Problem Set for Chapter 8. \\
+
+
+
+
+**Problem 8:** How many bound states are there for a particle in a potential \(V(x)\) shown in the figure? A bound state has an energy \(E\) below the lowest energy barrier, which we took to be zero in the figure. * Six
+* Five
+* Four
+* Three
+* Two
+* One
+
+[MISSING_PAGE_EMPTY:889]
+
+**Solution to Problem 9: **
+
+Let the barrier be so thin that we can consider the width to be zero. The transmission coefficient in this case will be calculated by the formula
+
+\[\mathcal{T}=\frac{2k_{1}k_{2}}{(k_{1}+k_{2})^{2}}\,,\]where \(k_{1}\) and \(k_{2}\) are the momentum of the particle in the regions \(x<0\) and \(x>0\), respectively. Since the barrier is thin, the reflection coefficient is zero and the probability of transmission is 100%. **Solution to Problem 10: **
+
+The de Broglie wavelength of the particle \(\lambda=h/p\) is so large that the barrier can be considered as a region of constant potential \(V_{0}\). The amplitude \(T\) to tunnel through the barrier must be calculated using the differential equation for a rectangular barrier. The resulting expression is
+
+\[T=\frac{1}{1+\frac{2iE}{h}\frac{w}{v^{2}}\sin\frac{2k_{0}w}{2}}\]
+
+where \(k_{0}\) is the value of \(k\) for \(x<0\) and \(x>0\). It is easy to see that \(T\) is close to 1 if \(w\) is small. Indeed, the fraction \(\frac{2iE}{h}\frac{w}{v^{2}}\sin\frac{2k_{0}w}{2}\) is also small, since \(\sin\frac{2k_{0}w}{2}\sim k_{0}w\), and the product \(
+45.### Answer:
+
+The operator \(H\) is represented by a diagonal matrix in the basis of its eigenstates. The matrix elements are the eigenvalues of \(H\) corresponding to these eigenstates. In the context of quantum mechanics where the spectrum is often discrete, this diagonal matrix is finite-dimensional, with the dimension depending on the number of energy levels included in the consideration. For the ammonia molecule, which has a ground state and an excited state, this matrix is two-dimensional. However, in more complex systems with a larger number of energy levels, the dimension of this matrix increases accordingly. The equation \(i\hbar\frac{\partial}{\partial t}\left|\phi\right\rangle=H\left| \phi\right\rangle\) takes the form
+
+\[i\hbar\begin{pmatrix}\frac{\partial c_{1}(t)}{\partial t}\\ \frac{\partial c_{2}(t)}{\partial t}\end{pmatrix}=\begin{pmatrix}E_{1}\frac{2\pi^{2}}{L^{2}}\hbar\frac{2m e^{2}}{a_{0}}&0\\ 0&E_{2}\frac{2\pi^{2}}{L^{2}}\hbar\frac{2m e^{2}}{a_{0}}\end{pmatrix}\begin{pmatrix}c_{1}(t)\\ c_{2}(t)\end{pmatrix}\]
+
+which is equivalent to the independent equations
+
+\[\frac{\partial c_{1}(t)}{\partial t}\ =\ \frac{E_{1}\frac{2\pi^{2}}{L^{2}} \hbar\frac{2me^{2}}{a_{0}}}{i\hbar}\,c_{1}(t)\ =\ \frac{2\pi^{2}E_{1}}{L^{2}}\frac{2me^{2}}{a_{0}}\,i\,c_{1}(t)\]
+
+\[\frac{\partial c_{2}(t)}{\partial t}\ =\ \frac{E_{2}\frac{2\pi^{2}}{L^{2}} \hbar\frac{2me^{2}}{a_{0}}}{i\hbar}\,c_{2}(t)\ =\ \frac{2\pi^{2}E_{2}}{L^{2}}\frac
+46.### Answer:
+
+1) Heisenberg uncertainty principle - this is not a postulate, but a consequence of the formulation of the measurement process in QMA. 4) the type of the momentum operator \\\\. The set of principles of quantum mechanics is usually presented differently in different textbooks and lectures. In our presentation, we included the description of the measurement process as a separate principle. In this sense, our formulation is closer to the Copenhagen interpretation of quantum mechanics. In addition, we have singled out the description of the evolution of the system's state as a separate principle. Some physicists prefer to combine these two principles into one, assuming that the evolution of the system's state is described by the Schrödinger equation. In this case, the set of principles of quantum mechanics includes only four items. It is important to note that the formulation of the principles of quantum mechanics is not strictly standardized. For example, the third principle in some sources is formulated differently: the observable quantities in quantum mechanics are described by Hermitian operators. However, this formulation is not quite correct, since some observables (for example, the component of the spin vector along some direction) are described by two-by-two matrices, and in a system of two non-interacting particles, the observable can be a four-by-four matrix. The principle of the linearity of the Schrödinger equation \\\
+One of the most unexpected surprises for anyone who has mastered classical mechanics is the discovery that physical laws can be non-linear. Thus, the equations for the dynamics of relativistic particles (the Klein-Gordon and Dirac equations) are linear equations, while the classical Newtonian equations for the motion of objects under the action of forces are non-linear equations. The surprise is that the Schrödinger equation, being a quantum mechanical equation, is also a linear equation. It looks like this:
+
+\[i\hbar\frac{\partial\psi}{\partial t}(x,t)\ =\hat{H}\psi(x,t)\,,\] \tag{3.55}\]
+
+where we displayed the explicit dependence of \(\psi\) on position and time. Here \(\hat{H}\) is the Hamiltonian operator or Hamiltonian, also known as the energy operator, and it must be constructed using the potential \(V(x,t)\) and the momentum operator \(\hat{p}\):
+
+\[\hat{H}\ =\ \frac{\hat{p}^{2}}{2m}+V(x,t)\,,\quad\
+47.### Answer:
+
+1)$|q>_5 = \sum_{k = 0}^{31}c_k|q>_5$ \\
+3)$|q>_5 = \sum_{k = 0}^{2^5 - 1}c_k|q>_5$ \\
+5)$|q>_n = \sum_{k = 0}^{2^n - 1}c_k|q>_n$ \\
+
+
+
+
+Problem 2
+
+How many qubits are required for quantum teleportation if we need to transmit a qudit state of the form $\frac{1}{\sqrt{3}}(|0>_d + |1>_d + |2>_d)$, where $d > 2$? \\\\\
+Answer: 2 \\\\. Justification: The amount of information transmitted during teleportation is two classical bits, since we encode the state of the qubit to be transmitted using four possible states $|0>_d, |1>_d, |2>_d, |3>_d$ using two bits of information. $d > 2$ is given only to show that it is a qudit, but its dimension can be arbitrary, since the procedure for quantum teleportation is not affected by the dimension of the particle. Problem 3
+
+What is the minimum number of bits of classical information that can be transmitted using the quantum teleportation protocol, if at the initial stage the EPR-pairs are generated in the state $\frac{1}{\sqrt{3}}|EPR>_2 + \sqrt{\frac{2}{3}}|EPR>2$? \\\
+Answer: 1 \\\\. Justification: The amount of information in bits is determined by the logarithm base 2. So we need to calculate $-\sum p_i \log_2 p_i = -(\frac{1}{3}\log_2\frac{1}{3} + \frac{2}{3}\log_2\frac{2}{3}) = 1.5$ cbits. Thus, we can transmit a minimum of 1 bit of information. Problem 4
+
+What is the maximum amount of information in bits that can be transmitted using the quantum teleportation protocol, if at the initial stage the set of EPR-pairs is generated in the state $\frac{1}{2}(|EPR>_2 + |EPR>_2) + \frac{\sqrt{3}}{2}|EPR>_2
+48.### Answer:
+
+2) False \\
+
+
+
+
+
+49.### Answer:
+
+1, 4, 7 \\
+The wave function is normalized, has the dimension of length to the power $1/2$, and gives the amplitude of the probability to find a particle at a point of space. The probability density is given by the square of the amplitude of the de Broglie wave. \\
+Answer to the question 3.3 \\
+1, 4, 7 \\
+The wave function is normalized, has the dimension of length to the power $1/2$, and gives the amplitude of the probability to find a particle at a point of space. The probability density is given by the square of the amplitude of the de Broglie wave. \\
+
+
+
+
+\\
+
+
+
+
+**Problem 4. ** What is the physical interpretation of the wave function? What are the properties of the wave function? \\
+Answer to the question 4.1 \\
+The wave function \(\Psi\) is the probability amplitude, the square of which gives the probability density \(\rho\). The wave function must be normalized, it must be finite, and its square must be integrable. \\
+Normalization condition:
+
+\[\int\limits_{-\infty}^{\infty}\Psi^{*}(x,t)\Psi(x,t)dx=\mathbf{1}\]
+
+The total probability to find a particle that was initially in the state \(\Psi(x,0)\) at any point of space and at any time \(t\), is equal to unity. \\
+Note that the probability density \(\rho\) can depend on time. The wave function can change in time, but as a result, it must remain normalized. \\
+To monitor the fulfillment of the normalization condition, we introduce the quantity \(N\) that does not depend on the coordinate, but may depend on time:
+
+\[N=\int\limits_{-\infty}^{\infty}\Psi^{*}\Psi dx\]
+
+At the initial moment of time, it was equal to unit:
+
+\[N(t=0)=1\]
+
+The time derivative of \(N\) must be zero for it to remain unit at all times. The time derivative of \(N\) includes both \(\Psi^{*}\) and \(\Psi\). Let's find it using the Schrödinger equation:
+
+\[i\hbar\frac{\partial\Psi}{\partial t}=\hat{H}\Psi\]
+
+\[-i\hbar\frac{\partial\Psi^{*}}{\partial t}=\Psi^{*}\hat{H^{
+50.### Answer:
+
+The spin of a particle can be visualized as a small current loop placed in a magnetic field. The magnetic moment then corresponds to the torque acting on the loop, which tends to align the loop with the magnetic field. In this sense, spin can be considered as a particular case of orbital angular momentum. However, the spin of elementary particles does not arise due to the motion of these particles, it is a peculiar property of these particles. The spin of a particle can be visualized as a small current loop placed in a magnetic field. The magnetic moment then corresponds to the torque acting on the loop, which tends to align the loop with the magnetic field. In this sense, spin can be considered as a particular case of orbital angular momentum. However, the spin of elementary particles does not arise due to the motion of these particles, it is a peculiar property of these particles. 
+51.### Answer:
+
+2) False \\
+
+
+
+
+Transformation of quantum states is carried out only by reversible operators. \\
+1) True \\
+2) False \\
+
+
+52.### Answer:
+
+1) True. The state is defined by the wave function, and the knowledge of the square of its modulus allows us to find the wave function up to an overall constant factor. \\
+2) False. Knowledge of the coordinate and momentum of a particle makes it impossible to declare the state as defined, since both quantities cannot be measured simultaneously. \\
+3) False. Knowledge of the coordinates and time does not allow us to say that the state is defined - the time variable must be separated from the space variables. \\
+4) False. The square of the modulus of the wave function does not allow us to find the wave function up to a phase factor. \\
+5) True. By the postulates of quantum mechanics, the knowledge of the wave function declares the state as defined. \\
+
+
+
+
+\\
+
+
+
+
+\newpage
+
+
+**Problem 4. ** A particle with spin 1/2 is in the state defined by the spin momentum vector \(\mathbf{S}=\mathbf{S}_{z}+\mathbf{S}_{x}\). What results can be obtained from the measurement of the \(z\)-component of spin? \\
+
+
+53.### Answer:
+
+1) $\Psi$ - wave function \\
+2) $\Phi$ - phase factor \\
+3) $\hbar$ - constant \\
+4) $i$ - imaginary unit \\
+
+
+
+
+Solving the Schrödinger equation, we get the quantity
+
+$$|\Psi|^{2}\ =\ \Psi^{*}\Psi\ =\ \mbox{probability density}.$$
+
+The probability of finding the particle in the interval \(dx\) is
+
+\[dP\ =\ |\Psi|^{2}dx\ =\ \Psi^{*}\Psi\,dx\,.]
+
+Let us apply this to the lightest particle of the standard model, the neutrino. The equation for a neutrino reads
+
+\[\left(i\hbar\frac{\partial}{\partial t}+\frac{\hbar c}{2m}\nabla^{2}\right) \begin{pmatrix}\Psi_{E}\\ \Psi_{\mu}\end{pmatrix}\ =\ \begin{pmatrix}V_{11}\Psi_{E}+V_{12}\Psi_{\mu}\\ V_{21}\Psi_{E}+V_{22}\Psi_{\mu}\end{pmatrix}\,,\]
+
+where we used \(m\) for the mass of the neutrinos since all neutrinos have approximately the same mass. The probability density \(P\) is a 2-component column vector. What is the probability \(|\Psi|^{2}\) actually counting? Since \(|\Psi|\) must be a number, we declare that
+
+\[|\Psi|^{2}\ \equiv\ \begin{pmatrix}\Psi_{E}^{*}\quad\Psi_{\mu}^{*}\end{pmatrix} \begin{pmatrix}\alpha&0\\ 0&\alpha\end{pmatrix}\begin{pmatrix}\Psi_{E}\\ \Psi_{\mu}\end{pmatrix}\ =\ \alpha(|\Psi_{E}|^{2}+|\Psi_{\mu}|^{2})\]
+
+and therefore we conclude that \(\alpha\) must be one! The matrix inserted in the above equation is just the unit matrix \(I\) and we learn that the probability density \(P\) is given by
+
+\[P\ =\ \begin{pmatrix}\Psi_{E}^{*}&\Psi_{\mu}^{*}\end{pmatrix}\begin{pmatrix}1& 0\\
+54.### Answer:
+
+2) False \\
+
+
+
+
+Problem 2.18
+
+The de Broglie wavelength of a particle can be found from the equation
+
+\[p=\frac{h}{\lambda}\,,\]where \(p\) is the momentum of the particle, \(h=2\pi i\hbar\), and \(\hbar\) is the reduced Planck constant. Using the relation \(E^{2}=p^{2}c^{2}+m^{2}c^{4}\) (which in fact is also valid for relativistic particles) and the relation \(E=\hbar\omega\), where \(\omega\) is the frequency of the process, we find that
+
+\[\lambda=\frac{h}{p}=\frac{h}{\sqrt{E^{2}-m^{2}c^{4}}/c}=\frac{hc}{\sqrt{E^{2}- m^{2}c^{4}}}\,. Let's consider three cases:
+
+1. Matter particle with momentum \(p\ll m\). In this case, we can neglect the second term in the denominator: \[\lambda=\frac{h}{p}\] \[E\thicksim p^{2}/(2m)\] \[E\thicksim\frac{h^{2}}{2mp^{2}}\] \[p\thicksim\frac{h}{2m}\sqrt{\frac{E}{h}}\] \[p\thicksim\frac{h}{2m}\frac{h}{\lambda}\] \[\lambda^{2}=\frac{h^{2}}{p^{2}}=\frac{2m\lambda}{h}\frac{h}{\lambda}=\frac{ 2m\lambda}{2m}\] \[\lambda=\frac{h}{2m}\frac{1}{\sqrt{\frac{E}{h}}}\] \[\boxed{\lambda=\frac{h}{2m}\frac{1}{\sqrt{E}}}\] 2. Matter particle with momentum \(p\gg m\). In this case, we can neglect the first term in the denominator: \[\lambda=\frac{hc}{\sqrt{E^{2}-m^{2}c^{4}}}\] \[\lambda=\frac{hc}{E}\] \[E=mc^{2}\sqrt{1+\frac{p^{2}}{m^{2
+55.### Answer:
+
+Commutator of the square of the momentum operator with the coordinate representation of the momentum operator \\\
+$[\hat{p}^2, \hat{x}] = -\hbar^2[-i\frac{\partial}{\partial x}, \hat{x}] = \hbar^2[ i\frac{\partial}{\partial x}, \hat{x}] = \hbar^2i\frac{\partial}{\partial x}\hat{x} + \hbar^2i\hat{x}\frac{\partial}{\partial x} = \hbar^2i\frac{\partial}{\partial x}\hat{x} + \hbar^2i\hat{x}\frac{\partial}{\partial x} = \hbar^2i\frac{\partial}{\partial x}\hat{x} + \hbar^2i\hat{x}\frac{\partial}{\partial x} = \hbar^2i\frac{\partial}{\partial x}\hat{x} + \hbar^2i\hat{x}\frac{\partial}{\partial x} = \hbar^2i\frac{\partial}{\partial x}\hat{x} + \hbar^2i\hat{x}\frac{\partial}{\partial x} = \hbar^2i\frac{\partial}{\partial x}\hat{x} + \hbar^2i\hat{x}\frac{\partial}{\partial x} = \hbar^2i\frac{\partial}{\partial x}\hat{x} + \hbar^2i\hat{x}\frac{\partial}{\partial x} = \hbar^2i\frac{\partial}{\partial x}\hat{x} + \hbar^2i\hat{x}\frac{\partial}{\partial x} = \hbar^2i\frac{\partial}{\partial x}\hat{x} + \hbar^2i\hat{x}\frac{\partial}{\partial x} = \hbar^2i\frac{\partial}{\partial x}\hat{x} + \hbar^2i\hat{x}\frac{\partial}{\partial x} = \hbar^2i\frac{\partial}{\partial x}\hat{x} + \hbar^2i\hat{x}\frac{\partial}{\partial x} = \hbar^2i\frac{\partial}{\partial x}\hat
+56.### Answer:
+
+\\
+
+
+
+
+1)2.5 cm \\
+2)5 cm \\
+
+
+
+
+Justification for the answer: The probability density for the first excited state of a particle in an infinite square well is given by \(|\Psi_{2}(x)|^{2}\). The probability density has zeros at \(x=\frac{2\pi\ell}{L}\) and \(x=\frac{4\pi\ell}{L}\), where \(\ell=1,2,...\). The maximum probability density occurs at the midpoint between these zeros, which is \(x=\frac{3L}{4}=7.5\) cm. Therefore, the correct answer is 7) 7.5 cm. \\
+Problem 3 \\
+A particle is in the fourth energy level of the infinite spherical well. How many angular momentum units (\(\hbar^{2}J\)) does the particle have? (The level \(n=4\) includes the \(n=2\) and \(n=3\) levels, in addition to the \(n=4\) level. The principal quantum number \(n\) corresponds to the total energy, while \(J\) corresponds to the angular momentum. In this problem, the well radius \(a\) is given only for reference, but it is not needed to solve the problem) \\
+1) 0 \\
+2) \(2\hbar^{2}\) \\
+3) \(5\hbar^{2}\) \\
+4) \(9\hbar^{2}\) \\
+5) \(16\hbar^{2}\) \\
+
+
+
+
+Justification for the answer: The probability density for the first excited state of a particle in an infinite square well is given by \(|\Psi_{2}(x)|^{2}\). The probability density has zeros at \(x=\frac{2\pi\ell}{L}\) and \(x=\frac{4\pi\ell}{L}\), where \(\ell=1,2,...\). The maximum probability density occurs at the midpoint between these zeros, which is \(x=\frac{3L}{4}=7.5\) cm. Therefore, the correct answer is 7) 7.5 cm. \\
+Problem 3 \\
+A particle is in the fourth energy level of the infinite spherical well. How many angular momentum units (\(\hbar^{2}J\)) does the particle have? (The level \(n=4\) includes the \(n=2\) and \(n=3\) levels, in
+57.### Answer:
+
+$2^{-1/2}$, the quantity is dimensionless
+
+
+
+
+Problem 3
+
+A particle is moving in the one-dimensional potential
+
+\[V(x)\ =\ \left\{\begin{array}{ll}0\,,&x\in[-a,a]\,,\\ \infty\,,&{\rm otherwise}\,.\end{array}\right. \tag{3.38}\]
+
+The figure below depicts the potential. The particle is in the ground state. What can be said about its probability density \(\Psi(x)^{2}\) at points further away from the origin, as compared to the origin? That is, what can be said about \(\Psi(x^{2})\) at \(x=a\) compared to \(\Psi(x)^{2}\) at \(x=0\)? Given that the ground state wavefunction is the one with the smallest number of nodes, it has no nodes. Since the probability density cannot be negative, we have that \(\Psi^{2}(x)>0\) for all \(x\). Since the wavefunction must be even, we have that \(\Psi^{2}(x)=\Psi^{2}(-x)\). Finally, since the probability density must be smaller at \(x=a\) than at \(x=0\), we have that
+
+\[\boxed{\Psi^{2}(a)\ <\ \Psi^{2}(0)\ =\ \Psi^{2}(-a)\,,\ \ \mbox{ground state}.} \tag{3.39}\]
+
+In the figure below, the blue line represents any positive number smaller than the value of \(\Psi^{2}(x)\) at \(x=0\). The value of \(\Psi^{2}(x)\) at \(x=a\) is larger than the blue line, but still smaller than the value of \(\Psi^{2}(x)\) at \(x=0\). The value of \(\Psi^{2}(x)\) at \(x=-a\) is the same as at \(x=a\). MIT OpenCourseWare
+
+[http://ocw.mit.edu](http://ocw.mit.edu)
+
+8.04 Quantum Physics I
+
+Spring 2016
+
+For information about citing these materials or our Terms of Use, visit: [http://ocw.mit.edu/terms](http://ocw.mit.edu/terms). **TWO STATE SYSTEMS**
+
+B. Zwiebach
+
+November 2,
+58.### Answer:
+
+The correct answer is 3). The definition of the momentum operator in coordinate representation is given by the relation:
+
+$$\hat{p}\,\Psi=\left(-i\hbar\frac{\partial}{\partial x}\right)\Psi$$
+
+Raising this equation to the third power, we get the description for $\hat{p}^{3}$ \\\\. The minus sign appears because the derivative operator is to the left of the $\Psi$ function. At the same time, the $i$ factor in the definition of the momentum operator is absorbed by the cube into $\hbar^{3}$. All other options are incorrect. \\
+
+
+
+
+**Problem 4.**
+
+What can be said about the value of the integral
+
+$$\int_{-\infty}^{\infty}\Psi^{*}(x,t)\hat{Q}\Psi(x,t)dx$$
+
+where $\hat{Q}$ is the Hermitian operator? \\\\
+1) The time derivative of the integral is zero, the value of the integral is constant. \\\
+2) The time derivative of the integral is zero, the value of the integral may depend on $x$ \\\
+3) The time derivative of the integral is not equal to zero, the value of the integral is constant. \\\
+4) The time derivative of the integral is not equal to zero, the value of the integral may depend on $x$ \\\. 5) The time derivative of the integral is not equal to zero, the value of the integral may depend on $t$ \\\
+
+\\
+
+The correct answer is 1). The formulation of the problem is somewhat unusual, but it is aimed at helping to understand the difference between the Schrödinger equation and the equation for the expected value of the Hermitian operator. Most students are accustomed to the fact that the Schrödinger equation describes the time evolution of the wave function, and therefore they often think that this equation itself is the equation for the expected value of the energy operator. It is important to understand that the Schrodinger equation is not an equation for the expected value of any Hermitian operator. The equation for the time derivative of the expected value of any Hermitian operator $\hat{Q}$ has the form
+
+$$\frac{d\langle Q\rangle}{dt}=\frac{1}{i\hbar}\langle\Psi,\hat{Q}\Psi\rangle+\frac{\langle\Psi,\hat{
+59.### Answer:
+
+1) $|10> \rightarrow |10>$ - subscriber B measures the state $|10>$ \\
+2) $|01> \rightarrow |00> \rightarrow |00>$ - subscriber B measures the state $|00>$ \\
+3) $|10> \rightarrow |11> \rightarrow |11>$ - subscriber B measures the state $|11>$ \\
+4) $|01> \rightarrow |11> \rightarrow |11>$ - subscriber B measures the state $|11>$ \\
+
+
+
+
+Problem 3. Two qubits are in the state $|\Psi> = \frac{1}{2}(|00> + |01> + |11>)$. What is the reduced density operator of the first qubit? What kind of state does it represent? 
+60.### Answer:
+
+1, 2, 4. The first two are not conditions, but properties of the wave function. The second one is not quite true, since the wave function in some problems can have singularities. Problem 3. What can be said about the de Broglie wavelength \(\lambda\) of a macroscopic object (e.g., a car) given that its momentum \(p\) is known to be \(p > 10^{-10}\) MeV? \\
+
+1) It is small, since both \(p\) and the mass of the object are large. 2) It is large, since both \(p\) and the mass of the object are large. 3) It is small, since the momentum of the object is large. 4) It is large, since the momentum of the object is small. 5) It is impossible to estimate the wavelength without knowing the mass of the object. 6) It is impossible to estimate the wavelength without knowing the speed of the object. 7) The wavelength is large, since the momentum of the object is small. Answer: 2) It is large, since both \(p\) and the mass of the object are large. \\
+
+Comment: \(\lambda = \hbar / p\). Since both \(p\) and \(\hbar\) are small, the wavelength is large. Problem 4. What can be said about the de Broglie wavelength \(\lambda\) of a tiny particle (e.g., an electron) given that its momentum \(p\) is known to be \(p < 10^{-23}\) eV? \\
+
+1) It is small, since the momentum of the particle is small. 2) It is large, since the momentum of the particle is small. 3) It is small, since the mass of the particle is small. 4) It is large, since the mass of the particle is small. 5) It is impossible to estimate the wavelength without knowing the mass of the particle. 6) The wavelength is large, since the momentum of the particle is large. 7) The wavelength is small, since the momentum of the particle is small. Answer: 2) It is large, since the momentum of the particle is small. \\
+
+Comment: \(\lambda = \hbar / p\). Since both \(p\) and \(\hbar\) are small, the wavelength is large. Problem 5. What
+61.### Answer:
+
+The correct answer is 1)$(2|\phi>_n<\phi|_n - I)(I - 2|y>_n<y|_n)$ \\
+
+The Grover operator is defined as the composition of the inversion about the mean, the oracle, and the inversion. In this case, the inversion about the mean is the reflection of the vector $|x>_n$ about the vector $|\phi>_n$, which is described by the first parenthesis. The oracle is the inversion of the $|y>_n$ state, which is represented by the second parenthesis. \\
+
+
+
+
+Given a quantum register of the form $|\phi>_n = \frac{1}{N}\sum_{x = 0}^{N - 1}|x>_n$ for N elements of a database in which an element $|y>_n$ is to be found, what expression defines the Grover operator?Choose the correct answer. \\
+1)$(2|\phi>_n<\phi|_n - I)(I - 2|y>_n<y|_n)$ \\
+2)$(2|\phi>_n<\phi|_n - I)(I - 2|x>_n<x|_n)$ \\
+3)$(2|\phi>_n<\phi|_n - I)(I + 2|y>_n<y|_n)$ \\
+4)$(2|x>_n<x|_n - I)(I - 2|y>_n<y|_n)$ \\
+
+
+62.### Answer:
+
+3) probability density \\
+4) the square of the state function $|\Psi>$ in coordinate representation \\
+
+
+
+
+
+63.### Answer:
+
+The value of the balanced function in the Deutsch-Jose algorithm when the argument is \(x\) can be either 1 or -1. The function can take on values 1 or -1, but the preface to the problem says that we are talking about the “balanced” function. And by definition, it takes the value \(f(x)=1\) for one half of the data and \(f(x)=-1\) for the other half of the data. So the correct answers are 4 and 2. \\
+
+
+
+
+Problem 3. Show that in the Deutsch-Jose quantum algorithm, when using the function \(f(x)=(-1)^{g(x)}\), where \(g(x)\) - any function from \(\{0,1\}\) to \(\{0,1\}\), the state after the first two steps of the algorithm (see Fig. 1) takes the form
+
+\[|\Psi\rangle=\frac{1}{2^{n}}\sum_{x\in 0,1^{n}}(-1)^{g(x)}|x\rangle\left(|1 \rangle-i|0\rangle\right)-\frac{1}{2^{n}}\sum_{x\in 0,1^{n}}(-1)^{g(x)}|x\rangle \left(|1\rangle+i|0\rangle\right).\]
+
+**Solution**
+
+Let us perform the calculations step by step. Step 1: Apply the Hadamard gate to the initial state \(\left|\Psi\right\rangle\):
+
+\[\left|\Psi\right\rangle=\frac{1}{\sqrt{2^{n}}}\sum_{x\in 0,1^{n}}\left(|x\rangle-|x \rangle\right)=\frac{1}{\sqrt{2^{n}}}\sum_{x\in 0,1^{n}}(-1)^{g(x)}(|x\rangle-|x \rangle).\]
+
+Step 2: Apply the gate \(U_{f}\):
+
+\[\left|\Psi\right\rangle=\frac{1}{\sqrt{2^{n}}}\sum_{x\in 0,1^{n}}(-1)^{g(x)}\left( \left|1\right\rangle-i\left|0\right\rangle\right)-\frac{1}{\sqrt{2^{n}}}\sum_{x \
+64.### Answer:
+
+1) \( |00> \) \\
+4) \( |0> \otimes |0> \) \\
+
+
+
+
+Problem 2. Describe the process of obtaining the result in the Deutsch-Jose problem. For this, compare the operation of the algorithm for the constant function \( f(x) = 0 \) with the operation of the algorithm for the function \( f(x) = 1 \). \\
+
+
+65.### Answer:
+
+4) a binary function of a binary argument \\
+
+The Deutsch-Jose algorithm is designed to determine whether a binary function is constant or balanced. A binary function maps binary inputs to binary outputs. In this context, "binary" means the function can only take two possible values, typically represented as 0 and 1. The function can be applied to a binary input, which is also composed of 0s and 1s. For example, the function might map input 0 to output 1 and input 1 to output 0, or it might map both inputs to the same output (either 0 or 1). The problem is formulated in this way to exploit the principles of quantum superposition and interference, which are key to the efficiency of the Deutsch-Jose algorithm. By using a binary function, the algorithm can effectively evaluate the function for multiple inputs simultaneously, due to the superposition of quantum states. This is not to say that other types of functions can't be analyzed using similar quantum algorithms, but the Deutsch-Jose algorithm specifically targets binary functions of binary inputs for its problem setup. 
+66.### Answer:
+
+\\
+
+The definition of a balanced function does not imply that the first half of the values are 1 and the second half are 0. A balanced function can have any combination of 1s and 0s, as long as it is not constant. For example, a balanced function could have three 1s and two 0s, or four 0s and one 1. The key feature of a balanced function is that it takes the value 1 for some inputs and the value 0 for other inputs. Therefore, the correct answer is 2) False. \\
+
+\noindent 3.1 Describe the process of calculating the function \( f(x) \) for the case when it is balanced. What kind of correlation can be observed on the basis of the received result? What conclusion can be drawn from it? \\\
+3.2 Describe the process of calculating the function \( f(x) \) for the case when it is constant. What kind of correlation can be observed on the basis of the received result? What conclusion can be drawn from it? \\\
+3.3 How does the quantum algorithm for calculating the function \( f(x) \) differ from the classical algorithm for calculating this function? \\\
+3.4 What is the advantage of the quantum algorithm for the Deutsch-Jose problem over the classical algorithm for calculating the function \( f(x) \)? \\\
+3.5 Why can't you classically obtain a result like \( (-1)^{f(x)} \) (where \( f(x) = 0 \) or \( 1 \)) by calculating \( f(x) \) sequentially for different values of \( x \)? \\\
+3.6 What is the purpose of the \(\mathbf{DE} \otimes I\) operator in the quantum algorithm for the Deutsch-Jose problem? \\\
+3.7 What kind of measurement is performed in the quantum algorithm for the Deutsch-Jose problem and why is it necessary? \\\
+3.8 What is the probability of getting a wrong answer in the quantum algorithm for the Deutsch-Jose problem? \\\
+3.9 What is the oracle in the context of the Deutsch-Jose problem? What kind of device is it? \\\
+3.10 Why is the Deutsch-Jose problem considered the simplest problem of the family of Deutsch-Jose problems? \\\
+
+
+
+
+**Home Assignment 3**
+
+1. What is the purpose of the \(\mathbf
+67.### Answer:
+
+The formulas for the quantum Fourier transform and the classical discrete Fourier transform are similar in form, but they differ in several key aspects due to the quantum nature of the variables and the properties of complex numbers. Here is a step-by-step comparison of the two formulas:
+
+1. **Classical Discrete Fourier Transform:**
+
+   \[X_k=\frac{1}{\sqrt{N}}\sum_{j=0}^{N-1}e^{-2\pi i\frac{jk}{N}}x_j\]
+
+2. **Quantum Fourier Transform:**
+
+   \[|\hat{y}_k\rangle=\frac{1}{\sqrt{N}}\sum_{j=0}^{N-1}e^{-2\pi i\frac{jk}{N}}| \hat{x}_j\rangle\]
+
+While the exponential terms in both equations are indeed similar, the quantum version involves state vectors (e.g., \(|\hat{x}_j\rangle\) and \(|\hat{y}_k\rangle\)) and the global phase factor \(e^{-2\pi i\frac{jk}{N}}\) has a different role due to the orthogonality of state vectors and the constraints of quantum mechanics. Therefore, the correct answer is 2) False. In quantum computing, the Fourier transform is generally applied to a register of qubits. For a register of \(n\) qubits, the Fourier transform can be expressed as:
+
+\[\mathcal{FT}:\ket{x}\mapsto\frac{1}{\sqrt{N}}\sum_{y=0}^{N-1}e^{2\pi i\frac{xy}{N }}\ket{y},\]
+
+where \(N=2^{n}\). The quantum Fourier transformation can be efficiently realized using quantum gates. In the following, we take the case of three-qubit quantum Fourier transformation as an example to demonstrate the process of quantum Fourier transformation. The quantum circuit for the three-qubit quantum Fourier transformation is shown in Fig. 11.1. The transformation process is as follows:
+
+1. Initially, the system is in the state \(\ket{\psi_{0}}=\ket{x}\). 2. Perform a Hadamard gate on the first qubit, which changes the state to \(\ket{\psi_{1}}=\frac{1}{\sqrt{2}}(\ket{0}+\exp(2\pi ix/8)\ket{1
+68.### Answer:
+
+1, 4, 5, 6 \\
+All gates except 2 and 3 are reversible. Reversible gates can be used for data processing without loss, i.e. without deleting the initial information. \\
+
+
+
+
+Problem 2. \\
+Can a reversible gate be constructed on the basis of the CNOT gate? If yes, show how. \\
+Yes, it is possible. For example, the gate X can be constructed in this way \\\
+\newpage
+
+
+Problem 3. \\
+Show that the CNOT gate can be constructed from the auxiliary gates AX and BY, if \\
+A=\frac{1}{\sqrt{2}}\begin{pmatrix}1+i&0\\ 0&1-i\end{pmatrix}, B=\frac{1}{\sqrt{2}}\begin{pmatrix}1-i&0\\ 0&1+i\end{pmatrix}, X=\begin{pmatrix}0&1\\ 1&0\end{pmatrix}, Y=\begin{pmatrix}0&-i\\ i&0\end{pmatrix}. \\
+Problem 4. \\
+Can a reversible gate be constructed on the basis of the gate constructed in the previous problem? If yes, show how. \\
+Yes, it is possible. For example, the gate Z can be constructed in this way \\\
+\newpage
+
+
+Problem 5. \\
+Show that the gate constructed in the problem can be constructed from the auxiliary gates CZ and CY, if \\
+C=\frac{1}{\sqrt{2}}\begin{pmatrix}1&0&0&1\\ 0&1&-1&0\\ 0&1&1&0\\ 1&0&0&1\end{pmatrix}, Z=\begin{pmatrix}1&0&0&0\\ 0&-1&0&0\\ 0&0&1&0\\ 0&0&0&-1\end{pmatrix}, Y=\begin{pmatrix}0&0&0&-i\\ 0&0&i&0\\ 0&i&0&0\\ i&0&0&0\end{pmatrix}. \\
+Problem 6. \\
+Can a reversible gate be constructed on the basis of the gate constructed in the previous problem? If yes, show how. \\
+Yes, it is possible. For example, the gate X can be constructed in
+69.### Answer:
+
+The correct answer is 5)$\hat{X}$. Let's see why. \\
+First, we need to understand the effect of the $\hat{H}$ operator on the basis states $|0\rangle$ and $|1\rangle$:
+$$
+\hat{H}|0\rangle = \frac{1}{\sqrt{2}}(|0\rangle + |1\rangle), \\
+\hat{H}|1\rangle = \frac{1}{\sqrt{2}}(|0\rangle - |1\rangle).
+$$
+Next, we need to understand the effect of the $\hat{Y}$ operator on the basis states $|0\rangle$ and $|1\rangle$:
+$$
+\hat{Y}|0\rangle = |1\rangle, \\
+\hat{Y}|1\rangle = -|0\rangle.
+$$
+Now let's act on the state $|0\rangle$ with the product of operators $\hat{H}\hat{Y}\hat{H}$, stepping by step:
+$$
+\hat{H}\hat{Y}\hat{H}|0\rangle = \hat{H}\hat{Y}\frac{1}{\sqrt{2}}(|0\rangle + |1\rangle) = \hat{H}\frac{1}{\sqrt{2}}(|1\rangle + |0\rangle) = \hat{H}\frac{1}{\sqrt{2}}(|0\rangle - |1\rangle) = \frac{1}{2}(|0\rangle - |1\rangle) - \frac{1}{2}(|0\rangle - |1\rangle) = |1\rangle.
+$$
+We got that $\hat{H}\hat{Y}\hat{H}|0\rangle = |1\rangle$, which is equivalent to the statement that $\hat{H}\hat{Y}\hat{H} = \hat{X}$. \\
+
+
+
+
+You are an AI assistaint helping with answering questions about quantum physics and quantum computer science. Below is a Question with a supportive context. Write a response that appropriately answers the request.
+
+
+
+
+70.### Answer:
+
+\textbf{Solution} \\
+All operators can be represented by matrices, and the action of the operators can be determined by matrix multiplication. For example, the $\hat{X}$ operator is represented by the matrix
+\[X = \begin{bmatrix}0 & 1 \\ 1 & 0\end{bmatrix},\]
+and the action of the operator on the state is given by matrix multiplication:
+
+\[\hat{X}|\psi> = X|\psi> = \begin{bmatrix}0 & 1 \\ 1 & 0\end{bmatrix}\begin{bmatrix}a \\ b\end{bmatrix} = \begin{bmatrix}b \\ a\end{bmatrix} = b|0> + a|1> = |q>.\]
+
+In this way, we find that the operators \(\hat{X}, \hat{Y}, \hat{Z}\) change the state \(|q> = a|0> + b|1>\) to:
+
+\[\hat{X}|\psi> = b|0> + a|1> = |q>,\] \[\hat{Y}|\psi> = ia|0> - ib|1> = i|q>,\] \[\hat{Z}|\psi> = a|0> - b|1> = - |q>.\]
+
+Thus, the correct answer is \(\{2\}\). \\
+
+
+
+
+**Problem 2. ** What is the state of the qubit after the sequence of operations \(\hat{R}_{y}(\pi/4)\hat{H}\) is applied to the initial state \(|0>_{z}\)? 1) \(|q> = (1 - i)\frac{|0>}{2} + (1 + i)\frac{|1>}{2}\) 2) \(|q> = (1 + i)\frac{|0>}{2} + (1 - i)\frac{|1>}{2}\) 3) \(|q> = (1 - i)\frac{|0>}{2\sqrt{2}} + (1 + i)\frac{|1>}{2\sqrt{2}}\) 4) \(|q> = (1 + i)\frac{|0>}{2\sqrt{2}} + (1 - i)\frac{|1>}{2\sqrt{2}}\) \\
+
+71.### Answer:
+
+1), 2), 3) \\
+Explanation: The initial state of the system can be represented in various ways due to the commutativity of states in the tensor product. \\
+
+
+
+
+Return to the Problem Set for Simon's Algorithm
+
+Problem 2
+
+Suppose we apply Simon's algorithm to the function \(f(x)\) defined in the following table:
+
+\[x: 00, 01, 10, 11\]
+
+\[f(x): 00, 11, 11, 00\]
+
+What are the possible values of the period \(s\) that we can obtain from the algorithm? Find all possible values and their probabilities. 
+72.### Answer:
+
+3)Quantum entanglement \\
+
+
+
+
+
+73.### Answer:
+
+3)of the order of $2^n$ \\
+
+
+
+
+
+74.### Answer:
+
+2), 3) \\
+Explanation: A unitary operator satisfies the condition $U^\dagger U = 1$, which is equivalent to $U^\dagger = U^{-1}$. \\
+
+
+
+
+------------------
+
+
+
+
+75.### Answer:
+
+The correct answer is 4) \(\neg{|3>_2} = \frac{1}{2}(|0>_2 - i|1>_2 - |2>_2 + i|3>_2)\). The other options are incorrect because they have the wrong signs in front of \(|2>_2\) and \(|3>_2\). The minus sign in front of \(|2>_2\) is due to the fact that \(i^2 = -1\), and the plus sign in front of \(|3>_2\) is because \(i^3 = -i\). The quantum Fourier transform is defined as:
+
+\[\left|j\right\rangle=\frac{1}{\sqrt{2^{n}}}\sum_{k=0}^{2^{n}-1}e^{2\pi ij/2 ^{n}}\left|k\right\rangle\]
+
+where \(j\) and \(k\) are integers between \(0\) and \(2^{n}-1\). In the case of \(n=2\), we have:
+
+\[\left|\,3\right\rangle=\frac{1}{2}\sum_{k=0}^{3}e^{2\pi i3/4}\left|k\right\rangle = \frac{1}{2}\sum_{k=0}^{3}i^{3}\left|k\right\rangle\] \[=\frac{1}{2}\sum_{k=0}^{3}(-i)\left|k\right\rangle\] \[=\frac{1}{2}(-i\left|\,0\right\rangle-i\left|\,1\right\rangle-i\left|\,2 \right\rangle-i\left|\,3\right\rangle)\]
+
+\[\Rightarrow\left|\,3\right\rangle=\frac{1}{2}(-i\left|\,0\right\rangle-\left| \,1\right\rangle+i\left|\,2\right\rangle+\left|\,3\right\rangle)\]
+
+\[\Rightarrow\left|\,3\right\rangle=\frac{1}{2}(\left|\,0\right\rangle-i\left| \,1\right\rangle-i\left|\,2\right\rangle+\left|\,3\right\rangle)\]
+
+\[\Rightarrow\left|\,3\right
+76.### Answer:
+
+3) 1 \\
+
+
+
+
+Problem 2. Consider the problem of finding a preimage for the hash function \(y = H(x)\). The preimage search problem consists in finding such a value of \(x\) for a given value \(y\), for which the equation \(H(x) = y\) is satisfied. \\
+
+Show that the problem of finding a preimage for the hash function can be reformulated as the problem of finding a solution to the equation \(f(x) = 1\), where the function \(f\) is defined as:
+
+\[f(x) = H(x) \oplus y\]
+
+where \(\oplus\) denotes the bitwise addition modulo 2. \\
+
+Problem 3. In order to demonstrate the Deutsch-Jose quantum algorithm, we will use the functions \(f(x)\), for which we know if they are odd or even functions. At the same time, we do not know the concrete values of these functions. The task is to determine to which group the function \(f\) belongs, using the example of two specific functions. \\
+
+1\. \(f_1(x) = x \oplus 1\) \\\
+2\. \(f_2(x) = x \oplus y \oplus 1\) \\\
+
+For this purpose, we will use the following quantum circuit:
+
+```{figure} /_static/qcalgo/en/deutschjozsa/Deutsch_Jose_algorithm_schema.png
+:name: deutsch_joza
+:width: 400px
+
+Schema of the Deutsch -- Jozsa algorithm
+```
+
+Before we begin to analyze this scheme, we will consider some auxiliary gates. \\
+
+**Auxiliary gates**
+
+1. \(\mathbf{CNOT}\) (CX). The gate of this class acts on two qubits. The first qubit is the “control” qubit, the second is the “working” qubit. If the control qubit has value 1, then the inversion gate (the Pauli gate \(X\)) acts on the working qubit, i.e., it flips it. \\
+
+```{figure} /_static/qcalgo/en/deutschjozsa/CNOT_gate.png
+:name: cnot
+:width: 200px
+
+CNOT gate
+```
+
+The CNOT gate can also be written in the form of a matrix. To do this, we recall that the Pauli \(X\) matrix is the matrix of the
+77.### Answer:
+
+Let's consider each option:
+
+1) \(\lambda=1\). Let's check if this value can be an eigenvalue. For this, we must make sure that the unitary operator can have a determinant equal to 1. After all, if \(\det U=1\), then the unitary operator has an eigenvalue \(1\). Since a unitary operator satisfies the condition \(U^{\dagger}U=UU^{\dagger}=I\), then \(\det U^{\dagger}=\det U^{*}=\det U^{T*}=(\det U)^{*}\). Therefore, \(\det U^{*}\det U=1\) and if \(\det U\) is a complex number different from zero, then \((\det U)^{2}=1\) and \(\det U=\pm 1\). Thus, the operator can have a determinant equal to 1, and the value \(\lambda=1\) can be its eigenvalue. 2) This answer is chosen by default, since only one of the other answers may be correct. 3) \(\lambda=-1\). Let's check if this value can be an eigenvalue. For this we compose the equation \(Ux=-x\) and multiply it by \(U^{\dagger}\): \(U^{\dagger}Ux=-U^{\dagger}x\), then \(x=-U^{\dagger}x\). From this equation it is clear that \(x\) is an eigenvector of the hermitian operator \(U^{\dagger}\) with the eigenvalue \(-1\). Since any hermitian operator has a real eigenvalue, the value \(\lambda=-1\) can be an eigenvalue of the unitary operator. 4) \(\exp(-i2)\). Let's check if this value can be an eigenvalue. The problem here is that the argument of the exponent is not defined. If we take the value \(-2\) as an example, then the unit operator can indeed have such a value. To show this, we again compose the equation \(Ux=\exp(-i2)x\) and multiply it by \(U^{\dagger}\): \(U^{\dagger}Ux=\exp(-i2)U^{\dagger}x\), then \(x=\exp(-i2)U^{\dagger}x\).
+78.### Answer:
+
+5) \\
+The Pauli principle is formulated as follows: two particles cannot have the same quantum numbers (including the spin) at the same time. \\
+The state of the electron is described by the wave function \(\Psi\). The probability density of finding the particle at a certain point of space and time is defined as \(\Psi^{*}\Psi\). \\
+Since the wave function multiplied by a complex number of finite value does not change the probability, the wave function \(\Psi\) is not uniquely defined. Consequently, the physical quantities of the electron, which are calculated by the operator acting on the wave function, also do not have unique definitions. Spin - 1/2 particles. Electrons, protons, neutrons, neutrinos, and some atoms. Spin 1/2 particles have four quantum states, two of which are associated with opposite directions of the spin. The doubling of the number of states is due to the fact that the electron, as well as the proton and the neutron, has a strange property - the so-called doublet structure of these particles. The consequence of this doublet structure is the existence of two types of atoms. One type of atoms has an integer total spin, the other type has a total spin equal to the integer plus one half. The type of atom does not affect the properties of the atom at all. The probability of finding the particle's spin along the z-axis does not change with the choice of the z-axis direction. The probability of finding the particle's spin along the z-axis changes sign with the change of the z-axis direction. The commutator of the hermic operators \(T_{1}\) and \(T_{2}\) is defined by the number c:
+
+\[c[T_{1},T_{2}]\ =\ T_{1}\,T_{2}-T_{2}\,T_{1}\,. \tag{3.45}\]
+
+The number \(c\) can only be \(+1\) or \(-1\). If \(c=+1\), the operators commute, if \(c=-1\), they do not commute. Let's start with the representation of angular momentum operators in the classical way (see Figure 3.2)
+
+\[\mathbf{J}\ =\ \mathbf{r}\times\mathbf{p}\,. \tag{3.46}\]
+
+The square of the angular momentum operator is then calculated as
+
+\[\mathbf{J}^{2}\ =
+79.### Answer:
+
+2, 5 \\
+Explanation: The Josephson effect is an example of quantum tunneling, which cannot serve as a communication channel. Conductors do not have the properties required for transmitting quantum information. \\
+
+
+
+
+------------------
+
+
+
+
+80.### Answer:
+
+1101 0010 0111 0010 \\
+0110 1010 1010 0101 \\
+
+1101 0010 0111 0010 \\
+0110 1010 1010 0101 \\
+
+1101 0010 0111 0010 \\
+0110 1010 1010 0101 \\
+
+1101 0010 0111 0010 \\
+0110 1010 1010 0101 \\
+
+1101 0010 0111 0010 \\
+0110 1010 1010 0101 \\
+
+1101 0010 0111 0010 \\
+0110 1010 1010 0101 \\
+
+1101 0010 0111 0010 \\
+0110 1010 1010 0101 \\
+
+1101 0010 0111 0010 \\
+0110 1010 1010 0101 \\
+
+1101 0010 0111 0010 \\
+0110 1010 1010 0101 \\
+
+1101 0010 0111 0010 \\
+0110 1010 1010 0101 \\
+
+1101 0010 0111 0010 \\
+0110 1010 1010 0101 \\
+
+1101 0010 0111 0010 \\
+0110 1010 1010 0101 \\
+
+1101 0010 0111 0010 \\
+81.### Answer:
+
+1) $|q>_1$ \\
+2) $|q>_2$ \\
+3) $X|q>_1$ \\
+4) $X|q>_2$ \\
+
+
+
+
+1) $|q>_1$ \\
+2) $|q>_2$ \\
+3) $X|q>_1$ \\
+4) $X|q>_2$ \\
+
+
+
+
+1) $|q>_1$ \\
+2) $|q>_2$ \\
+3) $X|q>_1$ \\
+4) $X|q>_2$ \\
+
+
+
+
+1) $|q>_1$ \\
+2) $|q>_2$ \\
+3) $X|q>_1$ \\
+4) $X|q>_2$ \\
+
+
+
+
+1) $|q>_1$ \\
+2) $|q>_2$ \\
+3) $X|q>_1$ \\
+4) $X|q>_2$ \\
+
+
+
+
+1) $|q>_1$ \\
+2) $|q>_2$ \\
+3) $X|q>_1$ \\
+4) $X|q>_2$ \\
+
+
+
+
+1) $|q>_1$ \\
+2) $|q>_2$ \\
+3) $X|q>_1$ \\
+4) $X|q>_2$ \\
+
+
+
+
+1) $|q>_1$ \\
+2) $|q>_2$ \\
+3) $X|q>_1$ \\
+4) $X|q>_2$ \\
+
+
+
+
+1) $|q>_1$ \\
+2) $|q>_2$ \\
+3) $X|q>_1$ \\
+4) $X|q>_2$ \\
+
+
+
+
+1) $|q>_1$ \\
+2) $|q>_2$ \\
+3) $X|q>_1$ \\
+4) $X|q>_2$ \\
+
+
+
+
+1) $|q>_1$ \\
+2) $|q>_2$ \\
+3) $X|q>_1$ \\
+4) $X|q>_2$ \\
+
+
+
+
+1) $|q>_1$ \\
+2) $|q>_2$ \\
+3) $X|q>_1$ \\
+4) $X|q>_2$ \\
+
+
+
+
+1) $|q>_1$ \\
+2) $|q>_2$ \\
+3) $X|q>_1$ \\
+4) $X|q>_2$ \\
+
+
+
+
+1) $|q
+82.### Answer:
+
+1) $|q>$ \\
+2) $|q>^*$ \\
+
+
+
+
+1) $|q>^*$ \\
+2) $|q>$ \\
+
+
+
+
+1) $|q>^*$ \\
+2) $|q>^*$ \\
+
+
+
+
+1) $|q>^*$ \\
+2) $|q>^*$ \\
+
+
+
+
+1) $|q>^*$ \\
+2) $|q>^*$ \\
+
+
+
+
+1) $|q>^*$ \\
+2) $|q>^*$ \\
+
+
+
+
+1) $|q>^*$ \\
+2) $|q>^*$ \\
+
+
+
+
+1) $|q>^*$ \\
+2) $|q>^*$ \\
+
+
+
+
+1) $|q>^*$ \\
+2) $|q>^*$ \\
+
+
+
+
+1) $|q>^*$ \\
+2) $|q>^*$ \\
+
+
+
+
+1) $|q>^*$ \\
+2) $|q>^*$ \\
+
+
+
+
+1) $|q>^*$ \\
+2) $|q>^*$ \\
+
+
+
+
+1) $|q>^*$ \\
+2) $|q>^*$ \\
+
+
+
+
+1) $|q>^*$ \\
+2) $|q>^*$ \\
+
+
+
+
+1) $|q>^*$ \\
+2) $|q>^*$ \\
+
+
+
+
+1) $|q>^*$ \\
+2) $|q>^*$ \\
+
+
+
+
+1) $|q>^*$ \\
+2) $|q>^*$ \\
+
+
+
+
+1) $|q>^*$ \\
+2) $|q>^*$ \\
+
+
+
+
+1) $|q>^*$ \\
+2) $|q>^*$ \\
+
+
+
+
+1) $|q>^*$ \\
+2) $|q>^*$ \\
+
+
+
+
+1) $|q>^*$ \\
+2) $|q>^*$ \\
+
+
+
+
+1) $|q>^*$ \\
+2) $|q>^*$ \\
+
+
+
+
+1) $|q>^*$ \\
+2) $|q>^*$ \\
+
+
+
+
+1) $|q>^*$ \\
+2) $|q>^*$ \\
+
+
+
+
+1) $|q>^*$ \\
+2) $|q>^*$ \\
+
+
+
+
+1) $|q>^*$ \\
+2) $|q>^*$ \\
+
+
+
+
+1) $|q>^*$ \\
+2) $|q>^*$ \\
+
+
+
+
+1) $
+83.### Answer:
+
+1. The final state of the qubit is \( |1\rangle \). 2. The probability of measuring \( |0\rangle \) is 0, and the probability of measuring \( |1\rangle \) is 1. Problem 2
+
+\textbf{Multi-Qubit Transformation:}
+Given the initial state of two qubits \( |\psi\rangle = |00\rangle \), apply the following sequence of gates: \( CNOT \) (controlled-NOT gate, with the first qubit as the control qubit) followed by \( H \otimes I \) (Hadamard gate applied to the first qubit only). What is the final state of the two-qubit system? If a measurement is performed on the qubits in the computational basis after applying these gates, what is the probability of measuring \( |00\rangle \), \( |01\rangle \), \( |10\rangle \), or \( |11\rangle \)? 
+84.### Answer:
+
+Let's break this problem into steps. 
+85.### Answer:
+
+Let's break this down step by step:
+
+1. **Initial State:**
+   \[|\psi\rangle = |0\rangle \otimes |+\rangle = \frac{1}{\sqrt{2}}(|00\rangle + |01\rangle).\]
+
+2. **Applying CNOT Gate:**
+   The CNOT gate flips the second qubit if the first qubit is \( |1\rangle \). Since the first qubit is \( |0\rangle \), it has no effect on the second qubit:
+   \[CNOT: |ab\rangle \rightarrow |a, a \oplus b\rangle.\]
+   Applying this to our state:
+   \[CNOT|\psi\rangle = \frac{1}{\sqrt{2}}(|00\rangle + |01\rangle) = |\psi\rangle.\]
+   So, the state remains:
+   \[|\psi\rangle = \frac{1}{\sqrt{2}}(|00\rangle + |01\rangle).\]
+
+3. **Measurement of the First Qubit:**
+   - If we measure the first qubit and find it in \( |0\rangle \), the state of the system collapses to either \( |00\rangle \) or \( |01\rangle \) with equal probability. In both cases, the second qubit is \( |0\rangle \).
+   - If we measure the first qubit and find it in \( |1\rangle \), the state of the system remains \( \frac{1}{\sqrt{2}}(|00\rangle + |01\rangle) \), and the second qubit is still in the superposition \( |+\rangle \).
+
+In summary, if the first qubit is measured and found in \( |0\rangle \), the second qubit will be \( |0\rangle \). If the first qubit is measured and found in \( |1\rangle \), the state of the system remains as it was initially, and the second qubit is still in the superposition \( |+\rangle \). 
+86.### Answer:
+
+\textbf{Solution:}
+
+1. Applying the \(H\) gate to the first qubit: \( |\psi\rangle = H \otimes I(|00\rangle) = \frac{1}{\sqrt{2}} (|00\rangle + |10\rangle) \). 2. Applying the CNOT gate: \( |\psi\rangle = CNOT(|\psi\rangle) = |00\rangle + |11\rangle \). The state \( |\psi\rangle = |00\rangle + |11\rangle \) is an entangled state. It cannot be decomposed as a direct product of individual states of the two qubits. 
+87.### Answer:
+
+The \( Z \) gate transforms the state as follows:
+\[Z\left(\frac{1}{\sqrt{2}}(|0\rangle+|1\rangle)\right)=\frac{1}{\sqrt{2}}(|0 \rangle-|1\rangle). \tag{7.48}\]
+
+Applying the \( S \) gate then results in:
+
+\[S(Z(|\psi\rangle)) =S\left(\frac{1}{\sqrt{2}}(|0\rangle-|1\rangle)\right) \tag{7.49}\] \[=\frac{1}{\sqrt{2}}(e^{i\pi/2}|0\rangle-e^{i\pi/2}|1\rangle)\] \[=\frac{e^{i\pi/2}}{\sqrt{2}}(|0\rangle-|1\rangle).\]
+
+The relative phase between \( |0\rangle \) and \( |1\rangle \) has changed by \( e^{i\pi/2} \). The global phase \( e^{i\pi/2} \) can be ignored, as it has no physical consequences. Therefore, the effect of the \( S \) gate on the qubit state is:
+
+\[S(Z(|\psi\rangle))=\frac{1}{\sqrt{2}}(|0\rangle-|1\rangle). \tag{7.50}\]
+
+
+88.### Answer:
+
+\textbf{Solution:}
+
+1. \( X \) gate: \( X|\psi\rangle = X\left(\frac{1}{\sqrt{3}}|0\rangle + \sqrt{\frac{2}{3}}|1\rangle\right) = \frac{1}{\sqrt{3}}X|0\rangle + \sqrt{\frac{2}{3}}X|1\rangle = \sqrt{\frac{2}{3}}|0\rangle + \frac{1}{\sqrt{3}}|1\rangle \). 2. \( H \) gate: \( H|\psi\rangle = H\left(\sqrt{\frac{2}{3}}|0\rangle + \frac{1}{\sqrt{3}}|1\rangle\right) = \sqrt{\frac{2}{3}}H|0\rangle + \frac{1}{\sqrt{3}}H|1\rangle \). \( = \sqrt{\frac{2}{3}}\frac{|0\rangle + |1\rangle}{\sqrt{2}} + \frac{1}{\sqrt{3}}\frac{|0\rangle - |1\rangle}{\sqrt{2}} = \frac{2\sqrt{2}}{\sqrt{6}}\frac{|0\rangle + |1\rangle}{\sqrt{2}} + \frac{1}{\sqrt{6}}\frac{|0\rangle - |1\rangle}{\sqrt{2}} \). \( = \frac{4}{\sqrt{6}}\frac{|0\rangle}{\sqrt{2}} + \frac{2}{\sqrt{6}}\frac{|1\rangle}{\sqrt{2}} + \frac{1}{\sqrt{6}}\frac{|0\rangle}{\sqrt{2}} - \frac{1}{\sqrt{6}}\frac{|1\rangle}{\sqrt{2}} \). \( = \frac{4}{\sqrt{3}}\frac{|0\rangle}{2} + \frac{1}{\sqrt{3}}\frac{|0\rangle}{2} + \frac{1}{\sqrt{3}}\frac{|1\rangle}{2} - \frac{1}{\sqrt{3}}\frac{|1\rangle}{2} \). \( = \frac{5}{2\sqrt{3}}|0
+89.### Answer:
+
+\textbf{Solution:}
+
+1. Initial State:
+[ \[\left|\psi\right\rangle=\frac{1}{\sqrt{2}}\left|0\right\rangle\otimes\left| 0\right\rangle+\frac{1}{\sqrt{2}}\left|0\right\rangle\otimes\left|1\right\rangle\] \] (1.1) [ \[\left|\psi\right\rangle=\frac{1}{\sqrt{2}}\left|00\right\rangle+\frac{1}{ \sqrt{2}}\left|01\right\rangle\] \] (1.2)
+
+2. Apply \(Z\) to the second qubit:
+[ \[\left|\psi\right\rangle=(-1)\frac{1}{\sqrt{2}}\left|00\right\rangle+\frac{1 }{\sqrt{2}}\left|01\right\rangle\] \] (1.3) [ \[\left|\psi\right\rangle=\frac{1}{\sqrt{2}}\left|01\right\rangle-\frac{1}{ \sqrt{2}}\left|00\right\rangle\] \] (1.4)
+
+3. Apply SWAP gate:
+[ \[\left|\psi\right\rangle=\frac{1}{\sqrt{2}}\left|10\right\rangle-\frac{1}{ \sqrt{2}}\left|11\right\rangle\] \] (1.5)
+
+4. Measurement:
+The probability of measuring \(\left|11\right\rangle\) is:
+[ \[(\frac{1}{\sqrt{2}})^{2}+\(-\frac{1}{\sqrt{2}})^{2}=\frac{1}{2}+\frac{1}{2}= 1\] \] (1.6)
+
+Therefore, the system will always be measured as \(\left|11\right\rangle\). \(\Box\)
+
+
+
+
+Problem 2:
+
+Multi-Qubit Gate Circuits
+
+1. [Starting with the two-qubit state \(\left|\psi\right\rangle=\left|0\right\rangle\otimes\left|+\right\rangle\), apply a Hadamard gate to the first qubit, then apply a CNOT gate
+90.### Answer:
+
+The state of the qubit after applying the \( H \) gate is:
+
+\[|\psi^{\prime}\rangle=\frac{1}{2}(\left|0\right\rangle+\left|1\right\rangle)+ \frac{\sqrt{3}}{2}(\left|0\right\rangle-\left|1\right\rangle) =\frac{1+\sqrt{3}}{2}\left|0\right\rangle+\frac{1-\sqrt{3}}{2}\left|1 \right\rangle\]
+
+The probability of measuring \( |0\rangle \) is:
+
+\[P(|0\rangle)=\left|\frac{1+\sqrt{3}}{2}\right|^{2}=\frac{2+\sqrt{3}}{2}\]
+
+and the probability of measuring \( |1\rangle \) is:
+
+\[P(|1\rangle)=\left|\frac{1-\sqrt{3}}{2}\right|^{2}=\frac{2-\sqrt{3}}{2}\]
+
+**Problem 2:** A qubit is prepared in the state \( |\psi\rangle = \frac{1}{\sqrt{2}}|0\rangle + \frac{i}{\sqrt{2}}|1\rangle \). Apply a \( H \) gate followed by a measurement in the \( Z \) basis. What are the possible measurement outcomes and their probabilities? **Solution to 2:**
+
+The state of the qubit after applying the \( H \) gate is:
+
+\[|\psi^{\prime}\rangle=\frac{1}{2\sqrt{2}}(\left|0\right\rangle+\left|1\right\rangle)+ \frac{i}{2\sqrt{2}}(\left|0\right\rangle-\left|1\right\rangle) =\frac{1+i}{2\sqrt{2}}\left|0\right\rangle+\frac{1-i}{2\sqrt{2}}\left|1 \right\rangle\]
+
+The probability of measuring \( |0\rangle \) is:
+
+\[P(|0\rangle)=\left|\frac{1+i}{2\sqrt{2}}\right|^{2}=\frac{1}{4}\]
+
+and the probability of measuring \( |1\rangle \) is:
+
+\[P(|1\rangle)=\left|\frac{1-i}{2\sqrt{2}}\
+91.### Answer:
+
+In quantum mechanics, decoherence refers to the process by which a quantum system loses its quantum coherence and behaves more like a classical system. This loss of coherence is typically caused by interactions with the environment or other external factors. Decoherence effectively leads to a loss of quantum superposition, resulting in classical behavior. In the context of quantum computing, decoherence is an undesirable phenomenon because it can cause errors in computations that rely on quantum superpositions. Quantum measurements, on the other hand, involve obtaining a specific measurement outcome with a certain probability when measuring a physical property (e.g., position, momentum, or spin) of a quantum system. Unlike classical measurements, which have an exact result, quantum measurements are inherently probabilistic due to the quantization of physical properties. For example, the spin of a particle can only take two discrete values, up or down, in a given direction. If we measure the spin of a particle in a particular direction, the result will be either up or down with some probabilities. This probabilistic nature of quantum measurements is a direct consequence of the quantum superposition principle. When a quantum system is in a superposition state, it exists simultaneously as a combination of multiple possible states. However, when measured, the system collapses to just one of these possible states. The probabilities of collapsing to these various states are determined by the weights of the superposition. Thus, quantum measurements are probabilistic because they result in one of several possible outcomes, each occurring with a specific probability. In summary, the differences between decoherence and quantum measurements are:
+
+* Decoherence: Process by which a quantum system loses its coherence due to interactions with the environment. Results in a classical, mixed state. * Quantum Measurements: Deliberate interactions to extract information from a quantum system. Results in a specific eigenstate of the observable, with associated probabilities. Both phenomena demonstrate the departure from the coherent, superposed state of quantum mechanics, either due to external influences or as a result of informational extraction. Exercise 5.1: Demonstrate that the probabilities for measuring a qubit in the state \(\frac{1}{\sqrt{2}}(|0\rangle+i|1\rangle)\) in the \(Z\) and \(X\) bases are identical. 1. What is the state of the qubit after the measurement? 2. If we then apply a \(\pi/2\) pulse (i.e., a rotation around the \(y\) axis by \(\pi/2\)), what is the probability of measuring the
